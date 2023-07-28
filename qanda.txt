@@ -175,6 +175,31 @@ Nenne Vor- und Nachteile von Singlemode-Glasfasern.
 
 a -
 Vorteile:
+- geringe Dämpfung des Signals
+- kaum Laufzeitverschiebungen
+- große Distanzen überbrückbar
+- hohe Bandbreiten
+
+Nachteile:
+- teurere Laser zur Einspeisung des Lichts notwendig
+- größerer Aufwand bei der Herstellung der Glasfasern aufgrund der sehr kleinen Faserkerne
+- hohe Präzision beim Verbinden der Glasfasern durch Stecker oder beim Spleißen notwendig
+
+-(80)-
+q -
+Nenne Vor- und Nachteile von Multimodefasern.
+
+a -
+Vorteile:
+- geringerer Aufwand in der Herstellung der Glasfasern
+- einfachere Verbindungstechnik aufgrund des größeren Kerndurchmessers
+- Fasern mit Stufenindex- und Gradienteinindexprofil verfügbar
+
+Nachteile:
+- größere Signaldämpfung und Laufzeitverschiebung
+- geringere maximale Bandbreiten
+- nur kürzere Distanzen überbrückbar
+- Verstärker oder Signalaufbereiter bei größeren Distanzen notwenig
 
 -(81)-
 q -
