@@ -135,7 +135,7 @@
     "id": 94,
     "title": 1,
     "question": "Was versteht man unter den Begriffen CMS-, ERP- und CRM-System?",
-    "answer": "<strong>CMS</strong> - Content Management System: Stellt ein Managementsystem zum Verwalten, zur Konfiguration und der redaktionellen Bearbeitung von Inhalten (z. B. für Webseiten) dar.<br/><strong>ERP</strong> - Enterprise Ressource Planning System: Ist ein umfangreiches Werkzeug zur Unterstützung der Ressourcenplanung aller Prozesse eines Unternehmens, zum Beispiel Produktion, Materialwirtschaft und Vertrieb.<strong>CRM</strong> - Customer Relationship Management System: ist ein Werkzeug zur vollständgen Planung, Steuerung und Durchführung aller interaktiven Prozesse mit ded Kunden und unterstützt die Kundenkommunikation"
+    "answer": "<strong>CMS</strong> - Content Management System: Stellt ein Managementsystem zum Verwalten, zur Konfiguration und der redaktionellen Bearbeitung von Inhalten (z. B. für Webseiten) dar.<br/><strong>ERP</strong> - Enterprise Ressource Planning System: Ist ein umfangreiches Werkzeug zur Unterstützung der Ressourcenplanung aller Prozesse eines Unternehmens, zum Beispiel Produktion, Materialwirtschaft und Vertrieb.<br/><strong>CRM</strong> - Customer Relationship Management System: ist ein Werkzeug zur vollständgen Planung, Steuerung und Durchführung aller interaktiven Prozesse mit ded Kunden und unterstützt die Kundenkommunikation"
   },
   {
     "id": 95,
@@ -162,9 +162,50 @@
     "answer": "<strong>Serverkonsolidierung</strong> ist eine Form der Konsolidierung von Serverressourcen, bei der man auf die Möglichkeiten der Virtualisierung setzt. Mit Hilfe von virtuellen Maschinen (VM) oder vertuellen Umgebungen (Virtual Environment VE) soll eine Energie- und Raumeinsparung durch Reduktion der physikalischen Serversysteme erreicht werden.<br/>Kurz gefasst: z. B. 10 physische Server werden durch einen performanten Server ersetzt und die 10 Server virtualisiert."
   },
   {
-    "id": 666,
-    "title": 2,
-    "question": "",
-    "answer": ""
-  }
-]
+    "id":123,
+    "title":2,
+    "question": "Was versteht man unter Standardsoftware?",
+    "answer": "Als <strong>Standardsoftware</strong> bezeichnet man im Allgemeinen Software, die auf dem freien Markt angeboten wird. Im Gegensatz zur Individualsoftware ist sie vorgefertigt und muss in der Regel vom Anwender selbst installiert bzw. indiviuell angepasst werden. Standardsoftware kann On-Permise und als Software as a Service angeboten werden."
+  },
+  {
+    "id":124,
+    "title":2,
+    "question": "Was versteht man unter Individualsoftware?",
+    "answer": "Als <strong>Individualsoftware</strong> bezeichnet man Software, welche bestimmte Hardware- oder individuelle Geschäftsanforderungen erfüllen muss, also für einen bestimmten Anwender und/oder einen spezialsierten Verwendungszweck angefertigt wurde."
+  },
+  {
+    "id":125,
+    "title":2,
+    "question": "Was versteht man in der Anwendungsentwicklung unter dem Begriff IDE?",
+    "answer": "Eine <strong>IDE</strong> (integrierte Entwicklungsumgebung, englisch integrated development environment) ist eine Sammlung der wichtigsten Werkzeuge zur Softwareentwicklung unter einer einheitlichen Oberfläche. Sie soll helfen, die Arbeit des Anwendungsentwicklers zu erleichtern.</br>Zu den wichtigsten Werkzeugen zählen Beispielsweise der Compiler, Debugger, interpreter, der Editor mit Quelltext- formatierung und Syntaxhervorhebung, Linker, Werkzeuge zum Erstellen von grafischen, Versionsverwaltungen und vieles mehr."
+  },
+  {
+    "id": 216,
+    "title": 4,
+    "question": "Erläutere den Begriff der doppelten Buchführung",
+    "answer": "Die <strong>doppelte Buchführung</strong> auch Soll- und Haben-Buchung genannt, ist eine Methode der Buchhaltung, bei der jeder Geschäftsvorfall doppelt gebucht Mittelverwendung nachvollziehbar zu machen.</br>Es existieren zwei grundlegende Kontoarten, die Bestandskonten und die Erfolgskonten, siehe Bild (vereinfachte Darstellung)."
+  },
+  {
+    "id":217,
+    "title":4,
+    "question": "Was versteht man unter den Begriff berufliche Fortbildung und berufliche Umschulung?",
+    "answer": "Der Begriff <strong>berufliche Fortbildung</strong> ist ein Teilbereich der Berufsbildung und im Berufsbildungsgesetz (BBiG) geregelt, um die berufliche Handlungsfähigkeit zu erhalten, anzupassen oder eine höherqualifizierte Berufsbildung zu erlangen oder beruflich aufzusteigen.</br>Anders ist es bei der beruflichen Umschulung. In § 1 Ziele und Begriffe der Berufsbildung des BBiG Abs. 5 heißt es: 'Die berufliche Umschulung soll zu einer anderen beruflichen Tätigkeit befähigen'.</br>(vgl. § 1 BBiG)"
+  },
+  {
+    "id":218,
+    "title":4,
+    "question": "Was versteht man unter beruflichen Weiterbildung?",
+    "answer": "Die <strong>berufliche Weiterbildung</strong> ist die klassische Form der Vertiefung oder der Ergänzung der erlangten beruflischen Kenntnisse.</br>Das können zum Beispiel sein:</br><ol><li>weiterführende Kurse und Seminare</li><li>Erlangung von Zertifikaten und Zustanzqulifikationen</li><li>Fachwirt-, Meister- oder Betriebswirtkurse</li><li>Sprachunterricht, der die berufliche Tätigkeit unterstützt</li></ol>"
+  },
+  {
+    "id":219,
+    "title":4,
+    "question": "Was bedeuten in der Anwendungsentwicklung die Begriffe Black-Box-Test und White-Box-Test?",
+    "answer": "Als <strong>Black-Box-Test</strong> wird eine Methode des Softwaretests bezeichnet. Bei diesem Testverfahren geht es darum, dass der Tester ohne Kenntnisse über die innere Funktionsweise bzw. Implementierung des Systems das Verhalten bzw. die Funktionen testet.</br>Es wird nur das sichtbare Verhalten der Funktion oder des Gesamtsystems betrachtet und getestet.</br>Der <strong>White-Box-Test</strong> hingegen richtet den Blick auf den implementierten Algorithmus und überprüft die Korrektheit des Quellcodes."
+  },
+  {
+    "id":220,
+    "title":4,
+    "question": "In der Anwendungsentwicklung sind Testverfahren unerlässlich. Welche Testverfahren kennst du?",
+    "answer": "Folgende Testverfahren werden in der Anwendungsentwicklung angewendet:</br><ol><li>Black-Box-Test/ White-Box-Test</li><li>Komponententest</li><li>Unittest</li><li>Modultest</li><li>Integrationstest</li><li>Systemtest</li><li>Abnahmetest</li><li>Lasttest</li></ol>"
+  }]

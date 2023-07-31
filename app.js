@@ -31,6 +31,8 @@ function showEle(){
     title_element.innerHTML = "<small>Entwickeln, Erstellen und Betereuen von IT-Lösungen</small>";
   } else if (ranTitle === "3"){
     title_element.innerHTML = "<small>Planen, Vorbreiten und Durchführen von Arbeitsaufgaben</small>";
+  } else if (ranTitle === "4"){
+    title_element.innerHTML = "<small>Auftragsabschluss und Leistungserbringung</small>";
   }
   console.log("title number: ",ranTitle);
   question_element.innerHTML = "";
