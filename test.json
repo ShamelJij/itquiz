@@ -1,4 +1,10 @@
 [
+    {
+    "id":11,
+    "title":3,
+    "question": "Was versteht man unter einer Meilenstein-Planung?",
+    "answer": "Die Meilenstein-Planung Ziele wie:</br><ol><<li>eine grobe Terminplanung für das gesamte Projekt</li><li>essenzielle Ereignisse (Meilensteine) im Projekt tranparent zu machen</li><li>Übersicht über Verzögerungen und deren mögliche Auswirkungen auf andere Termine sichtbar machen</li><li>Leistungsfortschrittsorientierung zur Bewertung des Projektverlaufs</li><li>Schaffen von Zwischenzielen zur Motivation der Mitarbeitenden</li>/ol>"
+  },
   {
     "id": 16,
     "title": 1,
@@ -122,7 +128,7 @@
   {
     "id": 82,
     "title": 1,
-    "question": "Welche Aufgaben hat ein DHCP-Server innerhalb der IT-Infrastruktu?",
+    "question": "Welche Aufgaben hat ein DHCP-Server innerhalb der IT-Infrastruktur?",
     "answer": "Das Dynamic HOst Configuration Protocol (DHCP) ist ein Kommunikations-Protokoll, welches Netzwerkgeräten ermöglicht ohne manuelle Konfiguration eine automatische Netzwerkkonfiguration für das lokalen Netz zu erhalten.<br/>Mit Hilfe des DHCPDISCOVER sendet ein Client/Netzwerkgeräte ohne IP-Adresse eine Broadcast-Anfrage nach sogenannten Adress-Angeboten an alle verfügbaren DHCP-Server im lokalen Netz. Wenn im lokalen Netz ein DHCP-Server erreichbar ist, antwortet dieser mit einem DHCPOFFER. Im Anschluss fordert der Client im Zuge des Verfahrens mit Hilfe des DHCPREQUEST die angebotene IP-Adresse für einen Lease-Zeitraum an. Dabei wird unterschieden in statische, automatische und dynamische Adresszuweizung.<br/>Die Adresszuweizung erfolgt über die UDP-Ports 67 und 68.<br/>Zur Netzwerkkonfiguration kann ein DHCP folgende Angaben versenden:<ol><li>IP-Adresse und Netzwerkmaske</li><li>Default-Gateway</li><li>DNS-Server, DNS-Context und DNS-Tree</li><li>Sekundärer DNS-Server</li><li>Time- und NTP-Server</li><li>WINS-Server (für Microsoft Windows Clients)</li><li>Proxy-Konfiguration via WPAD</li><li>weitere DHCP Optionen z. B. Angaben für PXE-Boot</li></ol>"
   },
   {
@@ -204,10 +210,28 @@
     "answer": "Eine <strong>IDE</strong> (integrierte Entwicklungsumgebung, englisch integrated development environment) ist eine Sammlung der wichtigsten Werkzeuge zur Softwareentwicklung unter einer einheitlichen Oberfläche. Sie soll helfen, die Arbeit des Anwendungsentwicklers zu erleichtern.</br>Zu den wichtigsten Werkzeugen zählen Beispielsweise der Compiler, Debugger, interpreter, der Editor mit Quelltext- formatierung und Syntaxhervorhebung, Linker, Werkzeuge zum Erstellen von grafischen, Versionsverwaltungen und vieles mehr."
   },
   {
+    "id":144,
+    "title":2,
+    "question": "Welche Aufgabe erfüllt das Befehlszeilenkommando ARP?",
+    "answer": "Mithilfe des Address Resolution Protocols (ARP) wird zur IP-Adresse die zugehörige Hardware- bzw. MAC-Adresse des Netzwerkinterfaces (NIC) eines Hosts ermittelt.</br>Dazu sendet der Host einen ARP-Request mit der MAC-Adresse 'FF-FF-FF-FF-FF-FF' auf der Schicht 2, der Sicherungsschicht des OSI-Schichtenmodells, per Broadcast an die zu ermittelnde Adresse und bekommt viw ARP-Reply die ermittlete MAC-Adresse wird dann im lokalen ARP-Cache des Senders für eine gewisse Zeit gepseichert. Dieser ARP-Cache dient zur schnelleren ARP-Adressauflösung."
+  },
+  {
     "id":169,
     "title":5,
     "question": "Dein Ausbildungsbetrieb ist ISO 9001 zertifiziert. Was bedeutet diese Norm für deinen Ausbildungsbetrieb?",
     "answer": "Die ISO 9001 Norm legt die Anforderung für Qualitätsmangementsysteme fest. Ziel ist die Qualitätssicherung durch stetige Optimierung der Prozesse.</br>Diese Zertifizierung ist weltweit anerkannt.</br><strong>ISO 9001 orientiert sich unter anderem an diesen Grundprinzipien:</strong></br><ol><li>Kundenorientierung</li><li>Prozessorientierung</li><li>stetige Verbesserung</li><li>Risikomanagement</li></ol>"
+  },
+  {
+    "id":195,
+    "title":7,
+    "question": "Welches sind die Allgemeinen Kriterien einer Schutzbedarfsanalyse von IT-Systemen?",
+    "answer": "Folgende Kriterien sind für eine Schutzbedarfsanalyse wichtig:</br><ol><li>Wie hoch ist das Risiko, dass IT-Infrastrukturen angegriffen werden?</li><li>Welche Objekte müssen in der IT-Infrastruktur besonders abgesichert werden?</li><li>Welchen konkreten Bedrohungsszenarien ist die IT-Infrastruktur ausgesetzt?</li><li>Wie groß sind mögliche Schäden durch Angriffe auf produktive IT-Infrastrukturen?</li><li>Wie hoch ist das aktuelle Gefährdungspotenzial?</li><li>Welche Maßnahmen sind geeignet, die IT-Infrastruktur gegen interne und externe Bedrohungen zu schützen?</li><li>Wie sieht die Kosten-Nutzen Betrachtung bzw. Risiko berechnung aus?</li></ol>"
+  },
+  {
+    "id":196,
+    "title":7,
+    "question": "Welche Maßnahmen sind geeignet, um Schäden an der IT-Infrastruktur zu vermeiden bzw. die Sicher der IT-Systeme zu erhöhen?",
+    "answer": "Die folgende Maßnahmen sind geeignet, potenzelle Schäden an der IT-Infrastruktur zu vermeiden:</br><ol><li>Datenverschlüsselung der Datenträger</li><li>Konzept für Netzwerksegmentierung im Unternehmen, Einsatz von VLANs</li><li>mehrstufiges Firewallkonzept sowie Regeln für die Endpoint Security auf den Clientsystem</li><li>Rechtekonzept für Mitarbeitende und Administratoren</li><li>regelmäßiges Patchen der IT-Systeme</li><li>permanentes Logging und Auditing (Penetrationtest, kurz: Pentest)</li><li>Einsatz einer Passwortrichtlinie sowie einer Multi-Factor-Authentication</li><li>Verfahrensanweisung oder Vier-Augen-Prinzip</li><li>Regelmäßige Schulungen der Mitarbeitenden, um das Bewusstsein zu erhöhen bzw. Bedrohungen zu erkennen</li></ol>"
   },
   {
     "id": 216,
@@ -238,4 +262,5 @@
     "title":4,
     "question": "In der Anwendungsentwicklung sind Testverfahren unerlässlich. Welche Testverfahren kennst du?",
     "answer": "Folgende Testverfahren werden in der Anwendungsentwicklung angewendet:</br><ol><li>Black-Box-Test/ White-Box-Test</li><li>Komponententest</li><li>Unittest</li><li>Modultest</li><li>Integrationstest</li><li>Systemtest</li><li>Abnahmetest</li><li>Lasttest</li></ol>"
-  }]
+  }
+]

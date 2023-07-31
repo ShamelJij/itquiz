@@ -37,6 +37,8 @@ function showEle(){
     title_element.innerHTML = "<small>Qualitätssichernde Maßnahmen</small>";
   } else if (ranTitle === "6"){
     title_element.innerHTML = "<small>Informieren und Beraten von Kunden und Kundinnen</small>";
+  } else if (ranTitle === "7"){
+    title_element.innerHTML = "<small>IT-Sicherheit und Datenschutz, Ergonomie</small>";
   }
   console.log("title number: ",ranTitle);
   question_element.innerHTML = "";
