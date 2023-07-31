@@ -99,7 +99,7 @@
     "id": 77,
     "title": 1,
     "question": "Was versteht man bei IPv6 unter einer Stateless Address Autoconfiguration?",
-    "answer": "SLAAC - Stateless Address Autoconfiguration (IPv6) ist das Äquivalent zum APIPA bei IPv4. Stateless, also zustandslos, bekommt jedes IPv&-Stack per Autokonfiguration eine link-lokale IPv6 zugewiesen. Die link-lokale Adresse beginnt immer mit FE80:"
+    "answer": "SLAAC - Stateless Address Autoconfiguration (IPv6) ist das Äquivalent zum APIPA bei IPv4. Stateless, also zustandslos, bekommt jedes IPv6-Stack per Autokonfiguration eine link-lokale IPv6 zugewiesen. Die link-lokale Adresse beginnt immer mit FE80:"
   },
   {
     "id": 78,
