@@ -1,31 +1,43 @@
 let request = new XMLHttpRequest();
 request.open("GET", "test.json", false);
 request.send(null);
-let myObj = JSON.parse(request.responseText);
-console.log(myObj);
-console.log(myObj.forEach( o => console.log(o.id)));
-let element = document.getElementById("foodtitle");
-let ranMax = myObj.length;
+let myArray = JSON.parse(request.responseText);
+console.log(myArray);
+console.log(myArray.forEach( o => console.log(o.id,": ", o.title)));
+let title_element = document.getElementById("title");
+let question_element = document.getElementById("question");
+let answer_element = document.getElementById("answer");
+let ranMax = myArray.length;
+console.log(ranMax);
 
-function getRanId(min,max){
-  return Math.round(Math.random() * (max - min + 1) ) + min;
-}
-const ranNum = getRanId(16, ranMax);
-//ranNum === 10 ? console.log('matches!!') : console.log('doesnt match');
-let ranInquery = "";
-function getInquery(obj){
-ranInquery = JSON.stringify(obj.find((o) => o.id === ranNum ? (ranInquery = o.id.replace(/^["'](.+(?=["']$))["']$/, '$1') ,console.log('mat!!')) : console.log("object number doesn't match")));
-console.log(ranInquery);
+function getRanId(arr){
+  const randomIndex = Math.round(Math.random() * arr.length);
+  if (randomIndex === 0 ){
+    return arr[randomIndex].id;
+  }
+  return arr[(randomIndex) - 1].id;
 }
 function showEle(){
-  const ranNum = getRanId(1, ranMax);
-  let ranObj = (JSON.stringify(myObj.find((obj) => obj.id === ranNum).a).replace(/^["'](.+(?=["']$))["']$/, '$1'));
-  let apar = JSON.parse(ranObj);
-  console.log(JSON.parse(ranObj));
-  element.innerHTML = "";
-  apar.forEach( e => element.innerHTML += `<p><small>${e}</small></p>`);
-  //element.innerHTML = apar;
-console.log("ranNum: " , ranNum , " ranMax: " , ranMax);
+  const ranID = getRanId(myArray);
+  console.log(ranID);
+  let ranTitle = (JSON.stringify(myArray.find((obj) => obj.id === ranID).title));
+  let ranAnswer = (JSON.stringify(myArray.find((obj) => obj.id === ranID).answer).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranQuestion = (JSON.stringify(myArray.find((obj) => obj.id === ranID).question).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranAnswer, ranQuestion);
+  title_element.innerHTML = "";
+  if (ranTitle === "1"){
+    title_element.innerHTML = "<small>Beurteilen marktgängiger IT-Systeme und Lösungen</small>";
+  } else if (ranTitle === "2"){
+    title_element.innerHTML = "<small>Entwickeln, Erstellen und Betereuen von IT-Lösungen</small>";
+  } else if (ranTitle === "3"){
+    title_element.innerHTML = "<small>Planen, Vorbreiten und Durchführen von Arbeitsaufgaben</small>";
+  }
+  console.log("title number: ",ranTitle);
+  question_element.innerHTML = "";
+  question_element.innerHTML = `${ranQuestion}`;
+  answer_element.innerHTML = "";
+  answer_element.innerHTML += `${ranAnswer}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
-//showEle();
-getInquery(myObj);
+showEle();
+console.log("random ID: ",getRanId(myArray));

@@ -1,4 +1,6 @@
-j: Beurteilen marktgängiger IT-Systeme und Lösungen
+1: Beurteilen marktgängiger IT-Systeme und Lösungen
+2: Entwickeln, Erstellen und Betereuen von IT-Lösungen
+3: Planen, Vorbreiten und Durchführen von Arbeitsaufgaben
 
 -(16)-
 q -
