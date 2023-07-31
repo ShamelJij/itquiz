@@ -6,6 +6,12 @@
     "answer": "Vertraulichkeit<br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/>Integrität<br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/>Verfügbarkeit<br/>Verfügbarkeit und erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie.<ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
   },
   {
+    "id":46,
+    "title":6,
+    "question": "Welchem Zweck dient ein Angebotsvergleich?",
+    "answer": "Der <strong>Angebotsvergleich</strong> bildet die wesentliche Grundlage für eine zukünftige Kaufentscheidung. Man vergleicht normalerweise mindestens 2 oder mehr Angebote von Verschiedenen Lieferanten, Unternehmen sowie Dienstleistern.</br></br>IM Zuge der Kaufentscheidung werden Kriterien miteinander verglichen, wie z. B.:</br><ol><li>niedrigster Preis</li><li>Qualität der Produkte/Dienstleistungen</li><li>Finanzierungsangebote</li><li>Kundenservice</li><li>Garantie und Gewährleistung</li><li>Rabattangebote</li><li>Lieferservice</li><li>Liefertreue</li><li>Lieferzeit</li><li>Liefermenge</li></ol>"
+  },
+  {
     "id": 47,
     "title": 1,
     "question": "Worin besteht in der Virtualisierung von Hostsystemen der Unterschied zwischen dem Hypervisor Typ 1 und Typ 2?",
@@ -196,6 +202,12 @@
     "title":2,
     "question": "Was versteht man in der Anwendungsentwicklung unter dem Begriff IDE?",
     "answer": "Eine <strong>IDE</strong> (integrierte Entwicklungsumgebung, englisch integrated development environment) ist eine Sammlung der wichtigsten Werkzeuge zur Softwareentwicklung unter einer einheitlichen Oberfläche. Sie soll helfen, die Arbeit des Anwendungsentwicklers zu erleichtern.</br>Zu den wichtigsten Werkzeugen zählen Beispielsweise der Compiler, Debugger, interpreter, der Editor mit Quelltext- formatierung und Syntaxhervorhebung, Linker, Werkzeuge zum Erstellen von grafischen, Versionsverwaltungen und vieles mehr."
+  },
+  {
+    "id":169,
+    "title":5,
+    "question": "Dein Ausbildungsbetrieb ist ISO 9001 zertifiziert. Was bedeutet diese Norm für deinen Ausbildungsbetrieb?",
+    "answer": "Die ISO 9001 Norm legt die Anforderung für Qualitätsmangementsysteme fest. Ziel ist die Qualitätssicherung durch stetige Optimierung der Prozesse.</br>Diese Zertifizierung ist weltweit anerkannt.</br><strong>ISO 9001 orientiert sich unter anderem an diesen Grundprinzipien:</strong></br><ol><li>Kundenorientierung</li><li>Prozessorientierung</li><li>stetige Verbesserung</li><li>Risikomanagement</li></ol>"
   },
   {
     "id": 216,

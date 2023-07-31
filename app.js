@@ -33,6 +33,10 @@ function showEle(){
     title_element.innerHTML = "<small>Planen, Vorbreiten und Durchführen von Arbeitsaufgaben</small>";
   } else if (ranTitle === "4"){
     title_element.innerHTML = "<small>Auftragsabschluss und Leistungserbringung</small>";
+  } else if (ranTitle === "5"){
+    title_element.innerHTML = "<small>Qualitätssichernde Maßnahmen</small>";
+  } else if (ranTitle === "6"){
+    title_element.innerHTML = "<small>Informieren und Beraten von Kunden und Kundinnen</small>";
   }
   console.log("title number: ",ranTitle);
   question_element.innerHTML = "";
