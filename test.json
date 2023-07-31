@@ -1,170 +1,170 @@
 [
-   {
-      "id":16,
-      "title":1,
-      "question":"Welches sind die Hauptziele der Datensicherheit?",
-      "answer":"Vertraulichkeit<br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/>Integrität<br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/>Verfügbarkeit<br/>Verfügbarkeit und erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie.<ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
-   },
-   {
-      "id":47,
-      "title":1,
-      "question":"Worin besteht in der Virtualisierung von Hostsystemen der Unterschied zwischen dem Hypervisor Typ 1 und Typ 2?",
-      "answer":"Der Hypervisor Typ 1, auch native oder bare-metal Hypervisor genannt, setzt direkt auf der Hardware des Hostsystems auf. Daher ist keine vorherige Betriebssystem-Installation notwendig.<br/>Der Hypervisor Typ 2, auch hosted Hypervisor genannt, benötigt ein lauffähiges vollwertiges Betriebssystem, um auf diesem Hostsystem auf die Gerätetreiber des Betriebssystems bzw. auf die Hardware des Hostsystems zuzugreifen.<br/>Bei beiden Hypervisor-Typen gilt die Voraussetzung, dass die Hardware bzw. das BIOS/URFI des Hostsystems die Virtualisierung, bei Intel CPU (intel-VT) oder bei AMD CPU (AMD-V) unterstützt."
-   },
-   {
-       "id":64,
-       "title":1,
-       "question":"Welche Aufgabe übernimmt ein Datenbankmanagementsystem, kurz DBMS?",
-       "answer":"Ein Datenbankmanagementsystem übernimmt folgende Aufgaben:<br/><ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
-   },
-   {
-       "id":66,
-       "title":1,
-       "question":"Was ist eien DMZ?",
-       "answer":"Eine DMZ (Demilitarisierte Zone) trennt durch ein Subnetz mit Hilfe von Firewall-Routern das interene Netzwerk vom extrernen Netzwerk ab.<br/>Der gesamte Datenverkehr zwischen dem internen und externen Netzwerk unterliegt Regeln, sogenannten Firewall-Regeln. In der Firewall wird geregelt, welche Datenpakete in welcher Richtung das Subnetz passieren dürfen.<br/>Innerhalb der DMZ befinden sich normalerweise Mail-, Datei, Proxy- und Webserver, die geschützt werden müssen gegen interne und externe Angriffe.<br/>Es gibt die einstufige und zweistufige DMZ."
-   },
-   {
-       "id":67,
-       "title":1,
-       "question":"Welche Aufgabe hat ein Netzwerk-Router?",
-       "answer":"Ein Router oder auch Netzwerkrouter ist ein Netzwerkgerät, welches sich im OSI-Modell auf der Schicht 3 (Vermittlungsschicht/Network Layer) befindet und die Netzwerkpakete zwischen mehreren Netzwerken weiterleitet.<br/>Netzwerkrouter werden zur sicheren Kopplung mehrerer Standorte über VPN (Virtual Private Network)oder zur direkten Verbindung mehrerer lokaler Netzwerksegmente eingestzt.<br/>Router sind in der Lage auch unterschiedliche Netzwerktechniken, wie Ethernet, DSL, PPPoE, ISDN, usw. miteinander zu verbinden."
-   },
-   {
-       "id":69,
-       "title":1,
-       "question":"Was ist eine Broadcast-Domäne?",
-       "answer":"Der Begriff Broadcast-Domäne wird für ein Netzwerk aus Netzwerkgeräten, die sich in der OSI-Modell-Schicht 2 befinden, benutzt. Innerhalb einer Broadcast-Domäne gibt es eine oder mehrere Kollisionsdomänen. Eine Broadcast-Domäne ist über Hubs, Switches oder Bridges miteinander verbunden und erreicht mit Hilfe einer Ethernet-Broadcast-Adresse ff:ff:ff:ff:ff:ff:ff alle anderen Domänenteilnehmer.<br/>Um Broadcast-Domänen zu unterteilen, kommen VLANs, Subnetze oder Router, die auf Schicht 3 arbeiten, zum Einsatz."
-   },
-   {
-       "id":70,
-       "title":1,
-       "question":"Was ist ein Network Attached Storage, kurz NAS?",
-       "answer":"Die Bezeichnung Network Attached Storage (NAS, englisch so viel wie netzgebundener Speicher) wird für einen einfach zu  verwaltenden Dateiserver benutzt, der über ein eigenes Dateisystem (Ext4/Btrfs) und eine Managementoverfläche verfügt.<br/>Eine NAS wird sowohl im Heimbereich, bei kleinen und mittleren Unternehmen (KMU) eingesetzt, um unabhängige Speicherkapazität in einem lokalen Rechnernetz bereitzustellen.<br/>Mithilfe der Managementoberfläche, in der Regel via Webbrowser über HTTP/HTTPS, werden die Einstellungen, wie die Benutzerverwaltung, die Intergration Active Directory, Aktivierung von Services und Sync-Funktionen, Zugriffe über die Protokolle iSCS, CIFS/SMB/NFS etc. vorgenommen.<br/>Ein NAS hat einen oder mehrere Netzwerkanschlüsse (Ethernet/Fibre Channel), besitzt je nach Ausstattung 2 Netzteile und existiert in verschiedenen Bauformen."
-   },
-   {
-       "id":71,
-       "title":1,
-       "question":"Was ist ein Storage Area Network, kurz SAN?",
-       "answer":"Storage Area Network (SAN) bzw. Speichernetzwerk ist die Bezeichnung für ein Netzwerk mit Anbindung an ein Festplattensubsystem, der sogenanneten Disk-Arrays oder Tape-Libraries an einem Server.<br/>Mit Hilfe der Storage Area Networks werden serielle, kontinuierliche Hochgeschwindigkeitsübertragungen großer Datenmengen ermöglicht, welche über Storage-Controller entweder über Fibre-Channel- oder Ethernet-Verbindungen hergestellt werden. Ein SAN stellt blockbasierten Speicher bereit, der das vom Server bereitgestellte Dateisystem über logische Festplatteneinheiten (LUN, Logical Unit Number)Verbindet.<br/>Beim NAS erfolgen die Zugriffe über die Protokolle SMB/CIFS oder NFS auf den Datenbestand. Bei einem SAN wird ISCSI, Fibre-Channel, ATA over Ethernet oder InfiniBand genutzt, um auf das Storage Area Networks zuzugreifen. Abhängig vom Dateisystem, z. B. beim VMFS (Virtual Machine File System), sind mehrfach Zugriffe von verschiedenen Servern möglich.<br/>Die Festplattensubsysteme Stellen über verschiedene RAID-Level, wie RAID 1, 5, 6, 10, 50 und 60 als auch proprietäre Lösungen eine Desaster-Toleranz bzw. Datenredundanz her."
-   },
-   {
-       "id":72,
-       "title":1,
-       "question":"Das Unternehmensnetzwerk (192.168.30.0) der Software GmbH soll zukünftig in 8 Subnetze unterteilt werden.<br/>Wie lautet die Korrete Subnetzmaske und wie viele Host IP-Adressen kann ich zusammen in allen 8 Subnetzen nutzen?",
-       "answer":"Die richtige Lösung lautet:<br/>8 Subnetze = 2<sup>3</sup><br/>Subnetzmaske: 255.255.255.224 oder /27<br/>Hosts IP Adressen: 240 (8 x 32 (Minus Netz-ID und Broadcastadresse) = 8 x 30 = 240)"
-   },
-   {
-       "id":73,
-       "title":1,
-       "question":"Was bedeutet in der Netzwerktechnologie der Begriff PoE?",
-       "answer":"Power over Ethernet (PoE) bezeichnet ein Verfahren, welches durch die IEEE-Standards definiert ist und mit dem Netzwerkgeräte über das Ethernet-Kabel des lokalen Netzwerks mit Strom versorgt werden können.<br/>Es gibt verschiedene Standards für PoE, welche in der IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE 802.3bt (4PPoE) sowie IEEE 802.3bu (PoDL) spezifiziert sind.<br/>Typische Verbraucher für PoE sind:<ol><li>IP-Telefonie</li><li>Wireless Access Points (WAP)</li><li>IP-Kameras</li><li>Zeiterfassungsterminals</li></ol>"
-   },
-   {
-       "id":74,
-       "title":1,
-       "question":"Wie lautet die Notation einer iSCSI-Verbindung?",
-       "answer":"Ein iSCSI-Verbindung, die zwischen einem Target und einem Initiator hergestellt werden soll, benötigt jeweils einen iSCSI Qualified Name (IQN). Die IQN stellt somit, vergleichbar einer IP-Adresse für das Ethernet Protokoll, die Adressierung dar.<br/>Das IQN-Format (iSCSI Qualified Name) hat die folgende Form<br/>iqn.yyyy-mm.naming-authority:unique<ol><li>iqn (iSCSI Qualified Name)</li><li>yyyy-mm gibt das Jahr und den Monat an, in dem die Stelle für die Namensvergabe (Naming Authority) erstellt wurde</li><li>naming-authority:unique (eindeutiger Name) steht für einen beliebigen Namen, z. B. den Namen des Hosts ode des Netzwerkgeräts. Alle zugewiesenen Namen müssen nach der Name Authority mit einem Doppelpunkt getrennt eindeutig sein.</li></ol><br/>Beispiel:<br/>iqn.2005-01.com.microsoft.iscsi:name1<br/>iqn.2019-01.com.vmware.storage:name1.99<br/>iqn.2021-02.com.microsoft.kunden:name.99"
-   },
-   {
-       "id":75,
-       "title":1,
-       "question":"Wie wird eine Fibre Channel Verbindung adressiert?",
-       "answer":"Beim <strong>Fibre Channel</strong> hat jedes Gerät einen weltweit eindeutigen WWNN (World Wide Node Name), manchaml auch nur WWN (World Wide Name) genannt, sowie jeder Port pro Gerät einen WWPN (World Wide Port Name). Dabei handelt sich es um einen 64-Bit-Wert (hexadezimal), der jedes Fibre-Channel-Gerät eindeutig identifiziert. Der WWNN/WWN ist das Äquivalent zur MAC-Adresse bei Ethernet Netzwerkkarten/Netzwerkgeräten.<br/>Ein WWNN/WWN könnte wie folgt aussehen:<br/> 20:00:05:45:E4:67:A3:88"
-   },
-   {
-       "id":76,
-       "title":1,
-       "question":"Welche Aufgaben hat bei IPv4 eine Broadcast-Adresse?",
-       "answer":"Mit Hilfe einer Broadcast-Adresse werden alle Netzwerkgeräte eines lokalen Netzwerkes erreicht, ohne es dediziert anzugeben.<br/>Broadcast sind immer auf das eigene lokale Netzwerk beschränkt und werden nicht über Router weitergeleitet. Eine Broadcast-IP-Adresse wird in jedem Netzwerk nur einmal vergeben. Sie ist immer die letzte IP-Adresse des Subnetzes."
-   },
-   {
-       "id":77,
-       "title":1,
-       "question":"Was versteht man bei IPv6 unter einer Stateless Address Autoconfiguration?",
-       "answer":"SLAAC - Stateless Address Autoconfiguration (IPv6) ist das Äquivalent zum APIPA bei IPv4. Stateless, also zustandslos, bekommt jedes IPv&-Stack per Autokonfiguration eine link-lokale IPv6 zugewiesen. Die link-lokale Adresse beginnt immer mit FE80:"
-   },
-   {
-       "id":78,
-       "title":1,
-       "question":"Worin unterscheiden sich die Lichtwellenleiter der Single- und Multimodefasern?",
-       "answer":"Die Unterschiedung zwischen Singlemode und Multimode Glasfaser besteht darin, dass Singlemode Glasfaserkabel einen erheblich geringeren Faserkerndurchmesser als Multimode Glasfaserkabel haben.<br/>Der Faserkern bei einem Singlemode Glasfaserkabel hat einen Durchmesser von 9µm, im Unterschied zu Multimode Glasfaserkabel, welche einen Faserkern von 50µm bzw. 62,5µm Durchmesser besitzen. Das umgebende Mantelglas hat jeweils einen Durchmesser von 125µm. Je nach Übertragungsrage erreichen Multimodefasern bis 2.000 Meter und Singlemodefasern bis 10.000 Meter Reichweite."
-   },
-   {
-       "id":79,
-       "title":1,
-       "question":"Nenne Vor- und Nachteile von Singlemode-Glasfasern.",
-       "answer":"Vorteile:<br/><ol><li>geringe Dämpfung des Signals</li><li>kaum Laufzeitverschiebungen</li><li>große Distanzen überbrückbar</li><li>hohe Bandbreiten</li></ol><br/>Nachteile:<br/><ol><li>teurere Laser zur Einspeisung des Lichts notwendig</li><li>größerer Aufwand bei der Herstellung der Glasfasern aufgrund der sehr kleinen Faserkerne</li><li>hohe Präzision beim Verbinden der Glasfasern durch Stecker oder beim Spleißen notwendig</li></ol>"
-   },
-   {
-       "id":80,
-       "title":1,
-       "question":"Nenne Vor- und Nachteile von Multimodefasern.",
-       "answer":"Vorteile:<br/><ol><li>geringerer Aufwand in der Herstellung der Glasfasern</li><li>einfachere Verbindungstechnik aufgrund des größeren Kerndurchmessers</li><li>Fasern mit Stufenindex- und Gradienteinindexprofil verfügbar</li></ol><br/>Nachteile:<br/><ol><li>größere Signaldämpfung und Laufzeitverschiebung</li><li>geringere maximale Bandbreiten</li><li>nur kürzere Distanzen überbrückbar</li><li>Verstärker oder Signalaufbereiter bei größeren Distanzen notwenig</li></ol>"
-   },
-   {
-       "id":81,
-       "title":1,
-       "question":"Welche Aufgabe hat das Simple Network Management Protocol, kutz SNMP?",
-       "answer":"Das Simple Network Management Protocol (SNMP, übersetzt 'einfaches Netzwerkverwaltungsprotokoll') ist ein Netzwerkprotokoll, welches von der IETF (Internet Engineering Task Force) entwickelt wurde mit dem Ziel, Netzwerkelemente wie Router, Server, Switches, Drucker, Computer, Temperatursensoren und andere SNMP-taugliche Geräte mit Hilfe einer zentralen Management Konsole aus überwachen und steuern zu können.<br/>Sogenannte SNMP-Agenten werden auf den Geräten eingesetzt, um mit der Management Konsole über SNMP-Traps oder GET-REQUEST über den Port 161/UDP bzw. Port 162/UDP (Trap) zu kommunizieren. SNMPv3 ist zurzeit die aktuelle Version von SNMP (Stand 2021)"
-   },
-   {
-       "id":82,
-       "title":1,
-       "question":"Welche Aufgaben hat ein DHCP-Server innerhalb der IT-Infrastruktu?",
-       "answer":"Das Dynamic HOst Configuration Protocol (DHCP) ist ein Kommunikations-Protokoll, welches Netzwerkgeräten ermöglicht ohne manuelle Konfiguration eine automatische Netzwerkkonfiguration für das lokalen Netz zu erhalten.<br/>Mit Hilfe des DHCPDISCOVER sendet ein Client/Netzwerkgeräte ohne IP-Adresse eine Broadcast-Anfrage nach sogenannten Adress-Angeboten an alle verfügbaren DHCP-Server im lokalen Netz. Wenn im lokalen Netz ein DHCP-Server erreichbar ist, antwortet dieser mit einem DHCPOFFER. Im Anschluss fordert der Client im Zuge des Verfahrens mit Hilfe des DHCPREQUEST die angebotene IP-Adresse für einen Lease-Zeitraum an. Dabei wird unterschieden in statische, automatische und dynamische Adresszuweizung.<br/>Die Adresszuweizung erfolgt über die UDP-Ports 67 und 68.<br/>Zur Netzwerkkonfiguration kann ein DHCP folgende Angaben versenden:<ol><li>IP-Adresse und Netzwerkmaske</li><li>Default-Gateway</li><li>DNS-Server, DNS-Context und DNS-Tree</li><li>Sekundärer DNS-Server</li><li>Time- und NTP-Server</li><li>WINS-Server (für Microsoft Windows Clients)</li><li>Proxy-Konfiguration via WPAD</li><li>weitere DHCP Optionen z. B. Angaben für PXE-Boot</li></ol>"
-   },
-   {
-       "id":87,
-       "title":1,
-       "question":"Beschreibe Typische Merkmale des Client-Server-Modells.",
-       "answer":"Das Client-Server-Modell (Client-Server-Konzept) beschreibt ein Prinzip, Aufgaben und Services innerhalb eines bestimmten Netzwerkes zu verteilen. Kernaufgaben und Services dem Client zur Nutzung zur Verfügung zu stellen. Beispielsweise können das Webservice, Datei- und Mailingservices sein.<br/>Typische Merkmale eines Client-Server-Modells sind:<br/><ol><li>Server stellen Dienste bereit</li><li>Client fragen Dienste bei Servern an</li><li>Kommunikationsregeln und den Informationsaustausch zwischen Client und Server übernehmen Protokolle</li><li>ein Server bedient ein oder mehrere Client</li><li>die Server- und Clientfunktionen sind nicht an eine physische Hardware gebunden</li><li>physische/virtuelle Server können gleichzeitig Client- als auch Serveraufgaben ausführen</li></ol>"
-   },
-   {
-       "id":88,
-       "title":1,
-       "question":"Welche Aufgaben hat ein Domain Name System (DNS) in einer windows Domänenlandschaft bzw. Active Directory?",
-       "answer":"Das Domain Name System (DNS) stellt einen der wichtigsten Dienste in IP-basierten Netzwerken dar. Das Domain Name System dient der Beantwortung von Anfragen zur Namensauflösung.<br/>Konkret wird dabei der angefragte Name in eine IP-Adresse übersetzt und als Ergibnis der Anfrage zurück geliefert. In windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu, eine angefragte IP-Adresse als Namen zu ermitteln und als Ergebnis zurückzuliefern. Dieses Reverse Lookup wird mit Hilfe von PTR Ressource Records in der Reverse Lookup Zone des Active Directory gewährleistet."
-   },
-   {
-       "id":93,
-       "title":1,
-       "question":"Was bedeutet der Begriff SSID (Service Set Identifier)?",
-       "answer":"Die <strong>SSID</strong> (Service Set Identifier) ist laut IEEE (Institute of Electrical and Electronics Engineers) der Norm 802.11 der frei wählbare Name eines drahtlosen Funknetzwerks und wird auch oft als Netzwerkname bezeichnet. Eine SSID darf bis zu 32 Byte ASCII Zeichen lang sein, Groß- und Kleinschreibung ist hierbei zu beachten. Die SSID stellt auch eine Art Broadcastdomäne für Funknetze dar.<br/>Mittlerweile gibt es auch die Multi-SSID, die mehrere Braodcastdomänen verwalten kann.",
-   },
-   {
-       "id":94,
-       "title":1,
-       "question":"Was versteht man unter den Begriffen CMS-, ERP- und CRM-System?",
-       "answer":"<strong>CMS</strong> - Content Management System: Stellt ein Managementsystem zum Verwalten, zur Konfiguration und der redaktionellen Bearbeitung von Inhalten (z. B. für Webseiten) dar.<br/><strong>ERP</strong> - Enterprise Ressource Planning System: Ist ein umfangreiches Werkzeug zur Unterstützung der Ressourcenplanung aller Prozesse eines Unternehmens, zum Beispiel Produktion, Materialwirtschaft und Vertrieb.<strong>CRM</strong> - Customer Relationship Management System: ist ein Werkzeug zur vollständgen Planung, Steuerung und Durchführung aller interaktiven Prozesse mit ded Kunden und unterstützt die Kundenkommunikation"
-   },
-   {
-       "id":95,
-       "title":1,
-       "question":"Welche Maßnahmen sind geeignet, um die Verarbeitungsgeschwindigkeit einese Personal Computers zu verbessern?",
-       "answer":"Folgende Maßnahmen können zur Verbesserung der Verarbeitungsgeschwindigkeit beitragen:<br/><ol><li>Austausch von SATA HDDs mit geringer Umdrehungszahl gegen HDDs mit 10K/rpm</li><li>Einsatz von SSD/M.2 gegenüber Sata-HDDs</li><li>Aufteilung des Betriebssystems und der Anwendungsprogramme auf unterschiedlichen Datenträgern (OS auf M.2, Daten auf SSD)</li><li>Austausch 100 Mbit/s Netzwerkkarte gegen 1 Gbit/s Netzwerkkarkte</li></ol>",
-   },
-   {
-       "id":96,
-       "title":1,
-       "question":"Berechne die Gesamtleistungsaufnahme für folgende IT-Landschaft für ein Jahr. Alle Geräte werden 24/7 betrieben.<br/>Gib das Ergebnis in Kilowatt an.<br/>10x Server Leistungsaufnahme 800 Watt<br/>25x Desktop PCs Leistungsaufnahme 350 Watt<br/>2x Switch Leistungsaufnahme 200 Watt",
-       "answer":"Lösung:<br/>10x Server Leistungsaufnahme 800 Watt = 8.000 Watt = 8,0 KW/h<br/>25x Desktop PCs Leistungsaufnahme 350 Watt = 8.750 Watt = 8,75 KW/h<br/>2x Switch Leistungsaufnahme 200 Watt = 400 Watt = 0,4 KW/h<hr style= border-color:red;>17,15 KW/h * 8.760 Stunden = 150.234 KW"
-   },
-   {
-       "id":97,
-       "title":1,
-       "question":"Wie berechnet man die Wirkleistung von elektrischen Geräten?",
-       "answer":"Die <strong>elektrische Leistungsberechnung von It-Komponenten</strong> unterliegt den allgemeinen Gesetzen der Elektrotechnik. Die elektrische Wirkleistung P ist das Produkt von Spannnung U und der Stromstärke I.<br/>Die Berechnung erfolgt wie folgt:<br/><strong>P = U . I</strong><br/> Die Berechnung wird in der Maßeinheit Watt angegeben. Die Leistungsangaben von elektrischen Geräten gelten immer für die Dauer mit 60 Minuten bzw. 1 Stunde.<br/>Beispiel: 230V * 16A = 3.680 VA / Watt (3,68 KW/h)<br/>Dieses elektrische Gerät verbraucht demnach 3,68 KW/h"
-   },
-   {
-       "id":99,
-       "title":1,
-       "question":"Was bedeutet der Begriff Serverkonsolidierung?",
-       "answer":"<strong>Serverkonsolidierung</strong> ist eine Form der Konsolidierung von Serverressourcen, bei der man auf die Möglichkeiten der Virtualisierung setzt. Mit Hilfe von virtuellen Maschinen (VM) oder vertuellen Umgebungen (Virtual Environment VE) soll eine Energie- und Raumeinsparung durch Reduktion der physikalischen Serversysteme erreicht werden.<br/>Kurz gefasst: z. B. 10 physische Server werden durch einen performanten Server ersetzt und die 10 Server virtualisiert."
-   },
-   {
-       "id":666,
-       "title":2,
-       "question":"",
-       "answer":""
-   }
+  {
+    "id": 16,
+    "title": 1,
+    "question": "Welches sind die Hauptziele der Datensicherheit?",
+    "answer": "Vertraulichkeit<br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/>Integrität<br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/>Verfügbarkeit<br/>Verfügbarkeit und erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie.<ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
+  },
+  {
+    "id": 47,
+    "title": 1,
+    "question": "Worin besteht in der Virtualisierung von Hostsystemen der Unterschied zwischen dem Hypervisor Typ 1 und Typ 2?",
+    "answer": "Der Hypervisor Typ 1, auch native oder bare-metal Hypervisor genannt, setzt direkt auf der Hardware des Hostsystems auf. Daher ist keine vorherige Betriebssystem-Installation notwendig.<br/>Der Hypervisor Typ 2, auch hosted Hypervisor genannt, benötigt ein lauffähiges vollwertiges Betriebssystem, um auf diesem Hostsystem auf die Gerätetreiber des Betriebssystems bzw. auf die Hardware des Hostsystems zuzugreifen.<br/>Bei beiden Hypervisor-Typen gilt die Voraussetzung, dass die Hardware bzw. das BIOS/URFI des Hostsystems die Virtualisierung, bei Intel CPU (intel-VT) oder bei AMD CPU (AMD-V) unterstützt."
+  },
+  {
+    "id": 64,
+    "title": 1,
+    "question": "Welche Aufgabe übernimmt ein Datenbankmanagementsystem, kurz DBMS?",
+    "answer": "Ein Datenbankmanagementsystem übernimmt folgende Aufgaben:<br/><ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
+  },
+  {
+    "id": 66,
+    "title": 1,
+    "question": "Was ist eien DMZ?",
+    "answer": "Eine DMZ (Demilitarisierte Zone) trennt durch ein Subnetz mit Hilfe von Firewall-Routern das interene Netzwerk vom extrernen Netzwerk ab.<br/>Der gesamte Datenverkehr zwischen dem internen und externen Netzwerk unterliegt Regeln, sogenannten Firewall-Regeln. In der Firewall wird geregelt, welche Datenpakete in welcher Richtung das Subnetz passieren dürfen.<br/>Innerhalb der DMZ befinden sich normalerweise Mail-, Datei, Proxy- und Webserver, die geschützt werden müssen gegen interne und externe Angriffe.<br/>Es gibt die einstufige und zweistufige DMZ."
+  },
+  {
+    "id": 67,
+    "title": 1,
+    "question": "Welche Aufgabe hat ein Netzwerk-Router?",
+    "answer": "Ein Router oder auch Netzwerkrouter ist ein Netzwerkgerät, welches sich im OSI-Modell auf der Schicht 3 (Vermittlungsschicht/Network Layer) befindet und die Netzwerkpakete zwischen mehreren Netzwerken weiterleitet.<br/>Netzwerkrouter werden zur sicheren Kopplung mehrerer Standorte über VPN (Virtual Private Network)oder zur direkten Verbindung mehrerer lokaler Netzwerksegmente eingestzt.<br/>Router sind in der Lage auch unterschiedliche Netzwerktechniken, wie Ethernet, DSL, PPPoE, ISDN, usw. miteinander zu verbinden."
+  },
+  {
+    "id": 69,
+    "title": 1,
+    "question": "Was ist eine Broadcast-Domäne?",
+    "answer": "Der Begriff Broadcast-Domäne wird für ein Netzwerk aus Netzwerkgeräten, die sich in der OSI-Modell-Schicht 2 befinden, benutzt. Innerhalb einer Broadcast-Domäne gibt es eine oder mehrere Kollisionsdomänen. Eine Broadcast-Domäne ist über Hubs, Switches oder Bridges miteinander verbunden und erreicht mit Hilfe einer Ethernet-Broadcast-Adresse ff:ff:ff:ff:ff:ff:ff alle anderen Domänenteilnehmer.<br/>Um Broadcast-Domänen zu unterteilen, kommen VLANs, Subnetze oder Router, die auf Schicht 3 arbeiten, zum Einsatz."
+  },
+  {
+    "id": 70,
+    "title": 1,
+    "question": "Was ist ein Network Attached Storage, kurz NAS?",
+    "answer": "Die Bezeichnung Network Attached Storage (NAS, englisch so viel wie netzgebundener Speicher) wird für einen einfach zu  verwaltenden Dateiserver benutzt, der über ein eigenes Dateisystem (Ext4/Btrfs) und eine Managementoverfläche verfügt.<br/>Eine NAS wird sowohl im Heimbereich, bei kleinen und mittleren Unternehmen (KMU) eingesetzt, um unabhängige Speicherkapazität in einem lokalen Rechnernetz bereitzustellen.<br/>Mithilfe der Managementoberfläche, in der Regel via Webbrowser über HTTP/HTTPS, werden die Einstellungen, wie die Benutzerverwaltung, die Intergration Active Directory, Aktivierung von Services und Sync-Funktionen, Zugriffe über die Protokolle iSCS, CIFS/SMB/NFS etc. vorgenommen.<br/>Ein NAS hat einen oder mehrere Netzwerkanschlüsse (Ethernet/Fibre Channel), besitzt je nach Ausstattung 2 Netzteile und existiert in verschiedenen Bauformen."
+  },
+  {
+    "id": 71,
+    "title": 1,
+    "question": "Was ist ein Storage Area Network, kurz SAN?",
+    "answer": "Storage Area Network (SAN) bzw. Speichernetzwerk ist die Bezeichnung für ein Netzwerk mit Anbindung an ein Festplattensubsystem, der sogenanneten Disk-Arrays oder Tape-Libraries an einem Server.<br/>Mit Hilfe der Storage Area Networks werden serielle, kontinuierliche Hochgeschwindigkeitsübertragungen großer Datenmengen ermöglicht, welche über Storage-Controller entweder über Fibre-Channel- oder Ethernet-Verbindungen hergestellt werden. Ein SAN stellt blockbasierten Speicher bereit, der das vom Server bereitgestellte Dateisystem über logische Festplatteneinheiten (LUN, Logical Unit Number)Verbindet.<br/>Beim NAS erfolgen die Zugriffe über die Protokolle SMB/CIFS oder NFS auf den Datenbestand. Bei einem SAN wird ISCSI, Fibre-Channel, ATA over Ethernet oder InfiniBand genutzt, um auf das Storage Area Networks zuzugreifen. Abhängig vom Dateisystem, z. B. beim VMFS (Virtual Machine File System), sind mehrfach Zugriffe von verschiedenen Servern möglich.<br/>Die Festplattensubsysteme Stellen über verschiedene RAID-Level, wie RAID 1, 5, 6, 10, 50 und 60 als auch proprietäre Lösungen eine Desaster-Toleranz bzw. Datenredundanz her."
+  },
+  {
+    "id": 72,
+    "title": 1,
+    "question": "Das Unternehmensnetzwerk (192.168.30.0) der Software GmbH soll zukünftig in 8 Subnetze unterteilt werden.<br/>Wie lautet die Korrete Subnetzmaske und wie viele Host IP-Adressen kann ich zusammen in allen 8 Subnetzen nutzen?",
+    "answer": "Die richtige Lösung lautet:<br/>8 Subnetze = 2<sup>3</sup><br/>Subnetzmaske: 255.255.255.224 oder /27<br/>Hosts IP Adressen: 240 (8 x 32 (Minus Netz-ID und Broadcastadresse) = 8 x 30 = 240)"
+  },
+  {
+    "id": 73,
+    "title": 1,
+    "question": "Was bedeutet in der Netzwerktechnologie der Begriff PoE?",
+    "answer": "Power over Ethernet (PoE) bezeichnet ein Verfahren, welches durch die IEEE-Standards definiert ist und mit dem Netzwerkgeräte über das Ethernet-Kabel des lokalen Netzwerks mit Strom versorgt werden können.<br/>Es gibt verschiedene Standards für PoE, welche in der IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE 802.3bt (4PPoE) sowie IEEE 802.3bu (PoDL) spezifiziert sind.<br/>Typische Verbraucher für PoE sind:<ol><li>IP-Telefonie</li><li>Wireless Access Points (WAP)</li><li>IP-Kameras</li><li>Zeiterfassungsterminals</li></ol>"
+  },
+  {
+    "id": 74,
+    "title": 1,
+    "question": "Wie lautet die Notation einer iSCSI-Verbindung?",
+    "answer": "Ein iSCSI-Verbindung, die zwischen einem Target und einem Initiator hergestellt werden soll, benötigt jeweils einen iSCSI Qualified Name (IQN). Die IQN stellt somit, vergleichbar einer IP-Adresse für das Ethernet Protokoll, die Adressierung dar.<br/>Das IQN-Format (iSCSI Qualified Name) hat die folgende Form<br/>iqn.yyyy-mm.naming-authority:unique<ol><li>iqn (iSCSI Qualified Name)</li><li>yyyy-mm gibt das Jahr und den Monat an, in dem die Stelle für die Namensvergabe (Naming Authority) erstellt wurde</li><li>naming-authority:unique (eindeutiger Name) steht für einen beliebigen Namen, z. B. den Namen des Hosts ode des Netzwerkgeräts. Alle zugewiesenen Namen müssen nach der Name Authority mit einem Doppelpunkt getrennt eindeutig sein.</li></ol><br/>Beispiel:<br/>iqn.2005-01.com.microsoft.iscsi:name1<br/>iqn.2019-01.com.vmware.storage:name1.99<br/>iqn.2021-02.com.microsoft.kunden:name.99"
+  },
+  {
+    "id": 75,
+    "title": 1,
+    "question": "Wie wird eine Fibre Channel Verbindung adressiert?",
+    "answer": "Beim <strong>Fibre Channel</strong> hat jedes Gerät einen weltweit eindeutigen WWNN (World Wide Node Name), manchaml auch nur WWN (World Wide Name) genannt, sowie jeder Port pro Gerät einen WWPN (World Wide Port Name). Dabei handelt sich es um einen 64-Bit-Wert (hexadezimal), der jedes Fibre-Channel-Gerät eindeutig identifiziert. Der WWNN/WWN ist das Äquivalent zur MAC-Adresse bei Ethernet Netzwerkkarten/Netzwerkgeräten.<br/>Ein WWNN/WWN könnte wie folgt aussehen:<br/> 20:00:05:45:E4:67:A3:88"
+  },
+  {
+    "id": 76,
+    "title": 1,
+    "question": "Welche Aufgaben hat bei IPv4 eine Broadcast-Adresse?",
+    "answer": "Mit Hilfe einer Broadcast-Adresse werden alle Netzwerkgeräte eines lokalen Netzwerkes erreicht, ohne es dediziert anzugeben.<br/>Broadcast sind immer auf das eigene lokale Netzwerk beschränkt und werden nicht über Router weitergeleitet. Eine Broadcast-IP-Adresse wird in jedem Netzwerk nur einmal vergeben. Sie ist immer die letzte IP-Adresse des Subnetzes."
+  },
+  {
+    "id": 77,
+    "title": 1,
+    "question": "Was versteht man bei IPv6 unter einer Stateless Address Autoconfiguration?",
+    "answer": "SLAAC - Stateless Address Autoconfiguration (IPv6) ist das Äquivalent zum APIPA bei IPv4. Stateless, also zustandslos, bekommt jedes IPv&-Stack per Autokonfiguration eine link-lokale IPv6 zugewiesen. Die link-lokale Adresse beginnt immer mit FE80:"
+  },
+  {
+    "id": 78,
+    "title": 1,
+    "question": "Worin unterscheiden sich die Lichtwellenleiter der Single- und Multimodefasern?",
+    "answer": "Die Unterschiedung zwischen Singlemode und Multimode Glasfaser besteht darin, dass Singlemode Glasfaserkabel einen erheblich geringeren Faserkerndurchmesser als Multimode Glasfaserkabel haben.<br/>Der Faserkern bei einem Singlemode Glasfaserkabel hat einen Durchmesser von 9µm, im Unterschied zu Multimode Glasfaserkabel, welche einen Faserkern von 50µm bzw. 62,5µm Durchmesser besitzen. Das umgebende Mantelglas hat jeweils einen Durchmesser von 125µm. Je nach Übertragungsrage erreichen Multimodefasern bis 2.000 Meter und Singlemodefasern bis 10.000 Meter Reichweite."
+  },
+  {
+    "id": 79,
+    "title": 1,
+    "question": "Nenne Vor- und Nachteile von Singlemode-Glasfasern.",
+    "answer": "Vorteile:<br/><ol><li>geringe Dämpfung des Signals</li><li>kaum Laufzeitverschiebungen</li><li>große Distanzen überbrückbar</li><li>hohe Bandbreiten</li></ol><br/>Nachteile:<br/><ol><li>teurere Laser zur Einspeisung des Lichts notwendig</li><li>größerer Aufwand bei der Herstellung der Glasfasern aufgrund der sehr kleinen Faserkerne</li><li>hohe Präzision beim Verbinden der Glasfasern durch Stecker oder beim Spleißen notwendig</li></ol>"
+  },
+  {
+    "id": 80,
+    "title": 1,
+    "question": "Nenne Vor- und Nachteile von Multimodefasern.",
+    "answer": "Vorteile:<br/><ol><li>geringerer Aufwand in der Herstellung der Glasfasern</li><li>einfachere Verbindungstechnik aufgrund des größeren Kerndurchmessers</li><li>Fasern mit Stufenindex- und Gradienteinindexprofil verfügbar</li></ol><br/>Nachteile:<br/><ol><li>größere Signaldämpfung und Laufzeitverschiebung</li><li>geringere maximale Bandbreiten</li><li>nur kürzere Distanzen überbrückbar</li><li>Verstärker oder Signalaufbereiter bei größeren Distanzen notwenig</li></ol>"
+  },
+  {
+    "id": 81,
+    "title": 1,
+    "question": "Welche Aufgabe hat das Simple Network Management Protocol, kutz SNMP?",
+    "answer": "Das Simple Network Management Protocol (SNMP, übersetzt 'einfaches Netzwerkverwaltungsprotokoll') ist ein Netzwerkprotokoll, welches von der IETF (Internet Engineering Task Force) entwickelt wurde mit dem Ziel, Netzwerkelemente wie Router, Server, Switches, Drucker, Computer, Temperatursensoren und andere SNMP-taugliche Geräte mit Hilfe einer zentralen Management Konsole aus überwachen und steuern zu können.<br/>Sogenannte SNMP-Agenten werden auf den Geräten eingesetzt, um mit der Management Konsole über SNMP-Traps oder GET-REQUEST über den Port 161/UDP bzw. Port 162/UDP (Trap) zu kommunizieren. SNMPv3 ist zurzeit die aktuelle Version von SNMP (Stand 2021)"
+  },
+  {
+    "id": 82,
+    "title": 1,
+    "question": "Welche Aufgaben hat ein DHCP-Server innerhalb der IT-Infrastruktu?",
+    "answer": "Das Dynamic HOst Configuration Protocol (DHCP) ist ein Kommunikations-Protokoll, welches Netzwerkgeräten ermöglicht ohne manuelle Konfiguration eine automatische Netzwerkkonfiguration für das lokalen Netz zu erhalten.<br/>Mit Hilfe des DHCPDISCOVER sendet ein Client/Netzwerkgeräte ohne IP-Adresse eine Broadcast-Anfrage nach sogenannten Adress-Angeboten an alle verfügbaren DHCP-Server im lokalen Netz. Wenn im lokalen Netz ein DHCP-Server erreichbar ist, antwortet dieser mit einem DHCPOFFER. Im Anschluss fordert der Client im Zuge des Verfahrens mit Hilfe des DHCPREQUEST die angebotene IP-Adresse für einen Lease-Zeitraum an. Dabei wird unterschieden in statische, automatische und dynamische Adresszuweizung.<br/>Die Adresszuweizung erfolgt über die UDP-Ports 67 und 68.<br/>Zur Netzwerkkonfiguration kann ein DHCP folgende Angaben versenden:<ol><li>IP-Adresse und Netzwerkmaske</li><li>Default-Gateway</li><li>DNS-Server, DNS-Context und DNS-Tree</li><li>Sekundärer DNS-Server</li><li>Time- und NTP-Server</li><li>WINS-Server (für Microsoft Windows Clients)</li><li>Proxy-Konfiguration via WPAD</li><li>weitere DHCP Optionen z. B. Angaben für PXE-Boot</li></ol>"
+  },
+  {
+    "id": 87,
+    "title": 1,
+    "question": "Beschreibe Typische Merkmale des Client-Server-Modells.",
+    "answer": "Das Client-Server-Modell (Client-Server-Konzept) beschreibt ein Prinzip, Aufgaben und Services innerhalb eines bestimmten Netzwerkes zu verteilen. Kernaufgaben und Services dem Client zur Nutzung zur Verfügung zu stellen. Beispielsweise können das Webservice, Datei- und Mailingservices sein.<br/>Typische Merkmale eines Client-Server-Modells sind:<br/><ol><li>Server stellen Dienste bereit</li><li>Client fragen Dienste bei Servern an</li><li>Kommunikationsregeln und den Informationsaustausch zwischen Client und Server übernehmen Protokolle</li><li>ein Server bedient ein oder mehrere Client</li><li>die Server- und Clientfunktionen sind nicht an eine physische Hardware gebunden</li><li>physische/virtuelle Server können gleichzeitig Client- als auch Serveraufgaben ausführen</li></ol>"
+  },
+  {
+    "id": 88,
+    "title": 1,
+    "question": "Welche Aufgaben hat ein Domain Name System (DNS) in einer windows Domänenlandschaft bzw. Active Directory?",
+    "answer": "Das Domain Name System (DNS) stellt einen der wichtigsten Dienste in IP-basierten Netzwerken dar. Das Domain Name System dient der Beantwortung von Anfragen zur Namensauflösung.<br/>Konkret wird dabei der angefragte Name in eine IP-Adresse übersetzt und als Ergibnis der Anfrage zurück geliefert. In windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu, eine angefragte IP-Adresse als Namen zu ermitteln und als Ergebnis zurückzuliefern. Dieses Reverse Lookup wird mit Hilfe von PTR Ressource Records in der Reverse Lookup Zone des Active Directory gewährleistet."
+  },
+  {
+    "id": 93,
+    "title": 1,
+    "question": "Was bedeutet der Begriff SSID (Service Set Identifier)?",
+    "answer": "Die <strong>SSID</strong> (Service Set Identifier) ist laut IEEE (Institute of Electrical and Electronics Engineers) der Norm 802.11 der frei wählbare Name eines drahtlosen Funknetzwerks und wird auch oft als Netzwerkname bezeichnet. Eine SSID darf bis zu 32 Byte ASCII Zeichen lang sein, Groß- und Kleinschreibung ist hierbei zu beachten. Die SSID stellt auch eine Art Broadcastdomäne für Funknetze dar.<br/>Mittlerweile gibt es auch die Multi-SSID, die mehrere Braodcastdomänen verwalten kann."
+  },
+  {
+    "id": 94,
+    "title": 1,
+    "question": "Was versteht man unter den Begriffen CMS-, ERP- und CRM-System?",
+    "answer": "<strong>CMS</strong> - Content Management System: Stellt ein Managementsystem zum Verwalten, zur Konfiguration und der redaktionellen Bearbeitung von Inhalten (z. B. für Webseiten) dar.<br/><strong>ERP</strong> - Enterprise Ressource Planning System: Ist ein umfangreiches Werkzeug zur Unterstützung der Ressourcenplanung aller Prozesse eines Unternehmens, zum Beispiel Produktion, Materialwirtschaft und Vertrieb.<strong>CRM</strong> - Customer Relationship Management System: ist ein Werkzeug zur vollständgen Planung, Steuerung und Durchführung aller interaktiven Prozesse mit ded Kunden und unterstützt die Kundenkommunikation"
+  },
+  {
+    "id": 95,
+    "title": 1,
+    "question": "Welche Maßnahmen sind geeignet, um die Verarbeitungsgeschwindigkeit einese Personal Computers zu verbessern?",
+    "answer": "Folgende Maßnahmen können zur Verbesserung der Verarbeitungsgeschwindigkeit beitragen:<br/><ol><li>Austausch von SATA HDDs mit geringer Umdrehungszahl gegen HDDs mit 10K/rpm</li><li>Einsatz von SSD/M.2 gegenüber Sata-HDDs</li><li>Aufteilung des Betriebssystems und der Anwendungsprogramme auf unterschiedlichen Datenträgern (OS auf M.2, Daten auf SSD)</li><li>Austausch 100 Mbit/s Netzwerkkarte gegen 1 Gbit/s Netzwerkkarkte</li></ol>"
+  },
+  {
+    "id": 96,
+    "title": 1,
+    "question": "Berechne die Gesamtleistungsaufnahme für folgende IT-Landschaft für ein Jahr. Alle Geräte werden 24/7 betrieben.<br/>Gib das Ergebnis in Kilowatt an.<br/>10x Server Leistungsaufnahme 800 Watt<br/>25x Desktop PCs Leistungsaufnahme 350 Watt<br/>2x Switch Leistungsaufnahme 200 Watt",
+    "answer": "Lösung:<br/>10x Server Leistungsaufnahme 800 Watt = 8.000 Watt = 8,0 KW/h<br/>25x Desktop PCs Leistungsaufnahme 350 Watt = 8.750 Watt = 8,75 KW/h<br/>2x Switch Leistungsaufnahme 200 Watt = 400 Watt = 0,4 KW/h<hr style= border-color:red;>17,15 KW/h * 8.760 Stunden = 150.234 KW"
+  },
+  {
+    "id": 97,
+    "title": 1,
+    "question": "Wie berechnet man die Wirkleistung von elektrischen Geräten?",
+    "answer": "Die <strong>elektrische Leistungsberechnung von It-Komponenten</strong> unterliegt den allgemeinen Gesetzen der Elektrotechnik. Die elektrische Wirkleistung P ist das Produkt von Spannnung U und der Stromstärke I.<br/>Die Berechnung erfolgt wie folgt:<br/><strong>P = U . I</strong><br/> Die Berechnung wird in der Maßeinheit Watt angegeben. Die Leistungsangaben von elektrischen Geräten gelten immer für die Dauer mit 60 Minuten bzw. 1 Stunde.<br/>Beispiel: 230V * 16A = 3.680 VA / Watt (3,68 KW/h)<br/>Dieses elektrische Gerät verbraucht demnach 3,68 KW/h"
+  },
+  {
+    "id": 99,
+    "title": 1,
+    "question": "Was bedeutet der Begriff Serverkonsolidierung?",
+    "answer": "<strong>Serverkonsolidierung</strong> ist eine Form der Konsolidierung von Serverressourcen, bei der man auf die Möglichkeiten der Virtualisierung setzt. Mit Hilfe von virtuellen Maschinen (VM) oder vertuellen Umgebungen (Virtual Environment VE) soll eine Energie- und Raumeinsparung durch Reduktion der physikalischen Serversysteme erreicht werden.<br/>Kurz gefasst: z. B. 10 physische Server werden durch einen performanten Server ersetzt und die 10 Server virtualisiert."
+  },
+  {
+    "id": 666,
+    "title": 2,
+    "question": "",
+    "answer": ""
+  }
 ]
