@@ -12,6 +12,12 @@
     "answer": "Der Hypervisor Typ 1, auch native oder bare-metal Hypervisor genannt, setzt direkt auf der Hardware des Hostsystems auf. Daher ist keine vorherige Betriebssystem-Installation notwendig.<br/>Der Hypervisor Typ 2, auch hosted Hypervisor genannt, benötigt ein lauffähiges vollwertiges Betriebssystem, um auf diesem Hostsystem auf die Gerätetreiber des Betriebssystems bzw. auf die Hardware des Hostsystems zuzugreifen.<br/>Bei beiden Hypervisor-Typen gilt die Voraussetzung, dass die Hardware bzw. das BIOS/URFI des Hostsystems die Virtualisierung, bei Intel CPU (intel-VT) oder bei AMD CPU (AMD-V) unterstützt."
   },
   {
+    "id":54,
+    "title":1,
+    "question": "Welche IT-Komponenten sind Ein- oder Ausgabegeräte? Ordne Richtig zu!</br><ol><li>Scanner</li><li>Maus</li><li>Touchpad</li><li>Drucker</li><li>Display</li></ol>",
+    "answer": "<strong>Eingabegeräte</strong><ol><li>Scanner</li><li>Maus</li><li>Touchpad</li></ol></br><strong>Ausgabgeräte</strong><ol><li>Drucker</li><li>Display</li></ol>"
+  },
+  {
     "id": 64,
     "title": 1,
     "question": "Welche Aufgabe übernimmt ein Datenbankmanagementsystem, kurz DBMS?",
@@ -114,6 +120,12 @@
     "answer": "Das Dynamic HOst Configuration Protocol (DHCP) ist ein Kommunikations-Protokoll, welches Netzwerkgeräten ermöglicht ohne manuelle Konfiguration eine automatische Netzwerkkonfiguration für das lokalen Netz zu erhalten.<br/>Mit Hilfe des DHCPDISCOVER sendet ein Client/Netzwerkgeräte ohne IP-Adresse eine Broadcast-Anfrage nach sogenannten Adress-Angeboten an alle verfügbaren DHCP-Server im lokalen Netz. Wenn im lokalen Netz ein DHCP-Server erreichbar ist, antwortet dieser mit einem DHCPOFFER. Im Anschluss fordert der Client im Zuge des Verfahrens mit Hilfe des DHCPREQUEST die angebotene IP-Adresse für einen Lease-Zeitraum an. Dabei wird unterschieden in statische, automatische und dynamische Adresszuweizung.<br/>Die Adresszuweizung erfolgt über die UDP-Ports 67 und 68.<br/>Zur Netzwerkkonfiguration kann ein DHCP folgende Angaben versenden:<ol><li>IP-Adresse und Netzwerkmaske</li><li>Default-Gateway</li><li>DNS-Server, DNS-Context und DNS-Tree</li><li>Sekundärer DNS-Server</li><li>Time- und NTP-Server</li><li>WINS-Server (für Microsoft Windows Clients)</li><li>Proxy-Konfiguration via WPAD</li><li>weitere DHCP Optionen z. B. Angaben für PXE-Boot</li></ol>"
   },
   {
+    "id":86,
+    "title":1,
+    "question": "Wann kommt ein tagged VLAN (Virual Local Area Network) zum Einsatz?",
+    "answer": "Das <strong>tagged VLAN</strong> kommt immer dann zum Einsatz, wenn sich VLAN über mehrere Switches hinweg erstrechen, zum Beispiel über sogenannte Trunk Ports. Hier werden die Etherent-Frames mit einer Art Markierung versehen, welche die Zugehörigkeit zum jeweiligen VLAN kennzeichnet. Mit Hilfe von Tags (engl. Etikett) werden dem Ethernet-Frame VLAN-spezifische Informationen hinzufügt, die dann durch VLAN-fähige Switche ausgewertet werden."
+  },
+  {
     "id": 87,
     "title": 1,
     "question": "Beschreibe Typische Merkmale des Client-Server-Modells.",
@@ -160,6 +172,12 @@
     "title": 1,
     "question": "Was bedeutet der Begriff Serverkonsolidierung?",
     "answer": "<strong>Serverkonsolidierung</strong> ist eine Form der Konsolidierung von Serverressourcen, bei der man auf die Möglichkeiten der Virtualisierung setzt. Mit Hilfe von virtuellen Maschinen (VM) oder vertuellen Umgebungen (Virtual Environment VE) soll eine Energie- und Raumeinsparung durch Reduktion der physikalischen Serversysteme erreicht werden.<br/>Kurz gefasst: z. B. 10 physische Server werden durch einen performanten Server ersetzt und die 10 Server virtualisiert."
+  },
+  {
+    "id":122,
+    "title":2,
+    "question": "Worauf sollte man bei der Beschaffung von IT-Hardware achten?",
+    "answer": "<strong>Die folgende Kriterien sind bei der Beschaffung von Hardware zu beachten:</strong></br><ol><li>Langlebigkeit der Hardware (min: 5 Jahre Support vom Hersteller)</li><li>Skalierbarkeit auf Basis vorhandeneder Hardware</li><li>kostengünstiger Support</li><li>geringer Sromverbrauch und geringe Abwärme</li><li>umweltfreundliches Produkt</li><li>remote Management</li><li>leicht austauschbar</li><li>schnelle Ersatzbeschaffung</li></ol>"
   },
   {
     "id":123,
