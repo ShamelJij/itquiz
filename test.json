@@ -3,13 +3,31 @@
     "id":11,
     "title":3,
     "question": "Was versteht man unter einer Meilenstein-Planung?",
-    "answer": "Die Meilenstein-Planung Ziele wie:</br><ol><<li>eine grobe Terminplanung für das gesamte Projekt</li><li>essenzielle Ereignisse (Meilensteine) im Projekt tranparent zu machen</li><li>Übersicht über Verzögerungen und deren mögliche Auswirkungen auf andere Termine sichtbar machen</li><li>Leistungsfortschrittsorientierung zur Bewertung des Projektverlaufs</li><li>Schaffen von Zwischenzielen zur Motivation der Mitarbeitenden</li>/ol>"
+    "answer": "Die Meilenstein-Planung Ziele wie:</br><ol><li>eine grobe Terminplanung für das gesamte Projekt</li><li>essenzielle Ereignisse (Meilensteine) im Projekt tranparent zu machen</li><li>Übersicht über Verzögerungen und deren mögliche Auswirkungen auf andere Termine sichtbar machen</li><li>Leistungsfortschrittsorientierung zur Bewertung des Projektverlaufs</li><li>Schaffen von Zwischenzielen zur Motivation der Mitarbeitenden</li></ol>"
   },
   {
     "id": 16,
     "title": 1,
     "question": "Welches sind die Hauptziele der Datensicherheit?",
     "answer": "Vertraulichkeit<br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/>Integrität<br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/>Verfügbarkeit<br/>Verfügbarkeit und erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie.<ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
+  },
+  {
+    "id":40,
+    "title":6,
+    "question": "Ergänze nach dem Vier-Ohren-Modell (Sachebene, Appell, Selbstoffenbarung und Beziehung) die folgenden Aussagen eines Kunden gegenüber eines Vertriebsmitarbeiters.</br>Der Kunde sagt:</br><il>Sie müssen pünktlich liefern!</il><il>Ich bin mit Ihnen nicht zufrieden.</il><il>Sie haben nicht pünktlich geliefert.</il><il>Ich kontrolliere Ihre Leistungen sehr genau.</il><ol></ol>",
+    "answer": "Folgende Aspekte möchte der Kunde nach dem Vier-Ohren-Modell vermitteln:</br>Appell - 1. Sie müssen pünktlich liefern!</br>Beziehung - 2. Ich bin mit Ihnen nicht zufrieden.</br>Sachebene - 3. Sie haben pünktlich geliefert.</br>Selbstoffenbarung - 4. Ich kontrolliere Ihre Leistungen sehr genau."
+  },
+  {
+    "id":43,
+    "title":6,
+    "question": "Was ist eine Nutzwertanalyse?",
+    "answer": "Die <strong>Nutzwertanalyse</strong> stellt im Allgemneinen eine Entscheidungshilfe dar, wenn es um komplexe Handlungsalternativen geht. Mittels eines Punktwertverfahrens, eines Punktbewertungsverfahrens oder eines Scoring-modells werden verschiedene Bewertungskriterien erstellt und mehrere Produkte oder Services miteinander verglichen. Die Nutzwertanalyse dient zur Entscheidungsfindung bei komplexen Problemen.</br> Der Bewertungsmaßstab kann indiviuell, zum Beispiel als eine 4 Punkte Skala mit: 1 = gering, 2 = mittel, 3 = hoch, 4 = sehr hoch, festgelegt werden."
+  },
+  {
+    "id":45,
+    "title":6,
+    "question": "Mit welchen Maßnahmen kann man die Kundenzufiredenheit erhöhen?",
+    "answer": "<strong>Kundenzufiredenheit</strong> ist für viele Unternehmen wichtig, um die Kundenbindung zu erhöhen und eine Umsatzsteigerung zu erreichen. Zufiredene Kunden kehren oft zurück und empfehlen das Produkt oder die Dienstleistung weiter.</br>Die Kundenzufiredenheit unterliegt daher einer ständigen Optimierung. Dazu zählt auch eine Verbesserung der Customer Experience, also der Erfahrungen, die der Kunde mit dem Unternehmen macht.</br>Folgende Maßnahmen sind geeignet:</br>Gewährung von Rabatten (im Rahmen von Aktionen)</br>Teilnahme an Sonderaktionen (Lotterie)</br>Einladung zu Hausmessen oder Festen</br>Feedback einholen durch Umfragen</br>Social Media, Einrichtung von Bewertungsportalen</br>Qualitätsversprechen unbedingt einhalten</br>etc"
   },
   {
     "id":46,
@@ -192,6 +210,12 @@
     "answer": "<strong>Die folgende Kriterien sind bei der Beschaffung von Hardware zu beachten:</strong></br><ol><li>Langlebigkeit der Hardware (min: 5 Jahre Support vom Hersteller)</li><li>Skalierbarkeit auf Basis vorhandeneder Hardware</li><li>kostengünstiger Support</li><li>geringer Sromverbrauch und geringe Abwärme</li><li>umweltfreundliches Produkt</li><li>remote Management</li><li>leicht austauschbar</li><li>schnelle Ersatzbeschaffung</li></ol>"
   },
   {
+    "id":114,
+    "title":2,
+    "question": "Was wird in einem Lstenheft beschrieben?",
+    "answer": "Im Projektmanagement beschreibt das <strong>Lastenheft</strong> (Anforderung- oder Kundenspezifikation) die Gesamtheit der Anforderungen bzw. Spezifikationen des Auftraggebers an die Lieferungen und Leistungen seines Auftragnehmers.</br>Das Lastenheft enthält die an das zu entwichelnde Produkt gestellten funktionalen sowie nicht-funktionalen Anforderungen (Gesetze/Voschriften) und dient als Basis für die Ausschreibung sowie Vertragsgestaltung. Angaben wie Lieferzeit, Lieferumfang und Kosten sind im Lastenheft spezifiziert und das akzeptierte Lastenheft ist für beide Parteien rechtlich bindend."
+  },
+  {
     "id":123,
     "title":2,
     "question": "Was versteht man unter Standardsoftware?",
@@ -234,6 +258,24 @@
     "answer": "Die folgende Maßnahmen sind geeignet, potenzelle Schäden an der IT-Infrastruktur zu vermeiden:</br><ol><li>Datenverschlüsselung der Datenträger</li><li>Konzept für Netzwerksegmentierung im Unternehmen, Einsatz von VLANs</li><li>mehrstufiges Firewallkonzept sowie Regeln für die Endpoint Security auf den Clientsystem</li><li>Rechtekonzept für Mitarbeitende und Administratoren</li><li>regelmäßiges Patchen der IT-Systeme</li><li>permanentes Logging und Auditing (Penetrationtest, kurz: Pentest)</li><li>Einsatz einer Passwortrichtlinie sowie einer Multi-Factor-Authentication</li><li>Verfahrensanweisung oder Vier-Augen-Prinzip</li><li>Regelmäßige Schulungen der Mitarbeitenden, um das Bewusstsein zu erhöhen bzw. Bedrohungen zu erkennen</li></ol>"
   },
   {
+    "id":202,
+    "title":4,
+    "question": "Nenne die wesentlichen Bestandteile eines Kaufvertrags.",
+    "answer": "In einem Kaufvertrag können abweichend der Regelungen des Bürgerlichen Gesetzbuchs (BGB) oder des Handelsgesetzbuchs (HGB) verschiedene Inhalte vertraglich festgelegt werden.</br>Grundsätzlich sind in §§ 433 bis 453 BGB (Allgemeine Vorschriften zum Kaufvertrag) Dinge geregelt wie:</br><ol><il>Vertragstypische Pflichten beim Kaufvertrag, z. B. Eigentumsübertragung, Zahlung des Kaufpreises</il><il>Rechte des Käufers bei Mängeln, z. B. Nacherfüllung, Minderung</il><il>Garantie, z. B. Garantiedauer über der gesetzlichen Mängelhaftung (Gewährleistung)</il><il>Haftungsausschluss, z. B. Ausschließung bestimmter Sacheigenschaften</il></ol>"
+  },
+  {
+    "id":203,
+    "title":4,
+    "question": "Erläutere das mehrstufige Prinzip des First-Level-, Second-Level- und Third-Level-Support.",
+    "answer": "Der <strong>First-Level-Support</strong> gilt als erste Anlaufstelle für alle Supportangragen.</br>Die Mitarbeiter erfassen dort alle vollständigen Daten zur Person und zum Fall sowie alle zusätzlichen Informationen, die nützlich sind, um den Fall schnell zu lösen.</br>Im Normalfall versuchen die Mitarbeiter den Fall weitestgehend selbstständig zu lösen, um ihn andernfalls weiter zu eskalieren.</br>Der <strong>Second-Level-Support</strong> kommt zum Einsatz, wenn der Fall nicht durch den First-Level-Support gelöst werden konnte oder zu komplex ist.</br>Neue Erkenntnisse oder Ergebnisse werden in eine Wissensdatenbank zur Unterstützung des First-Level-Support eingetragen.</br>Der <strong>Third-Level-Support</strong> ist die höchste Eskalationsstufe, in der sich Spezialisten des Falls annehmen, um auf Hersteller- oder Entwicklungsebene eine Lösung zu finden bzw. zu erarbeiten. Das Ergebnis eines Support-Falls bzw. dieser Lösungsfindung kann bis hin zur Produktveränderung führen oder zu einem Re-Design."
+  },
+  {
+    "id":214,
+    "title":4,
+    "question": "Welche Bedeutung haben bei Unterschriften die Abkürzungen i. V., i. A. sowie ppa.",
+    "answer": "<strong>ppa.</strong> - per procura autoritate. Gemäß § 49 Abs. 1 HGB ermächtigt die Prokura 'zu allen Arten von Gerichtlichen und außergerichtlichen Geschäften und Rechtshandlungen, die der Betrieb eines Handelsgewerbes mit sich bringt'. Die Prokura muss mittels ausdrücklicher Erklärung erteilt werden (vgl. § 48 Abs. 1HGB) und muss ins Handelsregister eingetragen werden (vgl. §53, Abs. 1 HGB).</br><strong>i. V.</strong> - in Vollmacht. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB; benötigt wird hier vom Arbeitgeber/inhaber eine Bevollmächtigung</br><strong>i. A.</strong> - im Auftrag. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB, ist nicht klar geregelt</br>HGB - Handelsgesetzbuch</br>BGB - Bürgerliches Gesetzbuch"
+  },
+  {
     "id": 216,
     "title": 4,
     "question": "Erläutere den Begriff der doppelten Buchführung",
@@ -262,5 +304,11 @@
     "title":4,
     "question": "In der Anwendungsentwicklung sind Testverfahren unerlässlich. Welche Testverfahren kennst du?",
     "answer": "Folgende Testverfahren werden in der Anwendungsentwicklung angewendet:</br><ol><li>Black-Box-Test/ White-Box-Test</li><li>Komponententest</li><li>Unittest</li><li>Modultest</li><li>Integrationstest</li><li>Systemtest</li><li>Abnahmetest</li><li>Lasttest</li></ol>"
+  },
+  {
+    "id":221,
+    "title":4,
+    "question": "Was versteht man unter dem Begriff Nachhaltigkeit in der Informationstechnologie-Branche?",
+    "answer": "Mit <strong>Nachhaltigkeit</strong> ist generell ein bewusstes, verantwortungsvolles Handeln gemeint, welches die vorhandenen Ressourcen unserer Umwelt schont.</br>Dazu gehören im Besonderen in der Informationstechnologie folgende Punkte:</br><ol><il>Einsparung an Energie durch Einsatz von Virtualisierungstechnologien</il><il>Erhöhung der Energieeffizienz durch Nutzung von Standby-Technologien</il><il>Nutzung regenerativer Energien zum Betreiben von Rechenzentren</il><il>Einschränkung des Verbrauchs von Papier, Kunststoff, Druckerfarbe usw.</il><il>Free Cooling (Nutzung von Kaltluft und kaltem Wasser aus der Umwelt)</il></ol>"
   }
 ]
