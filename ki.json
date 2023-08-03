@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Was versteht man unter dem Begriff Künstliche Intelligenz?",
+    "answer": "Künstliche Intelligenz (KI) bezieht sich auf die Entwicklung von Computersystemen, die in der Lage sind, Aufgaben auszuführen, die normalerweise menschliche Intelligenz erfordern. Dabei werden Algorithmen und Modelle verwendet, um aus Daten zu lernen, Muster zu erkennen und Schlussfolgerungen zu ziehen."
+  },
+  {
+    "id": 2,
+    "question": "Nennen Sie drei Anwendungsgebiete von Künstlicher Intelligenz in der Industrie.",
+    "answer": "- Maschinelles Lernen für Qualitätskontrolle und Fehlererkennung in der Produktion<br/>- KI-gestützte Prozessautomatisierung und Optimierung<br/>- Predictive Maintenance zur Vorhersage von Wartungsbedarf bei Maschinen und Anlagen"
+  },
+  {
+    "id": 3,
+    "question": "Welche sind die beiden Haupttypen von Künstlicher Intelligenz?",
+    "answer": "Die beiden Haupttypen von Künstlicher Intelligenz sind:<br/>- Schwache KI (Narrow AI): Sie ist auf eine spezifische Aufgabe oder ein bestimmtes Problem spezialisiert.<br/>- Starke KI (General AI): Sie kann eine Vielzahl von Aufgaben bewältigen und ist in der Lage, menschenähnliche Intelligenz zu zeigen."
+  },
+  {
+    "id": 4,
+    "question": "Was sind die Vor- und Nachteile von maschinellem Lernen gegenüber traditionellen Algorithmen?",
+    "answer": "Vorteile:<br/>- Fähigkeit, komplexe Muster in großen Datenmengen zu erkennen.<br/>- Anpassungsfähigkeit an sich ändernde Bedingungen und neue Daten.<br/>- Automatisierung von Entscheidungsprozessen.<br/><br/>Nachteile:<br/>- Benötigt große Mengen an qualitativ hochwertigen Trainingsdaten.<br/>- Komplexität und Schwierigkeit beim Debuggen und Interpretieren der Modelle.<br/>- Potenzielles Risiko von Voreingenommenheit und Diskriminierung in den Ergebnissen."
+  },
+  {
+    "id": 5,
+    "question": "Was versteht man unter dem Begriff 'Deep Learning'?",
+    "answer": "Deep Learning ist eine Unterkategorie des maschinellen Lernens, die auf künstlichen neuronalen Netzen basiert. Es ermöglicht das Lernen von komplexen Darstellungen und Hierarchien von Daten, was es besonders gut für die Verarbeitung von unstrukturierten Daten wie Bildern, Texten und Sprache geeignet macht."
+  },
+  {
+    "id": 6,
+    "question": "Welche ethischen Herausforderungen können bei der Anwendung von Künstlicher Intelligenz auftreten?",
+    "answer": "- Datenschutz und Privatsphäre: Die Verwendung großer Datenmengen kann zu Bedenken hinsichtlich des Datenschutzes und der Privatsphäre führen.<br/>- Voreingenommenheit und Diskriminierung: KI-Systeme können aufgrund der verwendeten Daten und Algorithmen voreingenommen sein und Diskriminierung verstärken.<br/>- Arbeitsplatzverluste: Die Automatisierung von Aufgaben durch KI kann zu Arbeitsplatzverlusten in bestimmten Branchen führen."
+  },
+  {
+    "id": 7,
+    "question": "Erklären Sie den Unterschied zwischen überwachtem und unüberwachtem Lernen.",
+    "answer": "- Überwachtes Lernen: Bei überwachtem Lernen werden dem Algorithmus Trainingsdaten bereitgestellt, bei denen die richtigen Antworten oder Klassifikationen bekannt sind. Der Algorithmus lernt, Muster zu erkennen und Vorhersagen zu treffen, indem er diese Beispiele verwendet.<br/>- Unüberwachtes Lernen: Beim unüberwachten Lernen werden dem Algorithmus keine vorgegebenen Antworten gegeben. Er muss selbst Muster und Strukturen in den Daten finden, um sie zu gruppieren oder zu klassifizieren."
+  },
+  {
+    "id": 8,
+    "question": "Was versteht man unter dem Begriff 'Reinforcement Learning'?",
+    "answer": "Reinforcement Learning ist eine Art von maschinellem Lernen, bei dem ein Algorithmus durch Ausprobieren und Rückmeldung lernt, wie er in einer bestimmten Umgebung handeln soll. Der Algorithmus erhält Belohnungen oder Bestrafungen basierend auf seinen Handlungen und passt sein Verhalten an, um die Belohnung zu maximieren."
+  },
+  {
+    "id": 9,
+    "question": "Was ist der 'AI Winter' in der Geschichte der Künstlichen Intelligenz?",
+    "answer": "Der 'AI Winter' bezieht sich auf Zeiträume in der Geschichte der Künstlichen Intelligenz, in denen das Interesse und die Forschung in diesem Bereich stark abnahmen. Dies geschah aufgrund von überzogenen Erwartungen, finanziellen Schwierigkeiten und mangelnden Durchbrüchen in der AI-Technologie."
+  },
+  {
+    "id": 10,
+    "question": "Welche sind die wichtigsten ethischen Überlegungen bei der Anwendung von Künstlicher Intelligenz?",
+    "answer": "Wichtige ethische Überlegungen bei der Anwendung von Künstlicher Intelligenz sind der Schutz der Privatsphäre und Daten von Benutzern, die Vermeidung von Diskriminierung und Voreingenommenheit, die Transparenz von KI-Entscheidungen und die Verantwortung für die Auswirkungen von KI-Anwendungen auf die Gesellschaft."
+  },
+  {
+    "id": 11,
+    "question": "Was versteht man unter dem Begriff Künstliche Intelligenz?",
+    "answer": "Künstliche Intelligenz (KI) bezieht sich auf die Entwicklung von Computersystemen, die in der Lage sind, Aufgaben auszuführen, die normalerweise menschliche Intelligenz erfordern. Dabei werden Algorithmen und Modelle verwendet, um aus Daten zu lernen, Muster zu erkennen und Schlussfolgerungen zu ziehen."
+  },
+  {
+    "id": 12,
+    "question": "Nennen Sie drei Anwendungsgebiete von Künstlicher Intelligenz in der Industrie.",
+    "answer": "- Maschinelles Lernen für Qualitätskontrolle und Fehlererkennung in der Produktion<br/>- KI-gestützte Prozessautomatisierung und Optimierung<br/>- Predictive Maintenance zur Vorhersage von Wartungsbedarf bei Maschinen und Anlagen"
+  },
+  {
+    "id": 13,
+    "question": "Welche sind die beiden Haupttypen von Künstlicher Intelligenz?",
+    "answer": "Die beiden Haupttypen von Künstlicher Intelligenz sind:<br/>- Schwache KI (Narrow AI): Sie ist auf eine spezifische Aufgabe oder ein bestimmtes Problem spezialisiert.<br/>- Starke KI (General AI): Sie kann eine Vielzahl von Aufgaben bewältigen und ist in der Lage, menschenähnliche Intelligenz zu zeigen."
+  },
+  {
+    "id": 14,
+    "question": "Was sind die Vor- und Nachteile von maschinellem Lernen gegenüber traditionellen Algorithmen?",
+    "answer": "Vorteile:<br/>- Fähigkeit, komplexe Muster in großen Datenmengen zu erkennen.<br/>- Anpassungsfähigkeit an sich ändernde Bedingungen und neue Daten.<br/>- Automatisierung von Entscheidungsprozessen.<br/><br/>Nachteile:<br/>- Benötigt große Mengen an qualitativ hochwertigen Trainingsdaten.<br/>- Komplexität und Schwierigkeit beim Debuggen und Interpretieren der Modelle.<br/>- Potenzielles Risiko von Voreingenommenheit und Diskriminierung in den Ergebnissen."
+  },
+  {
+    "id": 15,
+    "question": "Was versteht man unter dem Begriff 'Deep Learning'?",
+    "answer": "Deep Learning ist eine Unterkategorie des maschinellen Lernens, die auf künstlichen neuronalen Netzen basiert. Es ermöglicht das Lernen von komplexen Darstellungen und Hierarchien von Daten, was es besonders gut für die Verarbeitung von unstrukturierten Daten wie Bildern, Texten und Sprache geeignet macht."
+  },
+  {
+    "id": 16,
+    "question": "Welche ethischen Herausforderungen können bei der Anwendung von Künstlicher Intelligenz auftreten?",
+    "answer": "- Datenschutz und Privatsphäre: Die Verwendung großer Datenmengen kann zu Bedenken hinsichtlich des Datenschutzes und der Privatsphäre führen.<br/>- Voreingenommenheit und Diskriminierung: KI-Systeme können aufgrund der verwendeten Daten und Algorithmen voreingenommen sein und Diskriminierung verstärken.<br/>- Arbeitsplatzverluste: Die Automatisierung von Aufgaben durch KI kann zu Arbeitsplatzverlusten in bestimmten Branchen führen."
+  },
+  {
+    "id": 17,
+    "question": "Erklären Sie den Unterschied zwischen überwachtem und unüberwachtem Lernen.",
+    "answer": "- Überwachtes Lernen: Bei überwachtem Lernen werden dem Algorithmus Trainingsdaten bereitgestellt, bei denen die richtigen Antworten oder Klassifikationen bekannt sind. Der Algorithmus lernt, Muster zu erkennen und Vorhersagen zu treffen, indem er diese Beispiele verwendet.<br/>- Unüberwachtes Lernen: Beim unüberwachten Lernen werden dem Algorithmus keine vorgegebenen Antworten gegeben. Er muss selbst Muster und Strukturen in den Daten finden, um sie zu gruppieren oder zu klassifizieren."
+  },
+  {
+    "id": 18,
+    "question": "Was versteht man unter dem Begriff 'Reinforcement Learning'?",
+    "answer": "Reinforcement Learning ist eine Art von maschinellem Lernen, bei dem ein Algorithmus durch Ausprobieren und Rückmeldung lernt, wie er in einer bestimmten Umgebung handeln soll. Der Algorithmus erhält Belohnungen oder Bestrafungen basierend auf seinen Handlungen und passt sein Verhalten an, um die Belohnung zu maximieren."
+  },
+  {
+    "id": 19,
+    "question": "Was ist der 'AI Winter' in der Geschichte der Künstlichen Intelligenz?",
+    "answer": "Der 'AI Winter' bezieht sich auf Zeiträume in der Geschichte der Künstlichen Intelligenz, in denen das Interesse und die Forschung in diesem Bereich stark abnahmen. Dies geschah aufgrund von überzogenen Erwartungen, finanziellen Schwierigkeiten und mangelnden Durchbrüchen in der AI-Technologie."
+  },
+  {
+    "id": 20,
+    "question": "Welche sind die wichtigsten ethischen Überlegungen bei der Anwendung von Künstlicher Intelligenz?",
+    "answer": "Wichtige ethische Überlegungen bei der Anwendung von Künstlicher Intelligenz sind der Schutz der Privatsphäre und Daten von Benutzern, die Vermeidung von Diskriminierung und Voreingenommenheit, die Transparenz von KI-Entscheidungen und die Verantwortung für die Auswirkungen von KI-Anwendungen auf die Gesellschaft."
+  }
+]

@@ -1,15 +1,10 @@
-function activeStart(){
-  document.getElementById("startNav").className = "nav-link active";
-  document.getElementById("osiNav").className = "nav-link";
-  document.getElementById("abkNav").className = "nav-link";
-}
-function activeOsi(){
-  document.getElementById("startNav").className = "nav-link";
-  document.getElementById("osiNav").className = "nav-link active";
-  document.getElementById("abkNav").className = "nav-link";
-}
-function activeAbk(){
-  document.getElementById("startNav").className = "nav-link";
-  document.getElementById("osiNav").className = "nav-link";
-  document.getElementById("abkNav").className = "nav-link active";
+let tabsArray = ['startNav', 'osiNav', 'abkNav'];
+function activateTab(tabId){
+  for(let i = 0; i < tabsArray.length; i++){
+    if(tabId === tabsArray[i]){
+      document.getElementById(tabId).className = "nav-link active";
+    } else {
+      document.getElementById(tabsArray[i]).className = "nav-link";
+    }
+  }
 }

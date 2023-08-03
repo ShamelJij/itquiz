@@ -1,0 +1,22 @@
+[
+  {
+    "paradigma": "Prozedural",
+    "sprachen": ["C", "Pascal"]
+  },
+  {
+    "paradigma": "Objektorientiert",
+    "sprachen": ["C++", "Java", "Python", "JavaScript", "Swift", "Ruby", "PHP"]
+  },
+  {
+    "paradigma": "Funktional",
+    "sprachen": ["Haskell", "Scala", "Lisp", "Perl"]
+  },
+  {
+    "paradigma": "Logisch",
+    "sprachen": ["Prolog"]
+  },
+  {
+    "paradigma": "Nebenläufig",
+    "sprachen": ["Go", "Rust"]
+  }
+]

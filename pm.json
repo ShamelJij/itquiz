@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Was versteht man unter Projektmanagement?",
+    "answer": "Projektmanagement ist die Planung, Organisation, Durchführung und Kontrolle von Projekten, um bestimmte Ziele innerhalb eines definierten Zeitrahmens und Budgets zu erreichen."
+  },
+  {
+    "id": 2,
+    "question": "Welche Schritte sind in der Projektplanung enthalten?",
+    "answer": "Die Projektplanung umfasst folgende Schritte:<br/>- Definition der Ziele und Anforderungen des Projekts<br/>- Identifizierung von Aufgaben, Ressourcen und Zeitrahmen<br/>- Erstellung eines Projektstrukturplans<br/>- Festlegung von Meilensteinen und Projektphasen<br/>- Risikobewertung und -management"
+  },
+  {
+    "id": 3,
+    "question": "Was ist der Unterschied zwischen einem Projekt und einem Prozess?",
+    "answer": "Ein Projekt ist ein einmaliges Vorhaben mit einem definierten Anfang und Ende, das spezifische Ziele erreichen soll. Ein Prozess hingegen ist eine wiederkehrende Abfolge von Aktivitäten zur Erreichung eines bestimmten Ergebnisses."
+  },
+  {
+    "id": 4,
+    "question": "Was sind die wichtigsten Phasen im Projektlebenszyklus?",
+    "answer": "Die wichtigsten Phasen im Projektlebenszyklus sind:<br/>- Projektinitiierung und Konzeption<br/>- Projektplanung<br/>- Projektrealisierung<br/>- Projektabschluss und -bewertung"
+  },
+  {
+    "id": 5,
+    "question": "Welche Methoden zur Projektkostenplanung gibt es?",
+    "answer": "Zu den Methoden zur Projektkostenplanung gehören:<br/>- Schätzungen basierend auf ähnlichen Projekten<br/>- Bottom-up-Schätzungen, bei denen Einzelkosten geschätzt und aggregiert werden<br/>- Parametrische Schätzungen, bei denen Kostenformeln verwendet werden"
+  },
+  {
+    "id": 6,
+    "question": "Was versteht man unter dem kritischen Pfad in einem Projekt?",
+    "answer": "Der kritische Pfad ist die längste Abfolge von aufeinanderfolgenden Aufgaben, die die Gesamtdauer des Projekts bestimmt. Wenn Aufgaben auf dem kritischen Pfad Verzögerungen aufweisen, verzögert sich das gesamte Projekt."
+  },
+  {
+    "id": 7,
+    "question": "Was ist ein Projektstrukturplan (PSP) und wofür wird er verwendet?",
+    "answer": "Ein Projektstrukturplan (PSP) ist eine hierarchische Darstellung aller Aufgaben und Teilaufgaben eines Projekts. Er wird verwendet, um das Projekt in überschaubare Arbeitspakete zu unterteilen und die Beziehungen zwischen den Aufgaben zu visualisieren."
+  },
+  {
+    "id": 8,
+    "question": "Was sind typische Kommunikationswege in einem Projektteam?",
+    "answer": "Typische Kommunikationswege in einem Projektteam sind:<br/>- Meetings und Besprechungen<br/>- E-Mails und schriftliche Kommunikation<br/>- Projektmanagement-Tools und -Software<br/>- Telefonate und Videokonferenzen"
+  },
+  {
+    "id": 9,
+    "question": "Was versteht man unter Risikomanagement in einem Projekt?",
+    "answer": "Risikomanagement umfasst die Identifizierung, Bewertung und Behandlung potenzieller Risiken, die den Erfolg eines Projekts gefährden könnten. Es beinhaltet die Entwicklung von Plänen zur Risikovermeidung oder -minderung."
+  },
+  {
+    "id": 10,
+    "question": "Wie kann ein Projekt erfolgreich abgeschlossen werden?",
+    "answer": "Ein Projekt kann erfolgreich abgeschlossen werden, wenn:<br/>- Die definierten Ziele erreicht wurden<br/>- Das Projekt im geplanten Zeitrahmen und Budget durchgeführt wurde<br/>- Die Stakeholder mit dem Ergebnis zufrieden sind<br/>- Erfahrungen und Learnings für zukünftige Projekte dokumentiert wurden"
+  },
+  {
+    "id": 11,
+    "question": "Was sind die wichtigsten Herausforderungen bei der Teamführung in einem Projekt?",
+    "answer": "Die wichtigsten Herausforderungen bei der Teamführung in einem Projekt sind:<br/>- Motivation und Engagement der Teammitglieder aufrechterhalten<br/>- Konflikte innerhalb des Teams lösen<br/>- Die Zusammenarbeit und Kommunikation zwischen den Teammitgliedern fördern<br/>- Klare Rollen und Verantwortlichkeiten zuweisen"
+  },
+  {
+    "id": 12,
+    "question": "Was ist ein Projektbericht und wofür wird er verwendet?",
+    "answer": "Ein Projektbericht ist eine Dokumentation des Projektstatus und der Fortschritte. Er wird verwendet, um den Projektfortschritt zu verfolgen, den Stakeholdern zu berichten und potenzielle Probleme oder Verzögerungen frühzeitig zu erkennen."
+  },
+  {
+    "id": 13,
+    "question": "Wie kann der Projekterfolg gemessen werden?",
+    "answer": "Der Projekterfolg kann anhand verschiedener Kennzahlen gemessen werden, wie z.B. der Zielerreichung, der Einhaltung des Zeitplans und Budgets, der Kundenzufriedenheit und der Qualität des Projektergebnisses."
+  },
+  {
+    "id": 14,
+    "question": "Was ist ein Stakeholder in einem Projekt und welche Rolle spielt er?",
+    "answer": "Ein Stakeholder ist eine Person oder eine Organisation, die ein Interesse am Projekt und seinen Ergebnissen hat. Stakeholder können Auftraggeber, Teammitglieder, Kunden, Lieferanten oder andere beteiligte Parteien sein. Sie haben Einfluss auf das Projekt und seine Entscheidungen."
+  },
+  {
+    "id": 15,
+    "question": "Was versteht man unter dem Begriff 'Agiles Projektmanagement'?",
+    "answer": "Agiles Projektmanagement ist eine flexible und iterative Herangehensweise an die Projektplanung und -durchführung. Es betont die enge Zusammenarbeit mit dem Kunden, schnelle Anpassung an Veränderungen und kontinuierliche Verbesserung."
+  },
+  {
+    "id": 16,
+    "question": "Was ist ein Change Management in einem Projekt?",
+    "answer": "Change Management bezieht sich auf die gezielte Gestaltung von Veränderungsprozessen in einem Projekt. Es umfasst die Identifizierung und Bewertung von Veränderungen, die Kommunikation mit den Betroffenen und die Umsetzung von Maßnahmen zur Förderung einer positiven Einstellung gegenüber der Veränderung."
+  },
+  {
+    "id": 17,
+    "question": "Wie können Projektziele SMART formuliert werden?",
+    "answer": "Projektziele können SMART formuliert werden, indem sie spezifisch, messbar, erreichbar, relevant und zeitlich festgelegt sind. SMARTe Ziele ermöglichen eine klare Definition und Bewertung des Projektfortschritts."
+  },
+  {
+    "id": 18,
+    "question": "Was ist ein Projektcontrolling und welche Funktion hat es?",
+    "answer": "Projektcontrolling bezieht sich auf die Überwachung und Steuerung der Projektfortschritte, Kosten und Qualität. Es ermöglicht die frühzeitige Erkennung von Abweichungen vom Plan und die Einführung von Gegenmaßnahmen, um das Projekt wieder auf Kurs zu bringen."
+  },
+  {
+    "id": 19,
+    "question": "Wie kann mit Konflikten in einem Projekt umgegangen werden?",
+    "answer": "Mit Konflikten in einem Projekt kann umgegangen werden, indem man sie frühzeitig erkennt und offen anspricht. Ein respektvoller Umgang und die Suche nach Kompromissen sind wichtig, um Konflikte zu lösen und die Teamarbeit zu fördern."
+  },
+  {
+    "id": 20,
+    "question": "Welche sind die wichtigsten Aufgaben eines Projektmanagers?",
+    "answer": "Die wichtigsten Aufgaben eines Projektmanagers sind:<br/>- Projektplanung und -organisation<br/>- Ressourcenmanagement und -koordination<br/>- Risikomanagement<br/>- Stakeholder-Kommunikation und -Management<br/>- Überwachung des Projektfortschritts und -budgets"
+  }
+]

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,39 +13,39 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/yeti/bootstrap.min.css"
     integrity="sha384-mLBxp+1RMvmQmXOjBzRjqqr0dP9VHU2tb3FK6VB0fJN/AOu7/y+CAeYeWJZ4b3ii" crossorigin="anonymous">
 </head>
+
 <body>
-  <nav class="nav p-2">
-    <a class="nav-link active" onclick="activeStart()" href="./index.html">Start</a>
-    <a class="nav-link" onclick="activeOsi()" href="./osi.html">OSI-Schichten</a>
-    <a class="nav-link" onclick="activeAbk()" href="./abk.html">Abkürzungen</a>
-  </nav>
+  <div class="nav p-2">
+    <a class="nav-link active" href="./index.html">Start</a>
+    <a class="nav-link" href="./osi.html">OSI-Schichten</a>
+    <a class="nav-link" href="./abk.html">Abkürzungen</a>
+  </div>
   <div class="container">
     <div class="row pb-2">
       <div class="col-md">
         <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
           <div class="p-2">
             <div class="offset-4 border col-4 p-1" id="title">title</div>
-            <br/>
+            <br />
             <div class="text-left text-primary" id="question"></div>
             <hr>
             <div class="text-left text-success" id="answer"></div>
           </div>
         </div>
         <div class="row text-center pb-4">
-          <div class=" col-md p-2">
-<button type="button" class="btn btn-white" onclick="showEle();"><img src="random.png" class="rounded mx-auto d-block" width="50" height="50"></button>
+          <div class="col-md p-2">
+            <button type="button" class="btn btn-primary" onclick="showEle();">nächste Frage</button>
           </div>
         </div>
       </div>
-  </div>
-  <!-- Bootstrap core JavaScript
+    </div>
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="app.js"></script>
-  <script src="nav.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

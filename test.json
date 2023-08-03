@@ -14,7 +14,7 @@
   {
     "id":40,
     "title":6,
-    "question": "Ergänze nach dem Vier-Ohren-Modell (Sachebene, Appell, Selbstoffenbarung und Beziehung) die folgenden Aussagen eines Kunden gegenüber eines Vertriebsmitarbeiters.</br>Der Kunde sagt:</br><il>Sie müssen pünktlich liefern!</il><il>Ich bin mit Ihnen nicht zufrieden.</il><il>Sie haben nicht pünktlich geliefert.</il><il>Ich kontrolliere Ihre Leistungen sehr genau.</il><ol></ol>",
+    "question": "Ergänze nach dem Vier-Ohren-Modell (Sachebene, Appell, Selbstoffenbarung und Beziehung) die folgenden Aussagen eines Kunden gegenüber eines Vertriebsmitarbeiters.</br>Der Kunde sagt:</br><li>Sie müssen pünktlich liefern!</li><li>Ich bin mit Ihnen nicht zufrieden.</li><li>Sie haben nicht pünktlich geliefert.</li><li>Ich kontrolliere Ihre Leistungen sehr genau.</li><ol></ol>",
     "answer": "Folgende Aspekte möchte der Kunde nach dem Vier-Ohren-Modell vermitteln:</br>Appell - 1. Sie müssen pünktlich liefern!</br>Beziehung - 2. Ich bin mit Ihnen nicht zufrieden.</br>Sachebene - 3. Sie haben pünktlich geliefert.</br>Selbstoffenbarung - 4. Ich kontrolliere Ihre Leistungen sehr genau."
   },
   {
@@ -261,7 +261,7 @@
     "id":202,
     "title":4,
     "question": "Nenne die wesentlichen Bestandteile eines Kaufvertrags.",
-    "answer": "In einem Kaufvertrag können abweichend der Regelungen des Bürgerlichen Gesetzbuchs (BGB) oder des Handelsgesetzbuchs (HGB) verschiedene Inhalte vertraglich festgelegt werden.</br>Grundsätzlich sind in §§ 433 bis 453 BGB (Allgemeine Vorschriften zum Kaufvertrag) Dinge geregelt wie:</br><ol><il>Vertragstypische Pflichten beim Kaufvertrag, z. B. Eigentumsübertragung, Zahlung des Kaufpreises</il><il>Rechte des Käufers bei Mängeln, z. B. Nacherfüllung, Minderung</il><il>Garantie, z. B. Garantiedauer über der gesetzlichen Mängelhaftung (Gewährleistung)</il><il>Haftungsausschluss, z. B. Ausschließung bestimmter Sacheigenschaften</il></ol>"
+    "answer": "In einem Kaufvertrag können abweichend der Regelungen des Bürgerlichen Gesetzbuchs (BGB) oder des Handelsgesetzbuchs (HGB) verschiedene Inhalte vertraglich festgelegt werden.</br>Grundsätzlich sind in §§ 433 bis 453 BGB (Allgemeine Vorschriften zum Kaufvertrag) Dinge geregelt wie:</br><ol><li>Vertragstypische Pflichten beim Kaufvertrag, z. B. Eigentumsübertragung, Zahlung des Kaufpreises</li><li>Rechte des Käufers bei Mängeln, z. B. Nacherfüllung, Minderung</li><li>Garantie, z. B. Garantiedauer über der gesetzlichen Mängelhaftung (Gewährleistung)</li><li>Haftungsausschluss, z. B. Ausschließung bestimmter Sacheigenschaften</li></ol>"
   },
   {
     "id":203,
@@ -309,6 +309,6 @@
     "id":221,
     "title":4,
     "question": "Was versteht man unter dem Begriff Nachhaltigkeit in der Informationstechnologie-Branche?",
-    "answer": "Mit <strong>Nachhaltigkeit</strong> ist generell ein bewusstes, verantwortungsvolles Handeln gemeint, welches die vorhandenen Ressourcen unserer Umwelt schont.</br>Dazu gehören im Besonderen in der Informationstechnologie folgende Punkte:</br><ol><il>Einsparung an Energie durch Einsatz von Virtualisierungstechnologien</il><il>Erhöhung der Energieeffizienz durch Nutzung von Standby-Technologien</il><il>Nutzung regenerativer Energien zum Betreiben von Rechenzentren</il><il>Einschränkung des Verbrauchs von Papier, Kunststoff, Druckerfarbe usw.</il><il>Free Cooling (Nutzung von Kaltluft und kaltem Wasser aus der Umwelt)</il></ol>"
+    "answer": "Mit <strong>Nachhaltigkeit</strong> ist generell ein bewusstes, verantwortungsvolles Handeln gemeint, welches die vorhandenen Ressourcen unserer Umwelt schont.</br>Dazu gehören im Besonderen in der Informationstechnologie folgende Punkte:</br><ol><li>Einsparung an Energie durch Einsatz von Virtualisierungstechnologien</li><li>Erhöhung der Energieeffizienz durch Nutzung von Standby-Technologien</li><li>Nutzung regenerativer Energien zum Betreiben von Rechenzentren</li><li>Einschränkung des Verbrauchs von Papier, Kunststoff, Druckerfarbe usw.</li><li>Free Cooling (Nutzung von Kaltluft und kaltem Wasser aus der Umwelt)</li></ol>"
   }
 ]

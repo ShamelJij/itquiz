@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Phishing",
+    "definition": "Beim Phishing versuchen Angreifer, sensible Informationen wie Benutzernamen, Passwörter und Kreditkartennummern zu stehlen, indem sie sich als vertrauenswürdige Organisation ausgeben. Dies geschieht häufig über gefälschte E-Mails, Websites oder Nachrichten, die den Opfer dazu verleiten, ihre Daten preiszugeben."
+  },
+  {
+    "id": 2,
+    "name": "Social Engineering",
+    "definition": "Social Engineering ist eine manipulative Technik, bei der Angreifer versuchen, Informationen von Menschen zu erhalten, indem sie deren Vertrauen oder Gutgläubigkeit ausnutzen. Sie könnten beispielsweise als vertrauenswürdige Personen auftreten oder überzeugende Geschichten erzählen, um die Opfer dazu zu bringen, vertrauliche Daten preiszugeben."
+  },
+  {
+    "id": 3,
+    "name": "Datenlecks",
+    "definition": "Datenlecks können auftreten, wenn Organisationen oder Websites unzureichende Sicherheitsvorkehrungen haben und Hacker Zugriff auf sensible Daten wie Kundendaten oder Benutzerkonten erhalten. Die gestohlenen Daten können dann für Identitätsdiebstahl verwendet werden."
+  },
+  {
+    "id": 4,
+    "name": "Skimming",
+    "definition": "Beim Skimming werden elektronische Geräte an Geldautomaten oder Kartenzahlungsterminals angebracht, um Informationen von Kredit- oder Debitkarten zu erfassen. Die gestohlenen Kartendaten werden dann verwendet, um betrügerische Transaktionen durchzuführen."
+  },
+  {
+    "id": 5,
+    "name": "Pharming",
+    "definition": "Pharming ist eine Technik, bei der Angreifer den Datenverkehr von legitimen Websites umleiten, um Opfer auf gefälschte Websites umzuleiten. Dadurch können sie vertrauliche Informationen wie Anmeldeinformationen stehlen, ohne dass die Opfer es bemerken."
+  },
+  {
+    "id": 6,
+    "name": "Mailbox-Hijacking",
+    "definition": "Beim Mailbox-Hijacking erlangen Angreifer unbefugten Zugriff auf die E-Mail-Konten von Opfern. Dadurch können sie persönliche Informationen lesen, vertrauliche Nachrichten abfangen und möglicherweise andere Konten des Opfers übernehmen."
+  },
+  {
+    "id": 7,
+    "name": "Identitätsbetrug",
+    "definition": "Identitätsbetrug bezieht sich auf die Verwendung gestohlener Identitätsinformationen, um sich als jemand anderes auszugeben. Dies kann dazu führen, dass der Täter im Namen des Opfers betrügerische Aktivitäten durchführt."
+  },
+  {
+    "id": 8,
+    "name": "Dumpster Diving",
+    "definition": "Beim Dumpster Diving durchsuchen Angreifer den Müll oder die Recyclingbehälter nach wichtigen Dokumenten wie Rechnungen, Kontoauszügen oder persönlichen Informationen, die für den Identitätsdiebstahl verwendet werden können."
+  },
+  {
+    "id": 9,
+    "name": "Keylogging",
+    "definition": "Keylogging bezieht sich auf die Verwendung von Schadsoftware, um Tastatureingaben aufzuzeichnen, einschließlich Benutzernamen, Passwörtern und anderen sensiblen Informationen, die von den Opfern eingegeben werden."
+  },
+  {
+    "id": 10,
+    "name": "Pretexting",
+    "definition": "Pretexting ist eine Form des Social Engineering, bei der Angreifer eine gefälschte Situation vortäuschen, um vertrauliche Informationen zu erhalten. Sie könnten sich beispielsweise als Mitarbeiter eines Unternehmens ausgeben, um Zugriff auf Informationen zu erhalten, die sie normalerweise nicht erhalten würden."
+  },
+  {
+    "id": 11,
+    "name": "Virus",
+    "definition": "Ein Virus ist eine Art von Schadprogramm, das sich selbst replizieren und in andere Dateien oder Programme einbetten kann. Es verbreitet sich, indem es von einem infizierten Host auf einen anderen übertragen wird und kann schädliche Aktionen ausführen, wenn die infizierte Datei oder Anwendung ausgeführt wird."
+  },
+  {
+    "id": 12,
+    "name": "Trojanisches Pferd (Trojaner)",
+    "definition": "Ein Trojanisches Pferd ist eine Schadsoftware, die vorgibt, nützliche oder legitime Software zu sein, aber in Wirklichkeit böswillige Absichten hat. Trojaner können vertrauliche Informationen stehlen, Hintertüren öffnen oder anderen Schadcode auf einem System ausführen."
+  },
+  {
+    "id": 13,
+    "name": "Wurm (Worm)",
+    "definition": "Ein Wurm ist eine selbstreplizierende Malware, die sich über Computernetzwerke verbreitet, indem sie Schwachstellen ausnutzt. Im Gegensatz zu Viren benötigen Würmer keine Dateien oder Programme, um sich zu verbreiten. Sie können Netzwerke überlasten, Ressourcen verbrauchen und schädliche Aktionen ausführen."
+  },
+  {
+    "id": 14,
+    "name": "Spyware",
+    "definition": "Spyware ist eine Art von Schadprogramm, das heimlich Aktivitäten auf einem infizierten Gerät überwacht und Daten wie Tastatureingaben, Internetaktivitäten und persönliche Informationen sammelt. Diese Daten werden normalerweise ohne das Wissen oder die Zustimmung des Benutzers an Dritte gesendet."
+  },
+  {
+    "id": 15,
+    "name": "Ransomware",
+    "definition": "Ransomware ist eine gefährliche Art von Malware, die die Dateien eines Opfers verschlüsselt oder den Zugriff auf das System blockiert. Die Angreifer verlangen dann ein Lösegeld (Ransom), um die Dateien oder den Zugriff wiederherzustellen. Ransomware kann verheerende Auswirkungen auf Einzelpersonen und Organisationen haben."
+  },
+  {
+    "id": 16,
+    "name": "Rootkit",
+    "definition": "Ein Rootkit ist eine Art von Schadsoftware, die sich tief in ein Betriebssystem einnistet und privilegierten Zugriff (Root-Zugriff) erhält. Es verbirgt seine Anwesenheit vor Sicherheitssoftware und kann verwendet werden, um andere Schadprogramme zu verstecken und unautorisierte Aktivitäten auszuführen."
+  },
+  {
+    "id": 17,
+    "name": "Adware",
+    "definition": "Adware ist eine Software, die unerwünschte Werbung in Form von Pop-ups, Bannern oder anderen Anzeigen auf einem Gerät anzeigt. Obwohl es nicht so schädlich wie andere Malware-Typen ist, kann es den Benutzer stören und die Leistung des Systems beeinträchtigen."
+  },
+  {
+    "id": 18,
+    "name": "Keylogger",
+    "definition": "Ein Keylogger ist eine Art von Schadsoftware, die Tastatureingaben aufzeichnet und speichert. Dadurch können Angreifer Benutzernamen, Passwörter und andere vertrauliche Informationen abfangen und stehlen."
+  },
+  {
+    "id": 19,
+    "name": "Botnet",
+    "definition": "Ein Botnet ist ein Netzwerk von infizierten Computern, die von Angreifern ferngesteuert werden. Die infizierten Computer, auch Bots genannt, können verwendet werden, um DDoS-Angriffe durchzuführen, Spam zu verschicken oder andere schädliche Aktivitäten auszuführen."
+  },
+  {
+    "id": 20,
+    "name": "Backdoor",
+    "definition": "Eine Backdoor ist eine Hintertür in einem System oder einer Software, die von Angreifern verwendet werden kann, um unbefugten Zugriff zu erhalten. Backdoors können während der Entwicklung absichtlich eingebaut oder später von Angreifern eingeführt werden, um späteren Zugang zu ermöglichen."
+  }
+]

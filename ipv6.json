@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "frage": "Was ist der Hauptgrund für die Einführung von IPv6?",
+    "antwort": "IPv6 wurde entwickelt, um den Mangel an verfügbaren IP-Adressen im bisherigen IPv4-Protokoll zu beheben und eine ausreichende Anzahl von IP-Adressen für das Wachstum des Internets und aller angeschlossenen Geräte bereitzustellen."
+  },
+  {
+    "id": 2,
+    "frage": "Wie viele Bits hat eine IPv6-Adresse?",
+    "antwort": "Eine IPv6-Adresse besteht aus 128 Bits."
+  },
+  {
+    "id": 3,
+    "frage": "Wie wird eine IPv6-Adresse dargestellt?",
+    "antwort": "Eine IPv6-Adresse wird in 8 Blöcken zu je 4 Hexadezimalziffern dargestellt, die durch Doppelpunkte getrennt sind. Zum Beispiel: 2001:0db8:85a3:0000:0000:8a2e:0370:7334."
+  },
+  {
+    "id": 4,
+    "frage": "Was ist der Link-Local-Adressbereich in IPv6?",
+    "antwort": "Der Link-Local-Adressbereich in IPv6 ist fe80::/10. Diese Adressen werden innerhalb eines Netzwerksegments verwendet und sind nicht für den Internetverkehr bestimmt."
+  },
+  {
+    "id": 5,
+    "frage": "Wie wird eine IPv6-Link-Local-Adresse automatisch konfiguriert?",
+    "antwort": "Eine IPv6-Link-Local-Adresse wird automatisch konfiguriert, indem die MAC-Adresse des Netzwerkadapters verwendet wird und die EUI-64-Methode angewendet wird, um die letzten 64 Bits der Adresse zu erstellen."
+  },
+  {
+    "id": 6,
+    "frage": "Was ist eine Global Unicast IPv6-Adresse?",
+    "antwort": "Eine Global Unicast IPv6-Adresse ist eine öffentliche IPv6-Adresse, die global eindeutig ist und für den Internetverkehr verwendet werden kann."
+  },
+  {
+    "id": 7,
+    "frage": "Wie wird eine Global Unicast IPv6-Adresse zugewiesen?",
+    "antwort": "Global Unicast IPv6-Adressen werden normalerweise von Internetdienstanbietern (ISPs) zugewiesen oder über DHCPv6 automatisch konfiguriert."
+  },
+  {
+    "id": 8,
+    "frage": "Was ist der IPv6-Loopback-Adressbereich?",
+    "antwort": "Der IPv6-Loopback-Adressbereich ist ::1/128. Diese Adresse entspricht der IPv4-Loopback-Adresse 127.0.0.1 und wird verwendet, um eine Schleifenkommunikation mit dem lokalen Host durchzuführen."
+  },
+  {
+    "id": 9,
+    "frage": "Was ist Neighbor Discovery Protocol (NDP) in IPv6?",
+    "antwort": "Neighbor Discovery Protocol (NDP) ist ein wichtiger Bestandteil von IPv6 und wird verwendet, um die Nachbarschaftsbeziehungen in einem Netzwerk zu ermitteln, Router zu entdecken und Adresskonfigurationsprozesse zu unterstützen."
+  },
+  {
+    "id": 10,
+    "frage": "Welche ICMPv6-Nachricht wird für die Router-Solicitation verwendet?",
+    "antwort": "Für die Router-Solicitation wird die ICMPv6-Nachricht 'Router Solicitation' (Typ 133) verwendet."
+  },
+  {
+    "id": 11,
+    "frage": "Was ist Stateless Address Autoconfiguration (SLAAC) in IPv6?",
+    "antwort": "Stateless Address Autoconfiguration (SLAAC) ist ein Verfahren, bei dem sich Hosts automatisch eine IPv6-Adresse konfigurieren, indem sie die Router-Ankündigungen und die Netzwerkpräfixe verwenden."
+  },
+  {
+    "id": 12,
+    "frage": "Welche ICMPv6-Nachricht wird für die Neighbor-Solicitation verwendet?",
+    "antwort": "Für die Neighbor-Solicitation wird die ICMPv6-Nachricht 'Neighbor Solicitation' (Typ 135) verwendet."
+  },
+  {
+    "id": 13,
+    "frage": "Was ist der Zweck der ICMPv6-Nachricht 'Neighbor Advertisement'?",
+    "antwort": "Die ICMPv6-Nachricht 'Neighbor Advertisement' (Typ 136) wird verwendet, um auf eine Neighbor-Solicitation zu antworten und die Layer-2-Adresse eines Hosts bekanntzugeben."
+  },
+  {
+    "id": 14,
+    "frage": "Was ist das Ziel der ICMPv6-Nachricht 'Router Advertisement'?",
+    "antwort": "Die ICMPv6-Nachricht 'Router Advertisement' (Typ 134) wird von einem Router verwendet, um Informationen über das Netzwerk, z. B. Präfixe, Router-Lebenszeiten und andere Konfigurationsoptionen, an die Hosts im Netzwerk zu senden."
+  },
+  {
+    "id": 15,
+    "frage": "Welche ICMPv6-Nachricht wird für das Redirect-Verfahren verwendet?",
+    "antwort": "Für das Redirect-Verfahren wird die ICMPv6-Nachricht 'Redirect' (Typ 137) verwendet, um einen Host zu informieren, dass ein besseres Next-Hop-Ziel für eine bestimmte Zieladresse vorhanden ist."
+  },
+  {
+    "id": 16,
+    "frage": "Was ist das IPv6-Header-Format?",
+    "antwort": "Der IPv6-Header besteht aus verschiedenen Feldern, darunter Versionsnummer, Traffic Class, Flow Label, Payload Length, Next Header, Hop Limit, Quelladresse und Zieladresse."
+  },
+  {
+    "id": 17,
+    "frage": "Was ist die maximale Größe des IPv6-Payloads?",
+    "antwort": "Die maximale Größe des IPv6-Payloads beträgt 65.535 Bytes."
+  },
+  {
+    "id": 18,
+    "frage": "Wie wird eine Link-Local-Adresse identifiziert?",
+    "antwort": "Eine Link-Local-Adresse wird anhand des Präfixes fe80::/10 identifiziert."
+  },
+  {
+    "id": 19,
+    "frage": "Was ist das Multicast-Adressformat in IPv6?",
+    "antwort": "Eine IPv6-Multicast-Adresse besteht aus dem Präfix ff00::/8, gefolgt von einer spezifischen Multicast-Gruppen-ID."
+  },
+  {
+    "id": 20,
+    "frage": "Wie wird eine IPv6-Multicast-Adresse identifiziert?",
+    "antwort": "Eine IPv6-Multicast-Adresse wird anhand des Präfixes ff00::/8 identifiziert."
+  },
+  {
+    "id": 21,
+    "frage": "Gegeben ist das IPv6-Präfix 2001:0db8:85a3::/48. Wie viele Subnetze können Sie aus diesem Präfix erstellen?",
+    "antwort": "Antwort: Sie können 2^16 = 65.536 Subnetze aus dem gegebenen Präfix erstellen."
+  },
+  {
+    "id": 22,
+    "frage": "Welche Subnetzmaske wird verwendet, um 8 Subnetze aus einem /64-Präfix zu erstellen?",
+    "antwort": "Antwort: Um 8 Subnetze aus einem /64-Präfix zu erstellen, wird eine Subnetzmaske von /67 verwendet."
+  },
+  {
+    "id": 23,
+    "frage": "Wie viele Hosts können in einem /64-Subnetz verwendet werden?",
+    "antwort": "Antwort: In einem /64-Subnetz können 2^64 - 2 Hosts verwendet werden, da 2 Adressen für das Netzwerk und die Broadcast-Adresse reserviert sind."
+  },
+  {
+    "id": 24,
+    "frage": "Sie haben das Präfix 2001:0db8:85a3::/64 erhalten und möchten 4 Subnetze erstellen. Welche Subnetzmaske sollten Sie verwenden?",
+    "antwort": "Antwort: Um 4 Subnetze aus einem /64-Präfix zu erstellen, verwenden Sie eine Subnetzmaske von /66."
+  },
+  {
+    "id": 25,
+    "frage": "Gegeben ist das Präfix 2001:0db8:85a3::/64. Wie lautet die Adresse des ersten Subnetzes?",
+    "antwort": "Antwort: Die Adresse des ersten Subnetzes lautet 2001:0db8:85a3::/64."
+  },
+  {
+    "id": 26,
+    "frage": "Wie viele Subnetze können Sie aus dem Präfix 2001:0db8:85a3::/48 erstellen?",
+    "antwort": "Antwort: Sie können 2^16 = 65.536 Subnetze aus dem gegebenen Präfix erstellen."
+  },
+  {
+    "id": 27,
+    "frage": "Welche Subnetzmaske wird verwendet, um 16 Subnetze aus einem /48-Präfix zu erstellen?",
+    "antwort": "Antwort: Um 16 Subnetze aus einem /48-Präfix zu erstellen, wird eine Subnetzmaske von /52 verwendet."
+  },
+  {
+    "id": 28,
+    "frage": "Sie haben das Präfix 2001:0db8:85a3::/64 erhalten und möchten 8 Subnetze erstellen. Welche Subnetzmaske sollten Sie verwenden?",
+    "antwort": "Antwort: Um 8 Subnetze aus einem /64-Präfix zu erstellen, verwenden Sie eine Subnetzmaske von /67."
+  },
+  {
+    "id": 29,
+    "frage": "Wie viele Hosts können in einem /48-Subnetz verwendet werden?",
+    "antwort": "Antwort: In einem /48-Subnetz können 2^80 - 2 Hosts verwendet werden, da 2 Adressen für das Netzwerk und die Broadcast-Adresse reserviert sind."
+  },
+  {
+    "id": 30,
+    "frage": "Gegeben ist das Präfix 2001:0db8:85a3::/56. Wie lautet die Adresse des ersten Subnetzes?",
+    "antwort": "Antwort: Die Adresse des ersten Subnetzes lautet 2001:0db8:85a3:0000::/56."
+  },
+  {
+    "id": 31,
+    "frage": "Wie viele Subnetze können Sie aus dem Präfix 2001:0db8:85a3::/48 erstellen?",
+    "antwort": "Antwort: Sie können 2^16 = 65.536 Subnetze aus dem gegebenen Präfix erstellen."
+  },
+  {
+    "id": 32,
+    "frage": "Welche Subnetzmaske wird verwendet, um 4 Subnetze aus einem /64-Präfix zu erstellen?",
+    "antwort": "Antwort: Um 4 Subnetze aus einem /64-Präfix zu erstellen, wird eine Subnetzmaske von /66 verwendet."
+  },
+  {
+    "id": 33,
+    "frage": "Wie viele Hosts können in einem /64-Subnetz verwendet werden?",
+    "antwort": "Antwort: In einem /64-Subnetz können 2^64 - 2 Hosts verwendet werden, da 2 Adressen für das Netzwerk und die Broadcast-Adresse reserviert sind."
+  },
+  {
+    "id": 34,
+    "frage": "Sie haben das Präfix 2001:0db8:85a3::/48 erhalten und möchten 8 Subnetze erstellen. Welche Subnetzmaske sollten Sie verwenden?",
+    "antwort": "Antwort: Um 8 Subnetze aus einem /48-Präfix zu erstellen, verwenden Sie eine Subnetzmaske von /51."
+  },
+  {
+    "id": 35,
+    "frage": "Gegeben ist das Präfix 2001:0db8:85a3::/64. Wie lautet die Adresse des ersten Subnetzes?",
+    "antwort": "Antwort: Die Adresse des ersten Subnetzes lautet 2001:0db8:85a3::/64."
+  },
+  {
+    "id": 36,
+    "frage": "Wie viele Subnetze können Sie aus dem Präfix 2001:0db8:85a3:0000::/56 erstellen?",
+    "antwort": "Antwort: Sie können 2^8 = 256 Subnetze aus dem gegebenen Präfix erstellen."
+  },
+  {
+    "id": 37,
+    "frage": "Welche Subnetzmaske wird verwendet, um 16 Subnetze aus einem /48-Präfix zu erstellen?",
+    "antwort": "Antwort: Um 16 Subnetze aus einem /48-Präfix zu erstellen, wird eine Subnetzmaske von /52 verwendet."
+  },
+  {
+    "id": 38,
+    "frage": "Sie haben das Präfix 2001:0db8:85a3::/64 erhalten und möchten 8 Subnetze erstellen. Welche Subnetzmaske sollten Sie verwenden?",
+    "antwort": "Antwort: Um 8 Subnetze aus einem /64-Präfix zu erstellen, verwenden Sie eine Subnetzmaske von /67."
+  },
+  {
+    "id": 39,
+    "frage": "Wie viele Hosts können in einem /48-Subnetz verwendet werden?",
+    "antwort": "Antwort: In einem /48-Subnetz können 2^80 - 2 Hosts verwendet werden, da 2 Adressen für das Netzwerk und die Broadcast-Adresse reserviert sind."
+  },
+  {
+    "id": 40,
+    "frage": "Gegeben ist das Präfix 2001:0db8:85a3::/56. Wie lautet die Adresse des ersten Subnetzes?",
+    "antwort": "Antwort: Die Adresse des ersten Subnetzes lautet 2001:0db8:85a3:0000::/56."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {"id": 1, "name": "SELECT", "definition": "Wählt Daten aus einer Tabelle aus.", "example": "SELECT * FROM customers;"},
+  {"id": 2, "name": "INSERT INTO", "definition": "Fügt neue Datensätze in eine Tabelle ein.", "example": "INSERT INTO orders (order_id, customer_id, order_date) VALUES (1, 101, '2023-07-29');"},
+  {"id": 3, "name": "UPDATE", "definition": "Aktualisiert Datensätze in einer Tabelle.", "example": "UPDATE products SET price = 19.99 WHERE product_id = 123;"},
+  {"id": 4, "name": "DELETE", "definition": "Löscht Datensätze aus einer Tabelle.", "example": "DELETE FROM employees WHERE department = 'HR';"},
+  {"id": 5, "name": "JOIN", "definition": "Verbindet zwei oder mehr Tabellen basierend auf einer gemeinsamen Spalte.", "example": "SELECT orders.order_id, customers.customer_name FROM orders JOIN customers ON orders.customer_id = customers.customer_id;"},
+  {"id": 6, "name": "GROUP BY", "definition": "Gruppiert Datensätze basierend auf einer oder mehreren Spalten.", "example": "SELECT department, COUNT(*) AS employee_count FROM employees GROUP BY department;"},
+  {"id": 7, "name": "ORDER BY", "definition": "Sortiert Datensätze in der Ergebnismenge.", "example": "SELECT product_name, price FROM products ORDER BY price DESC;"},
+  {"id": 8, "name": "WHERE", "definition": "Filtert Datensätze basierend auf bestimmten Bedingungen.", "example": "SELECT * FROM products WHERE category = 'Electronics';"},
+  {"id": 9, "name": "HAVING", "definition": "Filtert Ergebnisse von GROUP BY basierend auf bestimmten Bedingungen.", "example": "SELECT department, AVG(salary) AS avg_salary FROM employees GROUP BY department HAVING AVG(salary) > 50000;"},
+  {"id": 10, "name": "CREATE TABLE", "definition": "Erstellt eine neue Tabelle in der Datenbank.", "example": "CREATE TABLE employees (employee_id INT, first_name VARCHAR(50), last_name VARCHAR(50));"},
+  {"id": 11, "name": "ALTER TABLE", "definition": "Ändert die Struktur einer vorhandenen Tabelle.", "example": "ALTER TABLE customers ADD COLUMN phone VARCHAR(20);"},
+  {"id": 12, "name": "DROP TABLE", "definition": "Löscht eine Tabelle aus der Datenbank.", "example": "DROP TABLE products;"},
+  {"id": 13, "name": "DISTINCT", "definition": "Gibt eindeutige Werte aus einer Spalte zurück.", "example": "SELECT DISTINCT category FROM products;"},
+  {"id": 14, "name": "COUNT", "definition": "Zählt die Anzahl der Datensätze in einer Tabelle oder Ergebnismenge.", "example": "SELECT COUNT(*) FROM orders;"},
+  {"id": 15, "name": "SUM", "definition": "Berechnet die Summe der Werte in einer Spalte.", "example": "SELECT SUM(quantity) FROM order_details;"}
+]
