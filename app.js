@@ -38,6 +38,7 @@ for (var i = 0; i < myJsons.length; i++) {
   anchorElements[myJsons[i] + "TabDiv"].style.cursor = "pointer";
   let showTabContentId = myJsons[i] + "TabContent";
   anchorElements[myJsons[i] + "TabDiv"].onclick = function(){showTabContent(showTabContentId)};
+  document.getElementById(showTabContentId);
   console.log(anchorElements[myJsons[i] + "TabDiv"]);
   anchors.appendChild(anchorElements[myJsons[i] + "TabDiv"]);
 }
@@ -92,7 +93,7 @@ function getRanId(arr) {
   }
   return arr[randomIndex - 1].id;
 }
-
+//------------------------------------------------------------
 function showQandA() {
   const ranID = getRanId(responseObj.qanda);
   console.log("Q_ID: ", ranID);
@@ -132,6 +133,7 @@ function showQandA() {
   answer_element.innerHTML = "";
   answer_element.innerHTML += `${ranAnswer}`;
 }
+//------------------------------------------------------------
 function showAbkur(){
   const ranID = getRanId(responseObj.abkur);
   console.log(ranID);
