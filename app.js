@@ -134,6 +134,9 @@ let paradigm_languages_element = document.getElementById("paradigmlanguages");
 //sql elements
 let sql_Name_element = document.getElementById("sqlName");
 let sql_definition_element = document.getElementById("sqldefinition");
+//vgm elements
+let vgm_Name_element = document.getElementById("vgmName");
+let vgm_definition_element = document.getElementById("vgmdefinition");
 //wkp elements
 let port_element = document.getElementById("wkpPort");
 let protocol_element = document.getElementById("wkpProtocol");
@@ -340,7 +343,19 @@ function showSql(){
   sql_definition_element.innerHTML += `${ranDefinition}`;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
-function showVgm(){}
+//vgm-----------------------------------------------------------
+function showVgm(){
+  const ranID = getRanId(responseObj.vgm);
+  console.log(ranID);
+  let ranName = (JSON.stringify(responseObj.vgm.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.vgm.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranDefinition, ranName);
+  vgm_Name_element.innerHTML = "";
+  vgm_Name_element.innerHTML = `${ranName}`;
+  vgm_definition_element.innerHTML = "";
+  vgm_definition_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
 //Wkp---------------------------------------------------------
 function showWkp(){
   const ranID = getRanId(responseObj.wkp);
