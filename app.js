@@ -83,8 +83,8 @@ let question_element = document.getElementById("question");
 let answer_element = document.getElementById("answer");
 let ranMax = responseObj.qanda.length;
 //abkur elements
-let abk_element = document.getElementById("abkur");
-let abkName_element = document.getElementById("abkName");
+let abkur_element = document.getElementById("abkur");
+let abkurName_element = document.getElementById("abkurName");
 let definition_element = document.getElementById("definition");
 function getRanId(arr) {
   const randomIndex = Math.round(Math.random() * arr.length);
@@ -137,14 +137,14 @@ function showQandA() {
 function showAbkur(){
   const ranID = getRanId(responseObj.abkur);
   console.log(ranID);
-  let ranAbk = (JSON.stringify(responseObj.abkur.find((obj) => obj.id === ranID).abk).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranAbkur = (JSON.stringify(responseObj.abkur.find((obj) => obj.id === ranID).abk).replace(/^["'](.+(?=["']$))["']$/, '$1'));
   let ranName = (JSON.stringify(responseObj.abkur.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
   let ranDefinition = (JSON.stringify(responseObj.abkur.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
   console.log(ranDefinition, ranName);
-  abk_element.innerHTML = "";
-  abk_element.innerHTML = `${ranAbk}`;
-  abkName_element.innerHTML = "";
-  abkName_element.innerHTML = `${ranName}`;
+  abkur_element.innerHTML = "";
+  abkur_element.innerHTML = `${ranAbkur}`;
+  abkurName_element.innerHTML = "";
+  abkurName_element.innerHTML = `${ranName}`;
   definition_element.innerHTML = "";
   definition_element.innerHTML += `${ranDefinition}`;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
