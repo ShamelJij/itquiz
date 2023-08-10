@@ -6,7 +6,7 @@ let myJsons = [
   "cmd",
   "security",
   "fileformat",
-  "industrie",
+  "industrie4",
   "ipv6",
   "ki",
   "pm",
@@ -36,27 +36,26 @@ for (var i = 0; i < myJsons.length; i++) {
   anchorElements[myJsons[i] + "TabDiv"].innerText = myJsons[i];
   anchorElements[myJsons[i] + "TabDiv"].className = "nav-link";
   anchorElements[myJsons[i] + "TabDiv"].style.cursor = "pointer";
+  let showTabContentId = myJsons[i] + "TabContent";
+  anchorElements[myJsons[i] + "TabDiv"].onclick = function(){showTabContent(showTabContentId)};
   console.log(anchorElements[myJsons[i] + "TabDiv"]);
   anchors.appendChild(anchorElements[myJsons[i] + "TabDiv"]);
 }
-//let anchorElements = document.getElementsByTagName("a");
-let startArray = ["start"];
-let tabs = [...startArray, ...myJsons];
-console.log(tabs);
-let tabIds = [];
-for (let i = 0; i < anchorElements.length; i++) {
-  tabIds[i] = anchorElements[i].id;
+
+let tabContentIds = [];
+for (let i = 0; i < myJsons.length; i++) {
+  tabContentIds[i] = myJsons[i] + "TabContent";
 }
-console.log(tabIds);
-function n(tabId) {
-  let tab = tabId + "Tab";
-  console.log(tab);
-  for (let i = 0; i < tabs.length - 1; i++) {
-    if (tabs[i] + "Tab" === tab) {
-      document.getElementById(tab).className = "container";
-      console.log(tabs[i]);
+function showTabContent(tabContentId) {
+  let tabContent = tabContentId;
+  console.log(tabContent);
+  console.log(tabContentIds);
+  for (let i = 0; i < myJsons.length; i++) {
+    if (tabContentIds[i] === tabContentId) {
+      document.getElementById(tabContentIds[i]).className = "container";
+      console.log(tabContentIds[i]);
     } else {
-      document.getElementById(tabs[i] + "Tab").className = "d-none";
+      document.getElementById(tabContentIds[i]).className = "d-none";
       console.log("doesn't!!");
     }
   }
