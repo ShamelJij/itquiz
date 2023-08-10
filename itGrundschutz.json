@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "Was versteht man unter dem Begriff 'IT-Grundschutz'?",
+    "answer": "IT-Grundschutz ist ein Konzept des Bundesamts für Sicherheit in der Informationstechnik (BSI) zur Absicherung von Informationssystemen. Es dient dazu, ein angemessenes Sicherheitsniveau für IT-Systeme in Unternehmen und Behörden zu erreichen."
+  },
+  {
+    "id": 2,
+    "question": "Welche Ziele verfolgt das IT-Grundschutz-Konzept des BSI?",
+    "answer": "Das IT-Grundschutz-Konzept des BSI verfolgt das Ziel, angemessene Sicherheitsmaßnahmen zur Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit in IT-Systemen zu identifizieren und umzusetzen. Es soll Organisationen dabei unterstützen, ihre IT-Infrastruktur vor Bedrohungen zu schützen."
+  },
+  {
+    "id": 3,
+    "question": "Nennen Sie die fünf Bausteine des IT-Grundschutzes.",
+    "answer": "Die fünf Bausteine des IT-Grundschutzes sind Management der Informationssicherheit, Infrastrukturmanagement, Betrieb von IT-Systemen, Erwerb, Entwicklung und Wartung sowie Sicherheitsbezogene Dienstleistungen."
+  },
+  {
+    "id": 4,
+    "question": "Was ist der Unterschied zwischen dem IT-Grundschutz-Kompendium und dem IT-Grundschutz-Katalog?",
+    "answer": "Das IT-Grundschutz-Kompendium ist eine Sammlung von Informationen und Richtlinien zum IT-Grundschutz. Der IT-Grundschutz-Katalog enthält konkrete Sicherheitsmaßnahmen und Maßnahmenziele, die auf die Schutzziele abzielen."
+  },
+  {
+    "id": 5,
+    "question": "Welche Schutzbedarfskategorien werden im IT-Grundschutz verwendet?",
+    "answer": "Im IT-Grundschutz werden die Schutzbedarfskategorien 'normal', 'hoch' und 'sehr hoch' verwendet. Diese Kategorien helfen bei der Einschätzung des Schutzbedarfs von IT-Systemen."
+  },
+  {
+    "id": 6,
+    "question": "Erklären Sie den Begriff 'Maßnahmenziel' im Kontext des IT-Grundschutzes.",
+    "answer": "Ein Maßnahmenziel im IT-Grundschutz beschreibt einen Zustand, den eine Schutzmaßnahme erreichen soll. Es konkretisiert, welches Sicherheitsniveau für ein bestimmtes Schutzziel angestrebt wird."
+  },
+  {
+    "id": 7,
+    "question": "Welche Rolle spielen Bausteine und Module im IT-Grundschutz-Katalog?",
+    "answer": "Die Bausteine sind grundlegende Einheiten im IT-Grundschutz-Katalog. Sie decken bestimmte Themenbereiche ab. Module sind spezifische Sammlungen von Maßnahmenzielen, die auf spezielle Anforderungen zugeschnitten sind."
+  },
+  {
+    "id": 8,
+    "question": "Was ist eine Sicherheitsanalyse im IT-Grundschutz-Kontext und wie wird sie durchgeführt?",
+    "answer": "Eine Sicherheitsanalyse im IT-Grundschutz-Kontext dient dazu, den Schutzbedarf und die Sicherheitsmaßnahmen für IT-Systeme zu ermitteln. Sie umfasst die Identifikation von Assets, Bedrohungen, Schwachstellen und Risiken sowie die Ableitung geeigneter Schutzmaßnahmen."
+  },
+  {
+    "id": 9,
+    "question": "Welche Bedeutung hat das IT-Grundschutz-Audit?",
+    "answer": "Das IT-Grundschutz-Audit ist eine Überprüfung der Sicherheitsmaßnahmen in einem IT-System. Es dient dazu, die Umsetzung der Maßnahmenziele zu überprüfen und mögliche Abweichungen oder Schwachstellen zu identifizieren."
+  },
+  {
+    "id": 10,
+    "question": "Was versteht man unter 'Restrisiko' im IT-Grundschutz-Kontext?",
+    "answer": "Restrisiko bezeichnet das verbleibende Risiko, das trotz der Umsetzung von Sicherheitsmaßnahmen bestehen bleibt. Es kann nicht gänzlich eliminiert werden, sollte jedoch auf ein akzeptables Maß reduziert werden."
+  },
+  {
+    "id": 11,
+    "question": "Wie unterstützt das IT-Grundschutz-Konzept bei der Auswahl geeigneter Sicherheitsmaßnahmen?",
+    "answer": "Das IT-Grundschutz-Konzept bietet einen Katalog von vorgefertigten Maßnahmenzielen, die auf bestimmte Schutzziele abzielen. Dies erleichtert die Auswahl geeigneter Maßnahmen und trägt zur effizienten Umsetzung bei."
+  },
+  {
+    "id": 12,
+    "question": "Welche Unterschiede gibt es zwischen dem IT-Grundschutz-Standard und ISO 27001?",
+    "answer": "Der IT-Grundschutz-Standard ist spezifisch auf den deutschen Kontext ausgerichtet und bietet konkrete Sicherheitsmaßnahmen. ISO 27001 ist ein internationaler Standard, der eine umfassende Informationssicherheitsverwaltung beschreibt."
+  },
+  {
+    "id": 13,
+    "question": "Welche Schritte sind bei der Umsetzung des IT-Grundschutz-Konzepts zu beachten?",
+    "answer": "Die Schritte bei der Umsetzung des IT-Grundschutz-Konzepts umfassen die Initiierung des Projekts, die Sicherheitsanalyse, die Auswahl geeigneter Maßnahmenziele, die Umsetzung der Maßnahmen, die Überprüfung und das IT-Grundschutz-Audit."
+  },
+  {
+    "id": 14,
+    "question": "Erklären Sie den Unterschied zwischen dem IT-Grundschutz-Baustein 'M 3.352 - Schutz vor Schadsoftware' und 'M 3.312 - Einsatz von Antiviren-Software'.",
+    "answer": "Der Baustein 'M 3.352 - Schutz vor Schadsoftware' enthält allgemeine Schutzmaßnahmen gegen Schadsoftware. 'M 3.312 - Einsatz von Antiviren-Software' ist eine spezifische Maßnahme, die Antiviren-Software als Schutzmittel empfiehlt."
+  },
+  {
+    "id": 15,
+    "question": "Wie können Sie im IT-Grundschutz-Kontext den Schutz von Kommunikationsnetzen gewährleisten?",
+    "answer": "Der Schutz von Kommunikationsnetzen im IT-Grundschutz-Kontext kann durch Maßnahmen wie Segmentierung, Firewall-Konfiguration, Verschlüsselung und Zugriffskontrolle erreicht werden."
+  },
+  {
+    "id": 16,
+    "question": "Welche Rolle spielen Notfallvorsorge und -bewältigung im IT-Grundschutz?",
+    "answer": "Notfallvorsorge und -bewältigung im IT-Grundschutz dienen dazu, auf mögliche Störungen oder Ausfälle angemessen reagieren zu können. Dies umfasst die Entwicklung von Notfallplänen und die regelmäßige Durchführung von Notfallübungen."
+  },
+  {
+    "id": 17,
+    "question": "Erklären Sie den Begriff 'Beweiswerterhaltung' im IT-Grundschutz.",
+    "answer": "Beweiswerterhaltung im IT-Grundschutz bedeutet, dass Sicherheitsmaßnahmen und deren Umsetzung dokumentiert und über einen längeren Zeitraum aufbewahrt werden, um bei Bedarf nachweisen zu können, welche Maßnahmen ergriffen wurden."
+  },
+  {
+    "id": 18,
+    "question": "Was sind die Vorteile der Verwendung von IT-Grundschutz-Maßnahmenkatalogen?",
+    "answer": "Die Verwendung von IT-Grundschutz-Maßnahmenkatalogen erleichtert die Auswahl geeigneter Maßnahmenziele, spart Zeit und Ressourcen bei der Planung von Sicherheitsmaßnahmen und trägt zur effizienten Umsetzung bei."
+  },
+  {
+    "id": 19,
+    "question": "Wie können Sie die Wirksamkeit von IT-Grundschutz-Maßnahmen überprüfen?",
+    "answer": "Die Wirksamkeit von IT-Grundschutz-Maßnahmen kann durch regelmäßige Überprüfung, Auditierung und Simulation von Angriffen überprüft werden. Außerdem können Vorfälle und Störungen analysiert werden, um Maßnahmen gegebenenfalls anzupassen."
+  },
+  {
+    "id": 20,
+    "question": "Was ist der Unterschied zwischen dem Basis-Sicherheits-Check und einer umfassenden IT-Grundschutz-Absicherung?",
+    "answer": "Der Basis-Sicherheits-Check bietet eine erste grobe Einschätzung der Sicherheitslage. Eine umfassende IT-Grundschutz-Absicherung hingegen umfasst eine detaillierte Sicherheitsanalyse und die Umsetzung von umfangreichen Maßnahmenzielen."
+  }
+]

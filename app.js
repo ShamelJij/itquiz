@@ -14,6 +14,7 @@ let myJsons = [
   "sql",
   "vgm",
   "wkp",
+  "itGrundschutz"
 ];
 myFuncArray = [
   showQandA,
@@ -31,6 +32,7 @@ myFuncArray = [
   showSql,
   showVgm,
   showWkp,
+  showItGrundschutz,
 ]
 let myPages = {};
 let myFuncsObject = {};
@@ -140,6 +142,9 @@ let vgm_definition_element = document.getElementById("vgmdefinition");
 //wkp elements
 let port_element = document.getElementById("wkpPort");
 let protocol_element = document.getElementById("wkpProtocol");
+//itGrundschutz elements
+let itGrundschutz_q_element = document.getElementById("itGrundschutzq");
+let itGrundschutz_a_element = document.getElementById("itGrundschutza");
 //RanId-------------------------------------------------------
 function getRanId(arr) {
   const randomIndex = Math.round(Math.random() * arr.length);
@@ -369,6 +374,19 @@ function showWkp(){
   protocol_element.innerHTML += `${ranProtocol}`;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 
+}
+//itGrundschutz----------------------------------------------------------
+function showItGrundschutz(){
+  const ranID = getRanId(responseObj.itGrundschutz);
+  console.log(ranID);
+  let ranQ = (JSON.stringify(responseObj.itGrundschutz.find((obj) => obj.id === ranID).question).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranA = (JSON.stringify(responseObj.itGrundschutz.find((obj) => obj.id === ranID).answer).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranA, ranQ);
+  itGrundschutz_q_element.innerHTML = "";
+  itGrundschutz_q_element.innerHTML = `${ranQ}`;
+  itGrundschutz_a_element.innerHTML = "";
+  itGrundschutz_a_element.innerHTML += `${ranA}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
 
 
