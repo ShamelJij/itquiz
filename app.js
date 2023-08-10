@@ -110,6 +110,9 @@ let abkName_element = document.getElementById("abkName");
 //cmd elements
 let cmd_Name_element = document.getElementById("cmdName");
 let cmd_definition_element = document.getElementById("cmddefinition");
+//security elements
+let security_Name_element = document.getElementById("securityName");
+let security_definition_element = document.getElementById("securitydefinition");
 //wkp elements
 let port_element = document.getElementById("wkpPort");
 let protocol_element = document.getElementById("wkpProtocol");
@@ -208,7 +211,20 @@ function showCmd(){
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 
 }
-function showSecurity(){}
+//Security----------------------------------------------------
+function showSecurity(){
+  const ranID = getRanId(responseObj.security);
+  console.log(ranID);
+  let ranName = (JSON.stringify(responseObj.security.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.security.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranDefinition, ranName);
+  security_Name_element.innerHTML = "";
+  security_Name_element.innerHTML = `${ranName}`;
+  security_definition_element.innerHTML = "";
+  security_definition_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+
+}
 function showFileformat(){}
 function showIndustrie4(){}
 function showIpv6(){}
