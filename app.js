@@ -131,6 +131,9 @@ let pm_a_element = document.getElementById("pma");
 //paradigm elements
 let paradigm_paradigm_element = document.getElementById("paradigmparadigm");
 let paradigm_languages_element = document.getElementById("paradigmlanguages");
+//sql elements
+let sql_Name_element = document.getElementById("sqlName");
+let sql_definition_element = document.getElementById("sqldefinition");
 //wkp elements
 let port_element = document.getElementById("wkpPort");
 let protocol_element = document.getElementById("wkpProtocol");
@@ -324,7 +327,19 @@ for (var i = 0; i < ranLanguages.length; i++) {
 }
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
-function showSql(){}
+//sql-----------------------------------------------------------
+function showSql(){
+  const ranID = getRanId(responseObj.sql);
+  console.log(ranID);
+  let ranName = (JSON.stringify(responseObj.sql.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.sql.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranDefinition, ranName);
+  sql_Name_element.innerHTML = "";
+  sql_Name_element.innerHTML = `${ranName}`;
+  sql_definition_element.innerHTML = "";
+  sql_definition_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
 function showVgm(){}
 //Wkp---------------------------------------------------------
 function showWkp(){
