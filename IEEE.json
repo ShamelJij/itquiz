@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "IEEE 802.11",
+    "definition": "Wireless LAN (Wi-Fi) standard for wireless communication."
+  },
+  {
+    "id": 2,
+    "name": "IEEE 802.3",
+    "definition": "Ethernet standard for wired LAN communication."
+  },
+  {
+    "id": 3,
+    "name": "IEEE 802.1Q",
+    "definition": "Standard for VLAN (Virtual LAN) tagging."
+  },
+  {
+    "id": 4,
+    "name": "IEEE 802.15.4",
+    "definition": "Standard for low-rate wireless personal area networks (WPANs)."
+  },
+  {
+    "id": 5,
+    "name": "IEEE 1394 (FireWire)",
+    "definition": "Standard for high-speed serial bus used for connecting devices."
+  },
+  {
+    "id": 6,
+    "name": "IEEE 802.16 (WiMAX)",
+    "definition": "Standard for wireless broadband communication."
+  },
+  {
+    "id": 7,
+    "name": "IEEE 754",
+    "definition": "Standard for floating-point arithmetic in computers."
+  },
+  {
+    "id": 8,
+    "name": "IEEE 488 (GPIB)",
+    "definition": "Standard for connecting and controlling instruments in test and measurement applications."
+  },
+  {
+    "id": 9,
+    "name": "IEEE 802.22",
+    "definition": "Standard for cognitive radio networks using unused TV channels."
+  },
+  {
+    "id": 10,
+    "name": "IEEE 802.11ac",
+    "definition": "Wireless LAN standard providing faster data rates and improved performance."
+  },
+  {
+    "id": 11,
+    "name": "IEEE 802.1X",
+    "definition": "Standard for port-based network access control."
+  },
+  {
+    "id": 12,
+    "name": "IEEE 802.11n",
+    "definition": "Wireless LAN standard providing enhanced throughput and range."
+  },
+  {
+    "id": 13,
+    "name": "IEEE 802.3af",
+    "definition": "Standard for Power over Ethernet (PoE) to deliver power to network devices."
+  },
+  {
+    "id": 14,
+    "name": "IEEE 802.1D",
+    "definition": "Standard for bridge and LAN switching operations."
+  },
+  {
+    "id": 15,
+    "name": "IEEE 802.1Qbg",
+    "definition": "Standard for bridging of virtual machines within a data center."
+  },
+  {
+    "id": 16,
+    "name": "IEEE 802.15.1 (Bluetooth)",
+    "definition": "Standard for short-range wireless communication between devices."
+  },
+  {
+    "id": 17,
+    "name": "IEEE 802.3at",
+    "definition": "Standard for Power over Ethernet Plus (PoE+) with higher power delivery."
+  },
+  {
+    "id": 18,
+    "name": "IEEE 802.11ax",
+    "definition": "Wireless LAN standard providing improved efficiency and capacity."
+  },
+  {
+    "id": 19,
+    "name": "IEEE 802.3az (Energy-Efficient Ethernet)",
+    "definition": "Standard for reducing energy consumption in Ethernet networks."
+  },
+  {
+    "id": 20,
+    "name": "IEEE 802.1AE (MACsec)",
+    "definition": "Standard for securing Ethernet frames at the MAC layer."
+  },
+  {
+    "id": 21,
+    "name": "IEEE 802.11ad",
+    "definition": "Wireless LAN standard for high-speed short-range communication using millimeter waves."
+  },
+  {
+    "id": 22,
+    "name": "IEEE 802.3bt (PoE++)",
+    "definition": "Standard for delivering even higher power over Ethernet cables."
+  },
+  {
+    "id": 23,
+    "name": "IEEE 802.1Qbv",
+    "definition": "Standard for time-sensitive networking in Ethernet networks."
+  },
+  {
+    "id": 24,
+    "name": "IEEE 802.11ay",
+    "definition": "Wireless LAN standard for extremely high-speed short-range communication."
+  },
+  {
+    "id": 25,
+    "name": "IEEE 802.3cg (10BASE-T1S)",
+    "definition": "Standard for Ethernet communication over single twisted-pair cables."
+  }
+]

@@ -14,7 +14,8 @@ let myJsons = [
   "sql",
   "vgm",
   "wkp",
-  "itGrundschutz"
+  "itGrundschutz",
+  "IEEE"
 ];
 myFuncArray = [
   showQandA,
@@ -33,6 +34,7 @@ myFuncArray = [
   showVgm,
   showWkp,
   showItGrundschutz,
+  showIeee,
 ]
 let myPages = {};
 let myFuncsObject = {};
@@ -145,6 +147,9 @@ let protocol_element = document.getElementById("wkpProtocol");
 //itGrundschutz elements
 let itGrundschutz_q_element = document.getElementById("itGrundschutzq");
 let itGrundschutz_a_element = document.getElementById("itGrundschutza");
+//IEEE elements
+let IEEE_Name_element = document.getElementById("IEEEName");
+let IEEE_definition_element = document.getElementById("IEEEdefinition");
 //RanId-------------------------------------------------------
 function getRanId(arr) {
   const randomIndex = Math.round(Math.random() * arr.length);
@@ -388,6 +393,18 @@ function showItGrundschutz(){
   itGrundschutz_a_element.innerHTML += `${ranA}`;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
-
+//IEEE-----------------------------------------------------------
+function showIeee(){
+  const ranID = getRanId(responseObj.IEEE);
+  console.log(ranID);
+  let ranName = (JSON.stringify(responseObj.IEEE.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.IEEE.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranDefinition, ranName);
+  IEEE_Name_element.innerHTML = "";
+  IEEE_Name_element.innerHTML = `${ranName}`;
+  IEEE_definition_element.innerHTML = "";
+  IEEE_definition_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
 
 showQandA();
