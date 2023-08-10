@@ -1,416 +1,202 @@
 [
-  {
-    "id": 1,
-    "abk": "TCP",
-    "name": "Transmission Control Protocol",
-    "definition": "TCP (Transmission Control Protocol) ist ein verbindungsorientiertes Protokoll, das für die zuverlässige und geordnete Übertragung von Daten zwischen Geräten über ein Netzwerk verwendet wird."
-  },
-  {
-    "id": 2,
-    "abk": "UDP",
-    "name": "User Datagram Protocol",
-    "definition": "UDP (User Datagram Protocol) ist ein verbindungsloses Protokoll, das für die schnelle und leichte Datenübertragung zwischen Geräten über ein Netzwerk verwendet wird."
-  },
-  {
-    "id": 3,
-    "abk": "IP",
-    "name": "Internet Protocol",
-    "definition": "IP (Internet Protocol) ist das grundlegende Netzwerkprotokoll, das die Weiterleitung von Datenpaketen über Netzwerke ermöglicht."
-  },
-  {
-    "id": 4,
-    "abk": "HTTP",
-    "name": "Hypertext Transfer Protocol",
-    "definition": "HTTP (Hypertext Transfer Protocol) ist ein Anwendungsprotokoll, das für die Übertragung und den Empfang von Hypertext-Dokumenten im World Wide Web verwendet wird."
-  },
-  {
-    "id": 5,
-    "abk": "HTTPS",
-    "name": "HTTP Secure",
-    "definition": "HTTPS (HTTP Secure) ist eine sichere Version des HTTP-Protokolls, das Verschlüsselung verwendet, um Daten zwischen einem Client und einem Server zu schützen."
-  },
-  {
-    "id": 6,
-    "abk": "FTP",
-    "name": "File Transfer Protocol",
-    "definition": "FTP (File Transfer Protocol) ist ein standardisiertes Netzwerkprotokoll, das für die Übertragung von Dateien zwischen einem Client und einem Server in einem Computernetzwerk verwendet wird."
-  },
-  {
-    "id": 7,
-    "abk": "SMTP",
-    "name": "Simple Mail Transfer Protocol",
-    "definition": "SMTP (Simple Mail Transfer Protocol) ist ein E-Mail-Standard, der für das Senden und Empfangen von E-Mail-Nachrichten zwischen E-Mail-Servern verwendet wird."
-  },
-  {
-    "id": 8,
-    "abk": "POP3",
-    "name": "Post Office Protocol 3",
-    "definition": "POP3 (Post Office Protocol 3) ist ein E-Mail-Protokoll, das zum Abrufen von E-Mail-Nachrichten von einem E-Mail-Server auf ein Client-Gerät verwendet wird."
-  },
-  {
-    "id": 9,
-    "abk": "IMAP",
-    "name": "Internet Message Access Protocol",
-    "definition": "IMAP (Internet Message Access Protocol) ist ein E-Mail-Protokoll, das es Benutzern ermöglicht, auf ihre auf einem Remote-Mailserver gespeicherten E-Mail-Nachrichten zuzugreifen und sie zu verwalten."
-  },
-  {
-    "id": 10,
-    "abk": "DNS",
-    "name": "Domain Name System",
-    "definition": "DNS (Domain Name System) wird verwendet, um eine IP-Adresse in eine Domain oder einen Hostnamen umzusetzen und umgekehrt."
-  },
-  {
-    "id": 11,
-    "abk": "SNMP",
-    "name": "Simple Network Management Protocol",
-    "definition": "SNMP (Simple Network Management Protocol) wird verwendet, um Netzwerkgeräte zu überwachen, Konfigurationsinformationen abzurufen und Warnmeldungen von Netzwerkgeräten zu erhalten."
-  },
-  {
-    "id": 12,
-    "abk": "SSH",
-    "name": "Secure Shell",
-    "definition": "SSH (Secure Shell) ist ein kryptografisches Netzwerkprotokoll, das für sichere Remote-Anmeldung und Datenkommunikation über ein unsicheres Netzwerk verwendet wird."
-  },
-  {
-    "id": 13,
-    "abk": "Telnet",
-    "name": "Remote Terminal Protocol",
-    "definition": "Telnet ist ein Netzwerkprotokoll, das eine bidirektionale interaktive textbasierte Kommunikationsmöglichkeit über eine virtuelle Terminalverbindung bereitstellt."
-  },
-  {
-    "id": 14,
-    "abk": "ICMP",
-    "name": "Internet Control Message Protocol",
-    "definition": "ICMP (Internet Control Message Protocol) wird von Netzwerkgeräten verwendet, um Fehlerbedingungen mitzuteilen oder von anderen Geräten spezifische Informationen anzufordern."
-  },
-  {
-    "id": 15,
-    "abk": "RTP",
-    "name": "Real-time Transport Protocol",
-    "definition": "RTP (Real-time Transport Protocol) ist ein Netzwerkprotokoll, das für die Übertragung von Echtzeit-Audio und -Video über IP-Netzwerke verwendet wird."
-  },
-  {
-    "id": 16,
-    "abk": "SIP",
-    "name": "Session Initiation Protocol",
-    "definition": "SIP (Session Initiation Protocol) wird für das Initiieren, Aufrechterhalten, Ändern und Beenden von Echtzeitsitzungen für Video-, Sprach-, Messaging- und andere Kommunikationsanwendungen und -dienste verwendet."
-  },
-  {
-    "id": 17,
-    "abk": "DHCP",
-    "name": "Dynamic Host Configuration Protocol",
-    "definition": "DHCP (Dynamic Host Configuration Protocol) wird verwendet, um IP-Adressen und andere Netzwerkkonfigurationsparameter dynamisch an Geräte in einem Netzwerk zuzuweisen."
-  },
-  {
-    "id": 18,
-    "abk": "ARP",
-    "name": "Address Resolution Protocol",
-    "definition": "ARP (Address Resolution Protocol) wird verwendet, um eine IP-Adresse in eine physische MAC-Adresse umzusetzen."
-  },
-  {
-    "id": 19,
-    "abk": "SSL/TLS",
-    "name": "Secure Sockets Layer/Transport Layer Security",
-    "definition": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) sind kryptografische Protokolle, die eine sichere Kommunikation über ein Computernetzwerk ermöglichen."
-  },
-  {
-    "id": 20,
-    "abk": "SMTPS",
-    "name": "SMTP Secure",
-    "definition": "SMTPS (SMTP Secure) ist eine Erweiterung von SMTP (Simple Mail Transfer Protocol), die eine Verschlüsselungsebene für die sichere E-Mail-Kommunikation hinzufügt."
-  },
-  {
-    "id": 21,
-    "abk": "HTTP/2",
-    "name": "Hypertext Transfer Protocol Version 2",
-    "definition": "HTTP/2 (Hypertext Transfer Protocol Version 2) ist eine Weiterentwicklung des HTTP-Protokolls, das eine effizientere Datenübertragung zwischen Server und Client ermöglicht."
-  },
-  {
-    "id": 22,
-    "abk": "IPv4",
-    "name": "Internet Protocol Version 4",
-    "definition": "IPv4 (Internet Protocol Version 4) ist die vierte Version des Internetprotokolls und wird verwendet, um Geräte im Internet zu identifizieren und zu lokalisieren."
-  },
-  {
-    "id": 23,
-    "abk": "IPv6",
-    "name": "Internet Protocol Version 6",
-    "definition": "IPv6 (Internet Protocol Version 6) ist die sechste Version des Internetprotokolls und wurde entwickelt, um den Adressmangel von IPv4 zu beheben und mehr IP-Adressen bereitzustellen."
-  },
-  {
-    "id": 24,
-    "abk": "LAN",
-    "name": "Local Area Network",
-    "definition": "LAN (Local Area Network) ist ein Computernetzwerk, das eine begrenzte geografische Fläche abdeckt, beispielsweise ein Gebäude, ein Büro oder ein Campus."
-  },
-  {
-    "id": 25,
-    "abk": "WAN",
-    "name": "Wide Area Network",
-    "definition": "WAN (Wide Area Network) ist ein Computernetzwerk, das eine große geografische Entfernung abdeckt und häufig mehrere LANs miteinander verbindet."
-  },
-  {
-    "id": 26,
-    "abk": "VPN",
-    "name": "Virtual Private Network",
-    "definition": "VPN (Virtual Private Network) ist ein verschlüsseltes Netzwerk, das eine sichere Verbindung über ein unsicheres öffentliches Netzwerk, wie das Internet, ermöglicht."
-  },
-  {
-    "id": 27,
-    "abk": "NAT",
-    "name": "Network Address Translation",
-    "definition": "NAT (Network Address Translation) ist ein Verfahren, bei dem private IP-Adressen in öffentliche IP-Adressen umgewandelt werden, um den Datenverkehr zwischen privaten und öffentlichen Netzwerken zu vermitteln."
-  },
-  {
-    "id": 28,
-    "abk": "MAC",
-    "name": "Media Access Control",
-    "definition": "MAC (Media Access Control) ist eine eindeutige Kennung, die einer Netzwerkschnittstelle zugewiesen wird, um Geräte in einem lokalen Netzwerk zu identifizieren."
-  },
-  {
-    "id": 29,
-    "abk": "WLAN",
-    "name": "Wireless Local Area Network",
-    "definition": "WLAN (Wireless Local Area Network) ist ein drahtloses lokales Netzwerk, das die drahtlose Kommunikation von Geräten innerhalb eines begrenzten geografischen Bereichs ermöglicht."
-  },
-  {
-    "id": 30,
-    "abk": "OSI",
-    "name": "Open Systems Interconnection",
-    "definition": "OSI (Open Systems Interconnection) ist ein Referenzmodell, das die Kommunikation zwischen verschiedenen Computernetzwerkprotokollen und -systemen standardisiert."
-  },
-  {
-    "id": 31,
-    "abk": "QoS",
-    "name": "Quality of Service",
-    "definition": "QoS (Quality of Service) bezieht sich auf die Fähigkeit eines Netzwerks, die Datenübertragungsanforderungen verschiedener Dienste oder Anwendungen zu priorisieren und zu verwalten."
-  },
-  {
-    "id": 32,
-    "abk": "VLAN",
-    "name": "Virtual LAN",
-    "definition": "VLAN (Virtual LAN) ist ein logisches Netzwerk, das aus einer Gruppe von Geräten besteht, die unabhängig von ihrer physischen Position im Netzwerk miteinander kommunizieren können."
-  },
-  {
-    "id": 33,
-    "abk": "ACL",
-    "name": "Access Control List",
-    "definition": "ACL (Access Control List) ist eine Liste von Regeln, die den Zugriff auf Ressourcen oder Dienste in einem Netzwerk steuert, indem sie erlaubte oder blockierte Aktionen definiert."
-  },
-  {
-    "id": 34,
-    "abk": "VoIP",
-    "name": "Voice over Internet Protocol",
-    "definition": "VoIP (Voice over Internet Protocol) ermöglicht die Übertragung von Sprach- und Multimedia-Kommunikation über IP-Netzwerke."
-  },
-  {
-    "id": 35,
-    "abk": "NTP",
-    "name": "Network Time Protocol",
-    "definition": "NTP (Network Time Protocol) ist ein Protokoll, das zur Synchronisierung der Uhren von Computern im Netzwerk verwendet wird, um eine einheitliche Zeitbasis zu gewährleisten."
-  },
-  {
-    "id": 36,
-    "abk": "RAID",
-    "name": "Redundant Array of Independent Disks",
-    "definition": "RAID (Redundant Array of Independent Disks) ist eine Technologie, bei der mehrere physische Festplatten zu einem einzigen logischen Laufwerk zusammengefasst werden, um Datenredundanz und verbesserte Leistung zu erreichen."
-  },
-  {
-    "id": 37,
-    "abk": "DNSSEC",
-    "name": "Domain Name System Security Extensions",
-    "definition": "DNSSEC (Domain Name System Security Extensions) ist eine Erweiterung des DNS-Protokolls, die die Sicherheit des Domain Name Systems verbessert, indem sie DNS-Daten digital signiert."
-  },
-  {
-    "id": 38,
-    "abk": "MTU",
-    "name": "Maximum Transmission Unit",
-    "definition": "MTU (Maximum Transmission Unit) ist die maximale Größe eines Datenpakets, die über ein Netzwerk übertragen werden kann, ohne fragmentiert zu werden."
-  },
-  {
-    "id": 39,
-    "abk": "BGP",
-    "name": "Border Gateway Protocol",
-    "definition": "BGP (Border Gateway Protocol) ist ein Routing-Protokoll, das in großen Netzwerken, wie dem Internet, verwendet wird"
-  },
-  {
-    "id": 140,
-    "abk": "AA",
-    "name": "Antialiasing",
-    "definition": "<strong>Kantenglättung</strong> ist die Verminderung von unerwünschten Effekten, die durch das begrenzte Pixelraster (siehe Bildauflösung und Alias-Effekt) oder durch den Treppeneffekt bei der Erzeugung einer Computergrafik (computergenerierte 2D- oder 3D-Grafiken) entstehen können.</br>Beim Antialiasing werden die Bildinhalte üblicherweise nicht nur am Pixel, sondern auch an anderen Positionen ausgewertet (abgetastet) und in die Berechnung der Pixelfarbe mit einbezogen. Daneben verringern einige für das Echtzeitrendern entwickelte Techniken den Treppeneffekt durch nachträgliche Filterung oder Nachzeichnung des Bildes.</br>Antialiasing-Methoden unterscheiden sich durch das zur Verteilung der Abtastpunkte verwendete Schema sowie durch die Wahl des Rekonstruktionsfilters, der bestimmt, wie die an den Abtastpunkten ermittelten Farbwerte gewichtet werden."
-  },
-  {
-    "id": 142,
-    "abk": "AAA",
-    "name": "authentication, authorization and accounting",
-    "definition": "Triple-A-Systeme (oder AAA-Systeme, kurz AAA) werden in großem Umfang bei kabelgebundenen und mobilen Netz-Betreibern sowie Internetdienstanbietern eingesetzt. Die drei A stehen dabei für Authentifizierung (englisch authentication), Autorisierung (engl. authorization) und Protokollierung (englisch accounting) des Netzzugangs von Kunden (Endkunden).</br>Das Triple-A-System nimmt grundsätzlich nicht am Datenverkehr teil, den es steuert. Es benutzt die Protokollhierarchien des Internets und verwendet grundsätzlich die allgemein im Netzwerk verfügbare Uhrzeitinformation zur Generierung von authentischen Ereignismeldungen mit Ereignisdaten (paarweise kommt-Zeiten/geht-Zeiten).Das Triple-A-System hat vorrangig die Aufgabe, Netzelemente im Transportnetz zu steuern und von diesen Netzelementen erfasste Nutzungsdaten zu sammeln oder Zugriffe darauf zu gewähren oder zu verwehren. Die Daten, die der authentifizierte Kunde überträgt, werden dagegen vom Transportnetz übertragen (zum Beispiel dem öffentlichen, globalen IP-Transportnetz, das „Internet“ genannt wird)."
-  },
-  {
-    "id": 143,
-    "abk": "ADDS",
-    "name": "Active Directory Domain Services",
-    "definition": "<strong>Active Directory</strong> (AD) heißt der mit Windows 2000 eingeführte Verzeichnisdienst von Microsoft Windows Server, dessen Kernkomponente auch als Active Directory Domain Services (AD DS) bezeichnet wird.</br>Bei einem solchen Verzeichnis (englisch directory) handelt es sich um eine Zuordnungsliste wie zum Beispiel bei einem Telefonbuch, das Telefonnummern den jeweiligen Anschlüssen (Besitzern) zuordnet.</br>Active Directory ermöglicht es, ein Netzwerk entsprechend der realen Struktur des Unternehmens oder seiner räumlichen Verteilung zu gliedern. Dazu verwaltet es verschiedene Objekte in einem Netzwerk wie beispielsweise Benutzer, Gruppen, Computer, Dienste, Server, Dateifreigaben und andere Geräte wie Drucker und Scanner und deren Eigenschaften. Mit Hilfe von Active Directory kann ein Administrator die Informationen der Objekte organisieren, bereitstellen und überwachen.</br>Den Benutzern des Netzwerkes können Zugriffsbeschränkungen erteilt werden. So darf zum Beispiel nicht jeder Benutzer jede Datei ansehen oder jeden Drucker verwenden."
-  },
-  {
-    "id": 414,
-    "abk": "ADSL",
-    "name": "Asymmetric Digital Subscriber Line",
-    "definition": "Asymmetric Digital Subscriber Line (ADSL, englisch für asymmetrischer digitaler Teilnehmer-Anschluss) ist eine Anschlusstechnik von Breitbandanschlüssen für Konsumenten. Sie wurde als Variante der DSL-Technik mit der Maßgabe entwickelt, über die vorhandene Telefonanschlussleitung zu funktionieren, ohne die Telefonie über den Festnetzanschluss zu beeinträchtigen, und gleichzeitig der Zielkundengruppe (Privathaushalte, Kleinbetriebe) eine dort geeignete asymmetrische (ungleiche) Datenübertragungsrate mit höherer Empfangs- als Senderate anzubieten."
-  },
-  {
-    "id": 145,
-    "abk": "AEG",
-    "name": "Ausschalten, einschalten, geht.",
-    "definition": "Tipp zur Problemlösung"
-  },
-  {
-    "id": 146,
-    "abk": "APIPA",
-    "name": "Automatic Private IP Addressing",
-    "definition": "In einem einfachen lokalen Netzwerk ist es nicht erforderlich, dass Clients und Server in einem Netzwerk manuell konfiguriert werden müssen. Wenn keine manuelle Konfiguration erfolgt und kein DHCP-Server verfügbar oder erreichbar ist (Timeout), dann konfigurieren sich die IPv4-Hosts selber. Ein Host teilt sich dann selber eine link-lokale Adresse aus dem Adressbereich von 169.254.0.0 bis 169.254.255.255 (IPv4LL-Adressen: 169.254.0.0/16) zu.</br>Diese Art der Autokonfiguration ist unterschiedlich implementiert. Das Verfahren ist Teil von Bonjour (Zeroconf) von Apple und APIPA von Microsoft. Unter Windows, Linux und Mac OS X sollte es also funktionieren.</br>Weil man sich ursprünglich nicht darauf verlassen konnte, dass das funktionierte, hat man BOOTP und DHCP entwickelt, um eine dynamische IPv4-Konfiguration (Autokonfiguration) zu realisieren."
-  },
-  {
-    "id": 147,
-    "abk": "ARP",
-    "name": "Address Resolution Protocol",
-    "definition": "Das Address Resolution Protocol (ARP) arbeitet auf der Schicht 2, der Sicherungsschicht, des OSI-Schichtenmodells und setzt IP-Adressen in Hardware- und MAC-Adressen um. Alle Netzwerktypen und -topologien benutzen Hardware-Adressen um die Datenpakete zu adressieren. Damit ein IP-Paket innerhalb eines lokalen Netzwerks zugestellt werden kann, muss die Hardware-Adresse des Ziels bekannt sein.</br>Jeder Netzwerk-Adapter besitzt eine einzigartige und eindeutige Hardware-Adresse, die fest auf dem Adapter eingestellt ist.</br>Bevor nun ein Datenpaket verschickt werden kann, muss durch ARP eine Adressauflösung erfolgen. Dazu sendet der Host einen ARP-Request mit der MAC-Adresse 'FF-FF-FF-FF-FF-FF'. Das ist ein MAC-Broadcast an alle Systeme im Netzwerk. Diese Meldung wird von jedem Netzwerk-Interface entgegengenommen und ausgewertet. Das Ethernet-Frame enthält die IP-Adresse des gesuchten Hosts. Fühlt sich ein Host mit dieser IP-Adresse angesprochen, schickt er ein ARP-Reply an den Sender zurück. Die gemeldete MAC-Adresse wird dann im lokalen ARP-Cache des Senders gespeichert. Dieser Cache dient zur schnelleren ARP-Adressauflösung.</br>Eine Variante von ARP ist das RARP-Protokoll. Das wird verwendet, wenn die MAC-Adresse bekannt ist und die IP-Adresse gesucht wird.</br>Häufig findet man in anderen Dokumentationen, das ARP ein Schicht-3-Protokoll ist. Allerdings sind ARP und auch RARP für die Adressauflösung zuständig, was eigentlich keine Aufgabe der Schicht 3 ist. Da ARP und IP eng verzahnt sind, wäre ARP zwischen Schicht 3 und Schicht 2 richtig zugeordnet."
-  },
-  {
-    "id": 148,
-    "abk": "ASPI",
-    "name": "Advanced SCSI Programming Interface",
-    "definition": "ASPI (Advanced SCSI Programming Interface, sinngemäß Erweiterte SCSI-Programmierschnittstelle) ist eine Programmierschnittstelle für die einheitliche Ansteuerung von CD-ROM- bzw. DVD-Laufwerken, insbesondere Brennern unter den Betriebssystemen MS-DOS, Windows, OS/2 und Netware. Anders als der Name vermuten lässt, wird ASPI nicht nur für tatsächliche SCSI-Geräte, sondern auch für Geräte mit ATAPI-, USB- und FireWire-Anschlüssen eingesetzt, da diese ebenfalls das SCSI-Kommunikationsprotokoll einsetzen."
-  },
-  {
-    "id": 149,
-    "abk": "CMOS",
-    "name": "Complementary Metal Oxide Semiconductor (Komplementärer Metall-Oxid-Halbleiter)",
-    "definition": "Complementary metal-oxide-semiconductor (engl.; „komplementärer / sich ergänzender Metall-Oxid-Halbleiter“), Abk. CMOS, ist eine Bezeichnung für Halbleiterbauelemente, bei denen sowohl p-Kanal- als auch n-Kanal-MOSFETs auf einem gemeinsamen Substrat verwendet werden.</br>Unter CMOS-Technik versteht man<ol><li>sowohl den verwendeten Halbleiterprozess, der zur Realisierung von integrierten digitalen wie analogen Schaltungen (ICs) verwendet wird,</li><li>als auch eine Logikfamilie, die 4000er-Serie.</li></ol>"
-  },
-  {
-    "id": 110,
-    "abk": "CMS",
-    "name": "Content-Management-System",
-    "definition": "Ein Content-Management-System (kurz CMS, deutsch Inhaltsverwaltungssystem) ist eine Software zur gemeinschaftlichen Erstellung, Bearbeitung, Organisation und Darstellung digitaler Inhalte (Content) zumeist zur Verwendung in Webseiten, aber auch in anderen Medienformen. Diese Inhalte können aus Text- und Multimedia-Dokumenten bestehen. Ein Autor mit entsprechenden Zugriffsrechten kann ein solches System in vielen Fällen ohne oder mit wenig Programmier- oder HTML-Kenntnissen bedienen, da die Mehrzahl der Systeme über eine grafische Benutzeroberfläche verfügt.</br>Besonderer Wert wird bei CMS auf eine medienneutrale Datenhaltung gelegt. So kann ein Inhalt auf Wunsch beispielsweise als PDF- oder als HTML-Dokument abrufbar sein; die Formate werden bei volldynamischen Systemen erst bei der Abfrage generiert. Meist wird zur Speicherung von Inhalten eine klassische relationale Datenbank verwendet (wie MySQL oder PostgreSQL). Es gibt auch einige komplexe Enterprise-CMS, die auf eine klassische Datenbank verzichten. Daneben gibt es Flat-File-Content-Management-Systeme, bei denen die Inhalte in Dateien gespeichert werden. Neben proprietären CMS sind ebenso Open-Source-Systeme weit verbreitet. Per Januar 2023 weist WordPress einen Marktanteil von über 63 % unter den Web-CMSs in Deutschland auf. Zu den bekanntesten und meistverwendeten Web-CMS im gleichen Zeitraum zählten außerdem Joomla, TYPO3, Drupal, Wix.com und Shopify."
-  },
-  {
-    "id": 111,
-    "abk": "CPU",
-    "name": "Central Processing Unit",
-    "definition": "Ein Prozessor ist ein (meist stark verkleinertes und meist frei) programmierbares Rechenwerk, also eine Maschine oder eine elektronische Schaltung, die gemäß übergebenen Befehlen andere Maschinen oder elektrische Schaltungen steuert und dabei einen Algorithmus (Prozess) vorantreibt, die Datenverarbeitungen beinhalten. Der weitere Artikel beschreibt ausschließlich diese Bedeutung, am Beispiel des Prozessors eines Computers. Am bekanntesten sind Prozessoren als Hauptprozessor, Zentrale Recheneinheit, Zentraleinheit oder Zentrale Verarbeitungseinheit (kurz ZVE, englisch central processing unit, kurz CPU) für Computer oder computerähnliche Geräte, in denen sie Befehle ausführen. Am weitesten verbreitet sind Prozessoren heutzutage als integrierte Schaltungen in Form von Mikroprozessoren und Mikrocontroller in eingebetteten Systemen (etwa in Waschmaschinen, Ticketautomaten, DVD-Spielern, Smartphones usw.)."
-  },
-  {
-    "id": 112,
-    "abk": "CRM",
-    "name": "Customer-Relationship-Management",
-    "definition": "Customer-Relationship-Management, kurz CRM (englisch für Kundenbeziehungsmanagement oder Kundenpflege), bezeichnet die konsequente Ausrichtung eines Unternehmens auf seine Kunden und die systematische Gestaltung der Kundenbeziehungsprozesse. Die dazugehörende Dokumentation und Verwaltung von Kundenbeziehungen ist ein wichtiger Baustein und ermöglicht ein vertieftes Beziehungsmarketing. In vielen Branchen (z. B. Telekommunikation, Versandhandel, Dienstleistungsunternehmen) sind Beziehungen zwischen Unternehmen und Kunden langfristig ausgerichtet. Mittels CRM werden diese Kundenbeziehungen gepflegt, was sich maßgeblich auf den Unternehmenserfolg auswirken soll."
-  },
-  {
-    "id": 113,
-    "abk": "CSS",
-    "name": "Cascading Style Sheets",
-    "definition": "Cascading Style Sheets (englische Aussprache [kæsˌkeɪdɪŋˈstaɪlʃiːts]; für ‚gestufte Gestaltungsbögen‘; kurz: CSS) ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und JavaScript eine der Kernsprachen des World Wide Webs. Sie ist ein sogenannter living standard ‚lebendiger Standard‘ und wird vom World Wide Web Consortium (W3C) beständig weiterentwickelt. Mit CSS werden Gestaltungsanweisungen erstellt, die vor allem zusammen mit den Auszeichnungssprachen HTML und XML (zum Beispiel bei SVG) eingesetzt werden."
-  },
-  {
-    "id": 114,
-    "abk": "DAP",
-    "name": "Directory Access Protocol",
-    "definition": "Das Lightweight Directory Access Protocol (LDAP), deutsch etwa Leichtgewichtiges Verzeichniszugriffsprotokoll, ist ein Netzwerkprotokoll zur Abfrage und Änderung von Informationen verteilter Verzeichnisdienste. Seine aktuelle und dritte Version ist in RFC 4510 bis RFC 4532 spezifiziert, das eigentliche Protokoll in RFC 4511.</br>LDAP ist der De-facto-Industriestandard für Authentifizierung, Autorisierung sowie Adress- und Benutzerverzeichnisse. Die meisten Softwareprodukte, die mit Benutzerdaten umgehen müssen und am Markt relevant sind, unterstützen LDAP."
-  },
-  {
-    "id": 115,
-    "abk": "DBMS",
-    "name": "Database management system",
-    "definition": "Eine Datenbank, auch Datenbanksystem genannt, ist ein System zur elektronischen Datenverwaltung. Die wesentliche Aufgabe einer Datenbank ist es, große Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen, bedarfsgerechten Darstellungsformen für Benutzer und Anwendungsprogramme bereitzustellen.</br>Ein Datenbanksystem besteht aus zwei Teilen: der Verwaltungssoftware, genannt Datenbankmanagementsystem (DBMS), und der Menge der zu verwaltenden Daten, der Datenbank (DB) im engeren Sinn, zum Teil auch „Datenbasis“ genannt. Die Verwaltungssoftware organisiert intern die strukturierte Speicherung der Daten und kontrolliert alle lesenden und schreibenden Zugriffe auf die Datenbank. Zur Abfrage und Verwaltung der Daten bietet ein Datenbanksystem eine Datenbanksprache an.</br>Die gebräuchlichste Form einer Datenbank ist eine relationale Datenbank. Die Struktur der Daten wird durch ein Datenbankmodell festgelegt.</br>Zu unterscheiden ist der hier beschriebene Begriff der Datenbank (bestehend aus DBMS und Daten) von Datenbankanwendungen: Letztere sind (häufig zur Anwendungssoftware gehörende) Computerprogramme, die ihre jeweils individuell erforderlichen Daten unter Nutzung eines Datenbanksystems verwalten und speichern. Beispiele: Auftragsverwaltung, Bestellwesen, Kunden- und Adressverwaltung, Rechnungserstellung; weitere Funktionsbeispiele siehe.</br>Im Sprachgebrauch werden gelegentlich (und begrifflich unkorrekt) auch nicht mit Datenbanksystemen verwaltete Daten als „Datenbank“ bezeichnet: eine Menge thematisch zusammenhängender Dateien."
-  },
-  {
-    "id": 116,
-    "abk": "DDR",
-    "name": "Double Data Rate",
-    "definition": "Double Data Rate (DDR, engl., auch: double pumped) bezeichnet in der Computertechnik ein Verfahren, mit dem Daten auf einem Datenbus mit doppelter Datenrate übertragen werden können.</br>Ähnliche Verfahren sind Quadruple Data Rate (QDR) mit vierfacher und Octal Data Rate (ODR) mit achtfacher Datenrate."
-  },
-  {
-    "id": 117,
-    "abk": "DIMM",
-    "name": "Dual Inline Memory Module",
-    "definition": "Als Dual Inline Memory Module (DIMM, englisch etwa doppelreihiges Speichermodul) werden Speichermodule für den Arbeitsspeicher von Computern bezeichnet. Im Gegensatz zu Single Inline Memory Modulen (SIMM) führen DIMMs auf den Anschlusskontakten auf der Vorderseite und auf der Rückseite der Leiterplatte unterschiedliche Signale, in der Regel da sich auf beiden Seiten der Leiterplatte Speicherbausteine befinden."
-  },
-  {
-    "id": 118,
-    "abk": "DRAM",
-    "name": "Dynamic Random Access Memory",
-    "definition": "<strong>Dynamic Random Access Memory</strong> (DRAM) oder der halb eingedeutschte Begriff dynamisches RAM bezeichnet eine Technologie für einen elektronischen Speicherbaustein mit wahlfreiem Zugriff (Random-Access Memory, RAM), der hauptsächlich in Computern eingesetzt wird, jedoch auch in anderen elektronischen Geräten wie zum Beispiel Druckern zur Anwendung kommt. Das speichernde Element ist dabei ein Kondensator, der entweder geladen oder entladen ist. Über einen Schalttransistor wird er zugänglich und entweder ausgelesen oder mit neuem Inhalt beschrieben.</br>Der Speicherinhalt ist flüchtig, das heißt die gespeicherte Information geht bei fehlender Betriebsspannung oder zu später Wiederauffrischung verloren."
-  },
-  {
-    "id": 119,
-    "abk": "DSL",
-    "name": "Digital Subscriber Line",
-    "definition": "Digital Subscriber Line (DSL, engl. für Digitaler Teilnehmeranschluss) bezeichnet eine Reihe von Übertragungsstandards der Bitübertragungsschicht, bei der Daten mit hohen Übertragungsraten (bis zu 1.000 Mbit/s) über einfache Kupferleitungen wie die Teilnehmeranschlussleitung gesendet und empfangen werden können. Das ist eine wesentliche Verbesserung gegenüber Telefonmodems (bis zu 56 kbit/s) und ISDN-Verbindungen (mit zwei gebündelten Kanälen zu je 64 kbit/s).</br>Der Standard dient zur Kommunikation zwischen DSL-Modem und DSLAM, um in der Regel einen Breitband-Internetzugang über einen Breitband-Zugangsserver zur Verfügung zu stellen. Dabei handelt DSL die Verbindungsparameter wie Frequenz und Downstream- sowie Upstream-Übertragungsrate aus. Die tatsächliche Internet-Übertragungsrate hängt allerdings vom Breitband-Zugangsserver ab.</br>Die eigentliche Verbindung wird über beliebige Protokolle der höheren Schichten des OSI-Modells hergestellt. Als Sicherungsschicht ist Ethernet oder ATM, als Vermittlungsschicht IP üblich. Über diese Verbindung wird der Breitband-Zugangsserver des Providers erreicht, der einen Internetzugang über authentifizierte Verbindungen (zum Beispiel mittels PPPoE) ermöglicht. Über diese Authentifizierung mittels Präfix und/oder Suffix in der PPPoE-Benutzerkennung ist DSL-by-Call möglich.</br>DSL wird in der Industrie auch auf eigenen Kabeln unabhängig vom Telefon benutzt, im Folgenden wird jedoch meist von der DSL-Anbindung über Telefonleitungen gesprochen.</br>An der bestehenden Teilnehmeranschlussleitung muss für DSL meist nichts geändert werden, denn die für den Massenmarkt eingesetzten DSL-Verfahren nutzen auf der bereits verlegten Kupfer-Doppelader des Telefonnetzes ein Frequenzband, das oberhalb des für analoge Sprachtelefonie oder ISDN genutzten Frequenzbereiches liegt. Erst mit der vollständigen Migration von Analog- und ISDN-Anschlüssen wurde die Umstellung auf All-IP erforderlich, was für den Kunden bis auf wenige Ausnahmen bedeutet, dass das Telefon am Modem (bzw. einem SIP-Adapter) betrieben werden muss. Die Trennung von Sprache und Daten über den Splitter entfällt."
-  },
-  {
-    "id": 120,
-    "abk": "ERP",
-    "name": "Enterprise Resource Planning",
-    "definition": "Enterprise-Resource-Planning (ERP) bezeichnet die unternehmerische Aufgabe, Personal, Ressourcen, Kapital, Betriebsmittel, Material sowie Informations- und Kommunikationstechnik im Sinne des Unternehmenszwecks rechtzeitig und bedarfsgerecht zu planen, zu steuern und zu verwalten. Gewährleistet werden sollen ein effizienter betrieblicher Wertschöpfungsprozess und eine stetig optimierte Steuerung der unternehmerischen und betrieblichen Abläufe."
-  },
-  {
-    "id": 121,
-    "abk": "FTP",
-    "name": "File Transfer Protocol",
-    "definition": "Das File Transfer Protocol (FTP, englisch für „Dateiübertragungsprotokoll“) ist ein im RFC 959 von 1985 spezifiziertes zustandsbehaftetes Netzwerkprotokoll zur Übertragung von Dateien über IP-Netzwerke. FTP ist in der Anwendungsschicht (Schicht 7) des OSI-Schichtenmodells angesiedelt. Es wird benutzt, um Dateien vom Client zum Server (Hochladen), vom Server zum Client (Herunterladen) oder clientgesteuert zwischen zwei FTP-Servern zu übertragen (File eXchange Protocol). Außerdem können mit FTP Verzeichnisse angelegt und ausgelesen sowie Verzeichnisse und Dateien umbenannt oder gelöscht werden.</br>Das FTP verwendet für die Steuerung und Datenübertragung jeweils separate Verbindungen: Eine FTP-Sitzung beginnt, indem vom Client zum Control Port des Servers (der Standard-Port dafür ist Port 21) eine TCP-Verbindung aufgebaut wird. Über diese Verbindung werden Befehle zum Server gesendet. Der Server antwortet auf jeden Befehl mit einem Statuscode, oft mit einem angehängten, erklärenden Text. Die meisten Befehle sind allerdings erst nach einer erfolgreichen Authentifizierung zulässig."
-  },
-  {
-    "id": 122,
-    "abk": "GAN",
-    "name": "Global Area Network",
-    "definition": "Unter einem <strong>Global Area Network</strong> (GAN) versteht man ein Netz, das über unbegrenzte geographische Entfernungen mehrere Wide Area Networks verbinden kann. Dies kann zum Beispiel die Vernetzung weltweiter Standorte eines internationalen Unternehmens sein. Oft wird bei einem GAN Satelliten- oder Glasfaserübertragung eingesetzt."
-  },
-  {
-    "id": 123,
-    "abk": "GUI",
-    "name": "Graphical User Interface",
-    "definition": "Grafische Benutzeroberfläche oder auch grafische Benutzerschnittstelle oder Bedienoberfläche (Abk. GUI von englisch graphical user interface) bezeichnet eine Form von Benutzerschnittstelle eines Computers. Sie hat die Aufgabe, Anwendungssoftware auf einem Rechner mittels grafischer Symbole, Steuerelemente oder auch Widgets genannt, bedienbar zu machen. Dies geschieht bei Computern meistens mittels einer Maus als Steuergerät, mit der die grafischen Elemente bedient oder ausgewählt werden, bei Smartphones, Tablets und Kiosksystemen in der Regel durch Berührung eines Sensorbildschirms."
-  },
-  {
-    "id": 124,
-    "abk": "HDCP",
-    "name": "High-bandwidth Digital Content Protection",
-    "definition": "High-bandwidth Digital Content Protection (HDCP) ist ein von Intel im Jahre 2003 entwickeltes Verschlüsselungssystem, das für die Schnittstellen DVI, HDMI und DisplayPort zur geschützten Übertragung von Audio- und Video-Daten vorgesehen ist. HDCP soll in Europa für HDTV Standard werden. Auch bei Blu-ray Disc bzw. HD DVD kommt HDCP zum Einsatz. Mit HDCP soll das Abgreifen des Video- und Audiomaterials innerhalb der Verbindung zwischen Sender und Empfänger verhindert werden. Fordert das abspielende Gerät (Sender, z. B. SAT-Receiver oder DVD-Player) eine HDCP-Verbindung, muss die wiedergebende Komponente (Empfänger, z. B. TV-Gerät, Beamer) ebenfalls HDCP unterstützen, um das Video darstellen zu können. Falls die wiedergebende Komponente HDCP nicht unterstützt oder keine digitale Verbindung besteht, kann die Wiedergabe eingeschränkt (z. B. in geringer Auflösung) oder ganz unterbunden werden. Genaugenommen wird die Forderung nach HDCP-Verschlüsselung nicht vom abspielenden Gerät selbst erhoben, sondern diesem vom wiederzugebenden Medium bzw. den wiederzugebenden Inhalten mitgeteilt (Ausnahme: DVD-Abspielgeräte, hier ist die Forderung nach HDCP Bestandteil der DVD-Lizenz). Ein HDCP-fähiger HDTV-Sat-Receiver etwa wird HDCP nur dann aktivieren, wenn der eingestellte Sender dies gerade verlangt."
-  },
-  {
-    "id": 125,
-    "abk": "HTTP",
-    "name": "Hypertext Transfer Protocol",
-    "definition": "Das Hypertext Transfer Protocol (HTTP, englisch für Hypertext-Übertragungsprotokoll) ist ein 1991 eingeführtes zustandsloses Protokoll zur Übertragung von Daten auf der Anwendungsschicht über ein Rechnernetz. Es wird hauptsächlich eingesetzt, um Webseiten (Hypertext-Dokumente) aus dem World Wide Web (WWW) in einen Webbrowser zu laden. Es ist jedoch nicht prinzipiell darauf beschränkt und auch als allgemeines Dateiübertragungsprotokoll sehr verbreitet."
-  },
-  {
-    "id": 126,
-    "abk": "IaaS",
-    "name": "Infrastructure as a Service",
-    "definition": "Unter IaaS versteht man ein Geschäftsmodell, das entgegen dem klassischen Kaufen von Rechnerinfrastruktur („Mein Server steht in meinem Keller.“) vorsieht, diese bei Bedarf (on demand) zu mieten. Daraus ergeben sich eine Vielzahl von Anwendungsmöglichkeiten, unter anderem:<ol><li>einmalige Anwendungen werden bezahlbar</li><li>Belastungsspitzen werden abgefangen</li><li>plötzliches Wachstum ist ohne Probleme möglich (Skalierbarkeit)</li><li>brachliegende Kapazitäten können sofort wieder freigegeben werden</li><li>für selten ausgeführte Anwendungen muss nicht extra Infrastruktur vorgehalten werden</li><li>durch die dazu nötige Virtualisierungstechnologie wird ein einfaches Softwaretesting auf den unterschiedlichsten Plattformen möglich</li></ol></br>Der möglicherweise bekannteste Anbieter von IaaS ist Amazon Web Services mit Produkten wie EC2 für Rechenleistung und S3 für Speicher. Ein international aktiver deutscher Anbieter von Managementsoftware für heterogene IaaS ist Zimory. IaaS-ERP-Software wird u. a. von SAP angeboten. Daneben haben sich IT-Dienstleister auf gezielte Service-Administration spezialisiert."
-  },
-  {
-    "id": 127,
-    "abk": "PaaS",
-    "name": "Platform as a Service",
-    "definition": "Unter PaaS versteht man den Ansatz, eine integrierte Laufzeit- (und evtl. auch Entwicklungs-) -umgebung als einen Dienst zur Verfügung zu stellen, für den der Nutzer zahlen muss. Bekannte Beispiele dafür sind SAP Cloud Platform, Google App Engine, Force.com und Microsoft Azure."
-  },
-  {
-    "id": 128,
-    "abk": "SaaS",
-    "name": "Software as a Servic",
-    "definition": "Unter SaaS versteht man ein Geschäftsmodell, Software nicht länger als Lizenz an einen Benutzer zu verkaufen, sondern lediglich die Benutzung selbiger als Service zur Verfügung zu stellen. Vergleichbar ist dieser Unterschied mit demjenigen zwischen einem Autokauf und einem Mietwagen, da dort ebenfalls eine Abrechnung 'per use' erfolgt. Besonders vorangetrieben wurde diese Entwicklung durch Webservices, die in der Regel pro Aufruf abgerechnet werden. Beispiele für Software as a Service sind Microsoft Office 365 oder Google Apps."
-  },
-  {
-    "id": 129,
-    "abk": "ISDN",
-    "name": "Integrated Services Digital Network",
-    "definition": "<strong>Integrated Services Digital Network</strong> bzw. Integriertes Sprach- und Datennetz (ISDN) ist ein internationaler Standard für ein digitales Telekommunikationsnetz. Der deutschsprachige Begriff Integriertes Sprach- und Datennetz war der ursprüngliche Begriff; er stand gleichberechtigt (teilweise sogar bevorzugt) neben dem englischsprachigen Begriff, der auch im deutschen Sprachraum eingeführt wurde, um der Internationalität des Systems Rechnung zu tragen. Der internationale Begriff lässt sich alternativ auch deutsch als dienstintegrierendes digitales Netz übersetzen.[6] Über dieses Netz werden verschiedene Dienste wie Fernschreiben (Telex), Teletex, Datex-L (leitungsvermittelte Datenübertragung), Datex-P (paketvermittelte Datenübertragung) und Telefonie übertragen und vermittelt.</br>Vor der Einführung von ISDN gab es für die genannten Dienste jeweils eigene Netze, zwischen denen es Übergänge (Gateways) gab, zum Beispiel zwischen Fernschreibnetz und Teletex oder vom Telefonnetz zu den Datex-Netzen. Da das Telefonnetz das bekannteste der genannten Netze war und auch heute der Dienst Telefonie der meistgenutzte ist, wird die Bezeichnung ISDN oft mit Telefon gleichgesetzt.</br>Durch Ablösung der analogen Vermittlungsstellen durch Digitaltechnik konnte die Leistungsfähigkeit der Teilnehmeranschlussleitung verdoppelt werden (gleichzeitig zwei Gespräche bzw. Verbindungen); dabei blieb die Bedienung der Endgeräte für den Benutzer weitgehend gleich. Die Datenfernübertragung (z. B. auch die Einwahl ins Internet) ist mit ISDN schneller und komfortabler als mit einem Telefonmodem.</br>Inzwischen gibt es weitere Techniken zum Telefonieren, etwa GSM, UMTS und LTE beim Mobilfunk, sowie IP-Telefonie (VoIP). Lange Zeit bildete ISDN die Basis für alle anderen Telefonnetze. Netztechnisch wurden alle Vermittlungsstellen in Deutschland auf ISDN umgestellt, wobei aber die Teilnehmeranschlüsse nicht digitalisiert werden mussten. Die Kanäle von analog aufgeschalteten Teilnehmern werden von den Vermittlungsstellen in ein digitales Signal gewandelt und weitervermittelt. Neue Anschlüsse werden in Deutschland aber meist per Next Generation Network (NGN) realisiert.</br>Seit Anfang der 2000er Jahre besaß jedes Mitgliedsland der Europäischen Union ISDN-Telekommunikationsstrukturen. In Deutschland war ISDN flächendeckend verfügbar."
-  },
-  {
-    "id": 130,
-    "abk": "VoIP",
-    "name": "Voice over IP",
-    "definition": "IP-Telefonie (kurz für Internet-Protokoll-Telefonie sowie Internettelefonie) oder Voice over IP (kurz VoIP; aus englisch voice over internet protocol, „Sprachübertragung über das Internetprotokoll“) genannt, ist das Telefonieren über Rechnernetze, welche nach Internetstandards aufgebaut sind. Dabei werden für Telefonie typische Informationen, mithin Sprache und Steuerinformationen, beispielsweise für den Aufbau einer Verbindung, über ein Datennetz übertragen. Bei den Gesprächsteilnehmern können Computer, auf IP-Telefonie spezialisierte Telefonendgeräte oder klassische Telefone, die über spezielle Adapter angeschlossen sind, die Verbindung herstellen.</br>IP-Telefonie ist eine Technik, die es ermöglicht, den Telefondienst auf IP-Infrastruktur zu realisieren, so dass diese die herkömmliche Telefontechnik samt ISDN und allen Komponenten ersetzen kann.</br>Ziel des Einsatzes der IP-Telefonie bei Kommunikationsnetzbetreibern ist hierbei eine Kostenreduktion durch ein einheitlich aufgebautes und zu betreibendes Netz. Aufgrund der langen Einsatzdauer klassischer Telefoniesysteme und der notwendigen Neuinvestitionen für IP-Telefonie wird der Wechsel bei bestehenden Anbietern oft als lang andauernder, gleitender Übergang („sanfte Migration“) realisiert. Währenddessen existieren beide Techniken parallel. Daraus ergeben sich ein deutlicher Bedarf an Lösungen zur Verbindung beider Telefoniesysteme (etwa über VoIP-Gateways) und die Notwendigkeit zur gezielten Planung des Systemwechsels unter Berücksichtigung der jeweiligen Möglichkeiten für Kosten- und Leistungsoptimierung. Die Zahl von Anbietern ausschließlich mit neuer Technik (also IP-Telefonie statt herkömmlichem Telefon) nimmt zu. Ende 2016 nutzten in Deutschland rund 25,2 Millionen Menschen die Voice-over-IP-Technik."
-  }
+  {"id": 1, "abk": "TCP", "name": "Transmission Control Protocol"},
+  {"id": 2, "abk": "UDP", "name": "User Datagram Protocol"},
+  {"id": 3, "abk": "IP", "name": "Internet Protocol"},
+  {"id": 4, "abk": "HTTP", "name": "Hypertext Transfer Protocol"},
+  {"id": 5, "abk": "HTTPS", "name": "HTTP Secure"},
+  {"id": 6, "abk": "FTP", "name": "File Transfer Protocol"},
+  {"id": 7, "abk": "SMTP", "name": "Simple Mail Transfer Protocol"},
+  {"id": 8, "abk": "POP3", "name": "Post Office Protocol 3"},
+  {"id": 9, "abk": "IMAP", "name": "Internet Message Access Protocol"},
+  {"id": 10, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 11, "abk": "SNMP", "name": "Simple Network Management Protocol"},
+  {"id": 12, "abk": "SSH", "name": "Secure Shell"},
+  {"id": 13, "abk": "Telnet", "name": "Remote Terminal Protocol"},
+  {"id": 14, "abk": "ICMP", "name": "Internet Control Message Protocol"},
+  {"id": 15, "abk": "RTP", "name": "Real-time Transport Protocol"},
+  {"id": 16, "abk": "SIP", "name": "Session Initiation Protocol"},
+  {"id": 17, "abk": "DHCP", "name": "Dynamic Host Configuration Protocol"},
+  {"id": 18, "abk": "ARP", "name": "Address Resolution Protocol"},
+  {"id": 19, "abk": "SSL/TLS", "name": "Secure Sockets Layer/Transport Layer Security"},
+  {"id": 20, "abk": "SMTPS", "name": "SMTP Secure"},
+  {"id": 21, "abk": "SDLC", "name": "Synchronous Data Link Control"},
+  {"id": 22, "abk": "HDLC", "name": "High-Level Data Link Control"},
+  {"id": 23, "abk": "PPP", "name": "Point-to-Point Protocol"},
+  {"id": 24, "abk": "NAT", "name": "Network Address Translation"},
+  {"id": 25, "abk": "LAN", "name": "Local Area Network"},
+  {"id": 26, "abk": "WAN", "name": "Wide Area Network"},
+  {"id": 27, "abk": "MAN", "name": "Metropolitan Area Network"},
+  {"id": 28, "abk": "VPN", "name": "Virtual Private Network"},
+  {"id": 29, "abk": "VLAN", "name": "Virtual LAN"},
+  {"id": 30, "abk": "ACL", "name": "Access Control List"},
+  {"id": 31, "abk": "CPU", "name": "Central Processing Unit"},
+  {"id": 32, "abk": "GPU", "name": "Graphics Processing Unit"},
+  {"id": 33, "abk": "RAM", "name": "Random Access Memory"},
+  {"id": 34, "abk": "ROM", "name": "Read-Only Memory"},
+  {"id": 35, "abk": "BIOS", "name": "Basic Input/Output System"},
+  {"id": 36, "abk": "USB", "name": "Universal Serial Bus"},
+  {"id": 37, "abk": "SSD", "name": "Solid State Drive"},
+  {"id": 38, "abk": "HDD", "name": "Hard Disk Drive"},
+  {"id": 39, "abk": "GUI", "name": "Graphical User Interface"},
+  {"id": 40, "abk": "CLI", "name": "Command Line Interface"},
+  {"id": 41, "abk": "API", "name": "Application Programming Interface"},
+  {"id": 42, "abk": "IDE", "name": "Integrated Development Environment"},
+  {"id": 43, "abk": "HTML", "name": "Hypertext Markup Language"},
+  {"id": 44, "abk": "CSS", "name": "Cascading Style Sheets"},
+  {"id": 45, "abk": "JS", "name": "JavaScript"},
+  {"id": 46, "abk": "SQL", "name": "Structured Query Language"},
+  {"id": 47, "abk": "JSON", "name": "JavaScript Object Notation"},
+  {"id": 48, "abk": "XML", "name": "Extensible Markup Language"},
+  {"id": 49, "abk": "URL", "name": "Uniform Resource Locator"},
+  {"id": 50, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 51, "abk": "SMTPS", "name": "SMTP Secure"},
+  {"id": 52, "abk": "SDLC", "name": "Synchronous Data Link Control"},
+  {"id": 53, "abk": "HDLC", "name": "High-Level Data Link Control"},
+  {"id": 54, "abk": "PPP", "name": "Point-to-Point Protocol"},
+  {"id": 55, "abk": "NAT", "name": "Network Address Translation"},
+  {"id": 56, "abk": "LAN", "name": "Local Area Network"},
+  {"id": 57, "abk": "WAN", "name": "Wide Area Network"},
+  {"id": 58, "abk": "MAN", "name": "Metropolitan Area Network"},
+  {"id": 59, "abk": "VPN", "name": "Virtual Private Network"},
+  {"id": 60, "abk": "VLAN", "name": "Virtual LAN"},
+  {"id": 61, "abk": "ACL", "name": "Access Control List"},
+  {"id": 62, "abk": "CPU", "name": "Central Processing Unit"},
+  {"id": 63, "abk": "GPU", "name": "Graphics Processing Unit"},
+  {"id": 64, "abk": "RAM", "name": "Random Access Memory"},
+  {"id": 65, "abk": "ROM", "name": "Read-Only Memory"},
+  {"id": 66, "abk": "BIOS", "name": "Basic Input/Output System"},
+  {"id": 67, "abk": "USB", "name": "Universal Serial Bus"},
+  {"id": 68, "abk": "SSD", "name": "Solid State Drive"},
+  {"id": 69, "abk": "HDD", "name": "Hard Disk Drive"},
+  {"id": 70, "abk": "GUI", "name": "Graphical User Interface"},
+  {"id": 71, "abk": "CLI", "name": "Command Line Interface"},
+  {"id": 72, "abk": "API", "name": "Application Programming Interface"},
+  {"id": 73, "abk": "IDE", "name": "Integrated Development Environment"},
+  {"id": 74, "abk": "HTML", "name": "Hypertext Markup Language"},
+  {"id": 75, "abk": "CSS", "name": "Cascading Style Sheets"},
+  {"id": 76, "abk": "JS", "name": "JavaScript"},
+  {"id": 77, "abk": "SQL", "name": "Structured Query Language"},
+  {"id": 78, "abk": "JSON", "name": "JavaScript Object Notation"},
+  {"id": 79, "abk": "XML", "name": "Extensible Markup Language"},
+  {"id": 80, "abk": "URL", "name": "Uniform Resource Locator"},
+  {"id": 81, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 82, "abk": "FTP", "name": "File Transfer Protocol"},
+  {"id": 83, "abk": "SMTP", "name": "Simple Mail Transfer Protocol"},
+  {"id": 84, "abk": "HTTP", "name": "Hypertext Transfer Protocol"},
+  {"id": 85, "abk": "HTTPS", "name": "HTTP Secure"},
+  {"id": 86, "abk": "TCP/IP", "name": "Transmission Control Protocol/Internet Protocol"},
+  {"id": 87, "abk": "LAN", "name": "Local Area Network"},
+  {"id": 88, "abk": "WAN", "name": "Wide Area Network"},
+  {"id": 89, "abk": "VPN", "name": "Virtual Private Network"},
+  {"id": 90, "abk": "DHCP", "name": "Dynamic Host Configuration Protocol"},
+  {"id": 91, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 92, "abk": "IP", "name": "Internet Protocol"},
+  {"id": 93, "abk": "MAC", "name": "Media Access Control"},
+  {"id": 94, "abk": "NAT", "name": "Network Address Translation"},
+  {"id": 95, "abk": "TCP", "name": "Transmission Control Protocol"},
+  {"id": 96, "abk": "UDP", "name": "User Datagram Protocol"},
+  {"id": 97, "abk": "HTTP", "name": "Hypertext Transfer Protocol"},
+  {"id": 98, "abk": "HTTPS", "name": "HTTP Secure"},
+  {"id": 99, "abk": "FTP", "name": "File Transfer Protocol"},
+  {"id": 100, "abk": "SMTP", "name": "Simple Mail Transfer Protocol"},
+  {"id": 101, "abk": "POP3", "name": "Post Office Protocol 3"},
+  {"id": 102, "abk": "IMAP", "name": "Internet Message Access Protocol"},
+  {"id": 103, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 104, "abk": "SNMP", "name": "Simple Network Management Protocol"},
+  {"id": 105, "abk": "SSH", "name": "Secure Shell"},
+  {"id": 106, "abk": "Telnet", "name": "Remote Terminal Protocol"},
+  {"id": 107, "abk": "ICMP", "name": "Internet Control Message Protocol"},
+  {"id": 108, "abk": "RTP", "name": "Real-time Transport Protocol"},
+  {"id": 109, "abk": "SIP", "name": "Session Initiation Protocol"},
+  {"id": 110, "abk": "DHCP", "name": "Dynamic Host Configuration Protocol"},
+  {"id": 111, "abk": "ARP", "name": "Address Resolution Protocol"},
+  {"id": 112, "abk": "SSL/TLS", "name": "Secure Sockets Layer/Transport Layer Security"},
+  {"id": 113, "abk": "SMTPS", "name": "SMTP Secure"},
+  {"id": 114, "abk": "SDLC", "name": "Synchronous Data Link Control"},
+  {"id": 115, "abk": "HDLC", "name": "High-Level Data Link Control"},
+  {"id": 116, "abk": "PPP", "name": "Point-to-Point Protocol"},
+  {"id": 117, "abk": "NAT", "name": "Network Address Translation"},
+  {"id": 118, "abk": "LAN", "name": "Local Area Network"},
+  {"id": 119, "abk": "WAN", "name": "Wide Area Network"},
+  {"id": 120, "abk": "MAN", "name": "Metropolitan Area Network"},
+  {"id": 121, "abk": "VPN", "name": "Virtual Private Network"},
+  {"id": 122, "abk": "VLAN", "name": "Virtual LAN"},
+  {"id": 123, "abk": "ACL", "name": "Access Control List"},
+  {"id": 124, "abk": "CPU", "name": "Central Processing Unit"},
+  {"id": 125, "abk": "GPU", "name": "Graphics Processing Unit"},
+  {"id": 126, "abk": "RAM", "name": "Random Access Memory"},
+  {"id": 127, "abk": "ROM", "name": "Read-Only Memory"},
+  {"id": 128, "abk": "BIOS", "name": "Basic Input/Output System"},
+  {"id": 129, "abk": "USB", "name": "Universal Serial Bus"},
+  {"id": 130, "abk": "SSD", "name": "Solid State Drive"},
+  {"id": 131, "abk": "HDD", "name": "Hard Disk Drive"},
+  {"id": 132, "abk": "GUI", "name": "Graphical User Interface"},
+  {"id": 133, "abk": "CLI", "name": "Command Line Interface"},
+  {"id": 134, "abk": "API", "name": "Application Programming Interface"},
+  {"id": 135, "abk": "IDE", "name": "Integrated Development Environment"},
+  {"id": 136, "abk": "HTML", "name": "Hypertext Markup Language"},
+  {"id": 137, "abk": "CSS", "name": "Cascading Style Sheets"},
+  {"id": 138, "abk": "JS", "name": "JavaScript"},
+  {"id": 139, "abk": "SQL", "name": "Structured Query Language"},
+  {"id": 140, "abk": "JSON", "name": "JavaScript Object Notation"},
+  {"id": 141, "abk": "XML", "name": "Extensible Markup Language"},
+  {"id": 142, "abk": "URL", "name": "Uniform Resource Locator"},
+  {"id": 143, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 144, "abk": "FTP", "name": "File Transfer Protocol"},
+  {"id": 145, "abk": "SMTP", "name": "Simple Mail Transfer Protocol"},
+  {"id": 146, "abk": "HTTP", "name": "Hypertext Transfer Protocol"},
+  {"id": 147, "abk": "HTTPS", "name": "HTTP Secure"},
+  {"id": 148, "abk": "TCP/IP", "name": "Transmission Control Protocol/Internet Protocol"},
+  {"id": 149, "abk": "LAN", "name": "Local Area Network"},
+  {"id": 150, "abk": "WAN", "name": "Wide Area Network"},
+  {"id": 151, "abk": "LAN", "name": "Local Area Network"},
+  {"id": 152, "abk": "WAN", "name": "Wide Area Network"},
+  {"id": 153, "abk": "MAN", "name": "Metropolitan Area Network"},
+  {"id": 154, "abk": "VPN", "name": "Virtual Private Network"},
+  {"id": 155, "abk": "VLAN", "name": "Virtual LAN"},
+  {"id": 156, "abk": "ACL", "name": "Access Control List"},
+  {"id": 157, "abk": "CPU", "name": "Central Processing Unit"},
+  {"id": 158, "abk": "GPU", "name": "Graphics Processing Unit"},
+  {"id": 159, "abk": "RAM", "name": "Random Access Memory"},
+  {"id": 160, "abk": "ROM", "name": "Read-Only Memory"},
+  {"id": 161, "abk": "BIOS", "name": "Basic Input/Output System"},
+  {"id": 162, "abk": "USB", "name": "Universal Serial Bus"},
+  {"id": 163, "abk": "SSD", "name": "Solid State Drive"},
+  {"id": 164, "abk": "HDD", "name": "Hard Disk Drive"},
+  {"id": 165, "abk": "GUI", "name": "Graphical User Interface"},
+  {"id": 166, "abk": "CLI", "name": "Command Line Interface"},
+  {"id": 167, "abk": "API", "name": "Application Programming Interface"},
+  {"id": 168, "abk": "IDE", "name": "Integrated Development Environment"},
+  {"id": 169, "abk": "HTML", "name": "Hypertext Markup Language"},
+  {"id": 170, "abk": "CSS", "name": "Cascading Style Sheets"},
+  {"id": 171, "abk": "JS", "name": "JavaScript"},
+  {"id": 172, "abk": "SQL", "name": "Structured Query Language"},
+  {"id": 173, "abk": "JSON", "name": "JavaScript Object Notation"},
+  {"id": 174, "abk": "XML", "name": "Extensible Markup Language"},
+  {"id": 175, "abk": "URL", "name": "Uniform Resource Locator"},
+  {"id": 176, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 177, "abk": "FTP", "name": "File Transfer Protocol"},
+  {"id": 178, "abk": "SMTP", "name": "Simple Mail Transfer Protocol"},
+  {"id": 179, "abk": "HTTP", "name": "Hypertext Transfer Protocol"},
+  {"id": 180, "abk": "HTTPS", "name": "HTTP Secure"},
+  {"id": 181, "abk": "TCP/IP", "name": "Transmission Control Protocol/Internet Protocol"},
+  {"id": 182, "abk": "LAN", "name": "Local Area Network"},
+  {"id": 183, "abk": "WAN", "name": "Wide Area Network"},
+  {"id": 184, "abk": "VPN", "name": "Virtual Private Network"},
+  {"id": 185, "abk": "DHCP", "name": "Dynamic Host Configuration Protocol"},
+  {"id": 186, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 187, "abk": "IP", "name": "Internet Protocol"},
+  {"id": 188, "abk": "MAC", "name": "Media Access Control"},
+  {"id": 189, "abk": "NAT", "name": "Network Address Translation"},
+  {"id": 190, "abk": "TCP", "name": "Transmission Control Protocol"},
+  {"id": 191, "abk": "UDP", "name": "User Datagram Protocol"},
+  {"id": 192, "abk": "HTTP", "name": "Hypertext Transfer Protocol"},
+  {"id": 193, "abk": "HTTPS", "name": "HTTP Secure"},
+  {"id": 194, "abk": "FTP", "name": "File Transfer Protocol"},
+  {"id": 195, "abk": "SMTP", "name": "Simple Mail Transfer Protocol"},
+  {"id": 196, "abk": "POP3", "name": "Post Office Protocol 3"},
+  {"id": 197, "abk": "IMAP", "name": "Internet Message Access Protocol"},
+  {"id": 198, "abk": "DNS", "name": "Domain Name System"},
+  {"id": 199, "abk": "SNMP", "name": "Simple Network Management Protocol"},
+  {"id": 200, "abk": "SSH", "name": "Secure Shell"}
 ]

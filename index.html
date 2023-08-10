@@ -15,12 +15,10 @@
 </head>
 
 <body>
-  <div class="nav p-2">
-    <a class="nav-link active" href="./index.html">Start</a>
-    <a class="nav-link" href="./osi.html">OSI-Schichten</a>
-    <a class="nav-link" href="./abk.html">Abkürzungen</a>
+  <div class="nav p-2 justify-content-around" style="background-color: #bbdefb;" id="anchors">
   </div>
-  <div class="container">
+  <!-- Start Tab -->
+  <div class="container" id="startTab">
     <div class="row pb-2">
       <div class="col-md">
         <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -34,18 +32,106 @@
         </div>
         <div class="row text-center pb-4">
           <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showEle();">nächste Frage</button>
+            <button type="button" class="btn btn-primary" onclick="showQandA();">nächste Frage</button>
           </div>
         </div>
       </div>
     </div>
-    <!-- Bootstrap core JavaScript
+  </div>
+  <!-- OSI Tab -->
+  <div id="osiTab">
+    <div class="pt-5">
+      <div>
+        <p class="text-danger"><strong>A</strong>lle <strong>d</strong>eutschen <strong>s</strong>tudenten
+          <strong>t</strong>rinken <strong>v</strong>erschidene <strong>S</strong>orten <strong>B</strong>ier
+        </p>
+        <p class="text-warning"><strong>A</strong>lle <strong>P</strong>riester <strong>s</strong>aufen
+          <strong>T</strong>equila <strong>n</strong>ach <strong>d</strong>er <strong>P</strong>redigt
+        </p>
+      </div>
+      <table class="table table-bordered">
+        <thead class="table-secondary">
+          <tr>
+            <th scope="col">Nr.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Verwendete Protokolle</th>
+            <th scope="col">Kopplungselemente</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">7</th>
+            <td>Anwendung</td>
+            <td>SMTP, HTTP, FTP, POP3, SNMP, NNTP, Telnet</td>
+            <td rowspan="4">Gateway, Content-Switch, Proxy, Layer-4-7-Switch</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Darstellung</td>
+            <td>MPEG, ASCH, SSL, TLS</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Sitzung</td>
+            <td>NetBIOS, SAP, TFTP</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Transport</td>
+            <td>TCP, UDP, SPX, NetBEUI</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Vermittlung</td>
+            <td>IPV4, IPV6, ICMP, IPSEC, ARP, MPLS, T.70, T.90, X.25</td>
+            <td>Router, Layer-3-Switch</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Sicherung</td>
+            <td>LLC/MAC, ARP, IEEE 802.11 (WLAN), HDLC, RAPA, PPP, Frame Relay, ATM, Fiber Cable, LWL, X.75, V.120</td>
+            <td>Bridge, Layer-2-Switch, Wireless Access Point</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Bitübertragung</td>
+            <td>Ethernet, Token Ring, FDDI, V.110, X.25, V.90, V.34, V.24, RS232, 100BaseTX, ISDN, 11</td>
+            <td>Netzwerkkabel, Repeater, Hub</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div id="abkurTab">
+    <div class="row pb-2">
+      <div class="col-md">
+        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+          <div class="p-2">
+            <div class="offset-4 h2 text-warning col-4 p-1">
+              <p><strong id="abkur">abk</strong></p>
+            </div>
+            <br />
+            <div class="text-center text-primary" id="abkName"></div>
+            <hr>
+            <div class="text-left text-success" id="definition"></div>
+          </div>
+        </div>
+        <div class="row text-center pb-4">
+          <div class="col-md p-2">
+            <button type="button" class="btn btn-primary" onclick="showEle();">weiter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

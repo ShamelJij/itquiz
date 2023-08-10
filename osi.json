@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "abk": "TCP",
+    "name": "Transmission Control Protocol",
+    "definition": "TCP (Transmission Control Protocol) ist ein verbindungsorientiertes Protokoll, das für die zuverlässige und geordnete Übertragung von Daten zwischen Geräten über ein Netzwerk verwendet wird."
+  },
+  {
+    "id": 2,
+    "abk": "UDP",
+    "name": "User Datagram Protocol",
+    "definition": "UDP (User Datagram Protocol) ist ein verbindungsloses Protokoll, das für die schnelle und leichte Datenübertragung zwischen Geräten über ein Netzwerk verwendet wird."
+  }
+]
