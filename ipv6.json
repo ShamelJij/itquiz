@@ -141,8 +141,8 @@
   },
   {
     "id": 29,
-    "frage": "Wie viele Hosts können in einem /48-Subnetz verwendet werden?",
-    "antwort": "Antwort: In einem /48-Subnetz können 2^80 - 2 Hosts verwendet werden, da 2 Adressen für das Netzwerk und die Broadcast-Adresse reserviert sind."
+    "frage": "Welche der folgenden Angaben ist eine gültige IPv6-Adresse?.",
+    "antwort": "<ol><li>2001:a514:7b3c:21be:7387:a8fc:2992:56c:223b</li><li class='text-primary'>2001:d9bc::8dc1:6aa2:e139</li><li>2001:9e5d:f8c8:996d:b7f3:a07a</li><li>2001:e862::e4fc::5a31:94c9</li></ol>"
   },
   {
     "id": 30,
