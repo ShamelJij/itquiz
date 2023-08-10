@@ -107,6 +107,10 @@ let abkur_definition_element = document.getElementById("abkurdefinition");
 //abk elements
 let abk_element = document.getElementById("abk");
 let abkName_element = document.getElementById("abkName");
+//wkp elements
+let port_element = document.getElementById("wkpPort");
+let protocol_element = document.getElementById("wkpProtocol");
+//RanId-------------------------------------------------------
 function getRanId(arr) {
   const randomIndex = Math.round(Math.random() * arr.length);
   if (randomIndex === 0) {
@@ -198,7 +202,19 @@ function showPm(){}
 function showParadigm(){}
 function showSql(){}
 function showVgm(){}
-function showWkp(){}
+function showWkp(){
+  const ranID = getRanId(responseObj.wkp);
+  console.log(ranID);
+  let ranPort = (JSON.stringify(responseObj.wkp.find((obj) => obj.id === ranID).port).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranProtocol = (JSON.stringify(responseObj.wkp.find((obj) => obj.id === ranID).protocol).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranPort, ranProtocol);
+  port_element.innerHTML = "";
+  port_element.innerHTML = `${ranPort}`;
+  protocol_element.innerHTML = "";
+  protocol_element.innerHTML += `${ranProtocol}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+
+}
 
 
 showQandA();
