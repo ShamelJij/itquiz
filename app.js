@@ -119,6 +119,9 @@ let fileformat_definition_element = document.getElementById("fileformatdefinitio
 //industrie4 elements
 let industrie4_Name_element = document.getElementById("industrie4Name");
 let industrie4_definition_element = document.getElementById("industrie4definition");
+//IPv6 elements
+let ipv6_q_element = document.getElementById("ipv6q");
+let ipv6_a_element = document.getElementById("ipv6a");
 //wkp elements
 let port_element = document.getElementById("wkpPort");
 let protocol_element = document.getElementById("wkpProtocol");
@@ -257,7 +260,20 @@ function showIndustrie4(){
   industrie4_definition_element.innerHTML += `${ranDefinition}`;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
-function showIpv6(){}
+//IPv6----------------------------------------------------------
+function showIpv6(){
+  const ranID = getRanId(responseObj.ipv6);
+  console.log(ranID);
+  let ranQ = (JSON.stringify(responseObj.ipv6.find((obj) => obj.id === ranID).frage).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranA = (JSON.stringify(responseObj.ipv6.find((obj) => obj.id === ranID).antwort).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranA, ranQ);
+  ipv6_q_element.innerHTML = "";
+  ipv6_q_element.innerHTML = `${ranQ}`;
+  ipv6_a_element.innerHTML = "";
+  ipv6_a_element.innerHTML += `${ranA}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+
+}
 function showKi(){}
 function showPm(){}
 function showParadigm(){}
