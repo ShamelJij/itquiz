@@ -122,6 +122,15 @@ let industrie4_definition_element = document.getElementById("industrie4definitio
 //IPv6 elements
 let ipv6_q_element = document.getElementById("ipv6q");
 let ipv6_a_element = document.getElementById("ipv6a");
+//ki elements
+let ki_q_element = document.getElementById("kiq");
+let ki_a_element = document.getElementById("kia");
+//pm elements
+let pm_q_element = document.getElementById("pmq");
+let pm_a_element = document.getElementById("pma");
+//paradigm elements
+let paradigm_paradigm_element = document.getElementById("paradigmparadigm");
+let paradigm_languages_element = document.getElementById("paradigmlanguages");
 //wkp elements
 let port_element = document.getElementById("wkpPort");
 let protocol_element = document.getElementById("wkpProtocol");
@@ -274,9 +283,47 @@ function showIpv6(){
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 
 }
-function showKi(){}
-function showPm(){}
-function showParadigm(){}
+//ki----------------------------------------------------------
+function showKi(){
+  const ranID = getRanId(responseObj.ki);
+  console.log(ranID);
+  let ranQ = (JSON.stringify(responseObj.ki.find((obj) => obj.id === ranID).question).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranA = (JSON.stringify(responseObj.ki.find((obj) => obj.id === ranID).answer).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranA, ranQ);
+  ki_q_element.innerHTML = "";
+  ki_q_element.innerHTML = `${ranQ}`;
+  ki_a_element.innerHTML = "";
+  ki_a_element.innerHTML += `${ranA}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
+//pm----------------------------------------------------------
+function showPm(){
+  const ranID = getRanId(responseObj.pm);
+  console.log(ranID);
+  let ranQ = (JSON.stringify(responseObj.pm.find((obj) => obj.id === ranID).question).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranA = (JSON.stringify(responseObj.pm.find((obj) => obj.id === ranID).answer).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranA, ranQ);
+  pm_q_element.innerHTML = "";
+  pm_q_element.innerHTML = `${ranQ}`;
+  pm_a_element.innerHTML = "";
+  pm_a_element.innerHTML += `${ranA}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
+//paradigm----------------------------------------------------
+function showParadigm(){
+  const ranID = getRanId(responseObj.paradigm);
+  console.log(ranID);
+  let ranParadigm = (JSON.stringify(responseObj.paradigm.find((obj) => obj.id === ranID).paradigma).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranLanguages = (responseObj.paradigm.find((obj) => obj.id === ranID).sprachen);
+  console.log(ranParadigm, ranLanguages);
+  paradigm_paradigm_element.innerHTML = "";
+  paradigm_paradigm_element.innerHTML = `${ranParadigm}`;
+  paradigm_languages_element.innerHTML = "";
+for (var i = 0; i < ranLanguages.length; i++) {
+  paradigm_languages_element.innerHTML += `<li>${ranLanguages[i]}</li>`;
+}
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
 function showSql(){}
 function showVgm(){}
 //Wkp---------------------------------------------------------

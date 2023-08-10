@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "paradigma": "Prozedural",
     "sprachen": ["C", "Pascal"]
   },
@@ -8,14 +9,17 @@
     "sprachen": ["C++", "Java", "Python", "JavaScript", "Swift", "Ruby", "PHP"]
   },
   {
+    "id": 2,
     "paradigma": "Funktional",
     "sprachen": ["Haskell", "Scala", "Lisp", "Perl"]
   },
   {
+    "id": 3,
     "paradigma": "Logisch",
     "sprachen": ["Prolog"]
   },
   {
+    "id": 4,
     "paradigma": "Nebenläufig",
     "sprachen": ["Go", "Rust"]
   }
