@@ -116,6 +116,9 @@ let security_definition_element = document.getElementById("securitydefinition");
 //fileformat elements
 let fileformat_Name_element = document.getElementById("fileformatName");
 let fileformat_definition_element = document.getElementById("fileformatdefinition");
+//industrie4 elements
+let industrie4_Name_element = document.getElementById("industrie4Name");
+let industrie4_definition_element = document.getElementById("industrie4definition");
 //wkp elements
 let port_element = document.getElementById("wkpPort");
 let protocol_element = document.getElementById("wkpProtocol");
@@ -241,7 +244,19 @@ function showFileformat(){
   fileformat_definition_element.innerHTML += `${ranDefinition}`;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
-function showIndustrie4(){}
+//industrie4----------------------------------------------------
+function showIndustrie4(){
+  const ranID = getRanId(responseObj.industrie4);
+  console.log(ranID);
+  let ranName = (JSON.stringify(responseObj.industrie4.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.industrie4.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranDefinition, ranName);
+  industrie4_Name_element.innerHTML = "";
+  industrie4_Name_element.innerHTML = `${ranName}`;
+  industrie4_definition_element.innerHTML = "";
+  industrie4_definition_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
 function showIpv6(){}
 function showKi(){}
 function showPm(){}
