@@ -45,6 +45,12 @@ for (var i = 0; i < myJsons.length; i++) {
 let tabContentIds = [];
 for (let i = 0; i < myJsons.length; i++) {
   tabContentIds[i] = myJsons[i] + "TabContent";
+    if (tabContentIds[i] === "qandaTabContent") {
+      document.getElementById(tabContentIds[i]).className = "container";
+    }else{
+      document.getElementById(tabContentIds[i]).className = "d-none";
+
+    }
 }
 function showTabContent(tabContentId) {
   let tabContent = tabContentId;
@@ -54,6 +60,9 @@ function showTabContent(tabContentId) {
     if (tabContentIds[i] === tabContentId) {
       document.getElementById(tabContentIds[i]).className = "container";
       console.log(tabContentIds[i]);
+      if(tabContentIds[i] === "abkurTabContent"){
+        showAbkur();
+      }
     } else {
       document.getElementById(tabContentIds[i]).className = "d-none";
       console.log("doesn't!!");
@@ -65,13 +74,17 @@ for (let i = 0; i < anchorElements.length; i++) {
     n(tabIds[i]);
   };
 }
+// QandA elements
 console.log(responseObj);
 let QandA = responseObj.start;
 let title_element = document.getElementById("title");
 let question_element = document.getElementById("question");
 let answer_element = document.getElementById("answer");
 let ranMax = responseObj.qanda.length;
-
+//abkur elements
+let abk_element = document.getElementById("abkur");
+let abkName_element = document.getElementById("abkName");
+let definition_element = document.getElementById("definition");
 function getRanId(arr) {
   const randomIndex = Math.round(Math.random() * arr.length);
   if (randomIndex === 0) {
@@ -79,6 +92,7 @@ function getRanId(arr) {
   }
   return arr[randomIndex - 1].id;
 }
+
 function showQandA() {
   const ranID = getRanId(responseObj.qanda);
   console.log("Q_ID: ", ranID);
@@ -117,5 +131,20 @@ function showQandA() {
   question_element.innerHTML = `${ranQuestion}`;
   answer_element.innerHTML = "";
   answer_element.innerHTML += `${ranAnswer}`;
+}
+function showAbkur(){
+  const ranID = getRanId(responseObj.abkur);
+  console.log(ranID);
+  let ranAbk = (JSON.stringify(responseObj.abkur.find((obj) => obj.id === ranID).abk).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranName = (JSON.stringify(responseObj.abkur.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.abkur.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranDefinition, ranName);
+  abk_element.innerHTML = "";
+  abk_element.innerHTML = `${ranAbk}`;
+  abkName_element.innerHTML = "";
+  abkName_element.innerHTML = `${ranName}`;
+  definition_element.innerHTML = "";
+  definition_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
 showQandA();
