@@ -15,7 +15,8 @@ let myJsons = [
   "vgm",
   "wkp",
   "itGrundschutz",
-  "IEEE"
+  "IEEE",
+  "firewall"
 ];
 myFuncArray = [
   showQandA,
@@ -35,6 +36,7 @@ myFuncArray = [
   showWkp,
   showItGrundschutz,
   showIeee,
+  showFirewall,
 ]
 let myPages = {};
 let myFuncsObject = {};
@@ -150,6 +152,10 @@ let itGrundschutz_a_element = document.getElementById("itGrundschutza");
 //IEEE elements
 let IEEE_Name_element = document.getElementById("IEEEName");
 let IEEE_definition_element = document.getElementById("IEEEdefinition");
+//Firewall elements
+let firewall_Type_element = document.getElementById("firewallType");
+let firewall_definition_element = document.getElementById("firewallDefinition");
+let firewall_threats_element = document.getElementById("firewallThreats");
 //RanId-------------------------------------------------------
 function getRanId(arr) {
   const randomIndex = Math.round(Math.random() * arr.length);
@@ -404,6 +410,21 @@ function showIeee(){
   IEEE_Name_element.innerHTML = `${ranName}`;
   IEEE_definition_element.innerHTML = "";
   IEEE_definition_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
+//firewall-------------------------------------------------------
+function showFirewall(){
+  const ranID = getRanId(responseObj.firewall);
+  console.log(ranID);
+  let ranType = (JSON.stringify(responseObj.firewall.find((obj) => obj.id === ranID).type).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.firewall.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranThreats = responseObj.firewall.find((obj) => obj.id === ranID).threats;
+  firewall_Type_element.innerHTML = "";
+  firewall_Type_element.innerHTML = `${ranType}`;
+  firewall_definition_element.innerHTML = "";
+  firewall_definition_element.innerHTML += `${ranDefinition}`;
+  firewall_threats_element.innerHTML = "";
+  firewall_threats_element.innerHTML = `<li>${ranThreats}</li> `;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
 

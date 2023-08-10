@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "Paketfilter-Firewall",
+    "definition": "Blockiert oder erlaubt Datenpakete basierend auf Quelle, Ziel, Port und Protokoll.",
+    "threats": [
+      "IP-Spoofing-Angriffe",
+      "Datenmanipulation",
+      "Port-Scanning",
+      "DDoS-Angriffe"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Anwendungs-Firewall",
+    "definition": "Überwacht den Datenverkehr auf Anwendungsebene und erlaubt oder blockiert Anwendungen.",
+    "threats": [
+      "SQL-Injection",
+      "Cross-Site Scripting (XSS)",
+      "Buffer Overflow-Angriffe",
+      "Botnet-Aktivitäten"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Proxy-Firewall",
+    "definition": "Verarbeitet Anfragen von Clients und leitet diese an Server weiter, wodurch die Server verborgen bleiben.",
+    "threats": [
+      "Proxy-Server-Kompromittierung",
+      "Malware-Verbreitung über Proxies",
+      "Datenleck aufgrund von Konfigurationsfehlern",
+      "Proxy-Verweigerung von Dienstangriffen"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Stateful Inspection-Firewall",
+    "definition": "Überwacht den Zustand einer Verbindung und entscheidet basierend auf dem Verbindungszustand.",
+    "threats": [
+      "Verbindungsabbrüche durch Firewalleinschränkungen",
+      "Verweigerung von Dienstangriffen",
+      "IP-Fragment-Angriffe",
+      "Session-Hijacking"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Next-Generation Firewall",
+    "definition": "Integriert Paketfilterung, Anwendungsinspektion und erweiterte Sicherheitsfunktionen.",
+    "threats": [
+      "Advanced Persistent Threats (APTs)",
+      "Malware mit verschlüsseltem Datenverkehr",
+      "Zero-Day-Exploits",
+      "Angriffe auf mobile Geräte"
+    ]
+  }
+]
