@@ -15,9 +15,28 @@ let myJsons = [
   "vgm",
   "wkp",
 ];
+myFuncArray = [
+  showQandA,
+  showAbk,
+  showOsi,
+  showAbkur,
+  showCmd,
+  showSecurity,
+  showFileformat,
+  showIndustrie4,
+  showIpv6,
+  showKi,
+  showPm,
+  showParadigm,
+  showSql,
+  showVgm,
+  showWkp,
+]
 let myPages = {};
+let myFuncsObject = {};
 for (var i = 0; i < myJsons.length; i++) {
   myPages[myJsons[i]] = myJsons[i] + ".json";
+  myFuncsObject[myJsons[i]] = myFuncArray[i];
 }
 console.log(myPages);
 let responseObj = {};
@@ -61,10 +80,9 @@ function showTabContent(tabContentId) {
     if (tabContentIds[i] === tabContentId) {
       document.getElementById(tabContentIds[i]).className = "container";
       console.log(tabContentIds[i]);
-      if(tabContentIds[i] === "abkurTabContent"){
-        showAbkur();
-      }
-    } else {
+      myFuncsObject[myJsons[i]]();
+
+    }else{
       document.getElementById(tabContentIds[i]).className = "d-none";
       console.log("doesn't!!");
     }
@@ -85,7 +103,10 @@ let ranMax = responseObj.qanda.length;
 //abkur elements
 let abkur_element = document.getElementById("abkur");
 let abkurName_element = document.getElementById("abkurName");
-let definition_element = document.getElementById("definition");
+let abkur_definition_element = document.getElementById("abkurdefinition");
+//abk elements
+let abk_element = document.getElementById("abk");
+let abkName_element = document.getElementById("abkName");
 function getRanId(arr) {
   const randomIndex = Math.round(Math.random() * arr.length);
   if (randomIndex === 0) {
@@ -93,7 +114,7 @@ function getRanId(arr) {
   }
   return arr[randomIndex - 1].id;
 }
-//------------------------------------------------------------
+//QandA-------------------------------------------------------
 function showQandA() {
   const ranID = getRanId(responseObj.qanda);
   console.log("Q_ID: ", ranID);
@@ -133,7 +154,7 @@ function showQandA() {
   answer_element.innerHTML = "";
   answer_element.innerHTML += `${ranAnswer}`;
 }
-//------------------------------------------------------------
+//Abkur-------------------------------------------------------
 function showAbkur(){
   const ranID = getRanId(responseObj.abkur);
   console.log(ranID);
@@ -145,8 +166,39 @@ function showAbkur(){
   abkur_element.innerHTML = `${ranAbkur}`;
   abkurName_element.innerHTML = "";
   abkurName_element.innerHTML = `${ranName}`;
-  definition_element.innerHTML = "";
-  definition_element.innerHTML += `${ranDefinition}`;
+  abkur_definition_element.innerHTML = "";
+  abkur_definition_element.innerHTML += `${ranDefinition}`;
 console.log("ranID: " , ranID , " ranMax: " , ranMax);
 }
+//OSI---------------------------------------------------------
+function showOsi(){
+  console.log("not function for osi yet");
+}
+//Abk---------------------------------------------------------
+function showAbk(){
+  const ranID = getRanId(responseObj.abk);
+  console.log(ranID);
+  let ranName = (JSON.stringify(responseObj.abk.find((obj) => obj.id === ranID).abk).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.abk.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  console.log(ranDefinition, ranName);
+  abk_element.innerHTML = "";
+  abk_element.innerHTML = `${ranName}`;
+  abkName_element.innerHTML = "";
+  abkName_element.innerHTML += `${ranDefinition}`;
+console.log("ranID: " , ranID , " ranMax: " , ranMax);
+}
+
+function showCmd(){}
+function showSecurity(){}
+function showFileformat(){}
+function showIndustrie4(){}
+function showIpv6(){}
+function showKi(){}
+function showPm(){}
+function showParadigm(){}
+function showSql(){}
+function showVgm(){}
+function showWkp(){}
+
+
 showQandA();
