@@ -54,12 +54,24 @@
         "answer": "<strong>Forming:</strong> Orientierungsphase, in der sich alle Gruppenmitglieder kennenlernen, Vieles ist in dieser Phase noch unklar. Man kennt die Teammitglieder nicht richtig. Die Aufgaben und Rollen sind noch nicht verteilt, Ziele sind noch nicht definiert.</br><strong>Storming:</strong> Sogennante Nahkampfphase, in der die Ziele zunehmend klarer werden. Eine Rollenverteilung bildet sich allmählich heraus. Teammitglieder kommen sich näher und erste Machtkämpfe entstehen. Der Projektleiter fungiert gleichermaßen als Schlichter und Antreiber.</br><strong>Norming:</strong> Organisationsphase des Teams, in der klare Strukturen und Regeln gebildet werden. Das Team muss sich wichtige Fragen zur Zielerreichung stellen und die Spielregeln sowie die Einhaltung dieser Regeln im Team definieren. Die Projektleiter übertragen Mitarbeitenden Aufgabenm, setzen Teambesprechungen an und machen Erfolge sichtbar.</br><strong>Performing:</strong> Hochleistungsphase, in der die Selbstorganisation des Teams im Vordergrung steht. Die Teams werden zunehmend kreativer und flexibel. Fragen wie  "
     },
     {
-    "id":11,
+       "id": 10,
+       "title": 3,
+       "question":"Was bezeichnet man als Kick-Off-Meeting?",
+       "answer":"Die <strong>offizielle DIN-Definition</strong> (DIN-69901-5) für das <strong>Kick-Off-Meeting</strong> lautet wie folgt:<br/> Das Kick-Off-Meeting findet nach erfolgter Projektplanung und vor dem Start der eigentlichen Durchführung statt. An einer Kick-Off-Veranstaltung nehmen mindestens alle mitglieder des Projektteams teil. Darüber hinaus können Auftraggebers und weitere relevante Stakeholder einbezogen werden."
+    },
+    {
+    "id": 11,
     "title":3,
     "question": "Was versteht man unter einer Meilenstein-Planung?",
     "answer": "Die Meilenstein-Planung Ziele wie:</br><ol><li>eine grobe Terminplanung für das gesamte Projekt</li><li>essenzielle Ereignisse (Meilensteine) im Projekt tranparent zu machen</li><li>Übersicht über Verzögerungen und deren mögliche Auswirkungen auf andere Termine sichtbar machen</li><li>Leistungsfortschrittsorientierung zur Bewertung des Projektverlaufs</li><li>Schaffen von Zwischenzielen zur Motivation der Mitarbeitenden</li></ol>"
   },
   {
+       "id": 12,
+       "title": 3,
+       "question":"Welche Vorgehensmodelle solltest du im Projektmanagement, insbesondere in der Anwendungsentwicklung kennen?",
+       "answer":"<strong><ol><li>Wasserfallmodell</li><li>V-Modell</li><li>Spiralmodell</li></ol></strong><br/><strong>Agile Modelle</strong><ol><li>Scrum</li><li>Kanban</li><li>Inkrementelles Vorgehensmodell</li><li>Extreme Programming</li></ol>"
+    },
+    {
     "id": 16,
     "title": 1,
     "question": "Welches sind die Hauptziele der Datensicherheit?",
