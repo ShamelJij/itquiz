@@ -76,7 +76,6 @@ for (let i = 0; i < myJsons.length; i++) {
     }
 }
 function showTabContent(tabContentId) {
-  let tabContent = tabContentId;
   for (let i = 0; i < myJsons.length; i++) {
     if (tabContentIds[i] === tabContentId) {
       document.getElementById(tabContentIds[i]).className = "container";
