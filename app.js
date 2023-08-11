@@ -246,6 +246,8 @@ function showSecurity(){
 //fileformat----------------------------------------------------
 function showFileformat(){
   const ranID = getRanId(responseObj.fileformat);
+  let ranName = (JSON.stringify(responseObj.fileformat.find((obj) => obj.id === ranID).name).replace(/^["'](.+(?=["']$))["']$/, '$1'));
+  let ranDefinition = (JSON.stringify(responseObj.fileformat.find((obj) => obj.id === ranID).definition).replace(/^["'](.+(?=["']$))["']$/, '$1'));
   fileformat_Name_element.innerHTML = "";
   fileformat_Name_element.innerHTML = `${ranName}`;
   fileformat_definition_element.innerHTML = "";
