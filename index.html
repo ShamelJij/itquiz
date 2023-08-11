@@ -14,7 +14,7 @@
     integrity="sha384-mLBxp+1RMvmQmXOjBzRjqqr0dP9VHU2tb3FK6VB0fJN/AOu7/y+CAeYeWJZ4b3ii" crossorigin="anonymous">
 </head>
 
-<body onload="showQandA();">
+<body>
   <div class="nav p-2 justify-content-around" style="background-color: #bbdefb;" id="anchors">
   </div>
   <!-- QandA Tab -->
@@ -293,10 +293,13 @@
           <div class="p-2">
             <div class="offset-4 h2 text-warning col-4 p-1">
               <p><strong id="pm">Projektmanagement</strong></p>
-        </div>
+            </div>
+            <br />
             <div class="text-center text-primary" id="pmq"></div>
             <hr>
             <div class="text-left text-success" id="pma"></div>
+          </div>
+        </div>
         <div class="row text-center pb-4">
           <div class="col-md p-2">
             <button type="button" class="btn btn-primary" onclick="showPm();">weiter</button>
@@ -456,7 +459,7 @@
             <hr>
             <div class="text-center text-success" id="firewallDefinition"></div>
             <hr>
-            <div class="text-center text-danger" id="firewallThreats"></div>
+            <div class="text-left text-danger"><ol id="firewallThreats"></ol></div>
           </div>
         </div>
         <div class="row text-center pb-4">
@@ -472,8 +475,6 @@
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    h
-
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="app.js"></script>

@@ -18,7 +18,7 @@ let myJsons = [
   "IEEE",
   "firewall"
 ];
-myFuncArray = [
+let myFuncArray = [
   showQandA,
   showAbk,
   showOsi,
@@ -38,6 +38,9 @@ myFuncArray = [
   showIeee,
   showFirewall,
 ]
+window.addEventListener('load', function () {
+  console.log("It's loaded!")
+})
 let myPages = {};
 let myFuncsObject = {};
 for (var i = 0; i < myJsons.length; i++) {
@@ -72,7 +75,6 @@ for (let i = 0; i < myJsons.length; i++) {
       document.getElementById(tabContentIds[i]).className = "container";
     }else{
       document.getElementById(tabContentIds[i]).className = "d-none";
-
     }
 }
 function showTabContent(tabContentId) {
@@ -92,11 +94,9 @@ for (let i = 0; i < anchorElements.length; i++) {
   };
 }
 // QandA elements
-let QandA = responseObj.start;
 let title_element = document.getElementById("title");
 let question_element = document.getElementById("question");
 let answer_element = document.getElementById("answer");
-let ranMax = responseObj.qanda.length;
 //abkur elements
 let abkur_element = document.getElementById("abkur");
 let abkurName_element = document.getElementById("abkurName");
@@ -367,7 +367,9 @@ function showFirewall(){
   firewall_definition_element.innerHTML = "";
   firewall_definition_element.innerHTML += `${ranDefinition}`;
   firewall_threats_element.innerHTML = "";
-  firewall_threats_element.innerHTML = `<li>${ranThreats}</li> `;
+  for (var i = 0; i < ranThreats.length; i++) {
+    firewall_threats_element.innerHTML += `<li>${ranThreats[i]}</li>`;
+  }
 }
 
 showQandA();
