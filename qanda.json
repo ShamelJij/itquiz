@@ -69,7 +69,7 @@
        "id": 12,
        "title": 3,
        "question":"Welche Vorgehensmodelle solltest du im Projektmanagement, insbesondere in der Anwendungsentwicklung kennen?",
-       "answer":"<strong><ol><li>Wasserfallmodell</li><li>V-Modell</li><li>Spiralmodell</li></ol></strong><br/><strong>Agile Modelle</strong><ol><li>Scrum</li><li>Kanban</li><li>Inkrementelles Vorgehensmodell</li><li>Extreme Programming</li></ol>"
+       "answer":"<strong>Klassische Modelle</strong><ol><li>Wasserfallmodell</li><li>V-Modell</li><li>Spiralmodell</li></ol><br/><strong>Agile Modelle</strong><ol><li>Scrum</li><li>Kanban</li><li>Inkrementelles Vorgehensmodell</li><li>Extreme Programming</li></ol>"
     },
     {
        "id": 14,
@@ -92,7 +92,7 @@
        "id": 17,
        "title": 3,
        "question":"Wie errechnet sich der Gewinn eines Unternehmens?",
-       "answer":"Der Gewinn eines Unternehmens berechnet sich anhand dieser Formel:<br/><strong>Gewinn = Erlös - Kosten</strong><br/>Die Erlöse sind alle Einnahmen, die durch Verkauf von Waren und Dienstleistungen entstehen.<br/>Zu den Kosten zählen die variablen und fixen Kosten, wie Rohstoffkosten, Mietkosten sowie Pernalkosten."
+       "answer":"Der Gewinn eines Unternehmens berechnet sich anhand dieser Formel:<br/><strong>Gewinn = Erlös - Kosten</strong><br/>Die Erlöse sind alle Einnahmen, die durch Verkauf von Waren und Dienstleistungen entstehen.<br/>Zu den Kosten zählen die variablen und fixen Kosten, wie Rohstoffkosten, Mietkosten sowie Personalkosten."
    },
   {
        "id": 18,
@@ -105,6 +105,36 @@
        "title": 3,
        "question":"Was sind einer Machbarkeitsanalyse?",
        "answer":"Die <strong>Machbarkeitsanalyse</strong> ist der Hauptbestandteil der Machbarkeitsstudie.<br/>Im Wesentlichen werden folgende Ziele verfolgt:<br/><ol><li>Ist das Projekt technisch machbar?</li><li>Ist die organisatorische Umsetzung möglich?</li><li>Ist es rechtlich umsetzbar (Lizenskosten und Patente)?</li><li>Wie sieht es mit der wirtschaftlichkeit aus (z. B. Budget, Finanzierung)?</li><li>Sind genug Ressourcen vorhanden bzw. verfügbar (z. B. Material, Menschen, Maschinen und Zeit)?</li><li>Ist es Zeitlich umsetzbar?</li></ol><br/>Zu den technisch-wissenschaftlichen Analysen der Machbarkeitsanalyse gehören auch Pilottests und Computersimulationen sowie Expertenmeinungen und -studien."
+   },{
+       "id": 20,
+       "title": 3,
+       "question":"Wie berechnet sich der Deckungsbeitrag bei Unternehmen?",
+       "answer":"Der <strong>Deckungsbeitrag</strong> ist eine Teilkostenberechnung, welche sich aus der <strong>Differenz</strong> zwischen den erzielten <strong>Erlösen</strong> und den <strong>variablen Kosten</strong> berechnet.<br/>Der Deckungsbeitrag ist der Betrag, der zur <strong>Deckung der Fixkosten</strong> zur Verfügung steht."
+   },{
+       "id": 21,
+       "title": 3,
+       "question":"Welche Arten von Äußerungen sind in einem Kundengespräch eher blockierend?",
+       "answer":"In der Kundenkommunikation sind Äußerungen eher blockierend als förderlich, die folgende Eigenschaften aufweisen:<br/><ol><li>Belehrungen</li><li>Killerphasen wie: „Das können nur wir!“</li><li>Erzeugen von Druck</li><li>Termindruck auf Kunden ausüben</li><li>Konkurrenz diskreditieren</li></ol>"
+   },{
+       "id": 22,
+       "title": 3,
+       "question":"In welchem Softwaresystem werden in der Regel Supportangragen verarbeitet?",
+       "answer":"Es gibt eine Reihe von Synonymen für eine supportanfragende Software.<br/>Folgende Begrifflichkeiten existieren wie:<br/><ol><li>Ticketing-System,</li><li>User-Helpdesk-System,</li><li>Support-Ticketing-System,</li><li>Service-Ticket-System</li><li>Task-Tracking-System,</li><li>Request-Tracking-System (RTS)</li></ol>"
+   },{
+       "id": 23,
+       "title": 3,
+       "question":"Nenne die Vorteile für ein User-Helpdesk-Ticketsystem.",
+       "answer":"<strong>Vorteile eines User-Helpdesk-Ticketsystems sind:</strong><br/><ol><li>alle Ticket-Bearbeiter können auf die Service- und Fehler- historie zurückgreifen</li><li>es dient der Weiterentwicklung der Produkte oder des Service</li><li>durch Kategorisierung in Level können Gruppen von Experten, die speziell für die Tätigkeit in diesem Level zuständig sind, besser koordiniert werden.</li><li>durch den Einsatz der Wissensdatenbank können die Fehleranalyse sowie deren Lösung zur Wiederherstellung des Systems/Service unterstützt werden.</li><li>durch Online-Ticketsysteme können Kundenerfrahrungen gezielt gesammelt und ausgewertet werden</li></ol>"
+   },{
+       "id": 24,
+       "title": 6,
+       "question":"Was versteht man unter dem Begriff volkswirtschaftliche Sektoren?",
+       "answer":"Die volkswirtschaftliche Produktion wird in 3 Sektoren nach der Drei-Sektoren-Hypothese unterteilt.<br/><ol><li><strong>Primärsektor</strong> erfasst die land- und fortwirtschaftliche Produktion sowie die Fischerei als auch den Bergbau.</li><li><strong>Sekundärsektor</strong> erfasst die Industrie und das verarbeitende Gewerbe/handwerk.</li><li><strong>Tertiärsektor</strong> erfasst alle Dienstleistung, die durch Unternehmen und öffentliche Einrichtung erbracht werden.<br/><ol><li>Primär (Ur-Produktion)</li><li>Sekundär (industrie Sektor)</li><li>Tertiär (Dienstleistungssektor)</li></ol><br/>Zusätzlich zu den 3 bekannten Sektoren gibt es noch den Begriff des Quartärsektors (Informationssektor).</li></ol>"
+   },{
+       "id": 25,
+       "title": 6,
+       "question":"Was versteht man unter der Marktformen des Monopols?",
+       "answer":"Ein <strong>Monopol</strong> ist eine Marktform in der Marktwirtschaft, bei welcher <strong>nur ein Anbieter</strong> vielen Nachfragern gegenübersteht (Angebotsmonopol) oder <strong>nur ein Nachfrager</strong> vielen Anbietern gegenübersteht (Nachfragemonopol). Der Monopolist hat somit eine marktbeherrschende Stellung. Er kann weitgehend das Angebot und den Preis am Markt bestimmten.<br/>Eine Sonderform ist das Zweiseitige Monopol, bei dem es genau einen Anbieter und genau einen Nachfrager gibt.<br/><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr></tbody><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></table>"
    },
   {
     "id":40,
@@ -236,7 +266,7 @@
     "id": 81,
     "title": 1,
     "question": "Welche Aufgabe hat das Simple Network Management Protocol, kurz SNMP?",
-    "answer": "Das Simple Network Management Protocol (SNMP, übersetzt 'einfaches Netzwerkverwaltungsprotokoll') ist ein Netzwerkprotokoll, welches von der IETF (Internet Engineering Task Force) entwickelt wurde mit dem Ziel, Netzwerkelemente wie Router, Server, Switches, Drucker, Computer, Temperatursensoren und andere SNMP-taugliche Geräte mit Hilfe einer zentralen Management Konsole aus überwachen und steuern zu können.<br/>Sogenannte SNMP-Agenten werden auf den Geräten eingesetzt, um mit der Management Konsole über SNMP-Traps oder GET-REQUEST über den Port 161/UDP bzw. Port 162/UDP (Trap) zu kommunizieren. SNMPv3 ist zurzeit die aktuelle Version von SNMP (Stand 2021)"
+    "answer": "Das Simple Network Management Protocol (SNMP, übersetzt „einfaches Netzwerkverwaltungsprotokoll“) ist ein Netzwerkprotokoll, welches von der IETF (Internet Engineering Task Force) entwickelt wurde mit dem Ziel, Netzwerkelemente wie Router, Server, Switches, Drucker, Computer, Temperatursensoren und andere SNMP-taugliche Geräte mit Hilfe einer zentralen Management Konsole aus überwachen und steuern zu können.<br/>Sogenannte SNMP-Agenten werden auf den Geräten eingesetzt, um mit der Management Konsole über SNMP-Traps oder GET-REQUEST über den Port 161/UDP bzw. Port 162/UDP (Trap) zu kommunizieren. SNMPv3 ist zurzeit die aktuelle Version von SNMP (Stand 2021)"
   },
   {
     "id": 82,
@@ -332,7 +362,7 @@
     "id":144,
     "title":2,
     "question": "Welche Aufgabe erfüllt das Befehlszeilenkommando ARP?",
-    "answer": "Mithilfe des Address Resolution Protocols (ARP) wird zur IP-Adresse die zugehörige Hardware- bzw. MAC-Adresse des Netzwerkinterfaces (NIC) eines Hosts ermittelt.</br>Dazu sendet der Host einen ARP-Request mit der MAC-Adresse 'FF-FF-FF-FF-FF-FF' auf der Schicht 2, der Sicherungsschicht des OSI-Schichtenmodells, per Broadcast an die zu ermittelnde Adresse und bekommt viw ARP-Reply die ermittlete MAC-Adresse wird dann im lokalen ARP-Cache des Senders für eine gewisse Zeit gepseichert. Dieser ARP-Cache dient zur schnelleren ARP-Adressauflösung."
+    "answer": "Mithilfe des Address Resolution Protocols (ARP) wird zur IP-Adresse die zugehörige Hardware- bzw. MAC-Adresse des Netzwerkinterfaces (NIC) eines Hosts ermittelt.</br>Dazu sendet der Host einen ARP-Request mit der MAC-Adresse (FF-FF-FF-FF-FF-FF) auf der Schicht 2, der Sicherungsschicht des OSI-Schichtenmodells, per Broadcast an die zu ermittelnde Adresse und bekommt viw ARP-Reply die ermittlete MAC-Adresse wird dann im lokalen ARP-Cache des Senders für eine gewisse Zeit gepseichert. Dieser ARP-Cache dient zur schnelleren ARP-Adressauflösung."
   },
   {
     "id":169,
@@ -368,7 +398,7 @@
     "id":214,
     "title":4,
     "question": "Welche Bedeutung haben bei Unterschriften die Abkürzungen i. V., i. A. sowie ppa.",
-    "answer": "<strong>ppa.</strong> - per procura autoritate. Gemäß § 49 Abs. 1 HGB ermächtigt die Prokura 'zu allen Arten von Gerichtlichen und außergerichtlichen Geschäften und Rechtshandlungen, die der Betrieb eines Handelsgewerbes mit sich bringt'. Die Prokura muss mittels ausdrücklicher Erklärung erteilt werden (vgl. § 48 Abs. 1HGB) und muss ins Handelsregister eingetragen werden (vgl. §53, Abs. 1 HGB).</br><strong>i. V.</strong> - in Vollmacht. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB; benötigt wird hier vom Arbeitgeber/inhaber eine Bevollmächtigung</br><strong>i. A.</strong> - im Auftrag. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB, ist nicht klar geregelt</br>HGB - Handelsgesetzbuch</br>BGB - Bürgerliches Gesetzbuch"
+    "answer": "<strong>ppa.</strong> - per procura autoritate. Gemäß § 49 Abs. 1 HGB ermächtigt die Prokura „zu allen Arten von Gerichtlichen und außergerichtlichen Geschäften und Rechtshandlungen, die der Betrieb eines Handelsgewerbes mit sich bringt“. Die Prokura muss mittels ausdrücklicher Erklärung erteilt werden (vgl. § 48 Abs. 1HGB) und muss ins Handelsregister eingetragen werden (vgl. §53, Abs. 1 HGB).</br><strong>i. V.</strong> - in Vollmacht. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB; benötigt wird hier vom Arbeitgeber/inhaber eine Bevollmächtigung</br><strong>i. A.</strong> - im Auftrag. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB, ist nicht klar geregelt</br>HGB - Handelsgesetzbuch</br>BGB - Bürgerliches Gesetzbuch"
   },
   {
     "id": 216,
@@ -380,7 +410,7 @@
     "id":217,
     "title":4,
     "question": "Was versteht man unter den Begriff berufliche Fortbildung und berufliche Umschulung?",
-    "answer": "Der Begriff <strong>berufliche Fortbildung</strong> ist ein Teilbereich der Berufsbildung und im Berufsbildungsgesetz (BBiG) geregelt, um die berufliche Handlungsfähigkeit zu erhalten, anzupassen oder eine höherqualifizierte Berufsbildung zu erlangen oder beruflich aufzusteigen.</br>Anders ist es bei der beruflichen Umschulung. In § 1 Ziele und Begriffe der Berufsbildung des BBiG Abs. 5 heißt es: 'Die berufliche Umschulung soll zu einer anderen beruflichen Tätigkeit befähigen'.</br>(vgl. § 1 BBiG)"
+    "answer": "Der Begriff <strong>berufliche Fortbildung</strong> ist ein Teilbereich der Berufsbildung und im Berufsbildungsgesetz (BBiG) geregelt, um die berufliche Handlungsfähigkeit zu erhalten, anzupassen oder eine höherqualifizierte Berufsbildung zu erlangen oder beruflich aufzusteigen.</br>Anders ist es bei der beruflichen Umschulung. In § 1 Ziele und Begriffe der Berufsbildung des BBiG Abs. 5 heißt es: „Die berufliche Umschulung soll zu einer anderen beruflichen Tätigkeit befähigen“.</br>(vgl. § 1 BBiG)"
   },
   {
     "id":218,
