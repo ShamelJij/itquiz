@@ -51,7 +51,7 @@
         "id": 9,
         "title": 3,
         "question": "Was versteht man unter Forming, Storming, Norming und Performing im Teambildungsprozess?",
-        "answer": "<strong>Forming:</strong> Orientierungsphase, in der sich alle Gruppenmitglieder kennenlernen, Vieles ist in dieser Phase noch unklar. Man kennt die Teammitglieder nicht richtig. Die Aufgaben und Rollen sind noch nicht verteilt, Ziele sind noch nicht definiert.</br><strong>Storming:</strong> Sogennante Nahkampfphase, in der die Ziele zunehmend klarer werden. Eine Rollenverteilung bildet sich allmählich heraus. Teammitglieder kommen sich näher und erste Machtkämpfe entstehen. Der Projektleiter fungiert gleichermaßen als Schlichter und Antreiber.</br><strong>Norming:</strong> Organisationsphase des Teams, in der klare Strukturen und Regeln gebildet werden. Das Team muss sich wichtige Fragen zur Zielerreichung stellen und die Spielregeln sowie die Einhaltung dieser Regeln im Team definieren. Die Projektleiter übertragen Mitarbeitenden Aufgabenm, setzen Teambesprechungen an und machen Erfolge sichtbar.</br><strong>Performing:</strong> Hochleistungsphase, in der die Selbstorganisation des Teams im Vordergrung steht. Die Teams werden zunehmend kreativer und flexibel. Fragen wie  "
+        "answer": "<strong>Forming:</strong> Orientierungsphase, in der sich alle Gruppenmitglieder kennenlernen, Vieles ist in dieser Phase noch unklar. Man kennt die Teammitglieder nicht richtig. Die Aufgaben und Rollen sind noch nicht verteilt, Ziele sind noch nicht definiert.</br><strong>Storming:</strong> Sogennante Nahkampfphase, in der die Ziele zunehmend klarer werden. Eine Rollenverteilung bildet sich allmählich heraus. Teammitglieder kommen sich näher und erste Machtkämpfe entstehen. Der Projektleiter fungiert gleichermaßen als Schlichter und Antreiber.</br><strong>Norming:</strong> Organisationsphase des Teams, in der klare Strukturen und Regeln gebildet werden. Das Team muss sich wichtige Fragen zur Zielerreichung stellen und die Spielregeln sowie die Einhaltung dieser Regeln im Team definieren. Die Projektleiter übertragen Mitarbeitenden Aufgabenm, setzen Teambesprechungen an und machen Erfolge sichtbar.</br><strong>Performing:</strong> Hochleistungsphase, in der die Selbstorganisation des Teams im Vordergrung steht. Die Teams werden zunehmend kreativer und flexibel. Fragen wie"
     },
     {
        "id": 10,
@@ -72,11 +72,40 @@
        "answer":"<strong><ol><li>Wasserfallmodell</li><li>V-Modell</li><li>Spiralmodell</li></ol></strong><br/><strong>Agile Modelle</strong><ol><li>Scrum</li><li>Kanban</li><li>Inkrementelles Vorgehensmodell</li><li>Extreme Programming</li></ol>"
     },
     {
+       "id": 14,
+       "title": 3,
+       "question":"Was sind Bestandteile einer Risikoanalyse?",
+       "answer":"Die <strong>Risikoanalyse</strong> ist Bestandteil des Risikomanagements. Sie dient dem Zweck der Risikobeurteilung, Risikobewältigung und Risikokommunikation, um Tranpsparenz über Art und Umfang von bestehenden Risiken zu schaffen. Risiken können durch Präventionsmaßnahmen offengelegt, vermeiden oder zumindest reduziert werden.<br/>Risikoanalysen werden angewandt in den Bereichen:<br/><ol><li>IT-Systeme und IT-Dienstleistungen</li><li>Großveranstaltung</li><li>Produktentwicklung</li><li>Pharmaindustrie</li><li>Arbeitsschutz</li><li>Lebensmittelsicherheit</li></ol>"
+    },
+    {
+       "id": 15,
+       "title": 3,
+       "question":"Was versteht man unter dem Begriff Stakeholder?",
+       "answer":"Ein <strong>Stakeholder</strong> gehört zu den <strong>internen und externen Anspruchsgruppen</strong>, die gewisse Ziele und Interessen vertreten.<br/>Der Begriff Stakeholder stammt aus dem Englischen und bedeutet so viel wie Teilhaber oder Anspruchsberechtigter. Im Englischen kann „Stake“ auch mit Einsatz, Anteil oder Anspruch, Erwartung übersetzt werden, „holder “ kann mit eigentümer oder Besitzer werden.<br/>Der Stakeholder ist jemand, dessen Erwartung bzw. Einsatz auf dem Spiel Steht und der daher ein ein Interesse an der Zielerreichung hat. Der Begriff „Stakeholder“ wird nicht nur für Personen verwendet, die tatsächlich einen Einsatz geleistet haben, sondern für <strong>alle</strong>, die eine interesse am Verlauf oder Ergebnis eines Prozesses, eines Projekts oder investments haben.<br/>So können beispielsweise auch Kunden/Kundinnen oder Mitarbeitende die Funktion von Stakeholdern einnehmen."
+    },
+    {
     "id": 16,
-    "title": 1,
+    "title": 3,
     "question": "Welches sind die Hauptziele der Datensicherheit?",
-    "answer": "Vertraulichkeit<br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/>Integrität<br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/>Verfügbarkeit<br/>Verfügbarkeit und erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie.<ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
-  },
+    "answer": "<strong>Vertraulichkeit</strong><br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/><strong>Integrität</strong><br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/><strong>Verfügbarkeit</strong><br/>Verfügbarkeit und erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie die Verhinderung von Systemausfällen der LuK-Systeme."
+  },{
+       "id": 17,
+       "title": 3,
+       "question":"Wie errechnet sich der Gewinn eines Unternehmens?",
+       "answer":"Der Gewinn eines Unternehmens berechnet sich anhand dieser Formel:<br/><strong>Gewinn = Erlös - Kosten</strong><br/>Die Erlöse sind alle Einnahmen, die durch Verkauf von Waren und Dienstleistungen entstehen.<br/>Zu den Kosten zählen die variablen und fixen Kosten, wie Rohstoffkosten, Mietkosten sowie Pernalkosten."
+   },
+  {
+       "id": 18,
+       "title": 3,
+       "question":"Was versteht man unter einer Machbarkeitsanalyse?",
+       "answer":"Eine <strong>Machbarkeitsanalyse</strong> ist eine erweiterte Machbarkeitsprüfung, die neben technisch-wissenschaftlichen Analysen auch Tests oder Simulationen beinhaltet sowie Experten hinzuziehen kann. Sie wird immer dann durchgeführt, wenn der Misserfolg eines Projekts wahrscheinlich ist oder es unkalkulierbare Risiken birgt.<br/>Der Hauptteile Machbarkeitsstudie stellt die Machbarkeitsprüfung dar. Wesentlichen Punkte sind:<br/><ol><li>oragnisatorische Umsetzung</li><li>wirtschaftliche Machbarkeit</li><li>technische Machbarkeit</li><li>Ressourcen und Verfügbarkeit</li><li>zeitliche Umsetzung</li><li>rechtliche Umsetzung</li></ol>"
+   },
+   {
+       "id": 19,
+       "title": 3,
+       "question":"Was sind einer Machbarkeitsanalyse?",
+       "answer":"Die <strong>Machbarkeitsanalyse</strong> ist der Hauptbestandteil der Machbarkeitsstudie.<br/>Im Wesentlichen werden folgende Ziele verfolgt:<br/><ol><li>Ist das Projekt technisch machbar?</li><li>Ist die organisatorische Umsetzung möglich?</li><li>Ist es rechtlich umsetzbar (Lizenskosten und Patente)?</li><li>Wie sieht es mit der wirtschaftlichkeit aus (z. B. Budget, Finanzierung)?</li><li>Sind genug Ressourcen vorhanden bzw. verfügbar (z. B. Material, Menschen, Maschinen und Zeit)?</li><li>Ist es Zeitlich umsetzbar?</li></ol><br/>Zu den technisch-wissenschaftlichen Analysen der Machbarkeitsanalyse gehören auch Pilottests und Computersimulationen sowie Expertenmeinungen und -studien."
+   },
   {
     "id":40,
     "title":6,
@@ -92,8 +121,8 @@
   {
     "id":45,
     "title":6,
-    "question": "Mit welchen Maßnahmen kann man die Kundenzufiredenheit erhöhen?",
-    "answer": "<strong>Kundenzufiredenheit</strong> ist für viele Unternehmen wichtig, um die Kundenbindung zu erhöhen und eine Umsatzsteigerung zu erreichen. Zufiredene Kunden kehren oft zurück und empfehlen das Produkt oder die Dienstleistung weiter.</br>Die Kundenzufiredenheit unterliegt daher einer ständigen Optimierung. Dazu zählt auch eine Verbesserung der Customer Experience, also der Erfahrungen, die der Kunde mit dem Unternehmen macht.</br>Folgende Maßnahmen sind geeignet:</br>Gewährung von Rabatten (im Rahmen von Aktionen)</br>Teilnahme an Sonderaktionen (Lotterie)</br>Einladung zu Hausmessen oder Festen</br>Feedback einholen durch Umfragen</br>Social Media, Einrichtung von Bewertungsportalen</br>Qualitätsversprechen unbedingt einhalten"
+    "question": "Mit welchen Maßnahmen kann man die Kundenzufriedenheit erhöhen?",
+    "answer": "<strong>Kundenzufriedenheit</strong> ist für viele Unternehmen wichtig, um die Kundenbindung zu erhöhen und eine Umsatzsteigerung zu erreichen. Zufriedene Kunden kehren oft zurück und empfehlen das Produkt oder die Dienstleistung weiter.</br>Die Kundenzufriedenheit unterliegt daher einer ständigen Optimierung. Dazu zählt auch eine Verbesserung der Customer Experience, also der Erfahrungen, die der Kunde mit dem Unternehmen macht.</br>Folgende Maßnahmen sind geeignet:</br>Gewährung von Rabatten (im Rahmen von Aktionen)</br>Teilnahme an Sonderaktionen (Lotterie)</br>Einladung zu Hausmessen oder Festen</br>Feedback einholen durch Umfragen</br>Social Media, Einrichtung von Bewertungsportalen</br>Qualitätsversprechen unbedingt einhalten"
   },
   {
     "id":46,
@@ -206,7 +235,7 @@
   {
     "id": 81,
     "title": 1,
-    "question": "Welche Aufgabe hat das Simple Network Management Protocol, kutz SNMP?",
+    "question": "Welche Aufgabe hat das Simple Network Management Protocol, kurz SNMP?",
     "answer": "Das Simple Network Management Protocol (SNMP, übersetzt 'einfaches Netzwerkverwaltungsprotokoll') ist ein Netzwerkprotokoll, welches von der IETF (Internet Engineering Task Force) entwickelt wurde mit dem Ziel, Netzwerkelemente wie Router, Server, Switches, Drucker, Computer, Temperatursensoren und andere SNMP-taugliche Geräte mit Hilfe einer zentralen Management Konsole aus überwachen und steuern zu können.<br/>Sogenannte SNMP-Agenten werden auf den Geräten eingesetzt, um mit der Management Konsole über SNMP-Traps oder GET-REQUEST über den Port 161/UDP bzw. Port 162/UDP (Trap) zu kommunizieren. SNMPv3 ist zurzeit die aktuelle Version von SNMP (Stand 2021)"
   },
   {
