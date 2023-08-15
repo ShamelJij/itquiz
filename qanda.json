@@ -27,7 +27,7 @@
         "id": 5,
         "title": 2,
         "question": "Was versteht man unter dem Begriff Bottom-Up-Ansatz beim Projektstrukturplan?",
-        "answer": "Der <strong>Bottom-Up-Ansatz</strong> des Projektstrukturplans verfolgt das Ziel, dass der Weg vom Detail zum Ganzen führt. Die Grundidee ist, dass abgegerenzte, detaillierte Teilprobleme gelöst werden, um dann mit deren Hilfe größere, darüber liegende Probleme zu lösen. Bei sehr innovativen Lösungen kommt dieser Ansatz zum Einsatz.</br>Folgende Punkte sind dabei zu berücksichtigen:</br><ol><li>Festlegung der auszuführenden Aufgaben</li><li>Klärung der Bezeichnung der Teilaufgaben in der Baumstruktur</li><li>Errichtung einer Baumstruktur, um Aufbau und Zusammensetzung zu erkennen</li><li></li></ol>"
+        "answer": "Der <strong>Bottom-Up-Ansatz</strong> des Projektstrukturplans verfolgt das Ziel, dass der Weg vom Detail zum Ganzen führt. Die Grundidee ist, dass abgegerenzte, detaillierte Teilprobleme gelöst werden, um dann mit deren Hilfe größere, darüber liegende Probleme zu lösen. Bei sehr innovativen Lösungen kommt dieser Ansatz zum Einsatz.</br>Folgende Punkte sind dabei zu berücksichtigen:</br><ol><li>Festlegung der auszuführenden Aufgaben</li><li>Klärung der Bezeichnung der Teilaufgaben in der Baumstruktur</li><li>Errichtung einer Baumstruktur, um Aufbau und Zusammensetzung zu erkennen</li><li>Überprüfung auf Vollständigkeit und Einmaligkeit aller Teilaufgaben</li></ol>"
     },
     {
         "id": 6,
