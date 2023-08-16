@@ -1,162 +1,271 @@
 [
-    {
-        "id": 1,
-        "title": 3,
-        "question": "Mit welchem Werkzeugen kann man ein Projekt planen und überwachen?",
-        "answer": "Mithilfe eines Netzplans, eines Gantt-Diagramms oder eines Projektstrukturplans können Projekte gemanagt und überwacht werden."
-    },
-    {
-        "id": 2,
-        "title": 3,
-        "question": "Was ist Netzplans?",
-        "answer": "Der Netzplans findet Anwendung bei der Terminplanung von Projekten und stellt im Projektmanagement die Dauer von Aktivitäten im Projekt dar. Sowol ihre zeitliche Anordnung als auch logische Abhängigkeiten zwischen den Aktivitäten werden grafisch dargestellt.</br>Kritische Pfade und Pufferzeiten der einzelnen Aktivitäten sowie Gesamtpufferzeiten sind erkennbar."
-    },
-    {
-        "id": 3,
-        "title": 3,
-        "question": "Was ist eine Gannt-Diagramm?",
-        "answer": "In einem Gantt-Diagramms werden alle Aktivitäten eines Projekts mit Hilfe einer Zeitachse dargestellt: Die Zeitachse wird horizontal in der ersten Zeile des Diagramms dargestellt. Alle Aktivitäten werden dann in den darunter liegenden Zeilen in der ersten Spalte benannt und zeitlich mit einem waagerecnte Balken kann die Dauer, der Beginn und das Ende der Aktivitäten erkannt werden. Sich überschneidende Aktivitäten werden durch überlappende Balken dargestellt. Eine Visualisierung des kritischen Pfades ist möglich. Abhängigkeiten zwischen den einzelnen Aktivitäten werden mit Hilfe von Pfeilen verdeutlicht.</br><strong>Vorteile</strong></br>für kleine und mittlere Projekte sehr übersichtliche Darstellung der Aktivitäten</br><strong>Nachteil</strong></br>bei einer großen Anzahl von Aktivitäten wird Darstellung schnell  unübersichtlich"
-    },
-    {
-        "id": 4,
-        "title": 3,
-        "question": "Was verteht man unter dem Top-Down-Ansatz beim Projektstrukturplan?",
-        "answer": "Der <strong>Top-Down-Ansatz</strong> der Projektstrukturplans verfolgt das Ziel, dass der Weg vom Ganzen zum Detail führt. Dazu wird das Gesamtprojekts in mehrere Teilaufgaben zerlegt.</br>Schritte zur Erreichung dieses Ziels sind:</br><ol><li>Benennung des Gesamtprojekts</li><li>Zerlegung des Gesamtprojekts in Arbeitspakete oder Teilaufgaben</li><li>Benennung der Teilaufgaben</li><li>weitere Zerlegung der Teilschritte, bis Arbeitspakete vorliegen</li></ol></br>Der Top-Down-Ansatz wird immer dann gewählt, wenn bereits Erfahrungen vorliegen mit ähnlichen Projekten oder die Inhalte des zu planenden Projektes aus vorherigen Projekten bereits bekannt sind."
-    },
-    {
-        "id": 5,
-        "title": 2,
-        "question": "Was versteht man unter dem Begriff Bottom-Up-Ansatz beim Projektstrukturplan?",
-        "answer": "Der <strong>Bottom-Up-Ansatz</strong> des Projektstrukturplans verfolgt das Ziel, dass der Weg vom Detail zum Ganzen führt. Die Grundidee ist, dass abgegerenzte, detaillierte Teilprobleme gelöst werden, um dann mit deren Hilfe größere, darüber liegende Probleme zu lösen. Bei sehr innovativen Lösungen kommt dieser Ansatz zum Einsatz.</br>Folgende Punkte sind dabei zu berücksichtigen:</br><ol><li>Festlegung der auszuführenden Aufgaben</li><li>Klärung der Bezeichnung der Teilaufgaben in der Baumstruktur</li><li>Errichtung einer Baumstruktur, um Aufbau und Zusammensetzung zu erkennen</li><li>Überprüfung auf Vollständigkeit und Einmaligkeit aller Teilaufgaben</li></ol>"
-    },
-    {
-        "id": 6,
-        "title": 3,
-        "question": "Was versteht man unter dem 4-Phasen-Modell beim Projektmanagement?",
-        "answer": "Das <strong>4-Phasen-Modell</strong> beschreibt die grundlegenden Phasen beim Projektmanagement. Eine der ersten grundlegenden Managmentaufgaben in einem Projekt ist die Planung von Projektphasen.</br>Dieses 4-Phasen-Modell gliedert ein Projekt in folgende Phasen eine:</br><ol><li>Projektdefinition</li><li>Projektplanung</li><li>Projektdurchführung und Controlling</li><li>Projektabschluss</li></ol></br>Als Alternative existiert noch das 5-Phasen-Modell, wo die 1. Phase die Initiierung des Projekts darstellt."
-    },
-    {
-        "id": 7,
-        "title": 3,
-        "question": "Was bezeichnet man als kritischen Pfad beim Netzplan?",
-        "answer": "Der <strong>Kritische Pfad</strong> auch als kritischer Weg bezeichnet, ist der Weg von Anfang bis zum Ende aller Aktivitäten eines Netzplans, auf dem die Summe aller Pufferzeiten minimal oder Null wird. Die Gesamtprojektdauer wird somit durch den kritischen Pfad bestimmt, (DIN 69900:2009-01 Projektmanagement - Netzplantechnik; Beschreibungen und Begriffe).</br>Einzelne Aktivitäten innerhalb des Projekts können im Rahmen ihrer Pufferzeit zeitlich verschoben oder verlängert werden, ohne dabei die Gesamtprojektdauer zu gefährden.</br><strong>Merke: Beim kritichen Pfad ist der Gesamtpuffer : Null.</strong>"
-    },
-    {
-        "id": 8,
-        "title": 3,
-        "question": "Was bedeutet FAZ, FEZ, SAZ, SEZ, GP, FP?",
-        "answer": "<ol><li><strong>FAZ: </strong>frühester Anfangzeitpunkt</li><li><strong>FEZ: </strong>frühester Endzeitpunkt</li><li><strong>SAZ: </strong>spätester Anfangzeitpunkt</li><li><strong>SEZ: </strong>spätester Endzeitpunkt</li><li><strong>GP : </strong>Gesamtpuffer</li><li><strong>FP : </strong>freier Puffer</li></ol>"
-    },
-    {
-        "id": 9,
-        "title": 3,
-        "question": "Was versteht man unter Forming, Storming, Norming und Performing im Teambildungsprozess?",
-        "answer": "<strong>Forming:</strong> Orientierungsphase, in der sich alle Gruppenmitglieder kennenlernen, Vieles ist in dieser Phase noch unklar. Man kennt die Teammitglieder nicht richtig. Die Aufgaben und Rollen sind noch nicht verteilt, Ziele sind noch nicht definiert.</br><strong>Storming:</strong> Sogennante Nahkampfphase, in der die Ziele zunehmend klarer werden. Eine Rollenverteilung bildet sich allmählich heraus. Teammitglieder kommen sich näher und erste Machtkämpfe entstehen. Der Projektleiter fungiert gleichermaßen als Schlichter und Antreiber.</br><strong>Norming:</strong> Organisationsphase des Teams, in der klare Strukturen und Regeln gebildet werden. Das Team muss sich wichtige Fragen zur Zielerreichung stellen und die Spielregeln sowie die Einhaltung dieser Regeln im Team definieren. Die Projektleiter übertragen Mitarbeitenden Aufgabenm, setzen Teambesprechungen an und machen Erfolge sichtbar.</br><strong>Performing:</strong> Hochleistungsphase, in der die Selbstorganisation des Teams im Vordergrung steht. Die Teams werden zunehmend kreativer und flexibel. Fragen wie"
-    },
-    {
-       "id": 10,
-       "title": 3,
-       "question":"Was bezeichnet man als Kick-Off-Meeting?",
-       "answer":"Die <strong>offizielle DIN-Definition</strong> (DIN-69901-5) für das <strong>Kick-Off-Meeting</strong> lautet wie folgt:<br/> Das Kick-Off-Meeting findet nach erfolgter Projektplanung und vor dem Start der eigentlichen Durchführung statt. An einer Kick-Off-Veranstaltung nehmen mindestens alle mitglieder des Projektteams teil. Darüber hinaus können Auftraggebers und weitere relevante Stakeholder einbezogen werden."
-    },
-    {
-    "id": 11,
-    "title":3,
-    "question": "Was versteht man unter einer Meilenstein-Planung?",
-    "answer": "Die Meilenstein-Planung Ziele wie:</br><ol><li>eine grobe Terminplanung für das gesamte Projekt</li><li>essenzielle Ereignisse (Meilensteine) im Projekt tranparent zu machen</li><li>Übersicht über Verzögerungen und deren mögliche Auswirkungen auf andere Termine sichtbar machen</li><li>Leistungsfortschrittsorientierung zur Bewertung des Projektverlaufs</li><li>Schaffen von Zwischenzielen zur Motivation der Mitarbeitenden</li></ol>"
+  {
+    "id": 1,
+    "title": 3,
+    "question": "Mit welchem Werkzeugen kann man ein Projekt planen und überwachen?",
+    "answer": "Mithilfe eines Netzplans, eines Gantt-Diagramms oder eines Projektstrukturplans können Projekte gemanagt und überwacht werden."
   },
   {
-       "id": 12,
-       "title": 3,
-       "question":"Welche Vorgehensmodelle solltest du im Projektmanagement, insbesondere in der Anwendungsentwicklung kennen?",
-       "answer":"<strong>Klassische Modelle</strong><ol><li>Wasserfallmodell</li><li>V-Modell</li><li>Spiralmodell</li></ol><br/><strong>Agile Modelle</strong><ol><li>Scrum</li><li>Kanban</li><li>Inkrementelles Vorgehensmodell</li><li>Extreme Programming</li></ol>"
-    },
-    {
-       "id": 14,
-       "title": 3,
-       "question":"Was sind Bestandteile einer Risikoanalyse?",
-       "answer":"Die <strong>Risikoanalyse</strong> ist Bestandteil des Risikomanagements. Sie dient dem Zweck der Risikobeurteilung, Risikobewältigung und Risikokommunikation, um Tranpsparenz über Art und Umfang von bestehenden Risiken zu schaffen. Risiken können durch Präventionsmaßnahmen offengelegt, vermeiden oder zumindest reduziert werden.<br/>Risikoanalysen werden angewandt in den Bereichen:<br/><ol><li>IT-Systeme und IT-Dienstleistungen</li><li>Großveranstaltung</li><li>Produktentwicklung</li><li>Pharmaindustrie</li><li>Arbeitsschutz</li><li>Lebensmittelsicherheit</li></ol>"
-    },
-    {
-       "id": 15,
-       "title": 3,
-       "question":"Was versteht man unter dem Begriff Stakeholder?",
-       "answer":"Ein <strong>Stakeholder</strong> gehört zu den <strong>internen und externen Anspruchsgruppen</strong>, die gewisse Ziele und Interessen vertreten.<br/>Der Begriff Stakeholder stammt aus dem Englischen und bedeutet so viel wie Teilhaber oder Anspruchsberechtigter. Im Englischen kann „Stake“ auch mit Einsatz, Anteil oder Anspruch, Erwartung übersetzt werden, „holder “ kann mit eigentümer oder Besitzer werden.<br/>Der Stakeholder ist jemand, dessen Erwartung bzw. Einsatz auf dem Spiel Steht und der daher ein ein Interesse an der Zielerreichung hat. Der Begriff „Stakeholder“ wird nicht nur für Personen verwendet, die tatsächlich einen Einsatz geleistet haben, sondern für <strong>alle</strong>, die eine interesse am Verlauf oder Ergebnis eines Prozesses, eines Projekts oder investments haben.<br/>So können beispielsweise auch Kunden/Kundinnen oder Mitarbeitende die Funktion von Stakeholdern einnehmen."
-    },
-    {
+    "id": 2,
+    "title": 3,
+    "question": "Was ist Netzplans?",
+    "answer": "Der Netzplans findet Anwendung bei der Terminplanung von Projekten und stellt im Projektmanagement die Dauer von Aktivitäten im Projekt dar. Sowol ihre zeitliche Anordnung als auch logische Abhängigkeiten zwischen den Aktivitäten werden grafisch dargestellt.</br>Kritische Pfade und Pufferzeiten der einzelnen Aktivitäten sowie Gesamtpufferzeiten sind erkennbar."
+  },
+  {
+    "id": 3,
+    "title": 3,
+    "question": "Was ist eine Gantt-Diagramm?",
+    "answer": "In einem Gantt-Diagramms werden alle Aktivitäten eines Projekts mit Hilfe einer Zeitachse dargestellt: Die Zeitachse wird horizontal in der ersten Zeile des Diagramms dargestellt. Alle Aktivitäten werden dann in den darunter liegenden Zeilen in der ersten Spalte benannt und zeitlich mit einem waagerechten Balken kann die Dauer, der Beginn und das Ende der Aktivitäten erkannt werden. Sich überschneidende Aktivitäten werden durch überlappende Balken dargestellt. Eine Visualisierung des kritischen Pfades ist möglich. Abhängigkeiten zwischen den einzelnen Aktivitäten werden mit Hilfe von Pfeilen verdeutlicht.</br><strong>Vorteile</strong></br>für kleine und mittlere Projekte sehr übersichtliche Darstellung der Aktivitäten</br><strong>Nachteil</strong></br>bei einer großen Anzahl von Aktivitäten wird Darstellung schnell  unübersichtlich"
+  },
+  {
+    "id": 4,
+    "title": 3,
+    "question": "Was versteht man unter dem Top-Down-Ansatz beim Projektstrukturplan?",
+    "answer": "Der <strong>Top-Down-Ansatz</strong> der Projektstrukturplans verfolgt das Ziel, dass der Weg vom Ganzen zum Detail führt. Dazu wird das Gesamtprojekts in mehrere Teilaufgaben zerlegt.</br>Schritte zur Erreichung dieses Ziels sind:</br><ol><li>Benennung des Gesamtprojekts</li><li>Zerlegung des Gesamtprojekts in Arbeitspakete oder Teilaufgaben</li><li>Benennung der Teilaufgaben</li><li>weitere Zerlegung der Teilschritte, bis Arbeitspakete vorliegen</li></ol></br>Der Top-Down-Ansatz wird immer dann gewählt, wenn bereits Erfahrungen vorliegen mit ähnlichen Projekten oder die Inhalte des zu planenden Projektes aus vorherigen Projekten bereits bekannt sind."
+  },
+  {
+    "id": 5,
+    "title": 2,
+    "question": "Was versteht man unter dem Begriff Bottom-Up-Ansatz beim Projektstrukturplan?",
+    "answer": "Der <strong>Bottom-Up-Ansatz</strong> des Projektstrukturplans verfolgt das Ziel, dass der Weg vom Detail zum Ganzen führt. Die Grundidee ist, dass abgegrenzte, detaillierte Teilprobleme gelöst werden, um dann mit deren Hilfe größere, darüber liegende Probleme zu lösen. Bei sehr innovativen Lösungen kommt dieser Ansatz zum Einsatz.</br>Folgende Punkte sind dabei zu berücksichtigen:</br><ol><li>Festlegung der auszuführenden Aufgaben</li><li>Klärung der Bezeichnung der Teilaufgaben in der Baumstruktur</li><li>Errichtung einer Baumstruktur, um Aufbau und Zusammensetzung zu erkennen</li><li>Überprüfung auf Vollständigkeit und Einmaligkeit aller Teilaufgaben</li></ol>"
+  },
+  {
+    "id": 6,
+    "title": 3,
+    "question": "Was versteht man unter dem 4-Phasen-Modell beim Projektmanagement?",
+    "answer": "Das <strong>4-Phasen-Modell</strong> beschreibt die grundlegenden Phasen beim Projektmanagement. Eine der ersten grundlegenden Managementaufgaben in einem Projekt ist die Planung von Projektphasen.</br>Dieses 4-Phasen-Modell gliedert ein Projekt in folgende Phasen eine:</br><ol><li>Projektdefinition</li><li>Projektplanung</li><li>Projektdurchführung und Controlling</li><li>Projektabschluss</li></ol></br>Als Alternative existiert noch das 5-Phasen-Modell, wo die 1. Phase die Initiierung des Projekts darstellt."
+  },
+  {
+    "id": 7,
+    "title": 3,
+    "question": "Was bezeichnet man als kritischen Pfad beim Netzplan?",
+    "answer": "Der <strong>Kritische Pfad</strong> auch als kritischer Weg bezeichnet, ist der Weg von Anfang bis zum Ende aller Aktivitäten eines Netzplans, auf dem die Summe aller Pufferzeiten minimal oder Null wird. Die Gesamtprojektdauer wird somit durch den kritischen Pfad bestimmt, (DIN 69900:2009-01 Projektmanagement - Netzplantechnik; Beschreibungen und Begriffe).</br>Einzelne Aktivitäten innerhalb des Projekts können im Rahmen ihrer Pufferzeit zeitlich verschoben oder verlängert werden, ohne dabei die Gesamtprojektdauer zu gefährden.</br><strong>Merke: Beim kritischen Pfad ist der Gesamtpuffer : Null.</strong>"
+  },
+  {
+    "id": 8,
+    "title": 3,
+    "question": "Was bedeutet FAZ, FEZ, SAZ, SEZ, GP, FP?",
+    "answer": "<ol><li><strong>FAZ: </strong>frühester Anfangszeitpunkt</li><li><strong>FEZ: </strong>frühester Endzeitpunkt</li><li><strong>SAZ: </strong>spätester Anfangszeitpunkt</li><li><strong>SEZ: </strong>spätester Endzeitpunkt</li><li><strong>GP : </strong>Gesamtpuffer</li><li><strong>FP : </strong>freier Puffer</li></ol>"
+  },
+  {
+    "id": 9,
+    "title": 3,
+    "question": "Was versteht man unter Forming, Storming, Norming und Performing im Teambildungsprozess?",
+    "answer": "<strong>Forming:</strong> Orientierungsphase, in der sich alle Gruppenmitglieder kennenlernen, Vieles ist in dieser Phase noch unklar. Man kennt die Teammitglieder nicht richtig. Die Aufgaben und Rollen sind noch nicht verteilt, Ziele sind noch nicht definiert.</br><strong>Storming:</strong> Sogenannte Nahkampfphase, in der die Ziele zunehmend klarer werden. Eine Rollenverteilung bildet sich allmählich heraus. Teammitglieder kommen sich näher und erste Machtkämpfe entstehen. Der Projektleiter fungiert gleichermaßen als Schlichter und Antreiber.</br><strong>Norming:</strong> Organisationsphase des Teams, in der klare Strukturen und Regeln gebildet werden. Das Team muss sich wichtige Fragen zur Zielerreichung stellen und die Spielregeln sowie die Einhaltung dieser Regeln im Team definieren. Die Projektleiter übertragen Mitarbeitenden Aufgaben, setzen Teambesprechungen an und machen Erfolge sichtbar.</br><strong>Performing:</strong> Hochleistungsphase, in der die Selbstorganisation des Teams im Vordergrund steht. Die Teams werden zunehmend kreativer und flexibel. Fragen wie"
+  },
+  {
+    "id": 10,
+    "title": 3,
+    "question": "Was bezeichnet man als Kick-Off-Meeting?",
+    "answer": "Die <strong>offizielle DIN-Definition</strong> (DIN-69901-5) für das <strong>Kick-Off-Meeting</strong> lautet wie folgt:<br/> Das Kick-Off-Meeting findet nach erfolgter Projektplanung und vor dem Start der eigentlichen Durchführung statt. An einer Kick-Off-Veranstaltung nehmen mindestens alle mitglieder des Projektteams teil. Darüber hinaus können Auftraggebers und weitere relevante Stakeholder einbezogen werden."
+  },
+  {
+    "id": 11,
+    "title": 3,
+    "question": "Was versteht man unter einer Meilenstein-Planung?",
+    "answer": "Die Meilenstein-Planung Ziele wie:</br><ol><li>eine grobe Terminplanung für das gesamte Projekt</li><li>essenzielle Ereignisse (Meilensteine) im Projekt transparent zu machen</li><li>Übersicht über Verzögerungen und deren mögliche Auswirkungen auf andere Termine sichtbar machen</li><li>Leistungsfortschrittsorientierung zur Bewertung des Projektverlaufs</li><li>Schaffen von Zwischenzielen zur Motivation der Mitarbeitenden</li></ol>"
+  },
+  {
+    "id": 12,
+    "title": 3,
+    "question": "Welche Vorgehensmodelle solltest du im Projektmanagement, insbesondere in der Anwendungsentwicklung kennen?",
+    "answer": "<strong>Klassische Modelle</strong><ol><li>Wasserfallmodell</li><li>V-Modell</li><li>Spiralmodell</li></ol><br/><strong>Agile Modelle</strong><ol><li>Scrum</li><li>Kanban</li><li>Inkrementelles Vorgehensmodell</li><li>Extreme Programming</li></ol>"
+  },
+  {
+    "id": 14,
+    "title": 3,
+    "question": "Was sind Bestandteile einer Risikoanalyse?",
+    "answer": "Die <strong>Risikoanalyse</strong> ist Bestandteil des Risikomanagements. Sie dient dem Zweck der Risikobeurteilung, Risikobewältigung und Risikokommunikation, um Transparenz über Art und Umfang von bestehenden Risiken zu schaffen. Risiken können durch Präventionsmaßnahmen offengelegt, vermeiden oder zumindest reduziert werden.<br/>Risikoanalysen werden angewandt in den Bereichen:<br/><ol><li>IT-Systeme und IT-Dienstleistungen</li><li>Großveranstaltung</li><li>Produktentwicklung</li><li>Pharmaindustrie</li><li>Arbeitsschutz</li><li>Lebensmittelsicherheit</li></ol>"
+  },
+  {
+    "id": 15,
+    "title": 3,
+    "question": "Was versteht man unter dem Begriff Stakeholder?",
+    "answer": "Ein <strong>Stakeholder</strong> gehört zu den <strong>internen und externen Anspruchsgruppen</strong>, die gewisse Ziele und Interessen vertreten.<br/>Der Begriff Stakeholder stammt aus dem Englischen und bedeutet so viel wie Teilhaber oder Anspruchsberechtigter. Im Englischen kann „Stake“ auch mit Einsatz, Anteil oder Anspruch, Erwartung übersetzt werden, „holder “ kann mit Eigentümer oder Besitzer werden.<br/>Der Stakeholder ist jemand, dessen Erwartung bzw. Einsatz auf dem Spiel Steht und der daher ein ein Interesse an der Zielerreichung hat. Der Begriff „Stakeholder“ wird nicht nur für Personen verwendet, die tatsächlich einen Einsatz geleistet haben, sondern für <strong>alle</strong>, die eine Interesse am Verlauf oder Ergebnis eines Prozesses, eines Projekts oder investments haben.<br/>So können beispielsweise auch Kunden/Kundinnen oder Mitarbeitende die Funktion von Stakeholdern einnehmen."
+  },
+  {
     "id": 16,
     "title": 3,
     "question": "Welches sind die Hauptziele der Datensicherheit?",
-    "answer": "<strong>Vertraulichkeit</strong><br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/><strong>Integrität</strong><br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/><strong>Verfügbarkeit</strong><br/>Verfügbarkeit und erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie die Verhinderung von Systemausfällen der LuK-Systeme."
-  },{
-       "id": 17,
-       "title": 3,
-       "question":"Wie errechnet sich der Gewinn eines Unternehmens?",
-       "answer":"Der Gewinn eines Unternehmens berechnet sich anhand dieser Formel:<br/><strong>Gewinn = Erlös - Kosten</strong><br/>Die Erlöse sind alle Einnahmen, die durch Verkauf von Waren und Dienstleistungen entstehen.<br/>Zu den Kosten zählen die variablen und fixen Kosten, wie Rohstoffkosten, Mietkosten sowie Personalkosten."
-   },
+    "answer": "<strong>Vertraulichkeit</strong><br/>Vertraulichkeit bedeutet, dass Daten nur befugten Personen zur Verarbeitung zugänglich sind.<br/><br/><strong>Integrität</strong><br/>Integrität bedeutet, dass Daten/Systeme korrekt, unverändert bzw. verlässlich sind.<br/><br/><strong>Verfügbarkeit</strong><br/>Verfügbarkeit und Erreichbarkeit aller Systeme sowie die Verhinderung von Systemausfällen der IuK-Systeme sowie die Verhinderung von Systemausfällen der LuK-Systeme."
+  },
   {
-       "id": 18,
-       "title": 3,
-       "question":"Was versteht man unter einer Machbarkeitsanalyse?",
-       "answer":"Eine <strong>Machbarkeitsanalyse</strong> ist eine erweiterte Machbarkeitsprüfung, die neben technisch-wissenschaftlichen Analysen auch Tests oder Simulationen beinhaltet sowie Experten hinzuziehen kann. Sie wird immer dann durchgeführt, wenn der Misserfolg eines Projekts wahrscheinlich ist oder es unkalkulierbare Risiken birgt.<br/>Der Hauptteile Machbarkeitsstudie stellt die Machbarkeitsprüfung dar. Wesentlichen Punkte sind:<br/><ol><li>oragnisatorische Umsetzung</li><li>wirtschaftliche Machbarkeit</li><li>technische Machbarkeit</li><li>Ressourcen und Verfügbarkeit</li><li>zeitliche Umsetzung</li><li>rechtliche Umsetzung</li></ol>"
-   },
-   {
-       "id": 19,
-       "title": 3,
-       "question":"Was sind einer Machbarkeitsanalyse?",
-       "answer":"Die <strong>Machbarkeitsanalyse</strong> ist der Hauptbestandteil der Machbarkeitsstudie.<br/>Im Wesentlichen werden folgende Ziele verfolgt:<br/><ol><li>Ist das Projekt technisch machbar?</li><li>Ist die organisatorische Umsetzung möglich?</li><li>Ist es rechtlich umsetzbar (Lizenskosten und Patente)?</li><li>Wie sieht es mit der wirtschaftlichkeit aus (z. B. Budget, Finanzierung)?</li><li>Sind genug Ressourcen vorhanden bzw. verfügbar (z. B. Material, Menschen, Maschinen und Zeit)?</li><li>Ist es Zeitlich umsetzbar?</li></ol><br/>Zu den technisch-wissenschaftlichen Analysen der Machbarkeitsanalyse gehören auch Pilottests und Computersimulationen sowie Expertenmeinungen und -studien."
-   },{
-       "id": 20,
-       "title": 3,
-       "question":"Wie berechnet sich der Deckungsbeitrag bei Unternehmen?",
-       "answer":"Der <strong>Deckungsbeitrag</strong> ist eine Teilkostenberechnung, welche sich aus der <strong>Differenz</strong> zwischen den erzielten <strong>Erlösen</strong> und den <strong>variablen Kosten</strong> berechnet.<br/>Der Deckungsbeitrag ist der Betrag, der zur <strong>Deckung der Fixkosten</strong> zur Verfügung steht."
-   },{
-       "id": 21,
-       "title": 3,
-       "question":"Welche Arten von Äußerungen sind in einem Kundengespräch eher blockierend?",
-       "answer":"In der Kundenkommunikation sind Äußerungen eher blockierend als förderlich, die folgende Eigenschaften aufweisen:<br/><ol><li>Belehrungen</li><li>Killerphasen wie: „Das können nur wir!“</li><li>Erzeugen von Druck</li><li>Termindruck auf Kunden ausüben</li><li>Konkurrenz diskreditieren</li></ol>"
-   },{
-       "id": 22,
-       "title": 3,
-       "question":"In welchem Softwaresystem werden in der Regel Supportangragen verarbeitet?",
-       "answer":"Es gibt eine Reihe von Synonymen für eine supportanfragende Software.<br/>Folgende Begrifflichkeiten existieren wie:<br/><ol><li>Ticketing-System,</li><li>User-Helpdesk-System,</li><li>Support-Ticketing-System,</li><li>Service-Ticket-System</li><li>Task-Tracking-System,</li><li>Request-Tracking-System (RTS)</li></ol>"
-   },{
-       "id": 23,
-       "title": 3,
-       "question":"Nenne die Vorteile für ein User-Helpdesk-Ticketsystem.",
-       "answer":"<strong>Vorteile eines User-Helpdesk-Ticketsystems sind:</strong><br/><ol><li>alle Ticket-Bearbeiter können auf die Service- und Fehler- historie zurückgreifen</li><li>es dient der Weiterentwicklung der Produkte oder des Service</li><li>durch Kategorisierung in Level können Gruppen von Experten, die speziell für die Tätigkeit in diesem Level zuständig sind, besser koordiniert werden.</li><li>durch den Einsatz der Wissensdatenbank können die Fehleranalyse sowie deren Lösung zur Wiederherstellung des Systems/Service unterstützt werden.</li><li>durch Online-Ticketsysteme können Kundenerfrahrungen gezielt gesammelt und ausgewertet werden</li></ol>"
-   },{
-       "id": 24,
-       "title": 6,
-       "question":"Was versteht man unter dem Begriff volkswirtschaftliche Sektoren?",
-       "answer":"Die volkswirtschaftliche Produktion wird in 3 Sektoren nach der Drei-Sektoren-Hypothese unterteilt.<br/><ol><li><strong>Primärsektor</strong> erfasst die land- und fortwirtschaftliche Produktion sowie die Fischerei als auch den Bergbau.</li><li><strong>Sekundärsektor</strong> erfasst die Industrie und das verarbeitende Gewerbe/handwerk.</li><li><strong>Tertiärsektor</strong> erfasst alle Dienstleistung, die durch Unternehmen und öffentliche Einrichtung erbracht werden.</li></ol><br/><ol><li>Primär (Ur-Produktion)</li><li>Sekundär (industrie Sektor)</li><li>Tertiär (Dienstleistungssektor)</li></ol><br/>Zusätzlich zu den 3 bekannten Sektoren gibt es noch den Begriff des Quartärsektors (Informationssektor)."
-   },{
-       "id": 25,
-       "title": 6,
-       "question":"Was versteht man unter der Marktformen des Monopols?",
-       "answer":"Ein <strong>Monopol</strong> ist eine Marktform in der Marktwirtschaft, bei welcher <strong>nur ein Anbieter</strong> vielen Nachfragern gegenübersteht (Angebotsmonopol) oder <strong>nur ein Nachfrager</strong> vielen Anbietern gegenübersteht (Nachfragemonopol). Der Monopolist hat somit eine marktbeherrschende Stellung. Er kann weitgehend das Angebot und den Preis am Markt bestimmten.<br/>Eine Sonderform ist das Zweiseitige Monopol, bei dem es genau einen Anbieter und genau einen Nachfrager gibt.<br/><hr><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr></tbody><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></table>"
-   },
+    "id": 17,
+    "title": 3,
+    "question": "Wie errechnet sich der Gewinn eines Unternehmens?",
+    "answer": "Der Gewinn eines Unternehmens berechnet sich anhand dieser Formel:<br/><strong>Gewinn = Erlös - Kosten</strong><br/>Die Erlöse sind alle Einnahmen, die durch Verkauf von Waren und Dienstleistungen entstehen.<br/>Zu den Kosten zählen die variablen und fixen Kosten, wie Rohstoffkosten, Mietkosten sowie Personalkosten."
+  },
   {
-    "id":40,
-    "title":6,
+    "id": 18,
+    "title": 3,
+    "question": "Was versteht man unter einer Machbarkeitsanalyse?",
+    "answer": "Eine <strong>Machbarkeitsanalyse</strong> ist eine erweiterte Machbarkeitsprüfung, die neben technisch-wissenschaftlichen Analysen auch Tests oder Simulationen beinhaltet sowie Experten hinzuziehen kann. Sie wird immer dann durchgeführt, wenn der Misserfolg eines Projekts wahrscheinlich ist oder es unkalkulierbare Risiken birgt.<br/>Der Hauptteile Machbarkeitsstudie stellt die Machbarkeitsprüfung dar. Wesentlichen Punkte sind:<br/><ol><li>oragnisatorische Umsetzung</li><li>wirtschaftliche Machbarkeit</li><li>technische Machbarkeit</li><li>Ressourcen und Verfügbarkeit</li><li>zeitliche Umsetzung</li><li>rechtliche Umsetzung</li></ol>"
+  },
+  {
+    "id": 19,
+    "title": 3,
+    "question": "Was sind einer Machbarkeitsanalyse?",
+    "answer": "Die <strong>Machbarkeitsanalyse</strong> ist der Hauptbestandteil der Machbarkeitsstudie.<br/>Im Wesentlichen werden folgende Ziele verfolgt:<br/><ol><li>Ist das Projekt technisch machbar?</li><li>Ist die organisatorische Umsetzung möglich?</li><li>Ist es rechtlich umsetzbar (Lizenskosten und Patente)?</li><li>Wie sieht es mit der wirtschaftlichkeit aus (z. B. Budget, Finanzierung)?</li><li>Sind genug Ressourcen vorhanden bzw. verfügbar (z. B. Material, Menschen, Maschinen und Zeit)?</li><li>Ist es Zeitlich umsetzbar?</li></ol><br/>Zu den technisch-wissenschaftlichen Analysen der Machbarkeitsanalyse gehören auch Pilottests und Computersimulationen sowie Expertenmeinungen und -studien."
+  },
+  {
+    "id": 20,
+    "title": 3,
+    "question": "Wie berechnet sich der Deckungsbeitrag bei Unternehmen?",
+    "answer": "Der <strong>Deckungsbeitrag</strong> ist eine Teilkostenberechnung, welche sich aus der <strong>Differenz</strong> zwischen den erzielten <strong>Erlösen</strong> und den <strong>variablen Kosten</strong> berechnet.<br/>Der Deckungsbeitrag ist der Betrag, der zur <strong>Deckung der Fixkosten</strong> zur Verfügung steht."
+  },
+  {
+    "id": 21,
+    "title": 3,
+    "question": "Welche Arten von Äußerungen sind in einem Kundengespräch eher blockierend?",
+    "answer": "In der Kundenkommunikation sind Äußerungen eher blockierend als förderlich, die folgende Eigenschaften aufweisen:<br/><ol><li>Belehrungen</li><li>Killerphasen wie: „Das können nur wir!“</li><li>Erzeugen von Druck</li><li>Termindruck auf Kunden ausüben</li><li>Konkurrenz diskreditieren</li></ol>"
+  },
+  {
+    "id": 22,
+    "title": 3,
+    "question": "In welchem Softwaresystem werden in der Regel Supportangragen verarbeitet?",
+    "answer": "Es gibt eine Reihe von Synonymen für eine supportanfragende Software.<br/>Folgende Begrifflichkeiten existieren wie:<br/><ol><li>Ticketing-System,</li><li>User-Helpdesk-System,</li><li>Support-Ticketing-System,</li><li>Service-Ticket-System</li><li>Task-Tracking-System,</li><li>Request-Tracking-System (RTS)</li></ol>"
+  },
+  {
+    "id": 23,
+    "title": 3,
+    "question": "Nenne die Vorteile für ein User-Helpdesk-Ticketsystem.",
+    "answer": "<strong>Vorteile eines User-Helpdesk-Ticketsystems sind:</strong><br/><ol><li>alle Ticket-Bearbeiter können auf die Service- und Fehler- Historie zurückgreifen</li><li>es dient der Weiterentwicklung der Produkte oder des Service</li><li>durch Kategorisierung in Level können Gruppen von Experten, die speziell für die Tätigkeit in diesem Level zuständig sind, besser koordiniert werden.</li><li>durch den Einsatz der Wissensdatenbank können die Fehleranalyse sowie deren Lösung zur Wiederherstellung des Systems/Service unterstützt werden.</li><li>durch Online-Ticketsysteme können Kundenerfrahrungen gezielt gesammelt und ausgewertet werden</li></ol>"
+  },
+  {
+    "id": 24,
+    "title": 6,
+    "question": "Was versteht man unter dem Begriff volkswirtschaftliche Sektoren?",
+    "answer": "Die volkswirtschaftliche Produktion wird in 3 Sektoren nach der Drei-Sektoren-Hypothese unterteilt.<br/><ol><li><strong>Primärsektor</strong> erfasst die land- und fortwirtschaftliche Produktion sowie die Fischerei als auch den Bergbau.</li><li><strong>Sekundärsektor</strong> erfasst die Industrie und das verarbeitende Gewerbe/handwerk.</li><li><strong>Tertiärsektor</strong> erfasst alle Dienstleistung, die durch Unternehmen und öffentliche Einrichtung erbracht werden.</li></ol><br/><ol><li>Primär (Ur-Produktion)</li><li>Sekundär (industrie Sektor)</li><li>Tertiär (Dienstleistungssektor)</li></ol><br/>Zusätzlich zu den 3 bekannten Sektoren gibt es noch den Begriff des Quartärsektors (Informationssektor)."
+  },
+  {
+    "id": 25,
+    "title": 6,
+    "question": "Was versteht man unter der Marktformen des Monopols?",
+    "answer": "Ein <strong>Monopol</strong> ist eine Marktform in der Marktwirtschaft, bei welcher <strong>nur ein Anbieter</strong> vielen Nachfragern gegenübersteht (Angebotsmonopol) oder <strong>nur ein Nachfrager</strong> vielen Anbietern gegenübersteht (Nachfragemonopol). Der Monopolist hat somit eine marktbeherrschende Stellung. Er kann weitgehend das Angebot und den Preis am Markt bestimmten.<br/>Eine Sonderform ist das Zweiseitige Monopol, bei dem es genau einen Anbieter und genau einen Nachfrager gibt.<br/><hr><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
+  },
+  {
+    "id": 26,
+    "title": 6,
+    "question": "Wann spricht man in der Wirtschaft von einem Angebotsoligopol?",
+    "answer": "Ein Angebotsoligopol ist in der Marktwirtschaft eine Marktform, die durch <strong>wenig Anbieter</strong> auf der einen Seite und durch <strong>viele Nachfrager</strong> auf der anderen Seite gekennzeichnet ist. Als Beispiel kann hier der Energiemarkt bzw. der Mobilfunkmarkt genannt werden<br/><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
+  },
+  {
+    "id": 27,
+    "title": 6,
+    "question": "Was versteht man unter dem Begriff IT-Benchmarking?",
+    "answer": "Unter IT-Benchmarking, auch Betriebsvergleich genannt, versteht man eine strategische IT-Management-Methode, in der die Performance der IT-Dienstleistungen eines Unternehmens mit denen eines anderen Unternehmens verglichen wird. Durch den Vergleich von Angeboten, Verträgen,  Dienstleistung und Preisen lässt sich die Qualität der miteinander verglichenen Dienstleister ermitteln. Da es keine standardisierten Verfahren gibt, müssen die allgemeinen Funktionen und Kostenarten Support von Anwendungsentwicklungen oder bei den Kostenarten, die der Personalkosten."
+  },
+  {
+    "id": 28,
+    "title": 6,
+    "question": "Welche Kriterien müssen erfüllt sein für ein Marktgleichgewicht?",
+    "answer": "Das <strong>Marktgleichgewicht</strong> herrscht, wenn ein Zustand erreicht wird, in dem die angebotene Menge und die nachgefragt nach Gütern übereinstimmen.<br/>Durch den sogenannten Glecihgewichtspreis, zu dem ein Gut oder eine Ware angeboten wird, und die entsprechende Gleichgewichtsmenge, die nachgefragt wird, kommt der größtmögliche Umsatz im Markt zustande."
+  },
+  {
+    "id": 29,
+    "title": 6,
+    "question": "Wann spricht man von einem Käufermarkt?",
+    "answer": "Als <strong>Käufermarkt</strong> wird eine Marktsituation beschrieben, in der sich die Käuferseite in der besseren Position gegenüber der Verkäuferseite befindet.<br/>Der sogenannte <strong>Angebotsüberhang</strong> oder ein Überangebot an Waren ist hierfür ein typische Beispiel. Dieses Überangebot entsteht immer dann, wenn das Angebot die Nachfrage deutlich übersteigt. Wenn von einem Produkt zu viel angeboten wird, zum Beispiel frische Erdbeeren, existieren mehr Erdbeeren am Markt, als es Abnehmer dafür gibt.<br/>Als <strong>Folge</strong> ist ein <strong>sinkender Preis</strong> für Erdbeeren zu beobachten, was für die Verkäufer zu sinkenden Umsätzen führt."
+  },
+  {
+    "id": 30,
+    "title": 6,
+    "question": "Welche Aufgaben und Ziele verfolgen die betrieblichen Grundfunktionen?",
+    "answer": "Zu den <strong>betrieblichen Grundfunktionen</strong> zählen:<br/><ol><li><strong>Beschaffung:</strong> z. B. Einkauf von Roh-, Hilfs- und Betriebsstoffen sowie Fertigerzeugnissen</li><li><strong>Produktion:</strong> Herstellen von materiellen sowie immateriellen Gütern/Waren und/oder Dienstleistung</li><li><strong>Absatz/Vertrieb:</strong> Verkauf der produzierten Gütern/Waren und/oder Dienstleistungen am Markt</li><li><strong>Finanzierung:</strong> alle Prozesse, die im Zusammenhang mit der finanziellen Versorgung, Steuerung sowie Kontrolle zwischen Kapitalbeschaffung und Kapitalverwendung stehen</li></ol>"
+  },
+  {
+    "id": 31,
+    "title": 6,
+    "question": "Welche Merkmale besitzt eine Europäische Gesellschaft (lateinisch Sicietas Europaea, Kurz SE genannt)?",
+    "answer": "Folgende Merkmale gelten für eine <strong>Europäische Gesellschaft (SE):</strong><br/><ol><li>Sie besitzt eine eigene Rechtspersönlichkeit.</li><li>Sie ist eine Kapitalgesellschaft.</li><li>Das Mindestkapital beträgt 120.000 Euro.</li><li>Jeder Aktionär haftet nur bis zur Höhe des von ihm gezeichneten Kapitals.</li><li>Die Geschäftsführung kann auf 2 Arten erfolgen:<br/><ol><li>Monistisches System</li><li>Dualistisches System</li></ol></li></ol>"
+  },
+  {
+    "id": 32,
+    "title": 6,
+    "question": "Welche Kriterien müssen für die Marktform des Polypols erfüllt sein?",
+    "answer": "Das <strong>Polypol</strong> gilt als die bestmögliche Marktform der Marktwirtschaft, da hier von einem vollkommenen Markt die Rede ist. Es gibt regen Wettbewerb unter den Anbietern und Nachfragern. Es ist eine Marktform, bei der sich viele Anbieter und viele Nachfrager gegenüberstehen und miteinander in Konkurrenz treten."
+  },
+  {
+    "id": 33,
+    "title": 6,
+    "question": "Welche Unternehmensformen sind in Deutschland Personengesellschaften?",
+    "answer": "Die <strong>Personengesellschaft</strong> ist ein Zusammenschluss midestens zweier Personen (natürliche und/oder juristische Personen sowie Personengesellschaften) zur Erreichung eines gemeinsamen Unternehmensziels.<br/><strong>Personengesellschaften</strong><br/><ol><li>Gesellschaft bürgerlichen Rechts (GbR)</li></ol><br/><strong>Personenhandelsgesellschaften:</strong><br/><ol><li>Offene Handelsgesellschaft (oHG), auch als GmbH & Co. oHG</li><li>Kommanditgesellschaft (KG), auch als GmbH & Co. KG</li></ol>"
+  },
+  {
+    "id": 34,
+    "title": 6,
+    "question": "Welche Bedingungen und welche Haftungsregeln gelten bei einer offenen Handelsgesellschaft - OHG?",
+    "answer": "Eine <strong>OHG</strong> kann gegründet werden, wenn sich mindestens zwei oder mehr Personen zum Zweck eines <strong>vollkaufmännischen Handelsgewerbes</strong> im Sinne von § 1 Abs. 1 HGB (Handelsgesetzbuch) zusammenschließen.<br/>Es gilt, dass alle Gesellschaftler persönlich, unbegrentz und unbeschränkt für alle Verbinglichkeiten der Gesellschaft haften."
+  },
+  {
+    "id": 35,
+    "title": 6,
+    "question": "Ein Betiebsergebnis erreicht sich aus den Umsatzerlösen minus den Umsatzkosten. Welche Sachverhalte können das Betriebsergebnis positiv beeinflussen?",
+    "answer": "Um das <strong>Betriebsergebnis</strong> positiv zu verändern, gibt es folgende Möglichkeiten:<br/><ol><li>Wareneinkauf optimieren (Rabatte aushandeln)</li><li>Herstellungskosten senken (z. B. Einsatz von günstigen Vorprodukten)</li><li>allgemeine Verwaltungskosten minimieren (durch Einsatz von Software)</li><li>Reduzierung der Werbekosten (Nutzung von Social Media)</li><li>Personalkosten reduzieren (durch Steigerung der Produktivität)</li><li>Fixkosten mindern (z. B. Nutzung von Fahrzeug-Leading statt kauf)</li></ol>"
+  },
+  {
+    "id": 36,
+    "title": 6,
+    "question": "Unternehmen richten ihre Produkte und Dienstleitungen mit Hilfe von Marketingmaßnahmen nach den Kundenwünschen aus.<br/>Welchem Zweck dienen in diesem Zusammenhang Kundenbefragung?",
+    "answer": "Durch <strong>Kundenbefragung</strong> können zentrale Punkte wie Kundenzufriedenheit, Trends, das Image des Unternehmens, die Marktposition, die Kundenbindung sowie der Erfolg von Werbemaßnahmen beantwortet werden."
+  },
+  {
+    "id": 37,
+    "title": 6,
+    "question": "In der Kundenkommunikation, im Speziellen während der Fehleranalyse im Telefonsuppot, sind Fragen von besonderer Bedeutung.<br/>Unterschiede bitte geschlossene und offene Fragen.",
+    "answer": "<strong>geschlossene Fragen:</strong><br/>Ja-Oder-Nein Fragen, z. B.: „Haben Sie den PC schon einmal neu gestartet?“<br/><strong>Offene Fragen:</strong><br/>W-Fragen - Wer, Wie, Was, Wieso, Warum, Wo, Weshalb, Wann..., z. B.:„Welche Fehlermeldung wurde Ihnen beim Programmabbruch angezeigt?“"
+  },
+  {
+    "id": 38,
+    "title": 6,
+    "question": "Das Controlling im Unternehmen wird als eine Funktion des Managements gesehen, dessen zentrale Aufgabe die Planung, Steuerung sowie die Kontrolle aller Unternehmensbereiche ist.<br/>Wozu dient dabei eine ABC-Analyse?",
+    "answer": "Die <strong>ABC-Analyse</strong> stellt ein betriebswirtschaftliches Analyse-verfahren dar, welches bestimmte Prozesse oder Objekte in Klassen A, B und C einstuft. Dabei wird von A bis C in absteigender Reihenfolge eine Bedeutung zugeordnet.<br/>Bei der ABC-Analyse vergleicht man beispielweise, welche Kunden für den Hauptumsatz des Unternehmens verantworltlich sind und somit in klasse A eingestuft werden. Kunden, Welche am wenigsten zum Umsatz beitragen, kommen in die Klasse C. In Klasse B kommen die Kunden, die nur durchschnittlich zum Umsatzerfolg beitragen.<br/>Somit erhalten wir eine Art Ranking über den Umsatzerfolg, ähnlich dem Pareto-Prinizip (80/20-Regel)."
+  },
+  {
+    "id": 39,
+    "title": 6,
+    "question": "Was versteht man unter dem Begriff Cross-Selling?",
+    "answer": "Als <strong>Cross-Selling</strong> (deutsch: Querverkauf) wird im Bereich des Marketings das Bemühen eines Händlers bezeichnet, <strong>zusätzlich</strong> zu einem nachgefragten oder angebotenen Artikel weitere <strong>passende Produkte oder Services</strong> anzubieten, immer mit dem Ziel, einen höheren Umsatz zu erzielen und sowohl die Kundenbindung als auch die Kundenzufriedenheit zu erhöhen."
+  },
+  {
+    "id": 40,
+    "title": 6,
     "question": "Ergänze nach dem Vier-Ohren-Modell (Sachebene, Appell, Selbstoffenbarung und Beziehung) die folgenden Aussagen eines Kunden gegenüber eines Vertriebsmitarbeiters.</br>Der Kunde sagt:</br><li>Sie müssen pünktlich liefern!</li><li>Ich bin mit Ihnen nicht zufrieden.</li><li>Sie haben nicht pünktlich geliefert.</li><li>Ich kontrolliere Ihre Leistungen sehr genau.</li><ol></ol>",
     "answer": "Folgende Aspekte möchte der Kunde nach dem Vier-Ohren-Modell vermitteln:</br>Appell - 1. Sie müssen pünktlich liefern!</br>Beziehung - 2. Ich bin mit Ihnen nicht zufrieden.</br>Sachebene - 3. Sie haben pünktlich geliefert.</br>Selbstoffenbarung - 4. Ich kontrolliere Ihre Leistungen sehr genau."
   },
   {
-    "id":43,
-    "title":6,
+    "id": 41,
+    "title": 6,
+    "question": "Welche Regeln sollte man im telefonischen Kundensupport beachten?",
+    "answer": "Folgende Regeln sind allgemeiner Natur und sollten beim telefonischen Support Beachtung finden:<br/><ol><li>Vermeide Worte und Ausdrücke, die den Kunden reizen könnten</li><li>Höre dem Gesprächspartner aktiv zu</li><li>Lass Kunden immer ausreden und unterbrich sie nicht</li><li>Widersprich nie bei einem Einwand oder einer Beschwerde</li><li>Hinterfrage mit den den W-Fragen (wann, wie, wo, warum...)</li></ol>"
+  },
+  {
+    "id": 42,
+    "title": 6,
+    "question": "Beschreibe den Begriff Pre-Sales-Angebot und nenne 2 Beispiele.",
+    "answer": "Unter dem Begriff <strong>Pre-Sales-Angebot</strong> sind alle Dienstleistungen zu verstehen, die dem potenziellen Kunden im Rahmen der Geschäftsanbahnung oder beim Vertragsabschluss angeboten werden. Dieser Service ist in der Regel unentgeltlich und dient der Kunden- und Auftragsgewinnung. Beispiele hierfür können sein:<br/><ol><li>Kostenlose Probefahrt beim Fahrzeugkauf</li><li>Kostenlose Informationsveranstaltungen</li><li>Kostenlose Kataloge oder Probeprodukte</li></ol>"
+  },
+  {
+    "id": 43,
+    "title": 6,
     "question": "Was ist eine Nutzwertanalyse?",
     "answer": "Die <strong>Nutzwertanalyse</strong> stellt im Allgemneinen eine Entscheidungshilfe dar, wenn es um komplexe Handlungsalternativen geht. Mittels eines Punktwertverfahrens, eines Punktbewertungsverfahrens oder eines Scoring-modells werden verschiedene Bewertungskriterien erstellt und mehrere Produkte oder Services miteinander verglichen. Die Nutzwertanalyse dient zur Entscheidungsfindung bei komplexen Problemen.</br> Der Bewertungsmaßstab kann indiviuell, zum Beispiel als eine 4 Punkte Skala mit: 1 = gering, 2 = mittel, 3 = hoch, 4 = sehr hoch, festgelegt werden."
   },
   {
-    "id":45,
-    "title":6,
+    "id": 44,
+    "title": 6,
+    "question": "Unternehmen müssen ihre Produkte am Markt anbieten. Dazu benötigen sie einen Vertriebspartner oder ein Vertriebsnetz.<br/>Nenne Vor- und Nachteile eines direkten Vertriebs.",
+    "answer": "Beim <strong>direkten Vertrieb</strong> bietet der Anbieter seine Produkte oder seine Dienstleistungen unmittelbar an.<br/><strong>Vorteile:</strong><br/><ol><li>die Gewinnspanne ist höher (Provisionen für Zwischenhändler entfallen)</li><li>Endverbraucher haben kurz kommunikations- und Vertriebswege</li><li>Vertriebsmitarbeitende sind eigene Mitarbeitende und können aktiven und schnell neue Produkte anbieten</li><li>engenere Kundenbindung durch persönliche Kundenkommunikation</li></ol><br/><strong>Nachteile:</strong><br/><ol><li>eigenes Vertriebsnetz bindet viel Kapital</li><li>personalintensiv, hohe Fixkosten</li><li>Massendistribution nur bedingt umsetzbar</li></ol><br/>Hisweis: Der direkte Vertrieb (Unternehmen -> Kunde) ist der Gegensatz zum indirekten Vertrieb (Unternehmen -> Zwischenhändler -> Kunde)."
+  },
+  {
+    "id": 45,
+    "title": 6,
     "question": "Mit welchen Maßnahmen kann man die Kundenzufriedenheit erhöhen?",
     "answer": "<strong>Kundenzufriedenheit</strong> ist für viele Unternehmen wichtig, um die Kundenbindung zu erhöhen und eine Umsatzsteigerung zu erreichen. Zufriedene Kunden kehren oft zurück und empfehlen das Produkt oder die Dienstleistung weiter.</br>Die Kundenzufriedenheit unterliegt daher einer ständigen Optimierung. Dazu zählt auch eine Verbesserung der Customer Experience, also der Erfahrungen, die der Kunde mit dem Unternehmen macht.</br>Folgende Maßnahmen sind geeignet:</br>Gewährung von Rabatten (im Rahmen von Aktionen)</br>Teilnahme an Sonderaktionen (Lotterie)</br>Einladung zu Hausmessen oder Festen</br>Feedback einholen durch Umfragen</br>Social Media, Einrichtung von Bewertungsportalen</br>Qualitätsversprechen unbedingt einhalten"
   },
   {
-    "id":46,
-    "title":6,
+    "id": 46,
+    "title": 6,
     "question": "Welchem Zweck dient ein Angebotsvergleich?",
     "answer": "Der <strong>Angebotsvergleich</strong> bildet die wesentliche Grundlage für eine zukünftige Kaufentscheidung. Man vergleicht normalerweise mindestens 2 oder mehr Angebote von Verschiedenen Lieferanten, Unternehmen sowie Dienstleistern.</br></br>IM Zuge der Kaufentscheidung werden Kriterien miteinander verglichen, wie z. B.:</br><ol><li>niedrigster Preis</li><li>Qualität der Produkte/Dienstleistungen</li><li>Finanzierungsangebote</li><li>Kundenservice</li><li>Garantie und Gewährleistung</li><li>Rabattangebote</li><li>Lieferservice</li><li>Liefertreue</li><li>Lieferzeit</li><li>Liefermenge</li></ol>"
   },
@@ -167,16 +276,106 @@
     "answer": "Der Hypervisor Typ 1, auch native oder bare-metal Hypervisor genannt, setzt direkt auf der Hardware des Hostsystems auf. Daher ist keine vorherige Betriebssystem-Installation notwendig.<br/>Der Hypervisor Typ 2, auch hosted Hypervisor genannt, benötigt ein lauffähiges vollwertiges Betriebssystem, um auf diesem Hostsystem auf die Gerätetreiber des Betriebssystems bzw. auf die Hardware des Hostsystems zuzugreifen.<br/>Bei beiden Hypervisor-Typen gilt die Voraussetzung, dass die Hardware bzw. das BIOS/URFI des Hostsystems die Virtualisierung, bei Intel CPU (intel-VT) oder bei AMD CPU (AMD-V) unterstützt."
   },
   {
-    "id":54,
-    "title":1,
+    "id": 48,
+    "title": 1,
+    "question": "Welche Funktionen bietet eine Dockingstation für Notebook?",
+    "answer": "Eine <strong>Dockingstation</strong> (englisch to dock „andocken“, oder auch „koppeln“) wird verwendet, wenn mobile Geräte, wie zum Beispiel Notebooks oder PDAs, mit einem festen Netz verbunden werden sollen.<br/>Dockingstationen für Notebooks werden auch als Portreplikatoren eingesetzt, sodass vorhandene Ports an die Dockingstation „durchgereicht“ werden. Des weitere werden auch zusätliche Schnittstellen wie PS/2 Seriell- und Parallelport, DVI, DisplayPort, HDMI, Sound oder Firewire, welche im mobilen Gerät selbst aus Platzgründen fehlen, an der Dockingstation bereitgestellt.<br/>Häufig verfügen die modernen Dockingstationen über die Möglichkei 2x HDMI, 2x DVI oder 2x DisplayPort zu nutzen."
+  },
+  {
+    "id": 49,
+    "title": 1,
+    "question": "Welche Video-Schnittstellen sind für 4k und 8K Auflösung geeignet?",
+    "answer": "Nicht geeignet:<br/><strong>HDMI 1.4</strong> hat eine maximale Übertragungsrate von 10,2 GBit/s - max. Auflösung Full-HD<br/><br/>Geeignet:<br/><strong>HDMI 2.0</strong> hat eine maximale Übertragungsrate von 18,0 GBit/s - max. Auflösung 4k<br/><strong>HDMI 2.1</strong> hat eine maximale Übertragungsrate von 38,4 GBit/s - max. Auflösung 8k<br/><strong>DisplayPort 1.3</strong> hat eine maximale Übertragungsrate von 25,9 GBit/s - max. Auflösung 8k<br/><strong>DisplayPort 1.4</strong> hat eine maximale Übertragungsrate von 32,4 GBit/s - max. Auflösung 8k"
+  },
+  {
+    "id": 50,
+    "title": 1,
+    "question": "Welche technischen Merkmalen hat ein Notebook?",
+    "answer": "Ein Notebook hat folgende Bestandteile:<br/><ol><li>tielweise Anschluss für Dockingstation</li><li>teilweise Mini-PCI-Express Slot</li><li>teilweise 4-in-1 Kartenlesegerät</li><li>teilweise integriertes Bluetooth, WLAN und WWAN</li><li>eigenes Display</li><li>externe Schnittstellen wie USB, HDMI, DisplayPort/mini DisplayPort, VGA, Firewire</li><li>integrierte Lautsprecher und Mikrofone</li><li>teilweise Videokamera</li><li>Akku</li><li>externes Netzteil</li><li>interne Netzwerkkarte</li></ol>"
+  },
+  {
+    "id": 51,
+    "title": 1,
+    "question": "Welchen Vorteil bringt der Einsatz von Dual-Channel-Technik bei Speichermodulen?",
+    "answer": "Mithilfe der <strong>Dual-Channel-Technik</strong> kann der Speichercontroller des Prozessesors die Daten auf zwei Arbeitsspeichermodule gleichzeitig aufteilen und somit parallel schreiben und lesen. Dadurch verdopplet sich die Datenrate.<br/>Voraussetzung ist, dass die eingebauten Speichermodule baugleich sind, eine identische Modulkapazität besitzen sowie paarweise verteilt werden."
+  },
+  {
+    "id": 52,
+    "title": 1,
+    "question": "Was verbirget sich hinter Bezeichnung UHD 4K?",
+    "answer": "<strong>UHD (Ultra High Definition) 4K</strong> bezeichnet ein digitales Videoformat der International Telecommunication Union (ITU) für Ultra High Definition Television (UHDTV oder Ultra HDTV) sowie Ultra High Definition Video (UHDV).<br/>UHD 4K wird heute auch als UHD-1 bezeichnet und lehnt sich am Cinema 4K (4096 x 2160 Pixel) an. Die Hersteller spezifizieren jedoch ihre Geräte mit 3840 x 2160 Pixeln heute oftmals auch als UHD 4K."
+  },
+  {
+    "id": 53,
+    "title": 1,
+    "question": "Unternehmen, die ein Rechenzentrum betreiben, setzen vermehrt auf die Vorteile der Virtualisierung. In diesem Zusammenhang wird oftmals der Begriff des Thin-Clients benutzt. Was versteht man unter einem Thin-Clients?",
+    "answer": "Allgemein kann man einen <strong>Thin-Client</strong> (englisch dünner, schlanker bzw. magerer Client) als einen Computer bezeichnen, welcher über ein Netzwerk Ressourcen nutzt, die ihm ein Server bereitstellt.<br/>Die virtuelle Desktop-Infrastruktur (VDI) setzt primär Thin-Clients ein und setzt damit Konsequent auf die Vorteile der Virtualisierung des kompletten Rechenzentrums. Thin-Clients oder manchmal auch als Zero-Clients bezeichnet, siehe Bild, sind lüfterlose Geräte welche über USB, einen Netzwerkanschluss, Audio- und Displayanschlüsse verfügen. Die persönliche Benutzeroberfläche, die Konfiguration, Zugriffe auf Verzeichnisse und installierte Programme werden vom Server zur Verfügung gestellt. Thin-Clients sind umwelt- und ressourcenschonend und haben eine geringe Leistungsaufnahme."
+  },
+  {
+    "id": 54,
+    "title": 1,
     "question": "Welche IT-Komponenten sind Ein- oder Ausgabegeräte? Ordne Richtig zu!</br><ol><li>Scanner</li><li>Maus</li><li>Touchpad</li><li>Drucker</li><li>Display</li></ol>",
     "answer": "<strong>Eingabegeräte</strong><ol><li>Scanner</li><li>Maus</li><li>Touchpad</li></ol></br><strong>Ausgabgeräte</strong><ol><li>Drucker</li><li>Display</li></ol>"
+  },
+  {
+    "id": 56,
+    "title": 1,
+    "question": "Nenne die verschiedenen Cloud-Formen, die durch Cloud Computing angeboten werden.",
+    "answer": "<strong>Public Cloud</strong> die öffentliche Rechnerwolke: Stellt Zugang zu abstahierten IT-Infrastrukturen für die breite Öffentlichkeit über das Internet bereit.<br/><strong>Private Cloud</strong> die private Rechnerwolke: Stellt ausschließlich für eine Organisation oder ein Unternehmen den Zugang in eine Cloud-Umgebung bereit.<br/><strong>Hybrid Cloud</strong> die hybrid Rechnerwolke: Ist eine Kombination aus Public und Private Cloud<br/><strong>Community Cloud</strong> die gemeinschaftliche Rechnerwolke: Stellt Zugang zu abstahierten IT-Infrastrukturen wie bei der Public Cloud bereit, jedoch nur für bestimmte Nutzergruppen (wie städtische Behörden, Universitäten, Firmen mit ähnlichen Interessen, Forschungsgemeinschaften, Genossenschaften, usw.).<br/><u>Weiterhin gibt es Mischformen der oben genannten Cloud-Typen:</u><br/><strong>Virtual Private Could</strong> eine private Rechnerwolke auf öffentlichzugänglichen IT-Infrastrukturen<br/><strong>Multi Cloud</strong> Sie bündelt die verschiedenen Cloud-Computing-Dienste"
+  },
+  {
+    "id": 57,
+    "title": 1,
+    "question": "Was versteht man unter dem Begriff Green-It?",
+    "answer": "Unter <strong>Green-IT</strong> versteht man alle Bestrebungen, die Nutzung von Informations- und Kommunikationstechnik (IuK) über deren gesamten Lebenszyklus hinweg umwelt- und ressourcenschonend zu gestalten.<br/>Darunter fallen folgende Aspekte:<br/><ol><li>Optimierung des Ressourcenverbrauchs während des Herstellungsprozesses, des Betriebs und der Entsorgung der Geräte</li><li>Ressourceneinsparung durch den Einsatz von Virtualisierungstechniken</li><li>Einsatz von Videokonferenzen (dadurch weniger Diensreisen)</li><li>Einsatz von Stromparmodi</li></ol>"
+  },
+  {
+    "id": 58,
+    "title": 1,
+    "question": "Erkläre den Begriff des Servicemodells Infrastructure as a Service (IaaS).",
+    "answer": "<strong>Infrastructure as a Service</strong>, auch Foundation genannt, ist im Wesentlichen ein Ersatz für traditionelle Rechenzentren. Der Benutzer greift hier typischerweise auf bestehende Dienste innerhalb seiner Cloud zu, verwaltet aber seine eigenen Recheninstanzen."
+  },
+  {
+    "id": 59,
+    "title": 1,
+    "question": "Nenne die Vorteile des Servicemodells PaaS (Platform as a Service).",
+    "answer": " Folgende Vorteile ergeben sich bei der Nutzung des Servicemodells <strong>PaaS</strong><br/><ol><li>reduzierter Programmieraufwand, da mit den PaaS-Entwicklungstools sich der Zeitaufwand für das Schreiben von Code für neue Apps reduziert.</li><li>Zusätzliche Entwicklungsmöglichkeiten, ohne dass neue Mitarbeitende eingestellt werden müssen.<br/>Entwicklungsteams können neue Funktionen mit Hilfe der PaaS-Kompnenten nutzen, ohne diese selbst entwickeln zu müssen.</li><li>Einfachere Enwicklung für mehrere Plattformen, teilweise werden Entwicklungsoptionen für mehrere Plattformen wie Computer, Mobilgeräte und Broswer vom Provider angeboten.</li><li>Kostengünstige Nutzung der Tools.</li><li>Effiziente Verwaltung des Anwendungslebenszyklus.</li></ol>"
+  },
+  {
+    "id": 60,
+    "title": 1,
+    "question": "Erkäre den Cloud Computing Begriff Software as a Service (SaaS).",
+    "answer": "<strong>Software as a Service</strong> beschreibt ein Cloud-Konzept, bei dem Software nicht länger als Lizenz an einen Benutzer verkauft wird, sondern ihm gleich als Service in der Cloud zur Verfügung gestellt wird. Der Zugriff auf die Software wird bei einigen Cloudanbietern via Webbrowser gewährleistet."
+  },
+  {
+    "id": 60,
+    "title": 1,
+    "question": "Moderne Storage-Systeme sind mit Hilfe von Glasfaser und dem Fibre-Channel Protokoll an einen Dateiserver oder virtualisierte Server angebunden. Bei diesen Anbindungen ist die Rede vom Host-Bus-Adapter.<br/>Was ist ein Host-Bus-Adapter?",
+    "answer": "Als <strong>Host-Bus-Adapter</strong> (HBA) bezeichnet man eine Netzwerkhardware, welche in einem Server installiert ist, um damit ein oder mehrere Datenspeichergeräte (Storage) zu erreichen.<br/>Der Begriff HBA wird oftmals im Zusammenhang mit den Bus-Systemen SCSI, ATA (IDE), SATA und Fibre-Channel verwendet, gilt aber prinzipiell auch für eine Netzwerkkarte im weiteren Sinne. Im Datenspeicher-Umfeld wird mit Hilfe des HBA via SCSI, iSCSI, Fibre-Channel oder Ethernet mit dem Host-System kommuniziert."
+  },
+  {
+    "id": 62,
+    "title": 1,
+    "question": "Eine unterbrechungsfreie Stromversorgung (USV) wird nach der USV-Klassifizierung nach IEC 62040-3 in 3 Klassen unterteilt.<br/>Nenne die 3 Klassen und erkläre deren Wirkungsweise stichpunktartig.",
+    "answer": "<strong>Klasse 1: VFI</strong> (Voltage and Frequency Independent from mains supply)<br/>Schützt vor den Folgen eines Stromausfalls, Unterspannung, Überspannung als auch vor Frequenzschwankungen sowie vor Oberschwingungen<br/><strong>Klasse 2: VI</strong> (Voltage Independent from mains supply)<br/>Schützt vor den Folgen eines Stromausfalls, vor Unterspannung und vor Überspannung<br/><strong>Klasse 3: VFD</strong> (Voltage and Frequency Dependent on mains supply)<br/>Schützt vor den Folgen eines Stromausfalls, jedoch mit einer Verzögerung von bis zu 10 Millisekunden (ms)"
+  },
+  {
+    "id": 63,
+    "title": 1,
+    "question": "IT-Infrastrukturen werden heute 7/24 (7 Tage die Woche/24 Stunden, auch 24/7) betrieben. Welche Aufgabe übernimmt in diesem Zusammenhang eine USV?",
+    "answer": "Eine <strong>unterbrechungsfreie Stromversorgung (USV)</strong> soll die elektrische Versorgung der Systemrelevanten IT-Komponenten 7/24 sicherstellen sowie Strörungen im Stromnetz zeitlich überbrücken.<br/>Des Weiteren schützt eine USV, je nach USV-Klassifizierung, die angeschlossenen IT-Komponenten vor folgenden Strörungen:<br/><ol><li>kompletter Stromausfall</li><li>vor Unterspannung</li><li>vor Überspannung</li><li>vor Frequenzabweichung</li><li>vor Oberschwingungen</li></ol>"
   },
   {
     "id": 64,
     "title": 1,
     "question": "Welche Aufgabe übernimmt ein Datenbankmanagementsystem, kurz DBMS?",
     "answer": "Ein Datenbankmanagementsystem übernimmt folgende Aufgaben:<br/><ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
+  },
+  {
+    "id": 65,
+    "title": 1,
+    "question": "Welche Eigenschaften haben die folgenden RAID-Level?<br/><ol><li>RAID 0</li><li>RAID 1</li><li>RAID 5</li><li>RAID 6</li><li>RAID 10</li></ol>",
+    "answer": "<table class='table-responsive text-center'><thead><tr><th>Betrieb</th><th>RAID 0</th><th>RAID 1</th><th>RAID 5</th><th>RAID 6</th><th>RAID 10</th></tr></theat><tbody><tr><th scope='row'>Redundanz</th><td>nein</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr><tr><th scope='row'>min. Datenträgern</th><td>2</td><td>2</td><td>≤3</td><td>≤4</td><td>≤4</td></tr><tr><th scope='row'>Rechenaufwand</th><td>sehr gering</td><td>sehr gering</td><td>mittel</td><td>hoch</td><td>hoch</td></tr><tr><th scope='row'>Felertoleranz Ausfall von Datenträgern</th><td>0</td><td>1</td><td>1</td><td>2</td><td>1 (2*)</td></tr><tr><th scope='row'>Lese-Performance</th><td>+++</td><td>++</td><td>+++</td><td>+++</td><td>+++</td></tr><tr><th scope='row'>Schreib-Performance</th><td>++</td><td>-</td><td>+</td><td>+</td><td>+++</td></tr><tr><th scope='row'>Kapazität Netto</th><td>100%</td><td>50%</td><td>n-1</td><td>n-2</td><td>50%</td></tr></tbody></table>"
   },
   {
     "id": 66,
@@ -275,8 +474,8 @@
     "answer": "Das Dynamic Host Configuration Protocol (DHCP) ist ein Kommunikations-Protokoll, welches Netzwerkgeräten ermöglicht ohne manuelle Konfiguration eine automatische Netzwerkkonfiguration für das lokalen Netz zu erhalten.<br/>Mit Hilfe des DHCPDISCOVER sendet ein Client/Netzwerkgeräte ohne IP-Adresse eine Broadcast-Anfrage nach sogenannten Adress-Angeboten an alle verfügbaren DHCP-Server im lokalen Netz. Wenn im lokalen Netz ein DHCP-Server erreichbar ist, antwortet dieser mit einem DHCPOFFER. Im Anschluss fordert der Client im Zuge des Verfahrens mit Hilfe des DHCPREQUEST die angebotene IP-Adresse für einen Lease-Zeitraum an. Dabei wird unterschieden in statische, automatische und dynamische Adresszuweizung.<br/>Die Adresszuweizung erfolgt über die UDP-Ports 67 und 68.<br/>Zur Netzwerkkonfiguration kann ein DHCP folgende Angaben versenden:<ol><li>IP-Adresse und Netzwerkmaske</li><li>Default-Gateway</li><li>DNS-Server, DNS-Context und DNS-Tree</li><li>Sekundärer DNS-Server</li><li>Time- und NTP-Server</li><li>WINS-Server (für Microsoft Windows Clients)</li><li>Proxy-Konfiguration via WPAD</li><li>weitere DHCP Optionen z. B. Angaben für PXE-Boot</li></ol>"
   },
   {
-    "id":86,
-    "title":1,
+    "id": 86,
+    "title": 1,
     "question": "Wann kommt ein tagged VLAN (Virual Local Area Network) zum Einsatz?",
     "answer": "Das <strong>tagged VLAN</strong> kommt immer dann zum Einsatz, wenn sich VLAN über mehrere Switches hinweg erstrechen, zum Beispiel über sogenannte Trunk Ports. Hier werden die Ethernet-Frames mit einer Art Markierung versehen, welche die Zugehörigkeit zum jeweiligen VLAN kennzeichnet. Mit Hilfe von Tags (engl. Etikett) werden dem Ethernet-Frame VLAN-spezifische Informationen hinzufügt, die dann durch VLAN-fähige Switche ausgewertet werden."
   },
@@ -329,74 +528,74 @@
     "answer": "<strong>Serverkonsolidierung</strong> ist eine Form der Konsolidierung von Serverressourcen, bei der man auf die Möglichkeiten der Virtualisierung setzt. Mit Hilfe von virtuellen Maschinen (VM) oder vertuellen Umgebungen (Virtual Environment VE) soll eine Energie- und Raumeinsparung durch Reduktion der physikalischen Serversysteme erreicht werden.<br/>Kurz gefasst: z. B. 10 physische Server werden durch einen performanten Server ersetzt und die 10 Server virtualisiert."
   },
   {
-    "id":122,
-    "title":2,
+    "id": 122,
+    "title": 2,
     "question": "Worauf sollte man bei der Beschaffung von IT-Hardware achten?",
     "answer": "<strong>Die folgende Kriterien sind bei der Beschaffung von Hardware zu beachten:</strong></br><ol><li>Langlebigkeit der Hardware (min: 5 Jahre Support vom Hersteller)</li><li>Skalierbarkeit auf Basis vorhandeneder Hardware</li><li>kostengünstiger Support</li><li>geringer Sromverbrauch und geringe Abwärme</li><li>umweltfreundliches Produkt</li><li>remote Management</li><li>leicht austauschbar</li><li>schnelle Ersatzbeschaffung</li></ol>"
   },
   {
-    "id":114,
-    "title":2,
+    "id": 114,
+    "title": 2,
     "question": "Was wird in einem Lstenheft beschrieben?",
     "answer": "Im Projektmanagement beschreibt das <strong>Lastenheft</strong> (Anforderung- oder Kundenspezifikation) die Gesamtheit der Anforderungen bzw. Spezifikationen des Auftraggebers an die Lieferungen und Leistungen seines Auftragnehmers.</br>Das Lastenheft enthält die an das zu entwichelnde Produkt gestellten funktionalen sowie nicht-funktionalen Anforderungen (Gesetze/Voschriften) und dient als Basis für die Ausschreibung sowie Vertragsgestaltung. Angaben wie Lieferzeit, Lieferumfang und Kosten sind im Lastenheft spezifiziert und das akzeptierte Lastenheft ist für beide Parteien rechtlich bindend."
   },
   {
-    "id":123,
-    "title":2,
+    "id": 123,
+    "title": 2,
     "question": "Was versteht man unter Standardsoftware?",
     "answer": "Als <strong>Standardsoftware</strong> bezeichnet man im Allgemeinen Software, die auf dem freien Markt angeboten wird. Im Gegensatz zur Individualsoftware ist sie vorgefertigt und muss in der Regel vom Anwender selbst installiert bzw. indiviuell angepasst werden. Standardsoftware kann On-Permise und als Software as a Service angeboten werden."
   },
   {
-    "id":124,
-    "title":2,
+    "id": 124,
+    "title": 2,
     "question": "Was versteht man unter Individualsoftware?",
     "answer": "Als <strong>Individualsoftware</strong> bezeichnet man Software, welche bestimmte Hardware- oder individuelle Geschäftsanforderungen erfüllen muss, also für einen bestimmten Anwender und/oder einen spezialsierten Verwendungszweck angefertigt wurde."
   },
   {
-    "id":125,
-    "title":2,
+    "id": 125,
+    "title": 2,
     "question": "Was versteht man in der Anwendungsentwicklung unter dem Begriff IDE?",
     "answer": "Eine <strong>IDE</strong> (integrierte Entwicklungsumgebung, englisch integrated development environment) ist eine Sammlung der wichtigsten Werkzeuge zur Softwareentwicklung unter einer einheitlichen Oberfläche. Sie soll helfen, die Arbeit des Anwendungsentwicklers zu erleichtern.</br>Zu den wichtigsten Werkzeugen zählen Beispielsweise der Compiler, Debugger, interpreter, der Editor mit Quelltext- formatierung und Syntaxhervorhebung, Linker, Werkzeuge zum Erstellen von grafischen, Versionsverwaltungen und vieles mehr."
   },
   {
-    "id":144,
-    "title":2,
+    "id": 144,
+    "title": 2,
     "question": "Welche Aufgabe erfüllt das Befehlszeilenkommando ARP?",
     "answer": "Mithilfe des Address Resolution Protocols (ARP) wird zur IP-Adresse die zugehörige Hardware- bzw. MAC-Adresse des Netzwerkinterfaces (NIC) eines Hosts ermittelt.</br>Dazu sendet der Host einen ARP-Request mit der MAC-Adresse (FF-FF-FF-FF-FF-FF) auf der Schicht 2, der Sicherungsschicht des OSI-Schichtenmodells, per Broadcast an die zu ermittelnde Adresse und bekommt viw ARP-Reply die ermittlete MAC-Adresse wird dann im lokalen ARP-Cache des Senders für eine gewisse Zeit gepseichert. Dieser ARP-Cache dient zur schnelleren ARP-Adressauflösung."
   },
   {
-    "id":169,
-    "title":5,
+    "id": 169,
+    "title": 5,
     "question": "Dein Ausbildungsbetrieb ist ISO 9001 zertifiziert. Was bedeutet diese Norm für deinen Ausbildungsbetrieb?",
     "answer": "Die ISO 9001 Norm legt die Anforderung für Qualitätsmangementsysteme fest. Ziel ist die Qualitätssicherung durch stetige Optimierung der Prozesse.</br>Diese Zertifizierung ist weltweit anerkannt.</br><strong>ISO 9001 orientiert sich unter anderem an diesen Grundprinzipien:</strong></br><ol><li>Kundenorientierung</li><li>Prozessorientierung</li><li>stetige Verbesserung</li><li>Risikomanagement</li></ol>"
   },
   {
-    "id":195,
-    "title":7,
+    "id": 195,
+    "title": 7,
     "question": "Welches sind die Allgemeinen Kriterien einer Schutzbedarfsanalyse von IT-Systemen?",
     "answer": "Folgende Kriterien sind für eine Schutzbedarfsanalyse wichtig:</br><ol><li>Wie hoch ist das Risiko, dass IT-Infrastrukturen angegriffen werden?</li><li>Welche Objekte müssen in der IT-Infrastruktur besonders abgesichert werden?</li><li>Welchen konkreten Bedrohungsszenarien ist die IT-Infrastruktur ausgesetzt?</li><li>Wie groß sind mögliche Schäden durch Angriffe auf produktive IT-Infrastrukturen?</li><li>Wie hoch ist das aktuelle Gefährdungspotenzial?</li><li>Welche Maßnahmen sind geeignet, die IT-Infrastruktur gegen interne und externe Bedrohungen zu schützen?</li><li>Wie sieht die Kosten-Nutzen Betrachtung bzw. Risiko berechnung aus?</li></ol>"
   },
   {
-    "id":196,
-    "title":7,
+    "id": 196,
+    "title": 7,
     "question": "Welche Maßnahmen sind geeignet, um Schäden an der IT-Infrastruktur zu vermeiden bzw. die Sicher der IT-Systeme zu erhöhen?",
     "answer": "Die folgende Maßnahmen sind geeignet, potenzelle Schäden an der IT-Infrastruktur zu vermeiden:</br><ol><li>Datenverschlüsselung der Datenträger</li><li>Konzept für Netzwerksegmentierung im Unternehmen, Einsatz von VLANs</li><li>mehrstufiges Firewallkonzept sowie Regeln für die Endpoint Security auf den Clientsystem</li><li>Rechtekonzept für Mitarbeitende und Administratoren</li><li>regelmäßiges Patchen der IT-Systeme</li><li>permanentes Logging und Auditing (Penetrationtest, kurz: Pentest)</li><li>Einsatz einer Passwortrichtlinie sowie einer Multi-Factor-Authentication</li><li>Verfahrensanweisung oder Vier-Augen-Prinzip</li><li>Regelmäßige Schulungen der Mitarbeitenden, um das Bewusstsein zu erhöhen bzw. Bedrohungen zu erkennen</li></ol>"
   },
   {
-    "id":202,
-    "title":4,
+    "id": 202,
+    "title": 4,
     "question": "Nenne die wesentlichen Bestandteile eines Kaufvertrags.",
     "answer": "In einem Kaufvertrag können abweichend der Regelungen des Bürgerlichen Gesetzbuchs (BGB) oder des Handelsgesetzbuchs (HGB) verschiedene Inhalte vertraglich festgelegt werden.</br>Grundsätzlich sind in §§ 433 bis 453 BGB (Allgemeine Vorschriften zum Kaufvertrag) Dinge geregelt wie:</br><ol><li>Vertragstypische Pflichten beim Kaufvertrag, z. B. Eigentumsübertragung, Zahlung des Kaufpreises</li><li>Rechte des Käufers bei Mängeln, z. B. Nacherfüllung, Minderung</li><li>Garantie, z. B. Garantiedauer über der gesetzlichen Mängelhaftung (Gewährleistung)</li><li>Haftungsausschluss, z. B. Ausschließung bestimmter Sacheigenschaften</li></ol>"
   },
   {
-    "id":203,
-    "title":4,
+    "id": 203,
+    "title": 4,
     "question": "Erläutere das mehrstufige Prinzip des First-Level-, Second-Level- und Third-Level-Support.",
     "answer": "Der <strong>First-Level-Support</strong> gilt als erste Anlaufstelle für alle Supportangragen.</br>Die Mitarbeiter erfassen dort alle vollständigen Daten zur Person und zum Fall sowie alle zusätzlichen Informationen, die nützlich sind, um den Fall schnell zu lösen.</br>Im Normalfall versuchen die Mitarbeiter den Fall weitestgehend selbstständig zu lösen, um ihn andernfalls weiter zu eskalieren.</br>Der <strong>Second-Level-Support</strong> kommt zum Einsatz, wenn der Fall nicht durch den First-Level-Support gelöst werden konnte oder zu komplex ist.</br>Neue Erkenntnisse oder Ergebnisse werden in eine Wissensdatenbank zur Unterstützung des First-Level-Support eingetragen.</br>Der <strong>Third-Level-Support</strong> ist die höchste Eskalationsstufe, in der sich Spezialisten des Falls annehmen, um auf Hersteller- oder Entwicklungsebene eine Lösung zu finden bzw. zu erarbeiten. Das Ergebnis eines Support-Falls bzw. dieser Lösungsfindung kann bis hin zur Produktveränderung führen oder zu einem Re-Design."
   },
   {
-    "id":214,
-    "title":4,
+    "id": 214,
+    "title": 4,
     "question": "Welche Bedeutung haben bei Unterschriften die Abkürzungen i. V., i. A. sowie ppa.",
     "answer": "<strong>ppa.</strong> - per procura autoritate. Gemäß § 49 Abs. 1 HGB ermächtigt die Prokura „zu allen Arten von Gerichtlichen und außergerichtlichen Geschäften und Rechtshandlungen, die der Betrieb eines Handelsgewerbes mit sich bringt“. Die Prokura muss mittels ausdrücklicher Erklärung erteilt werden (vgl. § 48 Abs. 1HGB) und muss ins Handelsregister eingetragen werden (vgl. §53, Abs. 1 HGB).</br><strong>i. V.</strong> - in Vollmacht. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB; benötigt wird hier vom Arbeitgeber/inhaber eine Bevollmächtigung</br><strong>i. A.</strong> - im Auftrag. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB, ist nicht klar geregelt</br>HGB - Handelsgesetzbuch</br>BGB - Bürgerliches Gesetzbuch"
   },
@@ -407,32 +606,32 @@
     "answer": "Die <strong>doppelte Buchführung</strong> auch Soll- und Haben-Buchung genannt, ist eine Methode der Buchhaltung, bei der jeder Geschäftsvorfall doppelt gebucht Mittelverwendung nachvollziehbar zu machen.</br>Es existieren zwei grundlegende Kontoarten, die Bestandskonten und die Erfolgskonten, siehe Bild (vereinfachte Darstellung)."
   },
   {
-    "id":217,
-    "title":4,
+    "id": 217,
+    "title": 4,
     "question": "Was versteht man unter den Begriff berufliche Fortbildung und berufliche Umschulung?",
     "answer": "Der Begriff <strong>berufliche Fortbildung</strong> ist ein Teilbereich der Berufsbildung und im Berufsbildungsgesetz (BBiG) geregelt, um die berufliche Handlungsfähigkeit zu erhalten, anzupassen oder eine höherqualifizierte Berufsbildung zu erlangen oder beruflich aufzusteigen.</br>Anders ist es bei der beruflichen Umschulung. In § 1 Ziele und Begriffe der Berufsbildung des BBiG Abs. 5 heißt es: „Die berufliche Umschulung soll zu einer anderen beruflichen Tätigkeit befähigen“.</br>(vgl. § 1 BBiG)"
   },
   {
-    "id":218,
-    "title":4,
+    "id": 218,
+    "title": 4,
     "question": "Was versteht man unter beruflichen Weiterbildung?",
     "answer": "Die <strong>berufliche Weiterbildung</strong> ist die klassische Form der Vertiefung oder der Ergänzung der erlangten beruflischen Kenntnisse.</br>Das können zum Beispiel sein:</br><ol><li>weiterführende Kurse und Seminare</li><li>Erlangung von Zertifikaten und Zustanzqulifikationen</li><li>Fachwirt-, Meister- oder Betriebswirtkurse</li><li>Sprachunterricht, der die berufliche Tätigkeit unterstützt</li></ol>"
   },
   {
-    "id":219,
-    "title":4,
+    "id": 219,
+    "title": 4,
     "question": "Was bedeuten in der Anwendungsentwicklung die Begriffe Black-Box-Test und White-Box-Test?",
     "answer": "Als <strong>Black-Box-Test</strong> wird eine Methode des Softwaretests bezeichnet. Bei diesem Testverfahren geht es darum, dass der Tester ohne Kenntnisse über die innere Funktionsweise bzw. Implementierung des Systems das Verhalten bzw. die Funktionen testet.</br>Es wird nur das sichtbare Verhalten der Funktion oder des Gesamtsystems betrachtet und getestet.</br>Der <strong>White-Box-Test</strong> hingegen richtet den Blick auf den implementierten Algorithmus und überprüft die Korrektheit des Quellcodes."
   },
   {
-    "id":220,
-    "title":4,
+    "id": 220,
+    "title": 4,
     "question": "In der Anwendungsentwicklung sind Testverfahren unerlässlich. Welche Testverfahren kennst du?",
     "answer": "Folgende Testverfahren werden in der Anwendungsentwicklung angewendet:</br><ol><li>Black-Box-Test/ White-Box-Test</li><li>Komponententest</li><li>Unittest</li><li>Modultest</li><li>Integrationstest</li><li>Systemtest</li><li>Abnahmetest</li><li>Lasttest</li></ol>"
   },
   {
-    "id":221,
-    "title":4,
+    "id": 221,
+    "title": 4,
     "question": "Was versteht man unter dem Begriff Nachhaltigkeit in der Informationstechnologie-Branche?",
     "answer": "Mit <strong>Nachhaltigkeit</strong> ist generell ein bewusstes, verantwortungsvolles Handeln gemeint, welches die vorhandenen Ressourcen unserer Umwelt schont.</br>Dazu gehören im Besonderen in der Informationstechnologie folgende Punkte:</br><ol><li>Einsparung an Energie durch Einsatz von Virtualisierungstechnologien</li><li>Erhöhung der Energieeffizienz durch Nutzung von Standby-Technologien</li><li>Nutzung regenerativer Energien zum Betreiben von Rechenzentren</li><li>Einschränkung des Verbrauchs von Papier, Kunststoff, Druckerfarbe usw.</li><li>Free Cooling (Nutzung von Kaltluft und kaltem Wasser aus der Umwelt)</li></ol>"
   }
