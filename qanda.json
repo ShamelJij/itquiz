@@ -134,20 +134,105 @@
        "id": 25,
        "title": 6,
        "question":"Was versteht man unter der Marktformen des Monopols?",
-       "answer":"Ein <strong>Monopol</strong> ist eine Marktform in der Marktwirtschaft, bei welcher <strong>nur ein Anbieter</strong> vielen Nachfragern gegenübersteht (Angebotsmonopol) oder <strong>nur ein Nachfrager</strong> vielen Anbietern gegenübersteht (Nachfragemonopol). Der Monopolist hat somit eine marktbeherrschende Stellung. Er kann weitgehend das Angebot und den Preis am Markt bestimmten.<br/>Eine Sonderform ist das Zweiseitige Monopol, bei dem es genau einen Anbieter und genau einen Nachfrager gibt.<br/><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr></tbody><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></table>"
+       "answer":"Ein <strong>Monopol</strong> ist eine Marktform in der Marktwirtschaft, bei welcher <strong>nur ein Anbieter</strong> vielen Nachfragern gegenübersteht (Angebotsmonopol) oder <strong>nur ein Nachfrager</strong> vielen Anbietern gegenübersteht (Nachfragemonopol). Der Monopolist hat somit eine marktbeherrschende Stellung. Er kann weitgehend das Angebot und den Preis am Markt bestimmten.<br/>Eine Sonderform ist das Zweiseitige Monopol, bei dem es genau einen Anbieter und genau einen Nachfrager gibt.<br/><hr><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
+   },{
+       "id": 26,
+       "title": 6,
+       "question":"Wann spricht man in der Wirtschaft von einem Angebotsoligopol?",
+       "answer":"Ein Angebotsoligopol ist in der Marktwirtschaft eine Marktform, die durch <strong>wenig Anbieter</strong> auf der einen Seite und durch <strong>viele Nachfrager</strong> auf der anderen Seite gekennzeichnet ist. Als Beispiel kann hier der Energiemarkt bzw. der Mobilfunkmarkt genannt werden<br/><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
+   },{
+       "id": 27,
+       "title": 6,
+       "question":"Was versteht man unter dem Begriff IT-Benchmarking?",
+       "answer":"Unter IT-Benchmarking, auch Betriebsvergleich genannt, versteht man eine strategische IT-Management-Methode, in der die Performance der IT-Dienstleistungen eines Unternehmens mit denen eines anderen Unternehmens verglichen wird. Durch den Vergleich von Angeboten, Verträgen,  Dienstleistung und Preisen lässt sich die Qualität der miteinander verglichenen Dienstleister ermitteln. Da es keine standardisierten Verfahren gibt, müssen die allgemeinen Funktionen und Kostenarten Support von Anwendungsentwicklungen oder bei den Kostenarten, die der Personalkosten."
+   },{
+       "id": 28,
+       "title": 6,
+       "question":"Welche Kriterien müssen erfüllt sein für ein Marktgleichgewicht?",
+       "answer":"Das <strong>Marktgleichgewicht</strong> herrscht, wenn ein Zustand erreicht wird, in dem die angebotene Menge und die nachgefragt nach Gütern übereinstimmen.<br/>Durch den sogenannten Glecihgewichtspreis, zu dem ein Gut oder eine Ware angeboten wird, und die entsprechende Gleichgewichtsmenge, die nachgefragt wird, kommt der größtmögliche Umsatz im Markt zustande."
+   },{
+       "id": 29,
+       "title": 6,
+       "question":"Wann spricht man von einem Käufermarkt?",
+       "answer":"Als <strong>Käufermarkt</strong> wird eine Marktsituation beschrieben, in der sich die Käuferseite in der besseren Position gegenüber der Verkäuferseite befindet.<br/>Der sogenannte <strong>Angebotsüberhang</strong> oder ein Überangebot an Waren ist hierfür ein typische Beispiel. Dieses Überangebot entsteht immer dann, wenn das Angebot die Nachfrage deutlich übersteigt. Wenn von einem Produkt zu viel angeboten wird, zum Beispiel frische Erdbeeren, existieren mehr Erdbeeren am Markt, als es Abnehmer dafür gibt.<br/>Als <strong>Folge</strong> ist ein <strong>sinkender Preis</strong> für Erdbeeren zu beobachten, was für die Verkäufer zu sinkenden Umsätzen führt."
+   },{
+       "id": 30,
+       "title": 6,
+       "question":"Welche Aufgaben und Ziele verfolgen die betrieblichen Grundfunktionen?",
+       "answer":"Zu den <strong>betrieblichen Grundfunktionen</strong> zählen:<br/><ol><li><strong>Beschaffung:</strong> z. B. Einkauf von Roh-, Hilfs- und Betriebsstoffen sowie Fertigerzeugnissen</li><li><strong>Produktion:</strong> Herstellen von materiellen sowie immateriellen Gütern/Waren und/oder Dienstleistung</li><li><strong>Absatz/Vertrieb:</strong> Verkauf der produzierten Gütern/Waren und/oder Dienstleistungen am Markt</li><li><strong>Finanzierung:</strong> alle Prozesse, die im Zusammenhang mit der finanziellen Versorgung, Steuerung sowie Kontrolle zwischen Kapitalbeschaffung und Kapitalverwendung stehen</li></ol>"
+   },{
+       "id": 31,
+       "title": 6,
+       "question":"Welche Merkmale besitzt eine Europäische Gesellschaft (lateinisch Sicietas Europaea, Kurz SE genannt)?",
+       "answer":"Folgende Merkmale gelten für eine <strong>Europäische Gesellschaft (SE):</strong><br/><ol><li>Sie besitzt eine eigene Rechtspersönlichkeit.</li><li>Sie ist eine Kapitalgesellschaft.</li><li>Das Mindestkapital beträgt 120.000 Euro.</li><li>Jeder Aktionär haftet nur bis zur Höhe des von ihm gezeichneten Kapitals.</li><li>Die Geschäftsführung kann auf 2 Arten erfolgen:<br/><ol><li>Monistisches System</li><li>Dualistisches System</li></ol></li></ol>"
+   },{
+       "id": 32,
+       "title": 6,
+       "question":"Welche Kriterien müssen für die Marktform des Polypols erfüllt sein?",
+       "answer":"Das <strong>Polypol</strong> gilt als die bestmögliche Marktform der Marktwirtschaft, da hier von einem vollkommenen Markt die Rede ist. Es gibt regen Wettbewerb unter den Anbietern und Nachfragern. Es ist eine Marktform, bei der sich viele Anbieter und viele Nachfrager gegenüberstehen und miteinander in Konkurrenz treten."
+   },{
+       "id": 33,
+       "title": 6,
+       "question":"Welche Unternehmensformen sind in Deutschland Personengesellschaften?",
+       "answer":"Die <strong>Personengesellschaft</strong> ist ein Zusammenschluss midestens zweier Personen (natürliche und/oder juristische Personen sowie Personengesellschaften) zur Erreichung eines gemeinsamen Unternehmensziels.<br/><strong>Personengesellschaften</strong><br/><ol><li>Gesellschaft bürgerlichen Rechts (GbR)</li></ol><br/><strong>Personenhandelsgesellschaften:</strong><br/><ol><li>Offene Handelsgesellschaft (oHG), auch als GmbH & Co. oHG</li><li>Kommanditgesellschaft (KG), auch als GmbH & Co. KG</li></ol>"
+   },{
+       "id": 34,
+       "title": 6,
+       "question":"Welche Bedingungen und welche Haftungsregeln gelten bei einer offenen Handelsgesellschaft - OHG?",
+       "answer":"Eine <strong>OHG</strong> kann gegründet werden, wenn sich mindestens zwei oder mehr Personen zum Zweck eines <strong>vollkaufmännischen Handelsgewerbes</strong> im Sinne von § 1 Abs. 1 HGB (Handelsgesetzbuch) zusammenschließen.<br/>Es gilt, dass alle Gesellschaftler persönlich, unbegrentz und unbeschränkt für alle Verbinglichkeiten der Gesellschaft haften."
+   },{
+       "id": 35,
+       "title": 6,
+       "question":"Ein Betiebsergebnis erreicht sich aus den Umsatzerlösen minus den Umsatzkosten. Welche Sachverhalte können das Betriebsergebnis positiv beeinflussen?",
+       "answer":"Um das <strong>Betriebsergebnis</strong> positiv zu verändern, gibt es folgende Möglichkeiten:<br/><ol><li>Wareneinkauf optimieren (Rabatte aushandeln)</li><li>Herstellungskosten senken (z. B. Einsatz von günstigen Vorprodukten)</li><li>allgemeine Verwaltungskosten minimieren (durch Einsatz von Software)</li><li>Reduzierung der Werbekosten (Nutzung von Social Media)</li><li>Personalkosten reduzieren (durch Steigerung der Produktivität)</li><li>Fixkosten mindern (z. B. Nutzung von Fahrzeug-Leading statt kauf)</li></ol>"
+   },{
+       "id": 36,
+       "title": 6,
+       "question":"Unternehmen richten ihre Produkte und Dienstleitungen mit Hilfe von Marketingmaßnahmen nach den Kundenwünschen aus.<br/>Welchem Zweck dienen in diesem Zusammenhang Kundenbefragung?",
+       "answer":"Durch <strong>Kundenbefragung</strong> können zentrale Punkte wie Kundenzufriedenheit, Trends, das Image des Unternehmens, die Marktposition, die Kundenbindung sowie der Erfolg von Werbemaßnahmen beantwortet werden."
+   },{
+       "id": 37,
+       "title": 6,
+       "question":"In der Kundenkommunikation, im Speziellen während der Fehleranalyse im Telefonsuppot, sind Fragen von besonderer Bedeutung.<br/>Unterschiede bitte geschlossene und offene Fragen.",
+       "answer":"<strong>geschlossene Fragen:</strong><br/>Ja-Oder-Nein Fragen, z. B.: „Haben Sie den PC schon einmal neu gestartet?“<br/><strong>Offene Fragen:</strong><br/>W-Fragen - Wer, Wie, Was, Wieso, Warum, Wo, Weshalb, Wann..., z. B.:„Welche Fehlermeldung wurde Ihnen beim Programmabbruch angezeigt?“"
+   },{
+       "id": 38,
+       "title": 6,
+       "question":"Das Controlling im Unternehmen wird als eine Funktion des Managements gesehen, dessen zentrale Aufgabe die Planung, Steuerung sowie die Kontrolle aller Unternehmensbereiche ist.<br/>Wozu dient dabei eine ABC-Analyse?",
+       "answer":"Die <strong>ABC-Analyse</strong> stellt ein betriebswirtschaftliches Analyse-verfahren dar, welches bestimmte Prozesse oder Objekte in Klassen A, B und C einstuft. Dabei wird von A bis C in absteigender Reihenfolge eine Bedeutung zugeordnet.<br/>Bei der ABC-Analyse vergleicht man beispielweise, welche Kunden für den Hauptumsatz des Unternehmens verantworltlich sind und somit in klasse A eingestuft werden. Kunden, Welche am wenigsten zum Umsatz beitragen, kommen in die Klasse C. In Klasse B kommen die Kunden, die nur durchschnittlich zum Umsatzerfolg beitragen.<br/>Somit erhalten wir eine Art Ranking über den Umsatzerfolg, ähnlich dem Pareto-Prinizip (80/20-Regel)."
+   },{
+       "id": 39,
+       "title": 6,
+       "question":"Was versteht man unter dem Begriff Cross-Selling?",
+       "answer":"Als <strong>Cross-Selling</strong> (deutsch: Querverkauf) wird im Bereich des Marketings das Bemühen eines Händlers bezeichnet, <strong>zusätzlich</strong> zu einem nachgefragten oder angebotenen Artikel weitere <strong>passende Produkte oder Services</strong> anzubieten, immer mit dem Ziel, einen höheren Umsatz zu erzielen und sowohl die Kundenbindung als auch die Kundenzufriedenheit zu erhöhen."
    },
   {
     "id":40,
     "title":6,
     "question": "Ergänze nach dem Vier-Ohren-Modell (Sachebene, Appell, Selbstoffenbarung und Beziehung) die folgenden Aussagen eines Kunden gegenüber eines Vertriebsmitarbeiters.</br>Der Kunde sagt:</br><li>Sie müssen pünktlich liefern!</li><li>Ich bin mit Ihnen nicht zufrieden.</li><li>Sie haben nicht pünktlich geliefert.</li><li>Ich kontrolliere Ihre Leistungen sehr genau.</li><ol></ol>",
     "answer": "Folgende Aspekte möchte der Kunde nach dem Vier-Ohren-Modell vermitteln:</br>Appell - 1. Sie müssen pünktlich liefern!</br>Beziehung - 2. Ich bin mit Ihnen nicht zufrieden.</br>Sachebene - 3. Sie haben pünktlich geliefert.</br>Selbstoffenbarung - 4. Ich kontrolliere Ihre Leistungen sehr genau."
-  },
+  },{
+       "id": 41,
+       "title": 6,
+       "question":"Welche Regeln sollte man im telefonischen Kundensupport beachten?",
+       "answer":"Folgende Regeln sind allgemeiner Natur und sollten beim telefonischen Support Beachtung finden:<br/><ol><li>Vermeide Worte und Ausdrücke, die den Kunden reizen könnten</li><li>Höre dem Gesprächspartner aktiv zu</li><li>Lass Kunden immer ausreden und unterbrich sie nicht</li><li>Widersprich nie bei einem Einwand oder einer Beschwerde</li><li>Hinterfrage mit den den W-Fragen (wann, wie, wo, warum...)</li></ol>"
+   },{
+       "id": 42,
+       "title": 6,
+       "question":"Beschreibe den Begriff Pre-Sales-Angebot und nenne 2 Beispiele.",
+       "answer":"Unter dem Begriff <strong>Pre-Sales-Angebot</strong> sind alle Dienstleistungen zu verstehen, die dem potenziellen Kunden im Rahmen der Geschäftsanbahnung oder beim Vertragsabschluss angeboten werden. Dieser Service ist in der Regel unentgeltlich und dient der Kunden- und Auftragsgewinnung. Beispiele hierfür können sein:<br/><ol><li>Kostenlose Probefahrt beim Fahrzeugkauf</li><li>Kostenlose Informationsveranstaltungen</li><li>Kostenlose Kataloge oder Probeprodukte</li></ol>"
+   },
   {
     "id":43,
     "title":6,
     "question": "Was ist eine Nutzwertanalyse?",
     "answer": "Die <strong>Nutzwertanalyse</strong> stellt im Allgemneinen eine Entscheidungshilfe dar, wenn es um komplexe Handlungsalternativen geht. Mittels eines Punktwertverfahrens, eines Punktbewertungsverfahrens oder eines Scoring-modells werden verschiedene Bewertungskriterien erstellt und mehrere Produkte oder Services miteinander verglichen. Die Nutzwertanalyse dient zur Entscheidungsfindung bei komplexen Problemen.</br> Der Bewertungsmaßstab kann indiviuell, zum Beispiel als eine 4 Punkte Skala mit: 1 = gering, 2 = mittel, 3 = hoch, 4 = sehr hoch, festgelegt werden."
-  },
+  },{
+       "id": 44,
+       "title": 6,
+       "question":"Unternehmen müssen ihre Produkte am Markt anbieten. Dazu benötigen sie einen Vertriebspartner oder ein Vertriebsnetz.<br/>Nenne Vor- und Nachteile eines direkten Vertriebs.",
+       "answer":"Beim <strong>direkten Vertrieb</strong> bietet der Anbieter seine Produkte oder seine Dienstleistungen unmittelbar an.<br/><strong>Vorteile:</strong><br/><ol><li>die Gewinnspanne ist höher (Provisionen für Zwischenhändler entfallen)</li><li>Endverbraucher haben kurz kommunikations- und Vertriebswege</li><li>Vertriebsmitarbeitende sind eigene Mitarbeitende und können aktiven und schnell neue Produkte anbieten</li><li>engenere Kundenbindung durch persönliche Kundenkommunikation</li></ol><br/><strong>Nachteile:</strong><br/><ol><li>eigenes Vertriebsnetz bindet viel Kapital</li><li>personalintensiv, hohe Fixkosten</li><li>Massendistribution nur bedingt umsetzbar</li></ol><br/>Hisweis: Der direkte Vertrieb (Unternehmen -> Kunde) ist der Gegensatz zum indirekten Vertrieb (Unternehmen -> Zwischenhändler -> Kunde)."
+   },
   {
     "id":45,
     "title":6,
@@ -165,19 +250,95 @@
     "title": 1,
     "question": "Worin besteht in der Virtualisierung von Hostsystemen der Unterschied zwischen dem Hypervisor Typ 1 und Typ 2?",
     "answer": "Der Hypervisor Typ 1, auch native oder bare-metal Hypervisor genannt, setzt direkt auf der Hardware des Hostsystems auf. Daher ist keine vorherige Betriebssystem-Installation notwendig.<br/>Der Hypervisor Typ 2, auch hosted Hypervisor genannt, benötigt ein lauffähiges vollwertiges Betriebssystem, um auf diesem Hostsystem auf die Gerätetreiber des Betriebssystems bzw. auf die Hardware des Hostsystems zuzugreifen.<br/>Bei beiden Hypervisor-Typen gilt die Voraussetzung, dass die Hardware bzw. das BIOS/URFI des Hostsystems die Virtualisierung, bei Intel CPU (intel-VT) oder bei AMD CPU (AMD-V) unterstützt."
-  },
+  },{
+       "id": 48,
+       "title": 1,
+       "question":"Welche Funktionen bietet eine Dockingstation für Notebook?",
+       "answer":"Eine <strong>Dockingstation</strong> (englisch to dock „andocken“, oder auch „koppeln“) wird verwendet, wenn mobile Geräte, wie zum Beispiel Notebooks oder PDAs, mit einem festen Netz verbunden werden sollen.<br/>Dockingstationen für Notebooks werden auch als Portreplikatoren eingesetzt, sodass vorhandene Ports an die Dockingstation „durchgereicht“ werden. Des weitere werden auch zusätliche Schnittstellen wie PS/2 Seriell- und Parallelport, DVI, DisplayPort, HDMI, Sound oder Firewire, welche im mobilen Gerät selbst aus Platzgründen fehlen, an der Dockingstation bereitgestellt.<br/>Häufig verfügen die modernen Dockingstationen über die Möglichkei 2x HDMI, 2x DVI oder 2x DisplayPort zu nutzen."
+   },{
+       "id": 49,
+       "title": 1,
+       "question":"Welche Video-Schnittstellen sind für 4k und 8K Auflösung geeignet?",
+       "answer":"Nicht geeignet:<br/><strong>HDMI 1.4</strong> hat eine maximale Übertragungsrate von 10,2 GBit/s - max. Auflösung Full-HD<br/><br/>Geeignet:<br/><strong>HDMI 2.0</strong> hat eine maximale Übertragungsrate von 18,0 GBit/s - max. Auflösung 4k<br/><strong>HDMI 2.1</strong> hat eine maximale Übertragungsrate von 38,4 GBit/s - max. Auflösung 8k<br/><strong>DisplayPort 1.3</strong> hat eine maximale Übertragungsrate von 25,9 GBit/s - max. Auflösung 8k<br/><strong>DisplayPort 1.4</strong> hat eine maximale Übertragungsrate von 32,4 GBit/s - max. Auflösung 8k"
+   },{
+       "id": 50,
+       "title": 1,
+       "question":"Welche technischen Merkmalen hat ein Notebook?",
+       "answer":"Ein Notebook hat folgende Bestandteile:<br/><ol><li>tielweise Anschluss für Dockingstation</li><li>teilweise Mini-PCI-Express Slot</li><li>teilweise 4-in-1 Kartenlesegerät</li><li>teilweise integriertes Bluetooth, WLAN und WWAN</li><li>eigenes Display</li><li>externe Schnittstellen wie USB, HDMI, DisplayPort/mini DisplayPort, VGA, Firewire</li><li>integrierte Lautsprecher und Mikrofone</li><li>teilweise Videokamera</li><li>Akku</li><li>externes Netzteil</li><li>interne Netzwerkkarte</li></ol>"
+   },{
+       "id": 51,
+       "title": 1,
+       "question":"Welchen Vorteil bringt der Einsatz von Dual-Channel-Technik bei Speichermodulen?",
+       "answer":"Mithilfe der <strong>Dual-Channel-Technik</strong> kann der Speichercontroller des Prozessesors die Daten auf zwei Arbeitsspeichermodule gleichzeitig aufteilen und somit parallel schreiben und lesen. Dadurch verdopplet sich die Datenrate.<br/>Voraussetzung ist, dass die eingebauten Speichermodule baugleich sind, eine identische Modulkapazität besitzen sowie paarweise verteilt werden."
+   },{
+       "id": 52,
+       "title": 1,
+       "question":"Was verbirget sich hinter Bezeichnung UHD 4K?",
+       "answer":"<strong>UHD (Ultra High Definition) 4K</strong> bezeichnet ein digitales Videoformat der International Telecommunication Union (ITU) für Ultra High Definition Television (UHDTV oder Ultra HDTV) sowie Ultra High Definition Video (UHDV).<br/>UHD 4K wird heute auch als UHD-1 bezeichnet und lehnt sich am Cinema 4K (4096 x 2160 Pixel) an. Die Hersteller spezifizieren jedoch ihre Geräte mit 3840 x 2160 Pixeln heute oftmals auch als UHD 4K."
+   },{
+       "id": 53,
+       "title": 1,
+       "question":"Unternehmen, die ein Rechenzentrum betreiben, setzen vermehrt auf die Vorteile der Virtualisierung. In diesem Zusammenhang wird oftmals der Begriff des Thin-Clients benutzt. Was versteht man unter einem Thin-Clients?",
+       "answer":"Allgemein kann man einen <strong>Thin-Client</strong> (englisch dünner, schlanker bzw. magerer Client) als einen Computer bezeichnen, welcher über ein Netzwerk Ressourcen nutzt, die ihm ein Server bereitstellt.<br/>Die virtuelle Desktop-Infrastruktur (VDI) setzt primär Thin-Clients ein und setzt damit Konsequent auf die Vorteile der Virtualisierung des kompletten Rechenzentrums. Thin-Clients oder manchmal auch als Zero-Clients bezeichnet, siehe Bild, sind lüfterlose Geräte welche über USB, einen Netzwerkanschluss, Audio- und Displayanschlüsse verfügen. Die persönliche Benutzeroberfläche, die Konfiguration, Zugriffe auf Verzeichnisse und installierte Programme werden vom Server zur Verfügung gestellt. Thin-Clients sind umwelt- und ressourcenschonend und haben eine geringe Leistungsaufnahme."
+   },
   {
     "id":54,
     "title":1,
     "question": "Welche IT-Komponenten sind Ein- oder Ausgabegeräte? Ordne Richtig zu!</br><ol><li>Scanner</li><li>Maus</li><li>Touchpad</li><li>Drucker</li><li>Display</li></ol>",
     "answer": "<strong>Eingabegeräte</strong><ol><li>Scanner</li><li>Maus</li><li>Touchpad</li></ol></br><strong>Ausgabgeräte</strong><ol><li>Drucker</li><li>Display</li></ol>"
-  },
+  },{
+       "id": 56,
+       "title": 1,
+       "question":"Nenne die verschiedenen Cloud-Formen, die durch Cloud Computing angeboten werden.",
+       "answer":"<strong>Public Cloud</strong> die öffentliche Rechnerwolke: Stellt Zugang zu abstahierten IT-Infrastrukturen für die breite Öffentlichkeit über das Internet bereit.<br/><strong>Private Cloud</strong> die private Rechnerwolke: Stellt ausschließlich für eine Organisation oder ein Unternehmen den Zugang in eine Cloud-Umgebung bereit.<br/><strong>Hybrid Cloud</strong> die hybrid Rechnerwolke: Ist eine Kombination aus Public und Private Cloud<br/><strong>Community Cloud</strong> die gemeinschaftliche Rechnerwolke: Stellt Zugang zu abstahierten IT-Infrastrukturen wie bei der Public Cloud bereit, jedoch nur für bestimmte Nutzergruppen (wie städtische Behörden, Universitäten, Firmen mit ähnlichen Interessen, Forschungsgemeinschaften, Genossenschaften, usw.).<br/><u>Weiterhin gibt es Mischformen der oben genannten Cloud-Typen:</u><br/><strong>Virtual Private Could</strong> eine private Rechnerwolke auf öffentlichzugänglichen IT-Infrastrukturen<br/><strong>Multi Cloud</strong> Sie bündelt die verschiedenen Cloud-Computing-Dienste"
+   },{
+       "id": 57,
+       "title": 1,
+       "question":"Was versteht man unter dem Begriff Green-It?",
+       "answer":"Unter <strong>Green-IT</strong> versteht man alle Bestrebungen, die Nutzung von Informations- und Kommunikationstechnik (IuK) über deren gesamten Lebenszyklus hinweg umwelt- und ressourcenschonend zu gestalten.<br/>Darunter fallen folgende Aspekte:<br/><ol><li>Optimierung des Ressourcenverbrauchs während des Herstellungsprozesses, des Betriebs und der Entsorgung der Geräte</li><li>Ressourceneinsparung durch den Einsatz von Virtualisierungstechniken</li><li>Einsatz von Videokonferenzen (dadurch weniger Diensreisen)</li><li>Einsatz von Stromparmodi</li></ol>"
+   },{
+       "id": 58,
+       "title": 1,
+       "question":"Erkläre den Begriff des Servicemodells Infrastructure as a Service (IaaS).",
+       "answer":"<strong>Infrastructure as a Service</strong>, auch Foundation genannt, ist im Wesentlichen ein Ersatz für traditionelle Rechenzentren. Der Benutzer greift hier typischerweise auf bestehende Dienste innerhalb seiner Cloud zu, verwaltet aber seine eigenen Recheninstanzen."
+   },{
+       "id": 59,
+       "title": 1,
+       "question":"Nenne die Vorteile des Servicemodells PaaS (Platform as a Service).",
+       "answer":" Folgende Vorteile ergeben sich bei der Nutzung des Servicemodells <strong>PaaS</strong><br/><ol><li>reduzierter Programmieraufwand, da mit den PaaS-Entwicklungstools sich der Zeitaufwand für das Schreiben von Code für neue Apps reduziert.</li><li>Zusätzliche Entwicklungsmöglichkeiten, ohne dass neue Mitarbeitende eingestellt werden müssen.<br/>Entwicklungsteams können neue Funktionen mit Hilfe der PaaS-Kompnenten nutzen, ohne diese selbst entwickeln zu müssen.</li><li>Einfachere Enwicklung für mehrere Plattformen, teilweise werden Entwicklungsoptionen für mehrere Plattformen wie Computer, Mobilgeräte und Broswer vom Provider angeboten.</li><li>Kostengünstige Nutzung der Tools.</li><li>Effiziente Verwaltung des Anwendungslebenszyklus.</li></ol>"
+   },{
+       "id": 60,
+       "title": 1,
+       "question":"Erkäre den Cloud Computing Begriff Software as a Service (SaaS).",
+       "answer":"<strong>Software as a Service</strong> beschreibt ein Cloud-Konzept, bei dem Software nicht länger als Lizenz an einen Benutzer verkauft wird, sondern ihm gleich als Service in der Cloud zur Verfügung gestellt wird. Der Zugriff auf die Software wird bei einigen Cloudanbietern via Webbrowser gewährleistet."
+   },{
+       "id": 60,
+       "title": 1,
+       "question":"Moderne Storage-Systeme sind mit Hilfe von Glasfaser und dem Fibre-Channel Protokoll an einen Dateiserver oder virtualisierte Server angebunden. Bei diesen Anbindungen ist die Rede vom Host-Bus-Adapter.<br/>Was ist ein Host-Bus-Adapter?",
+       "answer":"Als <strong>Host-Bus-Adapter</strong> (HBA) bezeichnet man eine Netzwerkhardware, welche in einem Server installiert ist, um damit ein oder mehrere Datenspeichergeräte (Storage) zu erreichen.<br/>Der Begriff HBA wird oftmals im Zusammenhang mit den Bus-Systemen SCSI, ATA (IDE), SATA und Fibre-Channel verwendet, gilt aber prinzipiell auch für eine Netzwerkkarte im weiteren Sinne. Im Datenspeicher-Umfeld wird mit Hilfe des HBA via SCSI, iSCSI, Fibre-Channel oder Ethernet mit dem Host-System kommuniziert."
+   },{
+       "id": 62,
+       "title": 1,
+       "question":"Eine unterbrechungsfreie Stromversorgung (USV) wird nach der USV-Klassifizierung nach IEC 62040-3 in 3 Klassen unterteilt.<br/>Nenne die 3 Klassen und erkläre deren Wirkungsweise stichpunktartig.",
+       "answer":"<strong>Klasse 1: VFI</strong> (Voltage and Frequency Independent from mains supply)<br/>Schützt vor den Folgen eines Stromausfalls, Unterspannung, Überspannung als auch vor Frequenzschwankungen sowie vor Oberschwingungen<br/><strong>Klasse 2: VI</strong> (Voltage Independent from mains supply)<br/>Schützt vor den Folgen eines Stromausfalls, vor Unterspannung und vor Überspannung<br/><strong>Klasse 3: VFD</strong> (Voltage and Frequency Dependent on mains supply)<br/>Schützt vor den Folgen eines Stromausfalls, jedoch mit einer Verzögerung von bis zu 10 Millisekunden (ms)"
+   },{
+       "id": 63,
+       "title": 1,
+       "question":"IT-Infrastrukturen werden heute 7/24 (7 Tage die Woche/24 Stunden, auch 24/7) betrieben. Welche Aufgabe übernimmt in diesem Zusammenhang eine USV?",
+       "answer":"Eine <strong>unterbrechungsfreie Stromversorgung (USV)</strong> soll die elektrische Versorgung der Systemrelevanten IT-Komponenten 7/24 sicherstellen sowie Strörungen im Stromnetz zeitlich überbrücken.<br/>Des Weiteren schützt eine USV, je nach USV-Klassifizierung, die angeschlossenen IT-Komponenten vor folgenden Strörungen:<br/><ol><li>kompletter Stromausfall</li><li>vor Unterspannung</li><li>vor Überspannung</li><li>vor Frequenzabweichung</li><li>vor Oberschwingungen</li></ol>"
+   },
   {
     "id": 64,
     "title": 1,
     "question": "Welche Aufgabe übernimmt ein Datenbankmanagementsystem, kurz DBMS?",
     "answer": "Ein Datenbankmanagementsystem übernimmt folgende Aufgaben:<br/><ol><li>Speicherung, Veränderung und Löschung von Daten</li><li>Verwaltung der Metadaten</li><li>Gewährleistung der Datensicherheit und des Datenschutzes</li><li>trifft Vorkehrungen zur Datenintegrität</li><li>stellt den Mehrbenutzerbetrieb durch das Transaktionskonzept sicheren</li><li>unterstützt die Optimierung von Abfragen</li><li>ermöglicht Triggern und Stored Procedures</li><li>Bereitstellung von Informationen über Technik und Betrieb</li></ol>"
-  },
+  },{
+       "id": 65,
+       "title": 1,
+       "question":"Welche Eigenschaften haben die folgenden RAID-Level?<br/><ol><li>RAID 0</li><li>RAID 1</li><li>RAID 5</li><li>RAID 6</li><li>RAID 10</li></ol>",
+       "answer":"<table class='table-responsive text-center'><thead><tr><th>Betrieb</th><th>RAID 0</th><th>RAID 1</th><th>RAID 5</th><th>RAID 6</th><th>RAID 10</th></tr></theat><tbody><tr><th scope='row'>Redundanz</th><td>nein</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr><tr><th scope='row'>min. Datenträgern</th><td>2</td><td>2</td><td>≤3</td><td>≤4</td><td>≤4</td></tr><tr><th scope='row'>Rechenaufwand</th><td>sehr gering</td><td>sehr gering</td><td>mittel</td><td>hoch</td><td>hoch</td></tr><tr><th scope='row'>Felertoleranz Ausfall von Datenträgern</th><td>0</td><td>1</td><td>1</td><td>2</td><td>1 (2*)</td></tr><tr><th scope='row'>Lese-Performance</th><td>+++</td><td>++</td><td>+++</td><td>+++</td><td>+++</td></tr><tr><th scope='row'>Schreib-Performance</th><td>++</td><td>-</td><td>+</td><td>+</td><td>+++</td></tr><tr><th scope='row'>Kapazität Netto</th><td>100%</td><td>50%</td><td>n-1</td><td>n-2</td><td>50%</td></tr></tbody></table>"
+
+   },
   {
     "id": 66,
     "title": 1,
