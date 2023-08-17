@@ -412,5 +412,185 @@
     "abk": "VoIP",
     "name": "Voice over IP",
     "definition": "IP-Telefonie (kurz für Internet-Protokoll-Telefonie sowie Internettelefonie) oder Voice over IP (kurz VoIP; aus englisch voice over internet protocol, „Sprachübertragung über das Internetprotokoll“) genannt, ist das Telefonieren über Rechnernetze, welche nach Internetstandards aufgebaut sind. Dabei werden für Telefonie typische Informationen, mithin Sprache und Steuerinformationen, beispielsweise für den Aufbau einer Verbindung, über ein Datennetz übertragen. Bei den Gesprächsteilnehmern können Computer, auf IP-Telefonie spezialisierte Telefonendgeräte oder klassische Telefone, die über spezielle Adapter angeschlossen sind, die Verbindung herstellen.</br>IP-Telefonie ist eine Technik, die es ermöglicht, den Telefondienst auf IP-Infrastruktur zu realisieren, so dass diese die herkömmliche Telefontechnik samt ISDN und allen Komponenten ersetzen kann.</br>Ziel des Einsatzes der IP-Telefonie bei Kommunikationsnetzbetreibern ist hierbei eine Kostenreduktion durch ein einheitlich aufgebautes und zu betreibendes Netz. Aufgrund der langen Einsatzdauer klassischer Telefoniesysteme und der notwendigen Neuinvestitionen für IP-Telefonie wird der Wechsel bei bestehenden Anbietern oft als lang andauernder, gleitender Übergang („sanfte Migration“) realisiert. Währenddessen existieren beide Techniken parallel. Daraus ergeben sich ein deutlicher Bedarf an Lösungen zur Verbindung beider Telefoniesysteme (etwa über VoIP-Gateways) und die Notwendigkeit zur gezielten Planung des Systemwechsels unter Berücksichtigung der jeweiligen Möglichkeiten für Kosten- und Leistungsoptimierung. Die Zahl von Anbietern ausschließlich mit neuer Technik (also IP-Telefonie statt herkömmlichem Telefon) nimmt zu. Ende 2016 nutzten in Deutschland rund 25,2 Millionen Menschen die Voice-over-IP-Technik."
-  }
+  },
+   {
+       "id": 131,
+       "abk": "APFS",
+       "name": "Appe File System",
+       "definition": "neues Standarddateisystem für macOS."
+   },
+   {
+       "id": 132,
+       "abk": "ARPA",
+       "name": "Auch DARPA, Defense Advanced Research Projects Agency",
+       "definition": "Agentur des US-Verteidigungsministeriums, die Forschungsprojekte koordiniert und finanziert. Das 1969 von dieser Institution ins Lebengerufene ARPANET war der Vorläufer des Internets."
+   },
+   {
+       "id": 133,
+       "abk": "BGP",
+       "name": "Border Gateway Protocol",
+       "definition": "sehr häufig verwendetes externes Routing-Protokoll"
+   },
+   {
+       "id": 134,
+       "abk": "CSMA/CA",
+       "name": "Carrier Sense Multiple Access with Collision Avoidance",
+       "definition": "Netzzugangsverfahren, bei dem mehrere Stationen auf dasselbe Übertragungsmedium zugreifen. Vor dem eigentlichen Senden erfolgt eine Sendeankündigung, um Datenkollisionen zu vermeiden. Wird zum Beispiel für Wireless LAN verwendet."
+   },
+   {
+       "id": 135,
+       "abk": "CSMA/CD",
+       "name": "Carrier Sense Multiple Access with Collision Detection",
+       "definition": "Netzzugangsverfahren, vor allem für Ethernet. Vergleichbar mit CSMA/CA. Allerdings kann es zu Datenkollisionen kommen, weil eine Station einfach sendet, sobald das Medium frei ist."
+   },
+   {
+       "id": 136,
+       "abk": "Default Gateway",
+       "name": "Default Gateway",
+       "definition": "Router, der nicht für die Verbindung zu einem speziellen Netzwerk verantwortlich ist, sondern für alle diejenigen Verbindungen, für die kein anderer Router konfiguriert ist."
+   },
+   {
+       "id": 137,
+       "abk": "IEEE 1394",
+       "name": "FireWire",
+       "definition": "schnelle serielle Leitung (400 MBit/s). Wird für den digitalen Videoschnitt, aber auch immer häufiger für den Anschluss externer Laufwerke verwendet."
+   },
+   {
+       "id": 138,
+       "abk": "ISA",
+       "name": "Industry Standard Architecture",
+       "definition": "historischer Steckplatz für Erweiterungskarten auf dem Mainboard. Nur 16 Bit breit und mit 8,33 MHz Taktrate ausgestattet."
+   },
+   {
+       "id": 139,
+       "abk": "MIME",
+       "name": "Multipurpose Internet Mail Extension",
+       "definition": "Standard für die Angabe von Datentypen, der ursprünglich für E-Mail-Attachments entwickelt wurde, aber auch im Web eine wichtige Rolle spielt."
+   },
+   {
+       "id": 140,
+       "abk": "NNTP",
+       "name": "Network News Transport Protocol",
+       "definition": "Protokoll für die Übertragung von Newsgroup-Daten."
+   },
+   {
+       "id": 141,
+       "abk": "NFS",
+       "name": "Network File System",
+       "definition": "bevorzugtes Netzwerkdateisystem unter Unix."
+   },
+   {
+       "id": 142,
+       "abk": "NTFS",
+       "name": "Standarddateisystem der Microsoft-Windows-NT-Familie.",
+       "definition": "Standarddateisystem der Microsoft-Windows-NT-Familie."
+   },
+   {
+       "id": 143,
+       "abk": "O-Notation",
+       "name": "Gesprochen oft »big O notation«.",
+       "definition": "Darstellungsform für die Komplexität von Algorithmen: Eine Funktion f(N) besitzt die Komplexitätsklasse O(g(N)), wenn sich f(N) für große N der Funktion g(N) annähert."
+   },
+   {
+       "id": 144,
+       "abk": "PCMCIA",
+       "name": "Personal Computer Memory Card International Association",
+       "definition": "historischer Anschluss für Memory-Cards und Erweiterungsmodule an Notebooks."
+   },
+   {
+       "id": 145,
+       "abk": "PPP",
+       "name": "Point-to-Point Protocol",
+       "definition": "Verfahren für den Netzwerkzugriff über eine serielle Stand- oder Wählleitung. Prädikatenlogik Mathematisch-formale Schreibweise der Aussagenlogik; begründet 1879 von Gottlob Frege."
+   },
+   {
+       "id": 146,
+       "abk": "Samba",
+       "name": "SMB-Server für Unix-Systeme",
+       "definition": "gewissermaßen eine freie Windows-Server-Implementierung."
+   },
+   {
+       "id": 147,
+       "abk": "SOAP",
+       "name": "Simple Object Access Protocol",
+       "definition": "Kommunikationsprotokoll für Webservices."
+   },
+   {
+       "id": 148,
+       "abk": "TFT",
+       "name": "Thin Flat Transistor",
+       "definition": "hochwertigstes Verfahren zur Steuerung von LCD-Displays. Jedes einzelne Flüssigkristall wird durch einen eigenen Transistor angesteuert."
+   },
+   {
+       "id": 149,
+       "abk": "Token-Ring-Netzwerk",
+       "name": "LAN-Standard von IBM",
+       "definition": "ringförmiges Netzwerk, das nach dem Token-Passing-Verfahren arbeitet."
+   },
+   {
+       "id": 150,
+       "abk": "Top-Level-Domain",
+       "name": "Oberste Ordnungseinheit von Domainnamen im Internet.",
+       "definition": "Man unterscheidet Länder-Top-Level-Domains (ccTLDs) wie .de für Deutschland oder .uk für Großbritannien und generische TLDs wie .com oder .org."
+   },
+   {
+       "id": 151,
+       "abk": "Track-at-once",
+       "name": "",
+       "definition": "Technik, bei der der Brennvorgang einer Audio-CD Track für Track einzeln durchgeführt wird. Gegenbegriff: => Disc-at-once."
+   },
+   {
+       "id": 152,
+       "abk": "TTL",
+       "name": "Time-to-Live",
+       "definition": "Anzahl der Router, die ein IP-Datagramm passieren kann: Jeder Router zieht 1 von diesem Wert ab, bei 0 wird das Paket verworfen. Dies verhindert, dass unzustellbare Datagramme ewig im Netz kreisenl."
+   },
+   {
+       "id": 153,
+       "abk": "UDDI",
+       "name": "Universal Description, Discovery and Integration",
+       "definition": "Registrierungsdienst für => SOAP-Webservices."
+   },
+   {
+       "id": 154,
+       "abk": "UTF-8",
+       "name": "(Unicode) Transformation Format",
+       "definition": "Spezielle Schreibweise für Unicode-Zeichen, in der ASCII-Zeichen mit einem Byte auskommen, während alle anderen Zeichen 2 bis 4 Byte belegen."
+   },
+   {
+       "id": 155,
+       "abk": "WSDL",
+       "name": "Web Service Definition Language",
+       "definition": "XML-basierte Sprache zur Beschreibung von Webservices."
+   },
+   {
+       "id": 156,
+       "abk": "XPath",
+       "name": "XML-Technologie zur Angabe von Pfaden, die dem Auffinden von Objekten in XML-Dokumenten dienen",
+       "definition": "Wird beispielsweise für => XSLT verwendet."
+   },
+   {
+       "id": 157,
+       "abk": "XSL-FO",
+       "name": "eXtensible Stylesheet Language, Formatting Objects",
+       "definition": "Definition spezieller Layoutanweisungen für die visuelle Darstellung von XML-Dokumenten."
+   },
+   {
+       "id": 158,
+       "abk": "XSLT",
+       "name": "eXtensible Stylesheet Language Transformation.",
+       "definition": "Satz spezieller Anweisungen für die Umwandlung von XML-Dokumenten in andere Formate wie HTML oder PDF."
+   },
+   {
+       "id": 159,
+       "abk": "S-ATA",
+       "name": "Serial ATA",
+       "definition": "serieller Nachfolger von => EIDE."
+   },
+   {
+       "id": 160,
+       "abk": "SAS",
+       "name": "Serial Attached SCSI",
+       "definition": "serielle Variante von => SCSI."
+   }
 ]
