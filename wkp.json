@@ -33,5 +33,6 @@
   {"id": 32, "port": 8443, "protocol": "HTTPS (alternative)"},
   {"id": 33, "port": 8888, "protocol": "HTTP (alternative)"},
   {"id": 34, "port": 9090, "protocol": "HTTP (alternative)"},
+  {"id": 36, "port": 515, "protocol": "Printer Spooler"},
   {"id": 35, "port": 9091, "protocol": "HTTP (alternative)"}
 ]
