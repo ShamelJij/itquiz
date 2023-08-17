@@ -592,5 +592,11 @@
        "abk": "SAS",
        "name": "Serial Attached SCSI",
        "definition": "serielle Variante von => SCSI."
+   },
+   {
+       "id": 161,
+       "abk": "PXE",
+       "name": "Preboot Execution Environment",
+       "definition": "PXE ist ein Verfahren von Intel, um Computer einen Netzwerkbasierten Startvorgang zu ermöglichen. Damit ist gemeint, dass ein Computer nicht das Betriebssystem von der Festplatte lädt, sondern aus dem Netzwerk.<br/>PXE fasst verschiedene Verfahren zusammen, um einen Computer übers Netzwerk zu Booten. Früher brauchte man noch für jede Netzwerkkarte einen eigenen Treiber, damit das gelang. PXE bringt die notwendigen Funktionen mit. Es ist eine Erweiterung für eine normierte Schnittstelle für Netzwerkzugriffe. PXE ist im BIOS der Netzwerkkarte integriert. So ist das Booten übers Netzwerk bei allen Netzwerkkarten identisch.<br/>PXE nutzt die Protokolle TCP/IP, UDP, DHCP und TFTP. Das PXE-BIOS kann mit dem DHCP- und dem PXE-Server kommunizieren. Vom DHCP-Server bekommt der Computer die IP-Konfiguration und vom PXE-Server das Betriebssystem."
    }
 ]
