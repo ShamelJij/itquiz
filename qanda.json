@@ -375,7 +375,7 @@
     "id": 65,
     "title": 1,
     "question": "Welche Eigenschaften haben die folgenden RAID-Level?<br/><ol><li>RAID 0</li><li>RAID 1</li><li>RAID 5</li><li>RAID 6</li><li>RAID 10</li></ol>",
-    "answer": "<table class='table-responsive text-center'><thead><tr><th>Betrieb</th><th>RAID 0</th><th>RAID 1</th><th>RAID 5</th><th>RAID 6</th><th>RAID 10</th></tr></theat><tbody><tr><th scope='row'>Redundanz</th><td>nein</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr><tr><th scope='row'>min. Datenträgern</th><td>2</td><td>2</td><td>≤3</td><td>≤4</td><td>≤4</td></tr><tr><th scope='row'>Rechenaufwand</th><td>sehr gering</td><td>sehr gering</td><td>mittel</td><td>hoch</td><td>hoch</td></tr><tr><th scope='row'>Felertoleranz Ausfall von Datenträgern</th><td>0</td><td>1</td><td>1</td><td>2</td><td>1 (2*)</td></tr><tr><th scope='row'>Lese-Performance</th><td>+++</td><td>++</td><td>+++</td><td>+++</td><td>+++</td></tr><tr><th scope='row'>Schreib-Performance</th><td>++</td><td>-</td><td>+</td><td>+</td><td>+++</td></tr><tr><th scope='row'>Kapazität Netto</th><td>100%</td><td>50%</td><td>n-1</td><td>n-2</td><td>50%</td></tr></tbody></table>"
+    "answer": "<table class='table-responsive text-center'><thead><tr><th>Betrieb</th><th>RAID 0</th><th>RAID 1</th><th>RAID 5</th><th>RAID 6</th><th>RAID 10</th></tr></theat><tbody><tr><th scope='row'>Redundanz</th><td>nein</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr><tr><th scope='row'>min. Datenträgern</th><td>2</td><td>2</td><td>≤3</td><td>≤4</td><td>≤4</td></tr><tr><th scope='row'>Rechenaufwand</th><td>sehr gering</td><td>sehr gering</td><td>mittel</td><td>hoch</td><td>hoch</td></tr><tr><th scope='row'>Felertoleranz Ausfall von Datenträgern</th><td>0</td><td>1</td><td>1</td><td>2</td><td>1 (2*)</td></tr><tr><th scope='row'>Lese-Performance</th><td>+++</td><td>++</td><td>+++</td><td>+++</td><td>+++</td></tr><tr><th scope='row'>Schreib-Performance</th><td>++</td><td>-</td><td>+</td><td>+</td><td>+++</td></tr><tr><th scope='row'>Kapazität Netto</th><td>100%</td><td>50%</td><td>n-1</td><td>n-2</td><td>50%</td></tr></tbody></table><br/>2* ist abhängig von den „richtigen“ beiden ausgefallenen DAtenträgern"
   },
   {
     "id": 66,
@@ -388,7 +388,12 @@
     "title": 1,
     "question": "Welche Aufgabe hat ein Netzwerk-Router?",
     "answer": "Ein Router oder auch Netzwerkrouter ist ein Netzwerkgerät, welches sich im OSI-Modell auf der Schicht 3 (Vermittlungsschicht/Network Layer) befindet und die Netzwerkpakete zwischen mehreren Netzwerken weiterleitet.<br/>Netzwerkrouter werden zur sicheren Kopplung mehrerer Standorte über VPN (Virtual Private Network)oder zur direkten Verbindung mehrerer lokaler Netzwerksegmente eingestzt.<br/>Router sind in der Lage auch unterschiedliche Netzwerktechniken, wie Ethernet, DSL, PPPoE, ISDN, usw. miteinander zu verbinden."
-  },
+  },{
+       "id": 68,
+       "title": 1,
+       "question":"Nenne die 4 Transportorientierten Schichten des OSI-Modells und reläutere deren Aufgaben.",
+       "answer":"<strong>Schicht 1 - Bitübertragungsschicht (Physical Layer)</strong><br/>Diese Unterste Schicht stellt die physischen Verbindungen zu den aktiven Netzwerkkomponenten her, um die Datenbits zu übertragen. Typische Hardware sind Verstärker, Hub und Netzwerkkabel.<br/><strong>Schicht 2 - Sicherungsschicht (Data Link Layer)</strong><br/> Sie gewährleistet eine zuverlässige sowie fehlerfreie Übertragung und den Zugriff auf das Übertragungsmedium. Der Bitdatenstrom wird in Blöcke - gerne auch als Frames oder Rahmen bezeichnet - aufgeteilt  und durch das Hinzufügen von Prüfsummen im Rahmen ergänzt. Typische Hardware sind Switche, Access Points und Bridges.<br/><strong>Schicht 3 - Vermittlungsschicht (Network Layer)</strong><br/>Zu den Aufgaben dieser Schicht gehört das Bereitstellen von Netzwerkübergreifenden Adressen (IPv4/IPv6), das Routing, sowohl Aufbau als auch die Aktualisierung von Routingtabellen sowie die Fragmentierung von Datenpaketen.<br/><strong>Schicht 4 - Transportschicht (Transport Layer)<br/>Diese ist für die Sicherstellung einer fehlerfreien Übertragung zuständig sowie für die Datensegmentierung und für die Datenkapselung durch Protokollelemente (Schicht-4-Steuerungsinformation) verantworltlich. Als Adressierung wird dem Datensegment eine Schicht-4-Adresse in Form eines UDP/TCP-Ports vergeben.</strong>"
+   },
   {
     "id": 69,
     "title": 1,
@@ -472,7 +477,22 @@
     "title": 1,
     "question": "Welche Aufgaben hat ein DHCP-Server innerhalb der IT-Infrastruktur?",
     "answer": "Das Dynamic Host Configuration Protocol (DHCP) ist ein Kommunikations-Protokoll, welches Netzwerkgeräten ermöglicht ohne manuelle Konfiguration eine automatische Netzwerkkonfiguration für das lokalen Netz zu erhalten.<br/>Mit Hilfe des DHCPDISCOVER sendet ein Client/Netzwerkgeräte ohne IP-Adresse eine Broadcast-Anfrage nach sogenannten Adress-Angeboten an alle verfügbaren DHCP-Server im lokalen Netz. Wenn im lokalen Netz ein DHCP-Server erreichbar ist, antwortet dieser mit einem DHCPOFFER. Im Anschluss fordert der Client im Zuge des Verfahrens mit Hilfe des DHCPREQUEST die angebotene IP-Adresse für einen Lease-Zeitraum an. Dabei wird unterschieden in statische, automatische und dynamische Adresszuweizung.<br/>Die Adresszuweizung erfolgt über die UDP-Ports 67 und 68.<br/>Zur Netzwerkkonfiguration kann ein DHCP folgende Angaben versenden:<ol><li>IP-Adresse und Netzwerkmaske</li><li>Default-Gateway</li><li>DNS-Server, DNS-Context und DNS-Tree</li><li>Sekundärer DNS-Server</li><li>Time- und NTP-Server</li><li>WINS-Server (für Microsoft Windows Clients)</li><li>Proxy-Konfiguration via WPAD</li><li>weitere DHCP Optionen z. B. Angaben für PXE-Boot</li></ol>"
-  },
+  },{
+       "id": 83,
+       "title": 1,
+       "question":"Vergleiche die Protokolle UDP und TCP miteinander und fülle die folgende Tabelle aus.",
+       "answer":"<table class='table-responsive text-center'><thead><tr><th>Eigenschaften</th><th>UDP<br/>User Datagram Protocol</th><th>TCP<br/>Transmission Control Protocol</th></tr></theat><tbody><tr><th scope='row'>Headergröße</th><td> 8 Byte</td><td>20 Byte</td></tr><tr><th scope='row'>Geschwindigkeit</th><td>hoch</td><td>geringer</td></tr><tr><th scope='row'>Paketverlusterkennung</th><td>nein</td><td>ja</td><th scope='row'>Ende zu Ende Kontrolle</th><td>nein</td><td>ja</td><th scope='row'>Fehlerbehebung</th><td>nein</td><td>ja</td><th scope='row'>Erkennung von Duplikaten</th><td>nein</td><td>ja</td><th scope='row'>Flusskontrolle</th><td>nein</td><td>ja</td><th scope='row'>Zeitüberwachung der Verbindung</th><td>nein</td><td>ja</td></tbody></tr></table>"
+   },{
+       "id": 84,
+       "title": 1,
+       "question":"Welche verkürte Schreibweise der IPv6-Adresse 2001:0db8:0f3c:00d7:7dab:03d0:0000:00ff sind erlaubt?",
+       "answer":"<ol><li>2001:db8:f3c:d7:7dab:3d:0:ff - nicht erlaubt</li><li><strong>2001:db8:f3c:d7:7dab:3d0:0:ff - erlaubt</strong></li><li><strong>2001:db8:f3c:d7:7dab:3d0::ff - erlaubt</strong></li><li>2001:0db8:0f3c:00d7:7dab:03d::00ff - nicht erlaubt</li></ol>"
+   },{
+       "id": 85,
+       "title": 1,
+       "question":"Was versteht man im Netzwerkbereich unter dem Quality of Service?",
+       "answer":"Der <strong>Quality of Service</strong> (QoS) bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über IP-Netzwerke genutzt wird. Spezielle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen.<br/>Um Diesen Qualitätsbeeinträchtigungen wie Latenz, Jitter und Paketverlust entgegenzuwirken, gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, der Datenratenreservierung, der Datenratenlimitierung sowie durch Paketoptimierung die Güte der Datenkommunikation zu verbessern.<br/>Das Type of Service (ToS) ist ein im IP-Header des IPv4 Ethernet Frame reserviertes Feld von 1 Byte Größe, welches zur Priorisierung von IP-Datenpaketen gesetzt und ausgewertet werden kann."
+   },
   {
     "id": 86,
     "title": 1,
