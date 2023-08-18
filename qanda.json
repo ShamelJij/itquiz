@@ -512,6 +512,31 @@
     "answer": "Das Domain Name System (DNS) stellt einen der wichtigsten Dienste in IP-basierten Netzwerken dar. Das Domain Name System dient der Beantwortung von Anfragen zur Namensauflösung.<br/>Konkret wird dabei der angefragte Name in eine IP-Adresse übersetzt und als Ergibnis der Anfrage zurück geliefert. In windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu, eine angefragte IP-Adresse als Namen zu ermitteln und als Ergebnis zurückzuliefern. Dieses Reverse Lookup wird mit Hilfe von PTR Ressource Records in der Reverse Lookup Zone des Active Directory gewährleistet."
   },
   {
+    "id": 89,
+    "title": 1,
+    "question": "Einer der wichtigen Dienste in der Informationstechnologie sind E-Mail-Dienste. Es kommen verschiedene e-Mailprotokolle dabei zum Einsatz. Unterschieide die Mailingprotokolle IMAP/S, SMTP/S sowie POP3/S nach ihren Eigenschaften.",
+    "answer": "<strong>SMTPS (Simple Mail Transfer Protocol Secure)</strong> bezeichnet ein Kommunikationsprotokoll des Postausgangs bei dem der E-Mail-Transport via SMTP über SSL/TLS über den Port 465 ermöglicht wird. Mit Hilfe von SSL/TLS wird die Authentifizierung der Kommunikationspartner auf Transportebene sowie Intergrität und Vertraulichkeit der übertragenen Nachrichten gewährleistet.<br/><strong>IMAPS (Internet Message Access Protocol Secure)</strong> ist ein E-Mail Kommunikationsprotokoll für den Posteingang, welcher mit SSL/TLS über den Port 993 den gesicherten Transport sicherstellt. Beim IMAP/IMAPS werden die Mails, Ordnerstrukturen und Einstellungen auf den Mail-Servern gespeichert und lokal synchronisiert.<br/><strong>POP3/S (Post Office Protocol 3 Secure)</strong> ist ein E-Mail Kommunikationsprotokoll für den Posteingang und nutzt eine Verschlüsselung mit Hilfe von SSL/TLS über den Port 995. Im Gegensatz zum IMAP Protokoll werden POP3 Posteingänge heruntergeladen bzw. anschließend bei Bedarf gelöscht."
+
+  },{
+    "id": 90,
+    "title": 1,
+    "question": "Was bedeutet der Begriff Standby- oder Offline-USV?",
+    "answer": "Die <strong>einfachen unterbrechungsfreien Stromversorgungen</strong> der USV-Klasse 3 sind Standby- bzw. Offline-USVs. Sie Schützen generell nur gegen Stromausfälle sowie kurzzeitige Spannungsschwankungen. Die Unter- und Überspannungen im Netz können nicht ausgeglichen werden. Wegen der doch recht langsamen Umschaltdauer von 4 bis 10 Millisekunden (ms) zwischen Netzbetrieb auf Batteriebetrieb können Störspannungen, Spannungseinbrüche und Spannungsspitzen unterhalb dieser Zeit nicht erkannt werden."
+
+  },{
+    "id": 91,
+    "title": 1,
+    "question": "Was versteht man unter einer Online-USV?",
+    "answer": "Die <strong>Online-USV (USV-Klasse 1)</strong> gilt als die teuerste Variante unter den unterbrechungsfreien Stromversorgungen, sie bietet jedoch auch den umfassendsten Schutz durch permanente Erzeugung einer Sinsspannung am Ausgang. Alle angeschlossenen Verbraucher werden dauerhaft und ohne Einschränkungen aufgeladen wird.<br/>Bei Netzausfall erfolgt ein unterbrechungsfreier Übergang auf die Batterieeinspeisung. Die Eingangsspannung kann zwischen 160 Volt und 290 Volt schwanken, während die Ausgang einer Online-USV ist frei von Störspannungen, elektromagnetischen Einflüssen, Frequenzstörungen und Spannungsverzerrungen."
+
+  },{
+    "id": 92,
+    "title": 1,
+    "question": "Was versteht man unter der Bezeichnung Netzinteraktive USV?",
+    "answer": "<strong>Netzinteraktive unterbrechungsfreie Stromversorgungen</strong> (USV-Klasse 2) funktionieren ähnlich wie das Standby-USV Funktionsprinzip. Sie schützen allgemein vor dem Stromausfall sowie vor kurzzeitigen Spannungsspitzen und sind in der Lage, Gegensatz zur Offline-USV liegen die Umschaltzeiten vom Netzbetrieb zum Batteriebetrieb zwischen kurzen 2 bis 4 Millisekunden. Die Umschaltzeit vom Batteriebetrieb zum Netzbetreib ist nahezu verzögerungsfrei."
+
+  },
+  {
     "id": 93,
     "title": 1,
     "question": "Was bedeutet der Begriff SSID (Service Set Identifier)?",
@@ -540,12 +565,29 @@
     "title": 1,
     "question": "Wie berechnet man die Wirkleistung von elektrischen Geräten?",
     "answer": "Die <strong>elektrische Leistungsberechnung von It-Komponenten</strong> unterliegt den allgemeinen Gesetzen der Elektrotechnik. Die elektrische Wirkleistung P ist das Produkt von Spannnung U und der Stromstärke I.<br/>Die Berechnung erfolgt wie folgt:<br/><strong>P = U . I</strong><br/> Die Berechnung wird in der Maßeinheit Watt angegeben. Die Leistungsangaben von elektrischen Geräten gelten immer für die Dauer mit 60 Minuten bzw. 1 Stunde.<br/>Beispiel: 230V * 16A = 3.680 VA / Watt (3,68 KW/h)<br/>Dieses elektrische Gerät verbraucht demnach 3,68 KW/h"
+  },{
+    "id": 98,
+    "title": 1,
+    "question": "Nenne die Voe- und Nachteile der Virtualisierung von Servern und Desktops auch unter Berücksichtigung von Cloudangeboten.",
+    "answer": "<strong>Vorteile</strong><br/><ol><li>Stromersparnis</li><li>Skalierbarkeit</li><li>Redundante Systeme (Ausfallsicherheit)</li><li>Schnellere Server-Provisionierung</li><li>so gut wie keine Kapazitätsbeschränkungen</li><li>Nutzung von Kostengünstigen Angeboten</li><li>keine Investitionskosten bei Cloudanbietern (pay-as-you-go)</li><li>Lebensverlängerung alter Software</li></ol><br/><strong>Nachtile</strong><br/><ol><li>nicht jede Lösung ist Kostengünstig für den 24/7-Einsatz</li><li>eventuell höhere Latenzzeiten mit zu vielen virtuellen Maschinen pro Host</li><li>Hardware und Software kann nicht zu 100% selbst administriert werden</li><li>Individuallösungen nicht immer möglich</li><li>angebotene Lösungen nicht in allen Regionen erhältlich</li></ol>"
+
   },
   {
     "id": 99,
     "title": 1,
     "question": "Was bedeutet der Begriff Serverkonsolidierung?",
     "answer": "<strong>Serverkonsolidierung</strong> ist eine Form der Konsolidierung von Serverressourcen, bei der man auf die Möglichkeiten der Virtualisierung setzt. Mit Hilfe von virtuellen Maschinen (VM) oder vertuellen Umgebungen (Virtual Environment VE) soll eine Energie- und Raumeinsparung durch Reduktion der physikalischen Serversysteme erreicht werden.<br/>Kurz gefasst: z. B. 10 physische Server werden durch einen performanten Server ersetzt und die 10 Server virtualisiert."
+  },{
+    "id": 100,
+    "title": 1,
+    "question": "Welche Arten von Anforderungen git es an Software?",
+    "answer": "<strong>Geschäftsanforderungen</strong> sind die Anforderungen, welche sich aus der Geschäftstätigkeit des Kunden und den Marktanforderungen ergeben. Die Geschätsanforderungen werden durch das Management und das Marketing festgelegt.<br/><strong>Benutzeranforderungen</strong> sind die für die Benutzer des Softwaresystem erforderlichen Anforderungen, um die Geschäftsanforderungen zu erfüllen. Die Benutzeranforderungen werden durch Geschäftsanalysten, durch Benutzer oder Vertretern der Benutzer, sowie Produktmanager difiniert.<br/><strong>Funktionale Anforderungen</strong> erfassen das Verhalten, welches eine Software erfüllen muss, um die Benutzeranforderungen zu gewährleisten. Funktionle Anforderungen werden durch Geschäftsanalysten und Produktmanager in Absprache mit der Softwareentwicklung und der Testabteilung definiert.<br/><strong>Projektanforderungen</strong> sind die nötigen Anforderungen, die den Erfolg eines Projekts sichern, um alle Anforderungen des Projekts umsetzen zu können und das Produkt um Zuge des Application Lifecycle Managements (ALM) betreuen zu können."
+  },{
+    "id": 101,
+    "title": 1,
+    "question": "Welche Kosten entstehen für ein Rechenzentrum (On-Premise) mit einer Server-Client Struktur?",
+    "answer": "<strong>Folgende Kosten sind zu betrachten:</strong><br/><ol><li>Kauf/Miete für Gebäude/Raum</li><li>Anschaffungskosten (IT-Hardware, Software, Kühlung)</li><li>evtl. Miet-/Leasinggebühren (Hardware/Software)</li><li>Lizenzgebühren (Betriebssystem/Anwendersoftware)</li><li>Energiekosten (Hardware/Kühlung/Sicherheitstechnik)</li><li>Wartung/Instandhaltung</li><li>Brandschutz</li><li>Sicherheitstechnik</li><li>Versicherungen</li></ol>"
+
   },
   {
     "id": 122,
@@ -563,7 +605,7 @@
     "id": 123,
     "title": 2,
     "question": "Was versteht man unter Standardsoftware?",
-    "answer": "Als <strong>Standardsoftware</strong> bezeichnet man im Allgemeinen Software, die auf dem freien Markt angeboten wird. Im Gegensatz zur Individualsoftware ist sie vorgefertigt und muss in der Regel vom Anwender selbst installiert bzw. indiviuell angepasst werden. Standardsoftware kann On-Permise und als Software as a Service angeboten werden."
+    "answer": "Als <strong>Standardsoftware</strong> bezeichnet man im Allgemeinen Software, die auf dem freien Markt angeboten wird. Im Gegensatz zur Individualsoftware ist sie vorgefertigt und muss in der Regel vom Anwender selbst installiert bzw. indiviuell angepasst werden. Standardsoftware kann On-Premise und als Software as a Service angeboten werden."
   },
   {
     "id": 124,
