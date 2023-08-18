@@ -481,7 +481,7 @@
        "id": 83,
        "title": 1,
        "question":"Vergleiche die Protokolle UDP und TCP miteinander und fülle die folgende Tabelle aus.",
-       "answer":"<table class='table-responsive text-center'><thead><tr><th>Eigenschaften</th><th>UDP<br/>User Datagram Protocol</th><th>TCP<br/>Transmission Control Protocol</th></tr></theat><tbody><tr><th scope='row'>Headergröße</th><td> 8 Byte</td><td>20 Byte</td></tr><tr><th scope='row'>Geschwindigkeit</th><td>hoch</td><td>geringer</td></tr><tr><th scope='row'>Paketverlusterkennung</th><td>nein</td><td>ja</td><th scope='row'>Ende zu Ende Kontrolle</th><td>nein</td><td>ja</td><th scope='row'>Fehlerbehebung</th><td>nein</td><td>ja</td><th scope='row'>Erkennung von Duplikaten</th><td>nein</td><td>ja</td><th scope='row'>Flusskontrolle</th><td>nein</td><td>ja</td><th scope='row'>Zeitüberwachung der Verbindung</th><td>nein</td><td>ja</td></tbody></tr></table>"
+       "answer":"<table class='table-responsive text-center'><thead><tr><th>Eigenschaften</th><th>UDP<br/>User Datagram Protocol</th><th>TCP<br/>Transmission Control Protocol</th></tr></theat><tbody><tr><th scope='row'>Headergröße</th><td> 8 Byte</td><td>20 Byte</td></tr><tr><th scope='row'>Geschwindigkeit</th><td>hoch</td><td>geringer</td></tr><tr><th scope='row'>Paketverlusterkennung</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Ende zu Ende Kontrolle</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Fehlerbehebung</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Erkennung von Duplikaten</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Flusskontrolle</th><td>nein</td><td>ja</td><tr><th scope='row'>Zeitüberwachung der Verbindung</th><td>nein</td><td>ja</td></tr></tbody></table>"
    },{
        "id": 84,
        "title": 1,
