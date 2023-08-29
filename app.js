@@ -93,6 +93,50 @@ for (let i = 0; i < anchorElements.length; i++) {
     n(tabIds[i]);
   };
 }
+//search
+const searchInput = document.getElementById("searchInput");
+const searchList = document.getElementById("resultsList");
+const searchSize = document.getElementById("resultSize");
+searchInput.addEventListener("input", ()=>{
+  const searchValue = searchInput.value.toLowerCase().trim();
+  const filteredData = responseObj["qanda"].filter(item =>
+    item.question.toLowerCase().trim().includes(searchValue)
+  );
+  console.log(filteredData);
+  displayResults(filteredData, searchValue);
+});
+
+function displayResults(results, input){
+  searchList.textContent = "";
+  searchSize.textContent = "";
+  const resultDiv = document.createElement("div");
+ if (results.length === 0 || input == ""){
+   if(input == ""){
+     searchList.textContent = "";
+     searchSize.textContent = "";
+   return;
+   }
+    searchSize.textContent = "0";
+    resultDiv.innerHTML = "<div class='text-danger'>kein Ergebnisse</div>";
+    searchList.appendChild((resultDiv));
+   return;
+ }
+  results.forEach(item => {
+
+  resultDiv.innerHTML += `<div class="card p-1 m-1">
+  <div class="card-body">
+    <h5 class="card-title">id::${item.id}</h5>
+    <p class="card-text"><div class='text-primary'>${item.question}</div><hr><div class='text-success'>${item.answer}</div></p>
+  </div>
+</div>`;
+  searchSize.textContent = results.length;
+   //searchList.innerText = resultDiv;
+  console.log(results);
+  console.log("searching");
+
+  searchList.appendChild((resultDiv));
+  });
+}
 // QandA elements
 let title_element = document.getElementById("title");
 let question_element = document.getElementById("question");

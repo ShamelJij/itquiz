@@ -141,13 +141,13 @@
     "id": 25,
     "title": 6,
     "question": "Was versteht man unter der Marktformen des Monopols?",
-    "answer": "Ein <strong>Monopol</strong> ist eine Marktform in der Marktwirtschaft, bei welcher <strong>nur ein Anbieter</strong> vielen Nachfragern gegenübersteht (Angebotsmonopol) oder <strong>nur ein Nachfrager</strong> vielen Anbietern gegenübersteht (Nachfragemonopol). Der Monopolist hat somit eine marktbeherrschende Stellung. Er kann weitgehend das Angebot und den Preis am Markt bestimmten.<br/>Eine Sonderform ist das Zweiseitige Monopol, bei dem es genau einen Anbieter und genau einen Nachfrager gibt.<br/><hr><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
+    "answer": "Ein <strong>Monopol</strong> ist eine Marktform in der Marktwirtschaft, bei welcher <strong>nur ein Anbieter</strong> vielen Nachfragern gegenübersteht (Angebotsmonopol) oder <strong>nur ein Nachfrager</strong> vielen Anbietern gegenübersteht (Nachfragemonopol). Der Monopolist hat somit eine marktbeherrschende Stellung. Er kann weitgehend das Angebot und den Preis am Markt bestimmten.<br/>Eine Sonderform ist das Zweiseitige Monopol, bei dem es genau einen Anbieter und genau einen Nachfrager gibt.<br/><hr><table class='table table-striped table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
   },
   {
     "id": 26,
     "title": 6,
     "question": "Wann spricht man in der Wirtschaft von einem Angebotsoligopol?",
-    "answer": "Ein Angebotsoligopol ist in der Marktwirtschaft eine Marktform, die durch <strong>wenig Anbieter</strong> auf der einen Seite und durch <strong>viele Nachfrager</strong> auf der anderen Seite gekennzeichnet ist. Als Beispiel kann hier der Energiemarkt bzw. der Mobilfunkmarkt genannt werden<br/><table class='table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
+    "answer": "Ein Angebotsoligopol ist in der Marktwirtschaft eine Marktform, die durch <strong>wenig Anbieter</strong> auf der einen Seite und durch <strong>viele Nachfrager</strong> auf der anderen Seite gekennzeichnet ist. Als Beispiel kann hier der Energiemarkt bzw. der Mobilfunkmarkt genannt werden<br/><table class='table table-striped table-responsive text-center'><thead><tr><th> - </th><th>Ein Nachfrager</th><th>Wenige Nachfrager</th><th>Viele Nachfrager</th></tr></theat><tbody><tr><th scope='row'>Ein Abieter</th><td>Zweiseitiges Monopol</td><td>Beschränktes Angebotsmonopol</td><td>Angebotsmonopol</td></tr><tr><th scope='row'>Wenige Anbieter</th><td>Beschränktes Nachfragemonopol</td><td>Zweitiges Oligopol</td><td>Angebotsoligopol</td></tr><tr><th scope='row'>Viele Anbieter</th><td>Nachfragemonopol</td><td>Nachfrageoligopol</td><td>Polypol</td></tr></tbody></table>"
   },
   {
     "id": 27,
@@ -375,7 +375,7 @@
     "id": 65,
     "title": 1,
     "question": "Welche Eigenschaften haben die folgenden RAID-Level?<br/><ol><li>RAID 0</li><li>RAID 1</li><li>RAID 5</li><li>RAID 6</li><li>RAID 10</li></ol>",
-    "answer": "<table class='table-responsive text-center'><thead><tr><th>Betrieb</th><th>RAID 0</th><th>RAID 1</th><th>RAID 5</th><th>RAID 6</th><th>RAID 10</th></tr></theat><tbody><tr><th scope='row'>Redundanz</th><td>nein</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr><tr><th scope='row'>min. Datenträgern</th><td>2</td><td>2</td><td>≤3</td><td>≤4</td><td>≤4</td></tr><tr><th scope='row'>Rechenaufwand</th><td>sehr gering</td><td>sehr gering</td><td>mittel</td><td>hoch</td><td>hoch</td></tr><tr><th scope='row'>Felertoleranz Ausfall von Datenträgern</th><td>0</td><td>1</td><td>1</td><td>2</td><td>1 (2*)</td></tr><tr><th scope='row'>Lese-Performance</th><td>+++</td><td>++</td><td>+++</td><td>+++</td><td>+++</td></tr><tr><th scope='row'>Schreib-Performance</th><td>++</td><td>-</td><td>+</td><td>+</td><td>+++</td></tr><tr><th scope='row'>Kapazität Netto</th><td>100%</td><td>50%</td><td>n-1</td><td>n-2</td><td>50%</td></tr></tbody></table><br/>2* ist abhängig von den „richtigen“ beiden ausgefallenen DAtenträgern"
+    "answer": "<table class='table table-striped text-center'><thead><tr><th>Betrieb</th><th>RAID 0</th><th>RAID 1</th><th>RAID 5</th><th>RAID 6</th><th>RAID 10</th></tr></theat><tbody><tr><th scope='row'>Redundanz</th><td>nein</td><td>ja</td><td>ja</td><td>ja</td><td>ja</td></tr><tr><th scope='row'>min. Datenträgern</th><td>2</td><td>2</td><td>≤3</td><td>≤4</td><td>≤4</td></tr><tr><th scope='row'>Rechenaufwand</th><td>sehr gering</td><td>sehr gering</td><td>mittel</td><td>hoch</td><td>hoch</td></tr><tr><th scope='row'>Felertoleranz Ausfall von Datenträgern</th><td>0</td><td>1</td><td>1</td><td>2</td><td>1 (2*)</td></tr><tr><th scope='row'>Lese-Performance</th><td>+++</td><td>++</td><td>+++</td><td>+++</td><td>+++</td></tr><tr><th scope='row'>Schreib-Performance</th><td>++</td><td>-</td><td>+</td><td>+</td><td>+++</td></tr><tr><th scope='row'>Kapazität Netto</th><td>100%</td><td>50%</td><td>n-1</td><td>n-2</td><td>50%</td></tr></tbody></table><br/>2* ist abhängig von den „richtigen“ beiden ausgefallenen DAtenträgern"
   },
   {
     "id": 66,
@@ -481,7 +481,7 @@
        "id": 83,
        "title": 1,
        "question":"Vergleiche die Protokolle UDP und TCP miteinander und fülle die folgende Tabelle aus.",
-       "answer":"<table class='table-responsive text-center'><thead><tr><th>Eigenschaften</th><th>UDP<br/>User Datagram Protocol</th><th>TCP<br/>Transmission Control Protocol</th></tr></theat><tbody><tr><th scope='row'>Headergröße</th><td> 8 Byte</td><td>20 Byte</td></tr><tr><th scope='row'>Geschwindigkeit</th><td>hoch</td><td>geringer</td></tr><tr><th scope='row'>Paketverlusterkennung</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Ende zu Ende Kontrolle</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Fehlerbehebung</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Erkennung von Duplikaten</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Flusskontrolle</th><td>nein</td><td>ja</td><tr><th scope='row'>Zeitüberwachung der Verbindung</th><td>nein</td><td>ja</td></tr></tbody></table>"
+       "answer":"<table class='table table-striped table-responsive text-center'><thead><tr><th>Eigenschaften</th><th>UDP<br/>User Datagram Protocol</th><th>TCP<br/>Transmission Control Protocol</th></tr></theat><tbody><tr><th scope='row'>Headergröße</th><td> 8 Byte</td><td>20 Byte</td></tr><tr><th scope='row'>Geschwindigkeit</th><td>hoch</td><td>geringer</td></tr><tr><th scope='row'>Paketverlusterkennung</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Ende zu Ende Kontrolle</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Fehlerbehebung</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Erkennung von Duplikaten</th><td>nein</td><td>ja</td></tr><tr><th scope='row'>Flusskontrolle</th><td>nein</td><td>ja</td><tr><th scope='row'>Zeitüberwachung der Verbindung</th><td>nein</td><td>ja</td></tr></tbody></table>"
    },{
        "id": 84,
        "title": 1,
@@ -568,7 +568,7 @@
   },{
     "id": 98,
     "title": 1,
-    "question": "Nenne die Voe- und Nachteile der Virtualisierung von Servern und Desktops auch unter Berücksichtigung von Cloudangeboten.",
+    "question": "Nenne die Vor- und Nachteile der Virtualisierung von Servern und Desktops auch unter Berücksichtigung von Cloudangeboten.",
     "answer": "<strong>Vorteile</strong><br/><ol><li>Stromersparnis</li><li>Skalierbarkeit</li><li>Redundante Systeme (Ausfallsicherheit)</li><li>Schnellere Server-Provisionierung</li><li>so gut wie keine Kapazitätsbeschränkungen</li><li>Nutzung von Kostengünstigen Angeboten</li><li>keine Investitionskosten bei Cloudanbietern (pay-as-you-go)</li><li>Lebensverlängerung alter Software</li></ol><br/><strong>Nachtile</strong><br/><ol><li>nicht jede Lösung ist Kostengünstig für den 24/7-Einsatz</li><li>eventuell höhere Latenzzeiten mit zu vielen virtuellen Maschinen pro Host</li><li>Hardware und Software kann nicht zu 100% selbst administriert werden</li><li>Individuallösungen nicht immer möglich</li><li>angebotene Lösungen nicht in allen Regionen erhältlich</li></ol>"
 
   },
@@ -630,6 +630,71 @@
     "title": 5,
     "question": "Dein Ausbildungsbetrieb ist ISO 9001 zertifiziert. Was bedeutet diese Norm für deinen Ausbildungsbetrieb?",
     "answer": "Die ISO 9001 Norm legt die Anforderung für Qualitätsmangementsysteme fest. Ziel ist die Qualitätssicherung durch stetige Optimierung der Prozesse.</br>Diese Zertifizierung ist weltweit anerkannt.</br><strong>ISO 9001 orientiert sich unter anderem an diesen Grundprinzipien:</strong></br><ol><li>Kundenorientierung</li><li>Prozessorientierung</li><li>stetige Verbesserung</li><li>Risikomanagement</li></ol>"
+  },{
+    "id": 184,
+    "title": 7,
+    "question": "Was versteht man unter einem digitalen Zertifikat?",
+    "answer": "Als <strong>digitales Zertifikat</strong> wird ein digitaler Datensatz bezeichnet, der mit Hilfe von Kryptografischen Schlüsselpaaren beispielweise die Authentizität von Webseiten, Einzelpersonen oder Organisation überprüfen kann.<br/>Ein typisches digitales Zertifikat basiert in der Regel auf dem x.509 Standard (Public-Key-Zertifikat).<br/>Das digitale Zertifikat besteht aus einem öffentlichen Schlüssel und einem privaten Schlüssel sowie anderen Informationen zur Identität der mit dem Zertifikat verknüpften Entität sowie Informationen über die ausstellende Zertifizierungsstelle.<br/>Ein digitales Zertifikat soll die Schutzziele der Datensicherheit, wie Vertraulichkeit sowie Authentizität gewährleisten."
+  },{
+    "id": 185,
+    "title": 7,
+    "question": "Was ist eine SPI (Statefull) Firewall?",
+    "answer": "Im Gegensatz zur klassischen Firewall (Packetorientiert), nutzt eine <strong>Statefull Packet Inspection Firewall</strong> eine zustandsorientierte Paketprüfung, bei der jedes Datenpaket auf der Vermittlungsschicht (3. Schicht des OSI-Modells) einer bestimmten aktiven Sitzung zugeordnet wird und der Verbindungsstatus in dynamischen zwischengespeichert wird. Mit Hilfe des Zustands der Verbindungen werden bei TCP die SYN-, ACK- FIN- und RST-Bits ausgewertet und über die Weiterleitung von Datenpaketen entschieden. Die eigentlich zustandslosen Datenpakete UDP (User Datagram Protocol) Können auch stateful behandelt werden."
+
+  },{
+    "id": 186,
+    "title": 7,
+    "question": "Was versteht man unter dem Begriff Endpoint-Security?",
+    "answer": "Als <strong>Endpoint-Security-Management</strong> werden alle Maßnahmen und Richtlinien bezeichnet, bei denen Endgeräte, die auf ein Netzwerk zugreifen, vor schädlichen Angriffen bzw. Zugriffen seitens Dritter geschützt werdne.<br/>Zu den Maßnahmen zählen unter adnerem sowohl die Anwendungsisolation von E-Mail- und Office-Programmen als auch Überwachung bzw. Verwaltung von externen Datenträgern, die über eine Art Whitelist geregelt wird."
+
+  },{
+    "id": 187,
+    "title": 7,
+    "question": "Welche Anwendungen oder Verfahren verwenden Kryptografische Hashfunktionen?",
+    "answer": "Bei folgenden Anwendungen oder Verfahen kommt es zum Einsatz von Kryptografischen <strong>Hashfunktionen</strong>:<br/><ol><li>Integitätsprüfungen</li><li>Erzeugung von Prüfsummen</li><li>Erzeugung von Sitzungsschlüsseln</li><li>Generatoren für Einmal-Passwörter</li><li>Verfahren zur Authentifizierung mit digitalen Signaturen</li><li>Speichern von Passwörtern</li></ol>"
+
+  },{
+    "id": 188,
+    "title": 7,
+    "question": "Nenne Einsatzbereiche und Verfahren von symmetrischen Schlüsseln.",
+    "answer": "<table class='table table-striped table-responsive text-center'><thead><tr><th>Einsatzbereich</th><th>Verfahren</th></tr></theat><tbody><tr><td><ol><li>Wireless LAN(WPA2)</li><li>WIMAX</li><li>SSH</li><li>Ipsec</li><li>Secure Real-Time Transport Protocol(SRTP)</li></ol></td><td>AES (Advanced Encryption Standard)</td></tr><tr><td>Wireless LAN</td><td>Triple-DES</td></tr><tr><td>VPN-Software, z. B. OpenVPN</td><td>Blowfish</td></tr><tr><td>Wireless LAN (WPA3)</td><td>SHA-2 (Secure Hash Algorithm 2)</td></tr></tbody></table>"
+
+  },{
+    "id": 189,
+    "title": 7,
+    "question": "Erläutere den Unterschied zwischen einem differentiellen und inkrementellen Backup.",
+    "answer": "<strong>Differentieles Backup</strong><br/>Ein Differentieles Backup ist eine Datensichungsform bei der, ausgehend von einem Vollbackup, alle Dateien kopiert werden, die seit der letzten vollständigen Sicherung verändert wurden oder neu hinzugekommen sind.<br/>Beim vollständigen Wiederherstellen der Daten benötigt man zuerst das letzte Vollbackup und danach das letzte Differentiele Backup.<br/><strong>Inkrementelles Backup</strong><br/>Ein Inkrementelles Backup ist eine Datensicherungsform bei der, ausgehend von einem Vollbackup, nur die Dateien, die seit der letzten inkrementellen Sicherung verändert wurden oder neu hinzugekommen sind, kopiert werden.<br/>Beim vollständigen Wiederherstellen der Daten benötigt man zunächst das letzte Vollbackup und danach in der richtigen Reihenfolge die jeweiligen inkrementellen Backups."
+
+  },{
+    "id": 190,
+    "title": 7,
+    "question": "Wie gestaltet sich ein vollständiger Backupplan nach dem Großvater-Vater-Sohn-Prinzip?",
+    "answer": "Beim Großvater-Vater-Sohn-Prinzip geht es um Rotationsschema zur Datensicherung auf Speichermedien.<br/>Im Rahmen einer 5-Tage Woche kommen dabei 23 Speichermedien zum Einsatz.<br/>4x Sohn-Medien -> tägliche Datensicherung (Inkrementelles Backup)<br/>4x Vater-Medien -> wöchentliche Datensicherung (Vollbackup)<br/>12x Großvater-Medien -> monatliche Datensicherung (Vollbackup)"
+
+  },{
+    "id": 191,
+    "title": 7,
+    "question": "Unterscheide die Begriffe Malware, Ransomeware und Trojaner.",
+    "answer": "<strong>Malware</strong> = Schadsoftware oder Schadprogramme. Es handelt sich hier um einen Oberbegriff für die Begriffe wie Adware, Spyware, Viren, Botnets, Trojaner, Würmer, Rootkits und Ransomeware.<br/><strong>Ransomeware</strong> = Erpressersoftware. Bei Ransomeware werden Daten z. B. auf einem Computer in Geiselhaft genommen, durch bestimmte Verschlüsselungsmethoden verschlüsselt und es wird zur Zahlung eines Lösengelds (z. B. via Bitcoin aufgefordert, wenn man diese Daten wieder entschlüsslt haben möchte.<br/><strong>Trojaner</strong>) = Harmlos wirkendes Computerprogramm, welches im Hintergrund ohne Wissen des Anwenders weitere Schadsoftware nachlädt und beispielsweise Backdoorprogramme oder Rootkits installiert."
+
+  },{
+    "id": 192,
+    "title": 7,
+    "question": "In der datenverarbeitenden Industrie kommt dem Datenschutz goße Bedeutung zu.<br/>Welchem Zweck dient das IT-Sicherheitsmanagement?",
+    "answer": "Das <strong>IT-Sicherheitsmanagement</strong> beschreibt den permanenten Prozess innerhalb einer Unternehmung oder Organisation zur Gewährleistung der IT-Sicherheit und des Datenschutzes. Es sollen Gefahren oder Bedrohungen für die Informationssicherheit sowie den Datenschutz eines Unternehmens oder einer Organisation verhindert oder abgewehrt werden."
+
+  },{
+    "id": 193,
+    "title": 7,
+    "question": "Welche Bedigungen muss ein ergonomischer PC-Arbeitsplatz erfüllen?",
+    "answer": "Allgemeine Ergonomie-Richtlinien sind in der Richtlinie 90/270/EWG geregelt. Diese Richtlinie enthält Mindestvorschriften bezüglich der Arbeit an Bildschimgeräten.<br/>Folgende Bedigungen muss ein ergonomischer PC-Arbeitsplatz erfüllen:<br/><ol><li>Die oberste Bildschirmzeile des Monitors ist leicht unterhalb der Sehachse des Mitarbeitenden.</li><li>Der Mindestabstand von 50 cm zum Bildschirm ist zu gewährleisten.</li><li>Der Bildschirm sollte so eingerichtet sein, dass er frei von störenden Reflexionen und Blendungen ist.</li><li>Der Bildschirm muss frei stehen und muss leicht drehbar sowie neigbar sein.</li><li>Arbeitshöhe und Sitzhöhe müssen sich an die körperhöhe anpassen lassen.</li><li>Ein Winkel von 90° zwischen Ober- und Unterarm sowie Ober- und Unterschenkel ist optimal.</li><li>Genug Bewegungsspielraum für die Beine.</li><li>Eine natürliche Körperhaltung muss möglich sein.</li></ol><br/>Des Weitern gelten die Bestimmungen der Arbeitsstättenverordnung (ArbStättV)."
+
+  },{
+    "id": 194,
+    "title": 7,
+    "question": "Welche Aussagen trifft die Arbeitsstättenverordnung (ArbStättV) in Bezug auf Bildschirm und Tastatur?",
+    "answer": "Die <strong>Arbeitsstättenverordnung</strong> (ArbStättV) enthält im Anhang wesentliche Regelungen zum Einrichten eines Bildschirmarbeitsplatzes.<br/>insbesondere folgende Punkte sind dabei zu beachten:<br/><ol><li>Die Zeichen auf dem Bildschirm müssen scharf, deutlich und ausreichend groß dargestellt sein.</li><li>Das Bild muss stabil, flimmerfrei und ohne Verzerrungen dargestellt werden.</li><li>Die Helligkeit sowie der Kontrast des Bildschirms müssen einstellbar sein.</li><li>Der Bildschirmarbeitsplatz muss so eingerichtet sein, dass er frei von störenden Reflexionen und Blendungen ist.</li><li>Das Bildschirmgerät muss frei stehen und leicht drehbar sowie neigbar sein.</li><li>Die Tastatur muss vom Bildschirmgerät getrennt und neibar sein, damit eine ergonomische Arbeitshaltung eingenommen werden kann.</li><li>Die Tastatur muss eine Auflagemöglichkeit für die Hände bieten.</li><li>Die PC-Tastatur muss eine reflexionsarme Oberfläche besitzen.</li><li>Die Tastaturbeschriftung muss sich vom Untergrund deutlich abheben und bei normaler Arbeitshaltung lesbar sein.</li></ol>"
+
   },
   {
     "id": 195,
