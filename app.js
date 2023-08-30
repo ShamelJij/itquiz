@@ -105,7 +105,7 @@ searchInput.addEventListener("input", () => {
   const filteredData = responseObj["qanda"].filter((item) =>
     item.question.toLowerCase().trim().includes(searchValue)
   );
-  console.log(filteredData);
+  //console.log(filteredData);
   displayResults(filteredData, searchValue);
 });
 
@@ -133,7 +133,7 @@ function displayResults(results, input) {
 </div>`;
     searchSize.textContent = results.length;
     //searchList.innerText = resultDiv;
-    console.log(results);
+    //console.log(results);
     console.log("searching");
 
     searchList.appendChild(resultDiv);
