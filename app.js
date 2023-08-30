@@ -40,6 +40,7 @@ let myFuncArray = [
 ]
 window.addEventListener('load', function () {
   console.log("It's loaded!")
+  document.getElementById("something").style.display = 'none';
 })
 let myPages = {};
 let myFuncsObject = {};
