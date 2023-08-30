@@ -9,25 +9,37 @@
   <link rel="icon" href="./random.png">
 
   <title>bist du eigentlich Fachinformatiker??!</title>
-
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/yeti/bootstrap.min.css"
     integrity="sha384-mLBxp+1RMvmQmXOjBzRjqqr0dP9VHU2tb3FK6VB0fJN/AOu7/y+CAeYeWJZ4b3ii" crossorigin="anonymous">
 </head>
 
 <body>
+  <div class="loading" id="canvas">
+    <div class='light x1'></div>
+    <div class='light x2'></div>
+    <div class='light x3'></div>
+    <div class='light x4'></div>
+    <div class='light x5'></div>
+    <div class='light x6'></div>
+    <div class='light x7'></div>
+    <div class='light x8'></div>
+    <div class='light x9'></div>
+  </div>
   <div class="nav p-2 justify-content-around" style="background-color: #bbdefb;" id="anchors">
   </div>
   <div class="row justify-content-center m-2">
-    <div class="col-lg-4 text-center"><div class="input-group"><input type="text" class="form-control" name="search" id="searchInput" placeholder="suche..."></div></div><div class="col-2 m-2 text-success" id="resultSize"></div>
+    <div class="col-lg-4 text-center">
+      <div class="input-group"><input type="text" class="form-control" name="search" id="searchInput"
+          placeholder="suche..."></div>
+    </div>
+    <div class="col-2 m-2 text-success" id="resultSize"></div>
   </div>
   <div class="row justify-content-center m-2">
-    <div><ul id="resultsList"></ul></div>
+    <div>
+      <ul id="resultsList"></ul>
+    </div>
   </div>
-    <div class="row pb-2">
-      <div class="col-md">
-        <h1 id="something">something to show here</h1>
-          </div>
-          </div>
   <!-- QandA Tab -->
   <div class="container" id="qandaTabContent">
     <div class="row pb-2">
@@ -35,7 +47,7 @@
         <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
           <div class="p-2">
             <div class="offset-4 border col-4 p-1" id="title">title</div>
-            <br/>
+            <br />
             <div class="text-left text-primary" id="question"></div>
             <hr>
             <div class="text-left text-success" id="answer"></div>
@@ -122,7 +134,8 @@
           <tr>
             <th scope="row">2</th>
             <td>Sicherung</td>
-            <td>LLC/MAC, ARP, VLAN, IEEE 802.11 (WLAN), 802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 802.11ax (Wi-Fi 6), HDLC, RAPA, PPP, Frame Relay, ATM, X.75, V.120,CSMA/CD</td>
+            <td>LLC/MAC, ARP, VLAN, IEEE 802.11 (WLAN), 802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 802.11ax (Wi-Fi
+              6), HDLC, RAPA, PPP, Frame Relay, ATM, X.75, V.120,CSMA/CD</td>
             <td>Token Ring, Ethernet, Bridge, Layer-2-Switch, Wireless Access Point</td>
           </tr>
           <tr>
@@ -331,7 +344,9 @@
             <br />
             <div class="text-center text-primary" id="paradigmparadigm"></div>
             <hr>
-            <div class="text-left text-success"><ol id="paradigmlanguages"></ol></div>
+            <div class="text-left text-success">
+              <ol id="paradigmlanguages"></ol>
+            </div>
           </div>
         </div>
         <div class="row text-center pb-4">
@@ -470,7 +485,9 @@
             <hr>
             <div class="text-center text-success" id="firewallDefinition"></div>
             <hr>
-            <div class="text-left text-danger"><ol id="firewallThreats"></ol></div>
+            <div class="text-left text-danger">
+              <ol id="firewallThreats"></ol>
+            </div>
           </div>
         </div>
         <div class="row text-center pb-4">
