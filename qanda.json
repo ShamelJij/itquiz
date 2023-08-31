@@ -219,7 +219,7 @@
     "id": 38,
     "title": 6,
     "question": "Das Controlling im Unternehmen wird als eine Funktion des Managements gesehen, dessen zentrale Aufgabe die Planung, Steuerung sowie die Kontrolle aller Unternehmensbereiche ist.<br/>Wozu dient dabei eine ABC-Analyse?",
-    "answer": "Die <strong>ABC-Analyse</strong> stellt ein betriebswirtschaftliches Analyse-verfahren dar, welches bestimmte Prozesse oder Objekte in Klassen A, B und C einstuft. Dabei wird von A bis C in absteigender Reihenfolge eine Bedeutung zugeordnet.<br/>Bei der ABC-Analyse vergleicht man beispielweise, welche Kunden für den Hauptumsatz des Unternehmens verantworltlich sind und somit in klasse A eingestuft werden. Kunden, Welche am wenigsten zum Umsatz beitragen, kommen in die Klasse C. In Klasse B kommen die Kunden, die nur durchschnittlich zum Umsatzerfolg beitragen.<br/>Somit erhalten wir eine Art Ranking über den Umsatzerfolg, ähnlich dem Pareto-Prinizip (80/20-Regel)."
+    "answer": "Die <strong>ABC-Analyse</strong> stellt ein betriebswirtschaftliches Analyse-verfahren dar, welches bestimmte Prozesse oder Objekte in Klassen A, B und C einstuft. Dabei wird von A bis C in absteigender Reihenfolge eine Bedeutung zugeordnet.<br/>Bei der ABC-Analyse vergleicht man beispielsweise, welche Kunden für den Hauptumsatz des Unternehmens verantworltlich sind und somit in klasse A eingestuft werden. Kunden, Welche am wenigsten zum Umsatz beitragen, kommen in die Klasse C. In Klasse B kommen die Kunden, die nur durchschnittlich zum Umsatzerfolg beitragen.<br/>Somit erhalten wir eine Art Ranking über den Umsatzerfolg, ähnlich dem Pareto-Prinizip (80/20-Regel)."
   },
   {
     "id": 39,
@@ -636,10 +636,46 @@
     "answer": "<strong>OEM</strong> ist der englische Begriff für Original Equipment Manufacturer und wird übersetzt mit Originalausrüstungshersteller. Die OEM-Software oder OEM-Hardware wird vom Hersteller nicht direkt vertrieben. Stattdessen wird diese anein anderes Unternehmen ausgeliefert und z. B. in Verbindung mit weiterer Software/Hardware vertrieben.<br/><strong>OEM-Software</strong> kann in diesem Zusammenhang eine Vollversion sein, die sich durch einen geringeren Lieferumfang, eine eingeschränkte Funktionalität und/oder durch ein anderes Nutzungsrecht, vom Original unterscheidet.<br/><strong>OEM-Hardware</strong> wird zum Beispiel von einem Markenunternehmen für ein anderes Unternehmen produziert. Dieses Unternehmen bietet die OEM-Hardware dann unter seinem eigenen Markennamen an. Ein Beispiel dafür sind IT-Produkte bei Discountern."
 
   },{
-    "id": 129,
-    "title": 7,
-    "question": "",
-    "answer": ""
+    "id": 131,
+    "title": 2,
+    "question": "Was versteht man bei Rechenzentrumsbetrieb unter Skalierbarkeit?",
+    "answer": "Unter der <strong>Skalierbarkeit</strong> versteht man die Fähigkeit einer Hardware oder Software, im laufenden Betrieb weiterhin zu funktionieren, wenn Größe, Anzahl oder Volumen verändert wird. Diese Skalierbarkeit dient zum Aufrechterhalten eines 24/7-Betriebes für den/die Kunden.<br/>Als Beispiel dienen hier die Volumenanpassung bei Storages oder die Anpassungen der Anzahl der CPU-Kerne oder des Arbeitsspeichers einer virtuellen Maschine. Mit Hilfe der Skalierbarkeit können im Rechenzentrum auch bedarfsgerecht oder automatisch Ressourcen je nach Leistungsanforderungen des Kunden bereitgestellt werden."
+
+  },{
+    "id": 132,
+    "title": 2,
+    "question": "Was beschreibt eine EULA (engl. End User License Agreement) während des Installationsprozess von Software?",
+    "answer": "<strong>EULA</strong> steht für Endbenutzer-Lizenzvereinbarung (engl. End User License Agreement). Sie enthält Regelungen, welche bei der allgemeinen Benutzung einer Software eingehalten werden sollen.<br/>Die EULA wird häufig zu Beginn des Installationsprozess angezeigt und ihr muss zugestimmt werden. Andernfalls kann der Installationsprozess nicht weitergeführt werden."
+
+  },{
+    "id": 133,
+    "title": 2,
+    "question": "Beschreibe das Modell Pay-per-use in der Informationstechnologie.",
+    "answer": "Das <strong>Pay-per-use Modell</strong> in der Informationstechnologie beschreibt ein Finanzierungsmodell für die Nutzung von Hard- und Software. Dabei bezahlt man nur für die tatsächliche Nutzung von Hard- oder Software.<br/>Beim Pay-per-use Modell hat der Nutzer keine Anschaffungskosten, keine Kapitalbindung, keine Softwarepflege, keine Lizensierungskosten und benutzt immer die aktuelle Version. Zusätzlich hat er die Vorteile der Skalierbarkeit, Felxibilität und der hohen Ausfallsicherheit, wenn es sich um einen Cloudanbieter handelt. So kann der Nutzer beispielsweise auch Schwankungen bei der Nutzung von eigenen Rechenleistungen durch ein Pay-per-use Modell mit Hilfe eines Cloudanbieters kurzfristig ausgleichen. Die Nutzung der Ressourcen wird auf Basis der Nutzungsdauer stunden- oder minutengenau abgerechnet."
+
+  },{
+    "id": 134,
+    "title": 2,
+    "question": "Mit welchen Maßnahmen kann eine drahtlose Netzwerkverbindung (WLAN/WiFi) abgesichert werden?",
+    "answer": "Mit folgenden Maßnahemn kann eine WLAN-Verbindung abgesichert werden:<br/><ol><li>einsatz von Authentifizierungsmethoden wie WPA2/WPA3</li><li>Einsatz eines RADIUS-Servers</li><li>Aktivierung von Mac-Filtern mit einer White List</li><li>Einsatz eines Client Zertifikats</li><li>Nutzung von VPN-Verbindungen</li></ol>"
+
+  },{
+    "id": 135,
+    "title": 2,
+    "question": "Welche 3 VPN Verbindungsarten gibt es?",
+    "answer": "<ol><li><strong>End-to-Site:</strong> Richtig sind auch die Bezeichnungen Host-to-LAN-VPN, Host-to-Gateway-VPN oder Remote-Access-VPN</li><li><strong>Site-to-Site-VPN:</strong> Richtig sind auch die Bezeichnungen LAN-to-LAN-VPN oder Gateway-to-Gateway-VPN</li><li><strong>End-to-End-VPN:</strong> Richtig sind auch die Bezeichnungen Host-to-Host-VPN oder Remote-Desktop-VPN</li></ol>"
+
+  },{
+    "id": 136,
+    "title": 2,
+    "question": "Welche Merkmale hat ein Virtual Private Network (VPN)?",
+    "answer": "Ein <strong>Virtual Private Network</strong>, deutsch virtuelles privates Netzwerk, ist ein logisches Netzwerk, welches eine geschützte Netzwerkverbindung unter Nutzung öffentlicher Netzwerke herstellt. Mit Hilfe von Verschlüsselungstechnologien soll über eine VPN-Verbindung die Authentizität, die Vertraulichkeit und die Integrität der Daten sichergestellt werden.<br/>Um die Datensicherheit zu gewährleisten, gibt es eine Reihe von Protokollen und Lösungen wie L2TP over IPsec, SSL-VPN, OpenVPN und Layer-2-VPN. Das Virtual Private Network wird grundsätzlich in 3 Verbindungsarten (End-to-Site, Site-to-Site und End-to-End) unterteilt."
+
+  },{
+    "id": 137,
+    "title": 2,
+    "question": "Beim Einsatz eines WLANs im Unternehmen ist besondere Sorgfalt auf die Einhaltung der Datensicherheit zu legen.<br/>Welche Sicherheitsmethoden und Verschlüsselungsstandards können zum Einsatz kommen?",
+    "answer": "<strong>Sicherheitsmethoden:</strong><ol><li>WPA (gilt als unsicher)</li><li>WPA2-Personal/Enterprise</li><li>WPA3-Personal/Enterprise</li><li>Radius</li></ol><br/><strong>Verschlüsselungsstandards:</strong><ol><li>Advanced Encryption Standard (AES)</li><li>Temporal Key Integrity Protocol (TKIP)</li><li>Simultaneous Authentication of Equals (SAE)</li></ol>"
 
   },
   {
@@ -704,7 +740,7 @@
     "id": 184,
     "title": 7,
     "question": "Was versteht man unter einem digitalen Zertifikat?",
-    "answer": "Als <strong>digitales Zertifikat</strong> wird ein digitaler Datensatz bezeichnet, der mit Hilfe von Kryptografischen Schlüsselpaaren beispielweise die Authentizität von Webseiten, Einzelpersonen oder Organisation überprüfen kann.<br/>Ein typisches digitales Zertifikat basiert in der Regel auf dem x.509 Standard (Public-Key-Zertifikat).<br/>Das digitale Zertifikat besteht aus einem öffentlichen Schlüssel und einem privaten Schlüssel sowie anderen Informationen zur Identität der mit dem Zertifikat verknüpften Entität sowie Informationen über die ausstellende Zertifizierungsstelle.<br/>Ein digitales Zertifikat soll die Schutzziele der Datensicherheit, wie Vertraulichkeit sowie Authentizität gewährleisten."
+    "answer": "Als <strong>digitales Zertifikat</strong> wird ein digitaler Datensatz bezeichnet, der mit Hilfe von Kryptografischen Schlüsselpaaren beispielsweise die Authentizität von Webseiten, Einzelpersonen oder Organisation überprüfen kann.<br/>Ein typisches digitales Zertifikat basiert in der Regel auf dem x.509 Standard (Public-Key-Zertifikat).<br/>Das digitale Zertifikat besteht aus einem öffentlichen Schlüssel und einem privaten Schlüssel sowie anderen Informationen zur Identität der mit dem Zertifikat verknüpften Entität sowie Informationen über die ausstellende Zertifizierungsstelle.<br/>Ein digitales Zertifikat soll die Schutzziele der Datensicherheit, wie Vertraulichkeit sowie Authentizität gewährleisten."
   },{
     "id": 185,
     "title": 7,
