@@ -618,6 +618,29 @@
     "title": 2,
     "question": "Was versteht man in der Anwendungsentwicklung unter dem Begriff IDE?",
     "answer": "Eine <strong>IDE</strong> (integrierte Entwicklungsumgebung, englisch integrated development environment) ist eine Sammlung der wichtigsten Werkzeuge zur Softwareentwicklung unter einer einheitlichen Oberfläche. Sie soll helfen, die Arbeit des Anwendungsentwicklers zu erleichtern.</br>Zu den wichtigsten Werkzeugen zählen Beispielsweise der Compiler, Debugger, interpreter, der Editor mit Quelltext- formatierung und Syntaxhervorhebung, Linker, Werkzeuge zum Erstellen von grafischen, Versionsverwaltungen und vieles mehr."
+  },{
+    "id": 126,
+    "title": 2,
+    "question": "Was bedeutet der Begriff «Proprietäre Software»?",
+    "answer": "Unter <strong>proprietäre Software</strong> versteht man eine Software, deren Nutzung bzw. deren Nutzung durch Dritte und deren Veränderung sowie die Weitergabe aus patent- oder lizenzrechtlichen Gründen eingeschränkt oder verboten ist. Sie beinhaltet teilweise nichtveröffentliche Standards oder nicht öffentlich dokumentierte Schnittstellen, sodass deren Anpassung ohne Offenlegung des Quellcodes nicht oder nur schwer möglich ist. Beispiele für proprietäre Software sind Microsoft Windows oder Above Produkte."
+  },{
+    "id": 127,
+    "title": 2,
+    "question": "Nenne 3 charakteristische Eigenschaften von Open Source Software.",
+    "answer": "Die 3 charakteristischen Merkmale von Open Source Software sind:<br/><ol><li>Quelltext liegt in einer für den Menschen lesbaren und verständlichen Form vor.</li><li>Open Source Software darf beliebig kopiert, verbreitet und genutzt werden.</li><li>Open Source Software darf verändert und in der veränderten Form weitergegeben werden.</li></ol>"
+
+  },{
+    "id": 128,
+    "title": 2,
+    "question": "Was ist unter den Begriffen OEM-Software und OEM-Hardware zu verstehen?",
+    "answer": "<strong>OEM</strong> ist der englische Begriff für Original Equipment Manufacturer und wird übersetzt mit Originalausrüstungshersteller. Die OEM-Software oder OEM-Hardware wird vom Hersteller nicht direkt vertrieben. Stattdessen wird diese anein anderes Unternehmen ausgeliefert und z. B. in Verbindung mit weiterer Software/Hardware vertrieben.<br/><strong>OEM-Software</strong> kann in diesem Zusammenhang eine Vollversion sein, die sich durch einen geringeren Lieferumfang, eine eingeschränkte Funktionalität und/oder durch ein anderes Nutzungsrecht, vom Original unterscheidet.<br/><strong>OEM-Hardware</strong> wird zum Beispiel von einem Markenunternehmen für ein anderes Unternehmen produziert. Dieses Unternehmen bietet die OEM-Hardware dann unter seinem eigenen Markennamen an. Ein Beispiel dafür sind IT-Produkte bei Discountern."
+
+  },{
+    "id": 129,
+    "title": 7,
+    "question": "",
+    "answer": ""
+
   },
   {
     "id": 144,
@@ -630,6 +653,53 @@
     "title": 5,
     "question": "Dein Ausbildungsbetrieb ist ISO 9001 zertifiziert. Was bedeutet diese Norm für deinen Ausbildungsbetrieb?",
     "answer": "Die ISO 9001 Norm legt die Anforderung für Qualitätsmangementsysteme fest. Ziel ist die Qualitätssicherung durch stetige Optimierung der Prozesse.</br>Diese Zertifizierung ist weltweit anerkannt.</br><strong>ISO 9001 orientiert sich unter anderem an diesen Grundprinzipien:</strong></br><ol><li>Kundenorientierung</li><li>Prozessorientierung</li><li>stetige Verbesserung</li><li>Risikomanagement</li></ol>"
+  },{
+    "id": 176,
+    "title": 7,
+    "question": "Was sollte man beim Verschrotten von Datenträgern unbedingt beachten?",
+    "answer": "Alle Daten sind <strong>vor der Verschrottung eines Datenträgers</strong> durch technische Verfahren, wie zum Beispiel durch mechanische, magnetische oder thermische Verfahren nach DIN 66399 sicher zu löschen. Anschließend sind die Datenträger Entsorgungsunternehmen zu entsorgen."
+
+  },{
+    "id": 177,
+    "title": 7,
+    "question": "Was bedeutet der Begriff MFA (Multi-Factor-Authentication) und wo kommt sie zum Einsatz?",
+    "answer": "Die <strong>Multi-Factor-Authentication</strong> (MFA) ist eine erweiterte Form der Zugangsberechtigung, die durch mehrere unabhängige Merkmale (Faktoren) überprüft wird und erst nach Eingabe eines starken Passworts sowie der Eingabe eine Nummer (via SMS oder App) oder Angabe einer Zertifikatsdatei erteilt wird.<br/>Einsatzbereich sind:<br/><ol><li>Online-Banking</li><li>Debit- oder Kreditkatenzahlung</li><li>Online-Ausweisfunktion des Personalausweises</li><li>Absicherung jeglicher öffentlich zugänglicher Onlinezugänge</li></ol>"
+
+  },{
+    "id": 178,
+    "title": 7,
+    "question": "Beschreibe den Begriff Datensicherheit und nenne deren Schutzziele.",
+    "answer": "<strong>Datensicherheit</strong>, oftmals auch Informationssicherheit genannt, beinhaltet alle technischen und nicht-technischen Maßnahmen zur Sicherstellung der <strong>3 Schutzziele</strong> Vertraulichkeit, Verfügbarkeit und Integrität.<br/>Ein weiteres Schutzziel ist noch die Authentizität. Hier geht es um die Eigenschaften der Echtheit, Überprüfbarkeit und Vertrauenswürdigkeit eines Objekts.<br/>Datensicherheit oder Informationssicherheit unterscheidet nicht nach Art der Daten (siehe Datenschutz, wo es personenbezogene Daten geht).<br/><strong>Es geht hier in erster Linie um den Schutz vor Gefahren/Bedrohungen bzw. der Vermeidung von wirtschaftlichen Schäden sowie der Minimierung von Risiken im IT-Bereich.</strong>"
+
+  },{
+    "id": 179,
+    "title": 7,
+    "question": "Worin unterscheiden sich Datensicherheit und Datenschutz?",
+    "answer": "Die <strong>Datensicherheit</strong> bzw. Informationssicherheit, verfolgt die <strong>3 Schutzziele</strong> Vertraulichkeit, Verfügbarkeit und Integrität sowie außerdem die Authentizität. Hier wird nicht nach der Art der Daten (z. B. personenbezogen o. Ä.) unterschieden.<br/>Der <strong>Datenschutz</strong> verfolgt das Ziel, <strong>personenbezogenen Daten</strong> zu schützen sowie die Informationspflicht und Rechte der Personen, von denen Daten erhoben werden, zu gewährleisten."
+
+  },{
+    "id": 180,
+    "title": 7,
+    "question": "Nenne die wesentlichen Vorteile einer ISO/IEC 27001 Zertifizierung für Unternehmen.",
+    "answer": "Die internationale Norm <strong>ISO/IEC 27001 beschreibt die Anforderung an ein funktionsfähiges <strong>Informationssicherheits-Managementsystem</strong> (ISMS). Die Anforderungen geben vor, wie ein ISMS in Unternehmen zu erreichen, umzusetzen und kontinuierlich weiterzuentwickeln ist.<br/>Eine erfolgreiche Zertifizierung trägt dazu bei, IT-Risiken zu minimieren, IT-Sicherheitverfahren zu etablieren sowie die Qualität der IT-Systeme Nachhaltigkeit zu optimieren.<br/>Weitere Vorteile sind:<br/><ol><li>IT-Risiken, mögliche Schäden und Folgekosten abschätzen bzw. minimieren</li><li>Wettbewerbsvorteil durch anerkannten internationalen Standard</li><li>Steigerung des Vertrauens gegenüber Partnen, Kunden sowie der öffentlichkeit</li><li>Compliance-Anforderungen werden sichergestellt</li><li>Systematisches Aufdechen von Schwachstellen</li></ol></strong>"
+
+  },{
+    "id": 181,
+    "title": 7,
+    "question": "In der Informationsschierheit kommt es neben Sicherheits- und Datenschutzaspekten auch auf die Datenminimierung an.<br/>Welches sind die Ziele bei der Datenminimierung?",
+    "answer": "<strong>Datenminimierung</strong> und Datensparsamkeit sind grundlegende Regeln im Bereich des Datenschutzes. Diese Regel besagt, dass bei der Datenverarbeitung nur so viele personenbezogene Daten gesammelt werden, wie für die jeweiligen Verarbeitungszwecke unbedingt notweding sind.<br/>Es gilt hier der Grundsatz: «So viele Daten wie nötig, so wenige Daten wie möglich.»<br/>Betroffene sollen dadurch vor einer übermäßigen Speicherung personen bezogener Daten geschützt werden."
+  },{
+    "id": 182,
+    "title": 7,
+    "question": "Der Datenschutz ist auf europäischer Erbene in Verordnungen in der DSGVO beschrieben.<br/>Welche Rechte hat eine Person betreffend ihrer personenbezogenen Daten?",
+    "answer": "in Kapitel 3 der DSGVO sind folgende Vorschriften enthalten:<br/><ol><li>Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten<br/><ol><li>Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten bei der betroffenen Person</li><li>Informationspflicht, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben wurden</li><li>Auskunftsrecht der betroffenen Person</li></ol></li><li>Recht auf Berichtigung und Löschung<br/><ol><li>Recht auf Berichtigung</li><li>Rechte auf Löschung («Recht auf Vergessenwerden»)</li><li>Recht auf Einschränkung der Verarbeitung</li><li>Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder der Einschränkung der Verarbeitung</li><li>Recht auf Datenübertragbarkeit</li></ol><li>Widerspruchsrecht und automatisierte Entscheidungsfindung im Einzelfall</li><li></ol>"
+
+  },{
+    "id": 183,
+    "title": 7,
+    "question": "Was ist eine PKI (Public Key Infrastructure)?",
+    "answer": "Mit einer <strong>Public-Key-Infrastruktur</strong> (PKI, englisch Public Key Infrastructure) wird ein Kryptografisches System bezeichnet, welches innerhalb einer Infrastruktur digitale Zertifikate ausstellen, verteilen und prüfen kann. Zum Einsatz kommt ein Asymmetrisches Kryptosystem, welches zur Absicherung des Datenverkehrs innerhalb eines Netzwerks dient und das die Daten digital signiert und verschlüsselt.<br/>Zu den Bestandteilen einer PKI gehören unter anderem die Zertifizierungsstellen (CAs), Untergeordnete Registrierungsstellen, digitale Zertifikate, Verzeichnisdienste für Zertifikate, Zertifikatssperrlisten sowie Validierungsservices. Es gibt einstufige und mehrstufige Modelle einer Public Key Infrastructure (PKI)."
+
   },{
     "id": 184,
     "title": 7,
@@ -705,8 +775,21 @@
   {
     "id": 196,
     "title": 7,
-    "question": "Welche Maßnahmen sind geeignet, um Schäden an der IT-Infrastruktur zu vermeiden bzw. die Sicher der IT-Systeme zu erhöhen?",
-    "answer": "Die folgende Maßnahmen sind geeignet, potenzelle Schäden an der IT-Infrastruktur zu vermeiden:</br><ol><li>Datenverschlüsselung der Datenträger</li><li>Konzept für Netzwerksegmentierung im Unternehmen, Einsatz von VLANs</li><li>mehrstufiges Firewallkonzept sowie Regeln für die Endpoint Security auf den Clientsystem</li><li>Rechtekonzept für Mitarbeitende und Administratoren</li><li>regelmäßiges Patchen der IT-Systeme</li><li>permanentes Logging und Auditing (Penetrationtest, kurz: Pentest)</li><li>Einsatz einer Passwortrichtlinie sowie einer Multi-Factor-Authentication</li><li>Verfahrensanweisung oder Vier-Augen-Prinzip</li><li>Regelmäßige Schulungen der Mitarbeitenden, um das Bewusstsein zu erhöhen bzw. Bedrohungen zu erkennen</li></ol>"
+    "question": "Welche Maßnahmen sind geeignet, um Schäden an der IT-Infrastruktur zu vermeiden bzw. die Sicherheit der IT-Systeme zu erhöhen?",
+    "answer": "Die folgenden Maßnahmen sind geeignet, potenzielle Schäden an der IT-Infrastruktur zu vermeiden:<br/><ol><li>Datenverschlüsselung der Datenträger</li><li>Konzept für Netzwerksegmentierung im Unternehmen, Einsatz von VLANs</li><li>mehrstufiges Firewallkonzept sowie Regeln für die Endpoint-Security auf den Clientsystemen</li><li>Rechtekonzept für Mitarbeitende und Administratoren</li><li>regelmäßiges Patchen der IT-Systeme</li><li>permanentes Logging und Auditing (Penetrationtest, kurz:Pentest)</li><li>Einsatz einer Passwortrichtlinie sowie einer Multi-Factor-Authentication</li><li>Verfahrensanweisung oder Vier-Augen-Prinzip</li><li>regelmäßige Schulungen der Mitarbeitenden, um das Bewusstsein zu erhöhen bzw. Bedrohungen zu erkennen</li></ol>"
+
+  },{
+    "id": 197,
+    "title": 7,
+    "question": "Aus welchen Phasen besteht der Sicherheitsprozess laut BSI IT-Grundschutz?",
+    "answer": "Im Rahmen des IT-Grundschutz (BSI-Standard 100-2) besteht der Sicherheitsprozess aus folgenden Phasen:<br/><ol><li><ol><li>Übernahme der Verantwortung durch die Leitungsebene</li><li>Konzeption und Planung des Sicherheitsprozesses</li><li>Erstellung der Leitlinie zur Informationssicherheit</li><li>Aufbau einer geeigneten Organisationsstruktur für das Informationssicherheitsmanagement</li><li>Bereitstellung von finanziellen, personellen und zeitlichen Ressourcen</li><li>Einbindung aller Mitarbeiternden in den Sicherheitsprozess</li></ol></li><li>Erstellung einer Sicherheitskonzeption</li><li>Umsetzung der Sicherheitskonzeption</li><li>Aufrecherhaltung der Informationssicherheit im laufenden Betrieb und kontinuierliche Verbesserung</li></ol>"
+
+  },{
+    "id": 198,
+    "title": 7,
+    "question": "Welche Themen sind für einen TÜV geprüften IT-Sicherheitsbeauftragten für die IT-Sicherheit im Unternehmen von Bedeutung?",
+    "answer": "Als TÜV gerprüft IT-Sicherheitsbeauftragten (Information Security-Officer) sind folgende Themen für die IT-Sicherheit in Unternehmen von Bedeutung:<br/><ol><li>Infromationssicherheit und Informationssicherheitsmanagement</li><li>IS-Management-System nach ISO 27001</li><li>IS-Management-System nach BSI IT-Grundschutz</li><li>Konzept der Informationssicherheit</li><li>Akteulle Themenbereiche und Konzepte der Infromationssicherheit</li><li>Sicherheitsmaßnahmen/Konzept im Hinblick auf Organisation, Infrastruktur, Netzsicherheit, Systemsicherheit und Anwendungssicherheit</li></ol>"
+
   },
   {
     "id": 202,
