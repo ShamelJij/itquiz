@@ -103,7 +103,7 @@ const searchSize = document.getElementById("resultSize");
 searchInput.addEventListener("input", () => {
   const searchValue = searchInput.value.toLowerCase().trim();
   const filteredData = responseObj["qanda"].filter((item) =>
-    item.question.toLowerCase().trim().includes(searchValue)
+    item.question.toLowerCase().trim().includes(searchValue) || item.answer.toLowerCase().trim().includes(searchValue)
   );
   //console.log(filteredData);
   displayResults(filteredData, searchValue);

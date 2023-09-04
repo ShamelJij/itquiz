@@ -683,6 +683,12 @@
     "title": 2,
     "question": "Welche Aufgabe erfüllt das Befehlszeilenkommando ARP?",
     "answer": "Mithilfe des Address Resolution Protocols (ARP) wird zur IP-Adresse die zugehörige Hardware- bzw. MAC-Adresse des Netzwerkinterfaces (NIC) eines Hosts ermittelt.</br>Dazu sendet der Host einen ARP-Request mit der MAC-Adresse (FF-FF-FF-FF-FF-FF) auf der Schicht 2, der Sicherungsschicht des OSI-Schichtenmodells, per Broadcast an die zu ermittelnde Adresse und bekommt viw ARP-Reply die ermittlete MAC-Adresse wird dann im lokalen ARP-Cache des Senders für eine gewisse Zeit gepseichert. Dieser ARP-Cache dient zur schnelleren ARP-Adressauflösung."
+  },{
+    "id": 168,
+    "title": 2,
+    "question": "Es gibt 5 Typen von SQL Kommandos: DDL, DML, DCL, TCL, und DQL.<br/>Nenne bitte jeweils mindestens einen asuführbaren SQL-Befehl.",
+    "answer": "Data Definition Language (DDL) - CREATE ,ALTER ,DROP ,TRUNCATE<br/>Data Manipulation Language (DML) - INSERT, UPDATE, DELETE<br/>Transaction Control Language (TCL) - COMMIT, ROLLBACK, SAVEPOINT<br/>Data Query Language - Select"
+
   },
   {
     "id": 169,
@@ -757,7 +763,7 @@
     "id": 187,
     "title": 7,
     "question": "Welche Anwendungen oder Verfahren verwenden Kryptografische Hashfunktionen?",
-    "answer": "Bei folgenden Anwendungen oder Verfahen kommt es zum Einsatz von Kryptografischen <strong>Hashfunktionen</strong>:<br/><ol><li>Integitätsprüfungen</li><li>Erzeugung von Prüfsummen</li><li>Erzeugung von Sitzungsschlüsseln</li><li>Generatoren für Einmal-Passwörter</li><li>Verfahren zur Authentifizierung mit digitalen Signaturen</li><li>Speichern von Passwörtern</li></ol>"
+    "answer": "Bei folgenden Anwendungen oder Verfahen kommt es zum Einsatz von Kryptografischen <strong>Hashfunktionen</strong>:<br/><ol><li>Integritätsprüfungen</li><li>Erzeugung von Prüfsummen</li><li>Erzeugung von Sitzungsschlüsseln</li><li>Generatoren für Einmal-Passwörter</li><li>Verfahren zur Authentifizierung mit digitalen Signaturen</li><li>Speichern von Passwörtern</li></ol>"
 
   },{
     "id": 188,
@@ -838,12 +844,35 @@
     "title": 4,
     "question": "Erläutere das mehrstufige Prinzip des First-Level-, Second-Level- und Third-Level-Support.",
     "answer": "Der <strong>First-Level-Support</strong> gilt als erste Anlaufstelle für alle Supportangragen.</br>Die Mitarbeiter erfassen dort alle vollständigen Daten zur Person und zum Fall sowie alle zusätzlichen Informationen, die nützlich sind, um den Fall schnell zu lösen.</br>Im Normalfall versuchen die Mitarbeiter den Fall weitestgehend selbstständig zu lösen, um ihn andernfalls weiter zu eskalieren.</br>Der <strong>Second-Level-Support</strong> kommt zum Einsatz, wenn der Fall nicht durch den First-Level-Support gelöst werden konnte oder zu komplex ist.</br>Neue Erkenntnisse oder Ergebnisse werden in eine Wissensdatenbank zur Unterstützung des First-Level-Support eingetragen.</br>Der <strong>Third-Level-Support</strong> ist die höchste Eskalationsstufe, in der sich Spezialisten des Falls annehmen, um auf Hersteller- oder Entwicklungsebene eine Lösung zu finden bzw. zu erarbeiten. Das Ergebnis eines Support-Falls bzw. dieser Lösungsfindung kann bis hin zur Produktveränderung führen oder zu einem Re-Design."
+  },{
+    "id": 209,
+    "title": 4,
+    "question": "Was versteht man unter einer Aufbauorganisation?",
+    "answer": "Eine <strong>Aufbauorganisation</strong> ist eine Art Hierarchische Struktur eines Unternehmens, einer Behörde oder einer Organisation. Sie gliedert eine Unternehmen in Aufgabenbereiche und bestimmt dabei Abteilungen, Leitungsebenen sowie Stabsstellen.<br/>Das Ergebnis dieser Struktur wird in der Regel in Form eines Ortanigramms visualisiert. Es gibt zur Darstellung verschiedene Organisationsformen, wie das Einliniensystem, das Mehrliniensystem, die Stablinienorganisation sowie die Matrixorganisation."
+
+  },{
+    "id": 210,
+    "title": 4,
+    "question": "Was versteht man bei den Leitungssystem unter einem Mehrliniensystem?",
+    "answer": "Das <strong>Mehrliniensystem</strong> ist ein Begriff aus der klassischen Aufbauorganisation der Leitungssysteme. In einem Mehrliniensystem erhält die Untergeordnete Stelle von mehreren übergeordneten Stellen Weisungen. Es gilt das Prinzip der kürzesten Wege."
+
+  },{
+    "id": 214,
+    "title": 4,
+    "question": "Welche Bedeutung haben bei Unterschriften die Abkürzungen i. V., i. A. sowei ppa.",
+    "answer": " <strong>ppa.</strong> - per procura autoritate. Gemäß § 49 Abs. 1 HGB ermächtigt die Prokura «zu allen Arten von gerichtlichen und außergerichtlichen Geschäften und Rechshandlungen, die der Betrieb eines Handelsgewerbes mit sich bringt». Die Prokura muss mittels ausdrücklicher Erklärung erteilt werden (vgl. § 48 Abs. 1 HGB) und muss ins Handelsregister eingetragen werden (vgl. §53, Abs. 1 HGB).<br/><strong>i. V.</strong> - in Vollmacht. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB; benötigt wird hier vom Arbeitgeber/inhaber eine Bevollmächtigung<br/><strong>i. A.</strong> - im Auftrag. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB, ist nicht klar geregelt<br/>HGB - Handelsgesetzbuch<br/>BGB - Bürgerliches Gesetzbuch"
+
   },
   {
     "id": 214,
     "title": 4,
     "question": "Welche Bedeutung haben bei Unterschriften die Abkürzungen i. V., i. A. sowie ppa.",
     "answer": "<strong>ppa.</strong> - per procura autoritate. Gemäß § 49 Abs. 1 HGB ermächtigt die Prokura „zu allen Arten von Gerichtlichen und außergerichtlichen Geschäften und Rechtshandlungen, die der Betrieb eines Handelsgewerbes mit sich bringt“. Die Prokura muss mittels ausdrücklicher Erklärung erteilt werden (vgl. § 48 Abs. 1HGB) und muss ins Handelsregister eingetragen werden (vgl. §53, Abs. 1 HGB).</br><strong>i. V.</strong> - in Vollmacht. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB; benötigt wird hier vom Arbeitgeber/inhaber eine Bevollmächtigung</br><strong>i. A.</strong> - im Auftrag. Vollmacht nach BGB bzw. Handlungsvollmacht nach HGB, ist nicht klar geregelt</br>HGB - Handelsgesetzbuch</br>BGB - Bürgerliches Gesetzbuch"
+  },{
+    "id": 215,
+    "title": 4,
+    "question": "Was versteht man unter dem Begriff Prokura?",
+    "answer": "Die <strong>Prokura</strong> (Handelsrechtliche Vollmacht) ermächtigt gemäß § 49 Abs. 1 HGB «zu allen Arten von gerichtlichen und außergerichtlichen Geschäften und Rechtshandlungen, die der Betrieb eines Handelsgewerbes mit sich bringt».<br/>Die Prokura ist eine Art Handlungsvollmacht für Personen im Unternehmen Sie kann nur vom inhaber eines Handelsgewerbes oder dessen gesetzlichen Vertreter erteilt werden. Die Prokura ist ab Erteilung rechtskräftig, muss jedoch ins Handelsregister eingetragen werden. Erlischt die Prokura, muss auch das im Handelsregister vermerkt werden.<br/>Von der Prokura ausgenommen sind Unterzeichnung von Bilanzen und Steuererklärung, Beantragung von Einträgen ins Handelsregister, Erteilung der Prokura, Insolvenzantrag, Auflösung des Handelsgeschäfts, Verkauf oder Belastung von Grundstücken. Letzteres ist zulässig, wenn diese Befugnis besonders erteilt wurde.<br/><strong>Formen der Prokura</strong><ol><li>Einzelprokura</li><li>Filialprokura</li><li>Gesamtprokura</li></ol><br/>(vgl. §§ 48 ff.Handelsgesetzbuch)"
   },
   {
     "id": 216,
@@ -880,5 +909,23 @@
     "title": 4,
     "question": "Was versteht man unter dem Begriff Nachhaltigkeit in der Informationstechnologie-Branche?",
     "answer": "Mit <strong>Nachhaltigkeit</strong> ist generell ein bewusstes, verantwortungsvolles Handeln gemeint, welches die vorhandenen Ressourcen unserer Umwelt schont.</br>Dazu gehören im Besonderen in der Informationstechnologie folgende Punkte:</br><ol><li>Einsparung an Energie durch Einsatz von Virtualisierungstechnologien</li><li>Erhöhung der Energieeffizienz durch Nutzung von Standby-Technologien</li><li>Nutzung regenerativer Energien zum Betreiben von Rechenzentren</li><li>Einschränkung des Verbrauchs von Papier, Kunststoff, Druckerfarbe usw.</li><li>Free Cooling (Nutzung von Kaltluft und kaltem Wasser aus der Umwelt)</li></ol>"
+  },{
+    "id": 222,
+    "title": 4,
+    "question": "Was verbirgt sich hinter dem Begriff Rollout?",
+    "answer": "Der Begriff <strong>Rollout</strong> kommt dem Englischen und bedeutet so viel wie «herausrollen» oder «ausrollen». Damit ist eine Art Prozess der Einführung von neuer Hard- und Software, aber auch die Markteinführung von neuen Produkten im Allgemeinen, gemeint.<br/>Bei einem IT-Hardware Rolloutprozess unterscheidet man zwischen einem Austausch alter Hardware gegen neue Hardware oder der Einführung komplett neuer Hardware in einem neuen Standort. Der Begriff Rollout wird auch im Bereich der Softwareverteilung in Unternehmen genutzt."
+
+  },{
+    "id": 223,
+    "title": 4,
+    "question": "Welche Prozesse müssen bei einem Software-Rollout beachtet werden?",
+    "answer": "Bei einem <strong>Software-Rollout</strong> bzw. einer Softwareverteilung im Unternehmen muss die Software, die es zu veröffentlichen und zu verteilen gilt, hinsichtlich der Kompatibilität gegenüber der eingesetzten Hardware geprüft werden.<br/>Wenn die Software automatisch verteilt werden soll, dann muss die Software, die neu installiert oder als Update verteilt werden soll, mit Hilfe einer Paketierungssoftware für das Verteilen vorbereitet werden. In Abhängigkeit der Paketierung kommt eine entsprechende Verteilungssoftware zum Einsatz, welche die Veröffentlichung, auch deployen genannt, übernimmt."
+
+  },{
+    "id": 224,
+    "title": 4,
+    "question": "Welche Dinge müssen bei einem IT-Hardware-Rollout beachtet werden?",
+    "answer": "Folgende Dinge müssen bei einem <strong>IT-Hardware-Rollout</strong> beachtet werden:<br/><ol><li>Einsatz eines Rollout-Managers, der die Prozesse koordiniert und überwacht</li><li>Datenmigration bei Austausch von alter gegen neue Hardware</li><li>Ermittlung der Asset-Tags bzw. Dokumentation der Asset-Tags</li><li>Kompatibilität der Software zu Hardware klären</li><li>Backupkonzept zur Datensicherung der Systeme abstimmen Terminüberwachung des Rolloutprozesses durch den Rollout Manager</li><li>Terminüberwachung des Rolloutprozesses durch den Rollout Manager</li><li>Terminabstimmung mit Kunden wie, wo und wann der Rolloutprozess gestartet wird</li></ol>"
+
   }
 ]
