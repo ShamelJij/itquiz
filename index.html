@@ -16,6 +16,7 @@
 
 <body>
   <div class="loading" id="canvas">
+    <p class="header" id="canvaxTitle">Seite wird geladen...</p>
     <div class='light x1'></div>
     <div class='light x2'></div>
     <div class='light x3'></div>
@@ -26,479 +27,480 @@
     <div class='light x8'></div>
     <div class='light x9'></div>
   </div>
-  <div class="nav p-2 justify-content-around" style="background-color: #bbdefb;" id="anchors">
-  </div>
-  <div class="row m-2">
-    <div class="offset-lg-4 col-lg-4 text-center">
-      <div class="input-group"><input type="text" class="form-control" name="search" id="searchInput"
-          placeholder="suche..."></div>
+  <div class="mainClass" id="mainSection" style="display: none;">
+    <div class="nav p-2 justify-content-around" style="background-color: #bbdefb;" id="anchors">
     </div>
-    <div class="col-2 m-2 text-success" id="resultSize"></div>
-  </div>
-  <div class="row justify-content-center m-2">
-    <div>
-      <ul id="resultsList"></ul>
-    </div>
-  </div>
-  <!-- QandA Tab -->
-  <div class="container" id="qandaTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 border col-4 p-1" id="title">title</div>
-            <br />
-            <div class="text-left text-primary" id="question"></div>
-            <hr>
-            <div class="text-left text-success" id="answer"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showQandA();">nächste Frage</button>
-          </div>
-        </div>
+    <div class="row m-2">
+      <div class="offset-lg-4 col-lg-4 text-center">
+        <div class="input-group"><input type="text" class="form-control" name="search" id="searchInput"
+            placeholder="suche..."></div>
       </div>
+      <div class="col-2 m-2 text-success" id="resultSize"></div>
     </div>
-  </div>
-  <!-- abk Tab -->
-  <div id="abkTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="abk">Abk</strong></p>
-            </div>
-            <br />
-            <hr>
-            <div class="text-center text-primary" id="abkName"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showAbk();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- OSI Tab -->
-  <div id="osiTabContent">
-    <div class="pt-5">
+    <div class="row justify-content-center m-2">
       <div>
-        <p class="text-danger h5 p-1"><strong>A</strong>lle <strong>d</strong>eutschen <strong>s</strong>tudenten
-          <strong>t</strong>rinken <strong>v</strong>erschidene <strong>S</strong>orten <strong>B</strong>ier
-        </p>
-        <p class="text-warning h5 p-1"><strong>A</strong>lle <strong>P</strong>riester <strong>s</strong>aufen
-          <strong>T</strong>equila <strong>n</strong>ach <strong>d</strong>er <strong>P</strong>redigt
-        </p>
+        <ul id="resultsList"></ul>
       </div>
-      <table class="table table-striped table-bordered table-responsive">
-        <thead class="table-primary">
-          <tr>
-            <th scope="col">Nr.</th>
-            <th scope="col">Name</th>
-            <th scope="col">Verwendete Protokolle</th>
-            <th scope="col">Kopplungselemente</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">7</th>
-            <td>Anwendung</td>
-            <td>SMTP, HTTP, HTTPS, DHCP, FTP, POP3, SNMP, NNTP, Telnet, DNS, SSH, REST, SOAP, VNC, RDP</td>
-            <td rowspan="4">Gateway, Content-Switch, Proxy, Layer-4-7-Switch</td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>Darstellung</td>
-            <td>MPEG, ASCH, SSL, TLS, ASCII to EBCDIC, ASCII to UTF-8</td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Sitzung</td>
-            <td>NetBIOS, SAP, TFTP, RCP</td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>Transport</td>
-            <td>TCP, UDP, SPX, NetBEUI</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Vermittlung</td>
-            <td>IPV4, IPV6, RIP, CIDR, ICMP, IPsec, GRE, OSPF, BGP, QoS, ARP, NAT, MPLS, T.70, T.90, X.25</td>
-            <td>Router, Layer-3-Switch, Subnetting, Subnetmask, Network Layer Firewalls</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Sicherung</td>
-            <td>LLC/MAC, ARP, VLAN, IEEE 802.11 (WLAN), 802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 802.11ax (Wi-Fi
-              6), HDLC, RAPA, PPP, Frame Relay, ATM, X.75, V.120,CSMA/CD</td>
-            <td>Token Ring, Ethernet, Bridge, Layer-2-Switch, Wireless Access Point</td>
-          </tr>
-          <tr>
-            <th scope="row">1</th>
-            <td>Bitübertragung</td>
-            <td>FDDI, V.110, X.25, V.90, V.34, V.24, RS232, 100BaseTX, ISDN, RJ45, Coax, FM, AM, QAM, LWL</td>
-            <td>Netzwerkkabel, Repeater, Hub, Modem</td>
-          </tr>
-        </tbody>
-      </table>
     </div>
-  </div>
-  <!-- abkur Tab -->
-  <div id="abkurTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="abkur">Abkürzungen</strong></p>
+    <!-- QandA Tab -->
+    <div class="container" id="qandaTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 border col-4 p-1" id="title">title</div>
+              <br />
+              <div class="text-left text-primary" id="question"></div>
+              <hr>
+              <div class="text-left text-success" id="answer"></div>
             </div>
-            <br />
-            <div class="text-center text-primary" id="abkurName"></div>
-            <hr>
-            <div class="text-left text-success" id="abkurdefinition"></div>
           </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showAbkur();">weiter</button>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showQandA();">nächste Frage</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- cmd Tab -->
-  <div id="cmdTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="cmd">CMD</strong></p>
+    <!-- abk Tab -->
+    <div id="abkTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="abk">Abk</strong></p>
+              </div>
+              <br />
+              <hr>
+              <div class="text-center text-primary" id="abkName"></div>
             </div>
-            <br />
-            <div class="text-center text-primary" id="cmdName"></div>
-            <hr>
-            <div class="text-center text-success" id="cmddefinition"></div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showAbk();">weiter</button>
+            </div>
           </div>
         </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showCmd();">weiter</button>
+      </div>
+    </div>
+    <!-- OSI Tab -->
+    <div id="osiTabContent">
+      <div class="pt-5">
+        <div>
+          <p class="text-danger h5 p-1"><strong>A</strong>lle <strong>d</strong>eutschen <strong>s</strong>tudenten
+            <strong>t</strong>rinken <strong>v</strong>erschidene <strong>S</strong>orten <strong>B</strong>ier
+          </p>
+          <p class="text-warning h5 p-1"><strong>A</strong>lle <strong>P</strong>riester <strong>s</strong>aufen
+            <strong>T</strong>equila <strong>n</strong>ach <strong>d</strong>er <strong>P</strong>redigt
+          </p>
+        </div>
+        <table class="table table-striped table-bordered table-responsive">
+          <thead class="table-primary">
+            <tr>
+              <th scope="col">Nr.</th>
+              <th scope="col">Name</th>
+              <th scope="col">Verwendete Protokolle</th>
+              <th scope="col">Kopplungselemente</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">7</th>
+              <td>Anwendung</td>
+              <td>SMTP, HTTP, HTTPS, DHCP, FTP, POP3, SNMP, NNTP, Telnet, DNS, SSH, REST, SOAP, VNC, RDP</td>
+              <td rowspan="4">Gateway, Content-Switch, Proxy, Layer-4-7-Switch</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Darstellung</td>
+              <td>MPEG, ASCH, SSL, TLS, ASCII to EBCDIC, ASCII to UTF-8</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Sitzung</td>
+              <td>NetBIOS, SAP, TFTP, RCP</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Transport</td>
+              <td>TCP, UDP, SPX, NetBEUI</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Vermittlung</td>
+              <td>IPV4, IPV6, RIP, CIDR, ICMP, IPsec, GRE, OSPF, BGP, QoS, ARP, NAT, MPLS, T.70, T.90, X.25</td>
+              <td>Router, Layer-3-Switch, Subnetting, Subnetmask, Network Layer Firewalls</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Sicherung</td>
+              <td>LLC/MAC, ARP, VLAN, IEEE 802.11 (WLAN), 802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 802.11ax (Wi-Fi
+                6), HDLC, RAPA, PPP, Frame Relay, ATM, X.75, V.120,CSMA/CD</td>
+              <td>Token Ring, Ethernet, Bridge, Layer-2-Switch, Wireless Access Point</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Bitübertragung</td>
+              <td>FDDI, V.110, X.25, V.90, V.34, V.24, RS232, 100BaseTX, ISDN, RJ45, Coax, FM, AM, QAM, LWL</td>
+              <td>Netzwerkkabel, Repeater, Hub, Modem</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- abkur Tab -->
+    <div id="abkurTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="abkur">Abkürzungen</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="abkurName"></div>
+              <hr>
+              <div class="text-left text-success" id="abkurdefinition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showAbkur();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cmd Tab -->
+    <div id="cmdTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="cmd">CMD</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="cmdName"></div>
+              <hr>
+              <div class="text-center text-success" id="cmddefinition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showCmd();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- security Tab -->
+    <div id="securityTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="security">Sicherheit</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="securityName"></div>
+              <hr>
+              <div class="text-center text-success" id="securitydefinition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showSecurity();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fileformat Tab -->
+    <div id="fileformatTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="fileformat">Format</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="fileformatName"></div>
+              <hr>
+              <div class="text-center text-success" id="fileformatdefinition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showFileformat();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- industrue4 Tab -->
+    <div id="industrie4TabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="industrie4">Industrie 4.0</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="industrie4Name"></div>
+              <hr>
+              <div class="text-center text-success" id="industrie4definition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showIndustrie4();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ipv6 Tab -->
+    <div id="ipv6TabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="ipvs">IPv6</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="ipv6q"></div>
+              <hr>
+              <div class="text-center text-success" id="ipv6a"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showIpv6();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ki Tab -->
+    <div id="kiTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="ki">KI</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="kiq"></div>
+              <hr>
+              <div class="text-left text-success" id="kia"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showKi();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- pm Tab -->
+    <div id="pmTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="pm">Projektmanagement</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="pmq"></div>
+              <hr>
+              <div class="text-left text-success" id="pma"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showPm();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- paradigm Tab -->
+    <div id="paradigmTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="paradigm">Paradigma</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="paradigmparadigm"></div>
+              <hr>
+              <div class="text-left text-success">
+                <ol id="paradigmlanguages"></ol>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showParadigm();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sql Tab -->
+    <div id="sqlTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="sql">SQL</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="sqlName"></div>
+              <hr>
+              <div class="text-center text-success" id="sqldefinition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showSql();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- vgm Tab -->
+    <div id="vgmTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="vgm">Vorgehenmodelle</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="vgmName"></div>
+              <hr>
+              <div class="text-left text-success" id="vgmdefinition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showVgm();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- wkp Tab -->
+    <div id="wkpTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="wkpPort">Wkp</strong></p>
+              </div>
+              <br />
+              <hr>
+              <div class="text-center text-primary" id="wkpProtocol"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showWkp();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- itGrundschutz Tab -->
+    <div id="itGrundschutzTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="itGrundschutz">itGrundschutz</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="itGrundschutzq"></div>
+              <hr>
+              <div class="text-left text-success" id="itGrundschutza"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showItGrundschutz();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- IEEE Tab -->
+    <div id="IEEETabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="IEEE">IEEE</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="IEEEName"></div>
+              <hr>
+              <div class="text-center text-success" id="IEEEdefinition"></div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showIeee();">weiter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Firewall Tab -->
+    <div id="firewallTabContent">
+      <div class="row pb-2">
+        <div class="col-md">
+          <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="p-2">
+              <div class="offset-4 h2 text-warning col-4 p-1">
+                <p><strong id="firewall">Firewall</strong></p>
+              </div>
+              <br />
+              <div class="text-center text-primary" id="firewallType"></div>
+              <hr>
+              <div class="text-center text-success" id="firewallDefinition"></div>
+              <hr>
+              <div class="text-left text-danger">
+                <ol id="firewallThreats"></ol>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-md p-2">
+              <button type="button" class="btn btn-primary" onclick="showFirewall();">weiter</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- security Tab -->
-  <div id="securityTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="security">Sicherheit</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="securityName"></div>
-            <hr>
-            <div class="text-center text-success" id="securitydefinition"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showSecurity();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- fileformat Tab -->
-  <div id="fileformatTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="fileformat">Format</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="fileformatName"></div>
-            <hr>
-            <div class="text-center text-success" id="fileformatdefinition"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showFileformat();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- industrue4 Tab -->
-  <div id="industrie4TabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="industrie4">Industrie 4.0</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="industrie4Name"></div>
-            <hr>
-            <div class="text-center text-success" id="industrie4definition"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showIndustrie4();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ipv6 Tab -->
-  <div id="ipv6TabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="ipvs">IPv6</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="ipv6q"></div>
-            <hr>
-            <div class="text-center text-success" id="ipv6a"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showIpv6();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ki Tab -->
-  <div id="kiTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="ki">KI</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="kiq"></div>
-            <hr>
-            <div class="text-left text-success" id="kia"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showKi();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- pm Tab -->
-  <div id="pmTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="pm">Projektmanagement</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="pmq"></div>
-            <hr>
-            <div class="text-left text-success" id="pma"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showPm();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- paradigm Tab -->
-  <div id="paradigmTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="paradigm">Paradigma</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="paradigmparadigm"></div>
-            <hr>
-            <div class="text-left text-success">
-              <ol id="paradigmlanguages"></ol>
-            </div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showParadigm();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- sql Tab -->
-  <div id="sqlTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="sql">SQL</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="sqlName"></div>
-            <hr>
-            <div class="text-center text-success" id="sqldefinition"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showSql();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- vgm Tab -->
-  <div id="vgmTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="vgm">Vorgehenmodelle</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="vgmName"></div>
-            <hr>
-            <div class="text-left text-success" id="vgmdefinition"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showVgm();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- wkp Tab -->
-  <div id="wkpTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="wkpPort">Wkp</strong></p>
-            </div>
-            <br />
-            <hr>
-            <div class="text-center text-primary" id="wkpProtocol"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showWkp();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- itGrundschutz Tab -->
-  <div id="itGrundschutzTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="itGrundschutz">itGrundschutz</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="itGrundschutzq"></div>
-            <hr>
-            <div class="text-left text-success" id="itGrundschutza"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showItGrundschutz();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- IEEE Tab -->
-  <div id="IEEETabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="IEEE">IEEE</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="IEEEName"></div>
-            <hr>
-            <div class="text-center text-success" id="IEEEdefinition"></div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showIeee();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Firewall Tab -->
-  <div id="firewallTabContent">
-    <div class="row pb-2">
-      <div class="col-md">
-        <div class="py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <div class="p-2">
-            <div class="offset-4 h2 text-warning col-4 p-1">
-              <p><strong id="firewall">Firewall</strong></p>
-            </div>
-            <br />
-            <div class="text-center text-primary" id="firewallType"></div>
-            <hr>
-            <div class="text-center text-success" id="firewallDefinition"></div>
-            <hr>
-            <div class="text-left text-danger">
-              <ol id="firewallThreats"></ol>
-            </div>
-          </div>
-        </div>
-        <div class="row text-center pb-4">
-          <div class="col-md p-2">
-            <button type="button" class="btn btn-primary" onclick="showFirewall();">weiter</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->

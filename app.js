@@ -41,7 +41,13 @@ let myFuncArray = [
 window.addEventListener("load", function () {
   console.log("It's loaded!");
   const loadingElement = this.document.getElementById("canvas");
+  const mainElement = this.document.getElementById("mainSection");
+  this.setTimeout(function(){
+    if(loadingElement && mainElement){
   loadingElement.style.display = "none";
+  mainElement.style.display = "block";
+    }
+  }, 6000);
 });
 let myPages = {};
 let myFuncsObject = {};
