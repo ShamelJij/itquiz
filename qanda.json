@@ -684,6 +684,11 @@
     "question": "Welche Aufgabe erfüllt das Befehlszeilenkommando ARP?",
     "answer": "Mithilfe des Address Resolution Protocols (ARP) wird zur IP-Adresse die zugehörige Hardware- bzw. MAC-Adresse des Netzwerkinterfaces (NIC) eines Hosts ermittelt.</br>Dazu sendet der Host einen ARP-Request mit der MAC-Adresse (FF-FF-FF-FF-FF-FF) auf der Schicht 2, der Sicherungsschicht des OSI-Schichtenmodells, per Broadcast an die zu ermittelnde Adresse und bekommt viw ARP-Reply die ermittlete MAC-Adresse wird dann im lokalen ARP-Cache des Senders für eine gewisse Zeit gepseichert. Dieser ARP-Cache dient zur schnelleren ARP-Adressauflösung."
   },{
+    "id": 145,
+    "title": 2,
+    "question": "Beschreibe die Aufgabe und Funktionsweise des Befehlszeilenkommandos chmod in einem Linux-Betriebssystem.",
+    "answer": "Das Linux/Unix Kommando <strong>chmod</strong> (englisch: change mode) ist ein Kommandozeilenprogramm, mit dem sich die Linux-/Unix- Dateirechte anpassen lassen. Diese Dateirechte sind 3 Gruppen unterteilt, in User, Group und Others. Die Attributsänderungen lassen sich nur vom Dateibesitzer oder dem root-Benutzer durchführen.<br/>r = lesen (read), w = schreiben (write), x = ausführen (execute)<br/>Neben der symbolischen Notation mit Buchstaben existiert noch die oktale Notation, siehe Tablle Berechtigungen.<br/><table class='table-responsive text-center'><thead><tr><th> # </th><th>Berechtigung</th><th>rwx</th></tr></theat><tbody><tr><th scope='row'>7</th><td>Voll</td><td>111</td></tr><tr><th scope='row'>6</th><td>Lesen und Schreiben</td><td>110</td></tr><tr><th scope='row'>5</th><td>Lesen und Ausführen</td><td>101</td></tr><tr><th scope='row'>4</th><td>Nur Lesen</td><td>100</td></tr><tr><th scope='row'>3</th><td>Schreiben und Ausführen</td><td>11</td></tr><tr><th scope='row'>2</th><td>Nur Schreiben</td><td>10</td></tr><tr><th scope='row'>1</th><td>Nur Ausführen</td><td>1</td></tr><tr><th scope='row'>0</th><td>Keine</td><td>0</td></tr></tbody></table><br/>Beispiele für die Darstellung der Dateirechte der Datei test.txt -rwxrwxrwx 2 root 4096 Sep 22 08:32 test.txt<br/>Beispiele für eine Dateiberechtigungsänderung<br/>chmod o-rwx text.txt<br/>chmod 770 test.txt"
+  },{
     "id": 168,
     "title": 2,
     "question": "Es gibt 5 Typen von SQL Kommandos: DDL, DML, DCL, TCL, und DQL.<br/>Nenne bitte jeweils mindestens einen asuführbaren SQL-Befehl.",
@@ -926,6 +931,5 @@
     "title": 4,
     "question": "Welche Dinge müssen bei einem IT-Hardware-Rollout beachtet werden?",
     "answer": "Folgende Dinge müssen bei einem <strong>IT-Hardware-Rollout</strong> beachtet werden:<br/><ol><li>Einsatz eines Rollout-Managers, der die Prozesse koordiniert und überwacht</li><li>Datenmigration bei Austausch von alter gegen neue Hardware</li><li>Ermittlung der Asset-Tags bzw. Dokumentation der Asset-Tags</li><li>Kompatibilität der Software zu Hardware klären</li><li>Backupkonzept zur Datensicherung der Systeme abstimmen Terminüberwachung des Rolloutprozesses durch den Rollout Manager</li><li>Terminüberwachung des Rolloutprozesses durch den Rollout Manager</li><li>Terminabstimmung mit Kunden wie, wo und wann der Rolloutprozess gestartet wird</li></ol>"
-
   }
 ]
