@@ -109,7 +109,7 @@
             <tr>
               <th scope="row">7</th>
               <td>Anwendung</td>
-              <td>SMTP, HTTP, HTTPS, DHCP, FTP, POP3, SNMP, NNTP, Telnet, DNS, SSH, REST, SOAP, VNC, RDP</td>
+              <td>SMTP, <strong class="text-primary">DNS</strong>, HTTP, HTTPS, <strong class="text-danger">DHCP</strong>, FTP, POP3, SNMP, NNTP, Telnet, DNS, SSH, REST, SOAP, VNC, RDP</td>
               <td rowspan="4">Gateway, Content-Switch, Proxy, Layer-4-7-Switch</td>
             </tr>
             <tr>
@@ -125,19 +125,19 @@
             <tr>
               <th scope="row">4</th>
               <td>Transport</td>
-              <td>TCP, UDP, SPX, NetBEUI</td>
+              <td>TCP, UDP, SPX, NetBEUI, <strong class="text-danger">DHCP</strong></td>
             </tr>
             <tr>
               <th scope="row">3</th>
               <td>Vermittlung</td>
-              <td>IPV4, IPV6, RIP, CIDR, ICMP, IPsec, GRE, OSPF, BGP, QoS, ARP, NAT, MPLS, T.70, T.90, X.25</td>
+              <td><strong class="text-danger">DHCP</strong>, IPV4, IPV6, <strong class="text-primary">DNS</strong>, RIP, CIDR, ICMP, <strong class="text-success">ARP</strong>, IPsec, GRE, OSPF, BGP, QoS, NAT, MPLS, T.70, T.90, X.25</td>
               <td>Router, Layer-3-Switch, Subnetting, Subnetmask, Network Layer Firewalls</td>
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Sicherung</td>
-              <td>LLC/MAC, ARP, VLAN, IEEE 802.11 (WLAN), 802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 802.11ax (Wi-Fi
-                6), HDLC, RAPA, PPP, Frame Relay, ATM, X.75, V.120,CSMA/CD</td>
+              <td>LLC/MAC, VLAN, IEEE 802.11 (WLAN), 802.11a, 802.11b, 802.11g, 802.11n, 802.11ac, 802.11ax (Wi-Fi
+                6), <strong class="text-success">ARP</strong>, HDLC, RAPA, PPP, Frame Relay, ATM, X.75, V.120, CSMA/CD, CSMA/CA</td>
               <td>Token Ring, Ethernet, Bridge, Layer-2-Switch, Wireless Access Point</td>
             </tr>
             <tr>
