@@ -152,12 +152,11 @@ function displayResults(results, input) {
     return;
   }
   results.forEach((item) => {
-    resultDiv.innerHTML += `<div class="card p-1 m-1">
-  <div class="card-body">
-    <h5 class="card-title">id::${item.id}</h5>
-    <p class="card-text"><div class='text-primary'>${item.question}</div><hr><div class='text-success'>${item.answer}</div></p>
-  </div>
-</div>`;
+    resultDiv.innerHTML += `
+  <div class="border border-success m-2 p-2">
+    <h5>id::${item.id}</h5>
+    <p><div class='text-primary'>${item.question}</div><hr><div class='text-success'>${item.answer}</div></p>
+  </div>`;
     searchSize.textContent = results.length;
     //searchList.innerText = resultDiv;
     //console.log(results);
