@@ -348,7 +348,7 @@
     "answer": "<strong>Software as a Service</strong> beschreibt ein Cloud-Konzept, bei dem Software nicht länger als Lizenz an einen Benutzer verkauft wird, sondern ihm gleich als Service in der Cloud zur Verfügung gestellt wird. Der Zugriff auf die Software wird bei einigen Cloudanbietern via Webbrowser gewährleistet."
   },
   {
-    "id": 60,
+    "id": 61,
     "title": 1,
     "question": "Moderne Storage-Systeme sind mit Hilfe von Glasfaser und dem Fibre-Channel Protokoll an einen Dateiserver oder virtualisierte Server angebunden. Bei diesen Anbindungen ist die Rede vom Host-Bus-Adapter.<br/>Was ist ein Host-Bus-Adapter?",
     "answer": "Als <strong>Host-Bus-Adapter</strong> (HBA) bezeichnet man eine Netzwerkhardware, welche in einem Server installiert ist, um damit ein oder mehrere Datenspeichergeräte (Storage) zu erreichen.<br/>Der Begriff HBA wird oftmals im Zusammenhang mit den Bus-Systemen SCSI, ATA (IDE), SATA und Fibre-Channel verwendet, gilt aber prinzipiell auch für eine Netzwerkkarte im weiteren Sinne. Im Datenspeicher-Umfeld wird mit Hilfe des HBA via SCSI, iSCSI, Fibre-Channel oder Ethernet mit dem Host-System kommuniziert."
@@ -689,10 +689,16 @@
     "question": "Beschreibe die Aufgabe und Funktionsweise des Befehlszeilenkommandos chmod in einem Linux-Betriebssystem.",
     "answer": "Das Linux/Unix Kommando <strong>chmod</strong> (englisch: change mode) ist ein Kommandozeilenprogramm, mit dem sich die Linux-/Unix- Dateirechte anpassen lassen. Diese Dateirechte sind 3 Gruppen unterteilt, in User, Group und Others. Die Attributsänderungen lassen sich nur vom Dateibesitzer oder dem root-Benutzer durchführen.<br/>r = lesen (read), w = schreiben (write), x = ausführen (execute)<br/>Neben der symbolischen Notation mit Buchstaben existiert noch die oktale Notation, siehe Tablle Berechtigungen.<br/><table class='table-responsive text-center'><thead><tr><th> # </th><th>Berechtigung</th><th>rwx</th></tr></theat><tbody><tr><th scope='row'>7</th><td>Voll</td><td>111</td></tr><tr><th scope='row'>6</th><td>Lesen und Schreiben</td><td>110</td></tr><tr><th scope='row'>5</th><td>Lesen und Ausführen</td><td>101</td></tr><tr><th scope='row'>4</th><td>Nur Lesen</td><td>100</td></tr><tr><th scope='row'>3</th><td>Schreiben und Ausführen</td><td>11</td></tr><tr><th scope='row'>2</th><td>Nur Schreiben</td><td>10</td></tr><tr><th scope='row'>1</th><td>Nur Ausführen</td><td>1</td></tr><tr><th scope='row'>0</th><td>Keine</td><td>0</td></tr></tbody></table><br/>Beispiele für die Darstellung der Dateirechte der Datei test.txt -rwxrwxrwx 2 root 4096 Sep 22 08:32 test.txt<br/>Beispiele für eine Dateiberechtigungsänderung<br/>chmod o-rwx text.txt<br/>chmod 770 test.txt"
   },{
+    "id": 146,
+    "title": 2,
+    "question": "Festplatten unterliegen unterschiedlichen Einflüssen, welche sich auf die Lebensdauer von Datenträgern auswirken. Was bedeutet in diesem Zusammenhang S.M.A.R.T.?",
+    "answer": "Die <strong>S</strong>elf-<strong>M</strong>onitoring, <strong>A</strong>nalysis and <strong>R</strong>eporting <strong>T</strong>echnology (S.M.A.R.T., deutsch System zur Selbstüberwachung, Analyse und Statusmeldung) ist ein standardisiertes Überwachungswerkzeug von Datenträgern (HDD/SSD). Sie dient dazu, frühzeitige Vorhersagen über einen möglichen Ausfall des gesamten Datenträgers oder dem Ausfall einzelner Speicherblöcke zu treffen. Mithilfe sogenannter SMART-Attribute, welche nicht standardisiert sind, können Werte wie Tempertur, Einschaltzeit, Laufzeit, Bad-Blocks etc. vom Datenträger ausgelesen werden."
+
+  },{
     "id": 147,
     "title": 2,
     "question": "Die Installation eines Windows Betriebssystems auf einem Intel PC benötigt einige logische Schritte. Bringe die folgenden Schritte in die richtige Reihenfolge.<br/><ol><li>Bootreihenfolge für Installationsmedium festlegen</li><li>P.O.S.T.</li><li>Benutzer + Passwort anlegen</li><li>EULA lesen und akzeptieren</li><li>Filesystem formatieren</li><li>Filesystem anlegen</li><li>Benutzerprofile für das 1.Login erzeugen</li><li>Installationsmedium einlegen</li></ol>",
-    "answer": ""
+    "answer": "Die richtige Reihenfolge lautet:<br/><ol><li>P.O.S.T.</li><li>Bootreihenfolge für das Installationsmedium festlegen</li><li>Installationsmedium einlegen</li><li>EULA lesen und akzeptieren</li><li>Filesystem anlegen</li><li>Filesystem formatieren</li><li>Benutzer + Passwort anlegen</li><li>Benutzerprofile für das 1.Login erzeugen</li></ol>"
 
   },{
     "id": 168,

@@ -47,7 +47,7 @@ window.addEventListener("load", function () {
   loadingElement.style.display = "none";
   mainElement.style.display = "block";
     }
-  }, 6000);
+  }, 600);
 });
 let myPages = {};
 let myFuncsObject = {};
@@ -105,14 +105,35 @@ for (let i = 0; i < anchorElements.length; i++) {
 //search
 const searchInput = document.getElementById("searchInput");
 const searchList = document.getElementById("resultsList");
+const searchingDiv = document.getElementById("resultDiv");
 const searchSize = document.getElementById("resultSize");
-searchInput.addEventListener("input", () => {
+let searchTimeout;
+
+function preformSearch(){
   const searchValue = searchInput.value.toLowerCase().trim();
-  const filteredData = responseObj["qanda"].filter((item) =>
-    item.question.toLowerCase().trim().includes(searchValue) || item.answer.toLowerCase().trim().includes(searchValue)
-  );
-  //console.log(filteredData);
+  const filteredData = responseObj["qanda"].filter((item) => item.question.toLowerCase().trim().includes(searchValue) || item.answer.toLowerCase().trim().includes(searchValue));
   displayResults(filteredData, searchValue);
+}
+
+function handleSearchInputChange(){
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(preformSearch, 1000);
+}
+
+function showSearchingDiv(){
+  return new Promise((resolve, reject) => {
+    setTimeout(()=> {
+    searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
+      resolve();
+    }, 20);
+  });
+
+}
+searchInput.addEventListener("input", () => {
+
+  showSearchingDiv().then(() => handleSearchInputChange()).catch((error) => console.error("searching error", error));
+
+  //console.log(filteredData);
 });
 
 function displayResults(results, input) {
@@ -214,6 +235,17 @@ function getRanId(arr) {
 //QandA-------------------------------------------------------
 function showQandA() {
   const ranID = getRanId(responseObj.qanda);
+  console.log(ranID);
+  let idArr = responseObj.qanda.map(item => item.id);
+  let missingIds = [];
+  console.log("missing IDs: ");
+  for (let i = idArr[0]; i < idArr[idArr.length -1]; i++){
+    if(!idArr.includes(i)){
+      console.log("-- ",i, " -- ");
+      missingIds.push(i);
+    }
+  }
+  console.log("missing IDs count: ", missingIds.length);
   let ranTitle = JSON.stringify(
     responseObj.qanda.find((obj) => obj.id === ranID).title
   );
