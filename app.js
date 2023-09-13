@@ -117,13 +117,21 @@ function preformSearch(){
 
 function handleSearchInputChange(){
   clearTimeout(searchTimeout);
+  if(searchInput.value == ""){
+      searchList.innerHTML = "";
+        console.log("handle is empty again");
+      }
   searchTimeout = setTimeout(preformSearch, 1000);
 }
 
 function showSearchingDiv(){
   return new Promise((resolve, reject) => {
     setTimeout(()=> {
-    searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
+    if(searchInput.value == ""){
+      console.log("input is empty again");
+    }else{
+      searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
+    }
       resolve();
     }, 20);
   });
