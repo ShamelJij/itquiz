@@ -118,7 +118,8 @@ function preformSearch(){
 function handleSearchInputChange(){
   clearTimeout(searchTimeout);
   if(searchInput.value == ""){
-      searchList.innerHTML = "";
+      searchList.innerContent = "";
+      searchSize.textContent = "";
         console.log("handle is empty again");
       }
   searchTimeout = setTimeout(preformSearch, 1000);
