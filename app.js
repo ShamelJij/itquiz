@@ -49,34 +49,48 @@ $(document).ready(function () {
             }, 3000); // Delay in milliseconds (3000ms = 3s)
         });
 */
-window.addEventListener("load", function () {
-  console.log("It's loaded!");
-  const loadingElement = this.document.getElementById("canvas");
-  const mainElement = this.document.getElementById("mainSection");
-  this.setTimeout(function () {
-    if (mainElement) {
-      //loadingElement.style.display = "none";
-      mainElement.style.display = "block";
-      // Hide the loader
-      $("#loader").addClass("hidden");
-      // Show the content
-      //$(".content").removeClass("hidden");
-    }
-  }, 600);
-});
-let myPages = {};
-let myFuncsObject = {};
-for (var i = 0; i < myJsons.length; i++) {
-  myPages[myJsons[i]] = myJsons[i] + ".json";
-  myFuncsObject[myJsons[i]] = myFuncArray[i];
-}
-let responseObj = {};
-let request = new XMLHttpRequest();
-for (var i = 0; i < myJsons.length; i++) {
-  request.open("GET", myPages[myJsons[i]], false);
-  request.send(null);
-  responseObj[myJsons[i]] = JSON.parse(request.responseText);
-}
+ window.addEventListener("load", function () {
+            console.log("It's loaded!");
+            const loadingElement = document.getElementById("loader");
+            const mainElement = document.getElementById("mainSection");
+
+            // Show the loader
+            loadingElement.classList.remove("hidden");
+            mainElement.classList.add("hidden");
+
+            // Simulate AJAX requests
+            let myPages = {};
+            let myFuncsObject = {};
+            let myJsons = ["exam1", "exam2"]; // Example array of exam names
+            let myFuncArray = [showQandA, showQandA]; // Example array of functions
+            for (var i = 0; i < myJsons.length; i++) {
+                myPages[myJsons[i]] = myJsons[i] + ".json";
+                myFuncsObject[myJsons[i]] = myFuncArray[i];
+            }
+            let responseObj = {};
+            let requestsCompleted = 0;
+
+            for (var i = 0; i < myJsons.length; i++) {
+                (function (i) {
+                    let request = new XMLHttpRequest();
+                    request.open("GET", myPages[myJsons[i]], true);
+                    request.onreadystatechange = function () {
+                        if (request.readyState === 4 && request.status === 200) {
+                            responseObj[myJsons[i]] = JSON.parse(request.responseText);
+                            requestsCompleted++;
+                            if (requestsCompleted === myJsons.length) {
+                                // All requests are completed
+                                // Hide the loader
+                                loadingElement.classList.add("hidden");
+                                // Show the content
+                                mainElement.classList.remove("hidden");
+                            }
+                        }
+                    };
+                    request.send();
+                })(i);
+            }
+        });
 let anchorElements = {};
 let anchors = document.getElementById("anchors");
 for (var i = 0; i < myJsons.length; i++) {
