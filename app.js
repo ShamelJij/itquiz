@@ -49,6 +49,9 @@ $(document).ready(function () {
             }, 3000); // Delay in milliseconds (3000ms = 3s)
         });
 */
+            let myPages = {};
+            let myFuncsObject = {};
+            let responseObj = {};
  window.addEventListener("load", function () {
             console.log("It's loaded!");
             const loadingElement = document.getElementById("loader");
@@ -59,15 +62,12 @@ $(document).ready(function () {
             mainElement.classList.add("hidden");
 
             // Simulate AJAX requests
-            let myPages = {};
-            let myFuncsObject = {};
             //let myJsons = ["exam1", "exam2"]; // Example array of exam names
             //let myFuncArray = [showQandA, showQandA]; // Example array of functions
             for (var i = 0; i < myJsons.length; i++) {
                 myPages[myJsons[i]] = myJsons[i] + ".json";
                 myFuncsObject[myJsons[i]] = myFuncArray[i];
             }
-            let responseObj = {};
             let requestsCompleted = 0;
 
             for (var i = 0; i < myJsons.length; i++) {
