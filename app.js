@@ -38,59 +38,247 @@ let myFuncArray = [
   showIeee,
   showFirewall,
 ];
+
+window.addEventListener("load", function () {
+      console.log("It's loaded!");
+      const loadingElement = document.getElementById("canvas");
+      const mainElement = document.getElementById("mainSection");
+      setTimeout(function() {
+        if (loadingElement && mainElement) {
+          loadingElement.style.display = "none";
+          mainElement.style.display = "block";
+        }
+      }, 600);
+    });
+
+    let myPages = {};
+    let myFuncsObject = {};
+    for (var i = 0; i < myJsons.length; i++) {
+      myPages[myJsons[i]] = myJsons[i] + ".json";
+      myFuncsObject[myJsons[i]] = myFuncArray[i];
+    }
+
+    let responseObj = {};
+    let request = new XMLHttpRequest();
+
+    function showLoader() {
+      document.getElementById('loader').classList.remove('hidden');
+    }
+
+    function hideLoader() {
+      document.getElementById('loader').classList.add('hidden');
+    }
+
+    function loadData() {
+      showLoader();
+      let requests = myJsons.map(json => {
+        return new Promise((resolve, reject) => {
+          let req = new XMLHttpRequest();
+          req.open("GET", myPages[json], true);
+          req.onload = function() {
+            if (req.status >= 200 && req.status < 400) {
+              responseObj[json] = JSON.parse(req.responseText);
+              resolve();
+            } else {
+              reject();
+            }
+          };
+          req.onerror = reject;
+          req.send();
+        });
+      });
+
+      Promise.all(requests)
+        .then(() => {
+          hideLoader();
+          initializeTabs();
+          showQandA();
+        })
+        .catch(() => {
+          hideLoader();
+          console.error("Failed to load all data");
+        });
+    }
+
+    function initializeTabs() {
+      let anchorElements = {};
+      let anchors = document.getElementById("anchors");
+      for (var i = 0; i < myJsons.length; i++) {
+        anchorElements[myJsons[i] + "TabDiv"] = document.createElement("a");
+        anchorElements[myJsons[i] + "TabDiv"].setAttribute("id", myJsons[i] + "Tab");
+        anchorElements[myJsons[i] + "TabDiv"].innerText = myJsons[i];
+        anchorElements[myJsons[i] + "TabDiv"].className = "nav-link";
+        anchorElements[myJsons[i] + "TabDiv"].style.cursor = "pointer";
+        let showTabContentId = myJsons[i] + "TabContent";
+        anchorElements[myJsons[i] + "TabDiv"].onclick = function () {
+          showTabContent(showTabContentId);
+        };
+        document.getElementById(showTabContentId);
+        anchors.appendChild(anchorElements[myJsons[i] + "TabDiv"]);
+      }
+
+      let tabContentIds = [];
+      for (let i = 0; i < myJsons.length; i++) {
+        tabContentIds[i] = myJsons[i] + "TabContent";
+        if (tabContentIds[i] === "qandaTabContent") {
+          document.getElementById(tabContentIds[i]).className = "container";
+        } else {
+          document.getElementById(tabContentIds[i]).className = "d-none";
+        }
+      }
+    }
+
+    function showTabContent(tabContentId) {
+      for (let i = 0; i < myJsons.length; i++) {
+        if (tabContentIds[i] === tabContentId) {
+          document.getElementById(tabContentIds[i]).className = "container";
+          myFuncsObject[myJsons[i]]();
+        } else {
+          document.getElementById(tabContentIds[i]).className = "d-none";
+        }
+      }
+    }
+
+    // Load data on window load
+    window.addEventListener('load', loadData);
+
+    // Your existing search-related code...
+    const searchInput = document.getElementById("searchInput");
+    const searchList = document.getElementById("resultsList");
+    const searchingDiv = document.getElementById("resultDiv");
+    const searchSize = document.getElementById("resultSize");
+    let searchTimeout;
+
+    function preformSearch(){
+      const searchValue = searchInput.value.toLowerCase().trim();
+      const filteredData = responseObj["qanda"].filter((item) => item.question.toLowerCase().trim().includes(searchValue) || item.answer.toLowerCase().trim().includes(searchValue));
+      displayResults(filteredData, searchValue);
+    }
+
+    function handleSearchInputChange(){
+      clearTimeout(searchTimeout);
+      if(searchInput.value == ""){
+          searchList.innerHTML = "";
+          searchSize.textContent = "";
+            console.log("handle is empty again");
+          }
+      searchTimeout = setTimeout(preformSearch, 1000);
+    }
+
+    function showSearchingDiv(){
+      return new Promise((resolve, reject) => {
+        setTimeout(()=> {
+        if(searchInput.value == ""){
+          console.log("input is empty again");
+        }else{
+          searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
+        }
+          resolve();
+        }, 20);
+      });
+    }
+
+    searchInput.addEventListener("input", () => {
+      showSearchingDiv().then(() => handleSearchInputChange()).catch((error) => console.error("searching error", error));
+    });
+
+    function displayResults(results, input) {
+      searchList.textContent = "";
+      searchSize.textContent = "";
+      const resultDiv = document.createElement("div");
+      if (results.length === 0 || input == "") {
+        if (input == "") {
+          searchList.textContent = "";
+          searchSize.textContent = "";
+          return;
+        }
+        searchSize.textContent = "0";
+        resultDiv.innerHTML = "<div class='text-danger'>kein Ergebnisse</div>";
+        searchList.appendChild(resultDiv);
+        return;
+      }
+      results.forEach((item) => {
+        resultDiv.innerHTML += `
+      <div class="border border-success m-2 p-2">
+        <h5>id::${item.id}</h5>
+        <p><div class='text-primary'>${item.question}</div><hr><div class='text-success'>${item.answer}</div></p>
+      </div>`;
+        searchSize.textContent = results.length;
+        searchList.appendChild(resultDiv);
+      });
+    }
+
+    function getRanId(arr) {
+      const randomIndex = Math.round(Math.random() * arr.length);
+      if (randomIndex === 0) {
+        return arr[randomIndex].id;
+      }
+      return arr[randomIndex - 1].id;
+    }
+
+    function showQandA() {
+      const ranID = getRanId(responseObj.qanda);
+      console.log(ranID);
+      let idArr = responseObj.qanda.map(item => item.id);
+      let missingIds = [];
+      console.log("missing IDs: ");
+      for (let i = idArr[0]; i < idArr[idArr.length -1]; i++){
+        if(!idArr.includes(i)){
+          console.log("-- ",i, " -- ");
+          missingIds.push(i);
+        }
+      }
+      console.log("missing IDs count: ", missingIds.length);
+      let ranTitle = JSON.stringify(responseObj.qanda.find((obj) => obj.id === ranID).title);
+      let ranAnswer = JSON.stringify(responseObj.qanda.find((obj) => obj.id === ranID).answer).replace(/^["'](.+(?=["']$))["']$/, "$1");
+      let ranQuestion = JSON.stringify(responseObj.qanda.find((obj) => obj.id === ranID).question).replace(/^["'](.+(?=["']$))["']$/, "$1");
+      title_element.innerHTML = "";
+      if (ranTitle === "1") {
+        title_element.innerHTML = "<small>Beurteilen marktgängiger IT-Systeme und Lösungen</small>";
+      } else if (ranTitle === "2") {
+        title_element.innerHTML = "<small>Entwickeln, Erstellen und Betereuen von IT-Lösungen</small>";
+      } else if (ranTitle === "3") {
+        title_element.innerHTML = "<small>Planen, Vorbreiten und Durchführen von Arbeitsaufgaben</small>";
+      } else if (ranTitle === "4") {
+        title_element.innerHTML = "<small>Auftragsabschluss und Leistungserbringung</small>";
+      } else if (ranTitle === "5") {
+        title_element.innerHTML = "<small>Qualitätssichernde Maßnahmen</small>";
+      } else if (ranTitle === "6") {
+        title_element.innerHTML = "<small>Informieren und Beraten von Kunden und Kundinnen</small>";
+      } else if (ranTitle === "7") {
+        title_element.innerHTML = "<small>IT-Sicherheit und Datenschutz, Ergonomie</small>";
+      }
+      question_element.innerHTML = "";
+      question_element.innerHTML = `${ranQuestion}`;
+      answer_element.innerHTML = "";
+      answer_element.innerHTML += `${ranAnswer}`;
+    }
+//---------------------------------------------------------------------------------------
 /*
-$(document).ready(function () {
-            // Simulate a delay for demonstration purposes
-            setTimeout(function () {
-                // Hide the loader
-                $('#loader').addClass('hidden');
-                // Show the content
-                $('.content').removeClass('hidden');
-            }, 3000); // Delay in milliseconds (3000ms = 3s)
-        });
-*/
-            let myPages = {};
-            let myFuncsObject = {};
-            let responseObj = {};
- window.addEventListener("load", function () {
-            console.log("It's loaded!");
-            const loadingElement = document.getElementById("loader");
-            const mainElement = document.getElementById("mainSection");
-
-            // Show the loader
-            loadingElement.classList.remove("hidden");
-            mainElement.classList.add("hidden");
-
-            // Simulate AJAX requests
-            //let myJsons = ["exam1", "exam2"]; // Example array of exam names
-            //let myFuncArray = [showQandA, showQandA]; // Example array of functions
-            for (var i = 0; i < myJsons.length; i++) {
-                myPages[myJsons[i]] = myJsons[i] + ".json";
-                myFuncsObject[myJsons[i]] = myFuncArray[i];
-            }
-            let requestsCompleted = 0;
-
-            for (var i = 0; i < myJsons.length; i++) {
-                (function (i) {
-                    let request = new XMLHttpRequest();
-                    request.open("GET", myPages[myJsons[i]], true);
-                    request.onreadystatechange = function () {
-                        //if (request.readyState === 4 && request.status === 200) {
-                            responseObj[myJsons[i]] = JSON.parse(request.responseText);
-                            requestsCompleted++;
-                            if (requestsCompleted === myJsons.length) {
-                                // All requests are completed
-                                // Hide the loader
-                                loadingElement.classList.add("hidden");
-                                // Show the content
-                                mainElement.classList.remove("hidden");
-                            }
-                        //}
-                    };
-                    request.send();
-                })(i);
-            }
-        });
+window.addEventListener("load", function () {
+  console.log("It's loaded!");
+  const loadingElement = this.document.getElementById("canvas");
+  const mainElement = this.document.getElementById("mainSection");
+  this.setTimeout(function(){
+    if(loadingElement && mainElement){
+  loadingElement.style.display = "none";
+  mainElement.style.display = "block";
+    }
+  }, 600);
+});
+let myPages = {};
+let myFuncsObject = {};
+for (var i = 0; i < myJsons.length; i++) {
+  myPages[myJsons[i]] = myJsons[i] + ".json";
+  myFuncsObject[myJsons[i]] = myFuncArray[i];
+}
+let responseObj = {};
+let request = new XMLHttpRequest();
+for (var i = 0; i < myJsons.length; i++) {
+  request.open("GET", myPages[myJsons[i]], false);
+  request.send(null);
+  responseObj[myJsons[i]] = JSON.parse(request.responseText);
+}
 let anchorElements = {};
 let anchors = document.getElementById("anchors");
 for (var i = 0; i < myJsons.length; i++) {
@@ -138,42 +326,38 @@ const searchingDiv = document.getElementById("resultDiv");
 const searchSize = document.getElementById("resultSize");
 let searchTimeout;
 
-function preformSearch() {
+function preformSearch(){
   const searchValue = searchInput.value.toLowerCase().trim();
-  const filteredData = responseObj["qanda"].filter(
-    (item) =>
-      item.question.toLowerCase().trim().includes(searchValue) ||
-      item.answer.toLowerCase().trim().includes(searchValue)
-  );
+  const filteredData = responseObj["qanda"].filter((item) => item.question.toLowerCase().trim().includes(searchValue) || item.answer.toLowerCase().trim().includes(searchValue));
   displayResults(filteredData, searchValue);
 }
 
-function handleSearchInputChange() {
+function handleSearchInputChange(){
   clearTimeout(searchTimeout);
-  if (searchInput.value == "") {
-    searchList.innerHTML = "";
-    searchSize.textContent = "";
-    console.log("handle is empty again");
-  }
+  if(searchInput.value == ""){
+      searchList.innerHTML = "";
+      searchSize.textContent = "";
+        console.log("handle is empty again");
+      }
   searchTimeout = setTimeout(preformSearch, 1000);
 }
 
-function showSearchingDiv() {
+function showSearchingDiv(){
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      if (searchInput.value == "") {
-        console.log("input is empty again");
-      } else {
-        searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
-      }
+    setTimeout(()=> {
+    if(searchInput.value == ""){
+      console.log("input is empty again");
+    }else{
+      searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
+    }
       resolve();
     }, 20);
   });
+
 }
 searchInput.addEventListener("input", () => {
-  showSearchingDiv()
-    .then(() => handleSearchInputChange())
-    .catch((error) => console.error("searching error", error));
+
+  showSearchingDiv().then(() => handleSearchInputChange()).catch((error) => console.error("searching error", error));
 
   //console.log(filteredData);
 });
@@ -277,12 +461,12 @@ function getRanId(arr) {
 function showQandA() {
   const ranID = getRanId(responseObj.qanda);
   console.log(ranID);
-  let idArr = responseObj.qanda.map((item) => item.id);
+  let idArr = responseObj.qanda.map(item => item.id);
   let missingIds = [];
   console.log("missing IDs: ");
-  for (let i = idArr[0]; i < idArr[idArr.length - 1]; i++) {
-    if (!idArr.includes(i)) {
-      console.log("-- ", i, " -- ");
+  for (let i = idArr[0]; i < idArr[idArr.length -1]; i++){
+    if(!idArr.includes(i)){
+      console.log("-- ",i, " -- ");
       missingIds.push(i);
     }
   }
@@ -323,6 +507,7 @@ function showQandA() {
   answer_element.innerHTML = "";
   answer_element.innerHTML += `${ranAnswer}`;
 }
+  */
 //Abkur-------------------------------------------------------
 function showAbkur() {
   const ranID = getRanId(responseObj.abkur);
