@@ -61,8 +61,8 @@ $(document).ready(function () {
             // Simulate AJAX requests
             let myPages = {};
             let myFuncsObject = {};
-            let myJsons = ["exam1", "exam2"]; // Example array of exam names
-            let myFuncArray = [showQandA, showQandA]; // Example array of functions
+            //let myJsons = ["exam1", "exam2"]; // Example array of exam names
+            //let myFuncArray = [showQandA, showQandA]; // Example array of functions
             for (var i = 0; i < myJsons.length; i++) {
                 myPages[myJsons[i]] = myJsons[i] + ".json";
                 myFuncsObject[myJsons[i]] = myFuncArray[i];
