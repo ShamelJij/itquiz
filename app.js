@@ -59,7 +59,6 @@ window.addEventListener("load", function () {
     }
 
     let responseObj = {};
-    let request = new XMLHttpRequest();
 
     function showLoader() {
       document.getElementById('loader').classList.remove('hidden');
@@ -69,35 +68,31 @@ window.addEventListener("load", function () {
       document.getElementById('loader').classList.add('hidden');
     }
 
-    function loadData() {
+    async function loadData() {
       showLoader();
-      let requests = myJsons.map(json => {
-        return new Promise((resolve, reject) => {
-          let req = new XMLHttpRequest();
-          req.open("GET", myPages[json], true);
-          req.onload = function() {
-            if (req.status >= 200 && req.status < 400) {
-              responseObj[json] = JSON.parse(req.responseText);
-              resolve();
-            } else {
-              reject();
-            }
-          };
-          req.onerror = reject;
-          req.send();
-        });
-      });
 
-      Promise.all(requests)
-        .then(() => {
-          hideLoader();
-          initializeTabs();
-          showQandA();
-        })
-        .catch(() => {
-          hideLoader();
-          console.error("Failed to load all data");
+      try {
+        const requests = myJsons.map(json => fetch(myPages[json]).then(response => {
+          if (response.ok) {
+            return response.json();
+          } else {
+            throw new Error(`Failed to load ${json}: ${response.statusText}`);
+          }
+        }));
+
+        const results = await Promise.all(requests);
+
+        results.forEach((data, index) => {
+          responseObj[myJsons[index]] = data;
         });
+
+        hideLoader();
+        initializeTabs();
+        showQandA();
+      } catch (error) {
+        hideLoader();
+        console.error(error);
+      }
     }
 
     function initializeTabs() {
