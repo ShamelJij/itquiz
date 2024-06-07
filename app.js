@@ -38,14 +38,29 @@ let myFuncArray = [
   showIeee,
   showFirewall,
 ];
+/*
+$(document).ready(function () {
+            // Simulate a delay for demonstration purposes
+            setTimeout(function () {
+                // Hide the loader
+                $('#loader').addClass('hidden');
+                // Show the content
+                $('.content').removeClass('hidden');
+            }, 3000); // Delay in milliseconds (3000ms = 3s)
+        });
+*/
 window.addEventListener("load", function () {
   console.log("It's loaded!");
   const loadingElement = this.document.getElementById("canvas");
   const mainElement = this.document.getElementById("mainSection");
-  this.setTimeout(function(){
-    if(loadingElement && mainElement){
-  loadingElement.style.display = "none";
-  mainElement.style.display = "block";
+  this.setTimeout(function () {
+    if (mainElement) {
+      //loadingElement.style.display = "none";
+      mainElement.style.display = "block";
+      // Hide the loader
+      $("#loader").addClass("hidden");
+      // Show the content
+      //$(".content").removeClass("hidden");
     }
   }, 600);
 });
@@ -109,38 +124,42 @@ const searchingDiv = document.getElementById("resultDiv");
 const searchSize = document.getElementById("resultSize");
 let searchTimeout;
 
-function preformSearch(){
+function preformSearch() {
   const searchValue = searchInput.value.toLowerCase().trim();
-  const filteredData = responseObj["qanda"].filter((item) => item.question.toLowerCase().trim().includes(searchValue) || item.answer.toLowerCase().trim().includes(searchValue));
+  const filteredData = responseObj["qanda"].filter(
+    (item) =>
+      item.question.toLowerCase().trim().includes(searchValue) ||
+      item.answer.toLowerCase().trim().includes(searchValue)
+  );
   displayResults(filteredData, searchValue);
 }
 
-function handleSearchInputChange(){
+function handleSearchInputChange() {
   clearTimeout(searchTimeout);
-  if(searchInput.value == ""){
-      searchList.innerHTML = "";
-      searchSize.textContent = "";
-        console.log("handle is empty again");
-      }
+  if (searchInput.value == "") {
+    searchList.innerHTML = "";
+    searchSize.textContent = "";
+    console.log("handle is empty again");
+  }
   searchTimeout = setTimeout(preformSearch, 1000);
 }
 
-function showSearchingDiv(){
+function showSearchingDiv() {
   return new Promise((resolve, reject) => {
-    setTimeout(()=> {
-    if(searchInput.value == ""){
-      console.log("input is empty again");
-    }else{
-      searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
-    }
+    setTimeout(() => {
+      if (searchInput.value == "") {
+        console.log("input is empty again");
+      } else {
+        searchList.innerHTML = "<div class='text-secondary'>suchen..</div>";
+      }
       resolve();
     }, 20);
   });
-
 }
 searchInput.addEventListener("input", () => {
-
-  showSearchingDiv().then(() => handleSearchInputChange()).catch((error) => console.error("searching error", error));
+  showSearchingDiv()
+    .then(() => handleSearchInputChange())
+    .catch((error) => console.error("searching error", error));
 
   //console.log(filteredData);
 });
@@ -244,12 +263,12 @@ function getRanId(arr) {
 function showQandA() {
   const ranID = getRanId(responseObj.qanda);
   console.log(ranID);
-  let idArr = responseObj.qanda.map(item => item.id);
+  let idArr = responseObj.qanda.map((item) => item.id);
   let missingIds = [];
   console.log("missing IDs: ");
-  for (let i = idArr[0]; i < idArr[idArr.length -1]; i++){
-    if(!idArr.includes(i)){
-      console.log("-- ",i, " -- ");
+  for (let i = idArr[0]; i < idArr[idArr.length - 1]; i++) {
+    if (!idArr.includes(i)) {
+      console.log("-- ", i, " -- ");
       missingIds.push(i);
     }
   }

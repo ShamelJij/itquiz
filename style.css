@@ -37,7 +37,35 @@
   right: 0px;
   margin: auto;
 }
+/* Loader styles */
+        #loader {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 100px;
+            height: 100px;
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            animation: spin 2s linear infinite;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+        }
 
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Hide the loader initially */
+        .hidden {
+            display: none;
+        }
 .x1 {
   -webkit-animation: floatUp 4s infinite linear;
   -moz-animation: floatUp 4s infinite linear;
