@@ -75,7 +75,7 @@ $(document).ready(function () {
                     let request = new XMLHttpRequest();
                     request.open("GET", myPages[myJsons[i]], true);
                     request.onreadystatechange = function () {
-                        if (request.readyState === 4 && request.status === 200) {
+                        //if (request.readyState === 4 && request.status === 200) {
                             responseObj[myJsons[i]] = JSON.parse(request.responseText);
                             requestsCompleted++;
                             if (requestsCompleted === myJsons.length) {
@@ -85,7 +85,7 @@ $(document).ready(function () {
                                 // Show the content
                                 mainElement.classList.remove("hidden");
                             }
-                        }
+                        //}
                     };
                     request.send();
                 })(i);
