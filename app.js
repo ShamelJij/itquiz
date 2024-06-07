@@ -77,7 +77,6 @@ for (var i = 0; i < myJsons.length; i++) {
   document.getElementById(showTabContentId);
   anchors.appendChild(anchorElements[myJsons[i] + "TabDiv"]);
 }
-
 let tabContentIds = [];
 for (let i = 0; i < myJsons.length; i++) {
   tabContentIds[i] = myJsons[i] + "TabContent";
@@ -108,13 +107,11 @@ const searchList = document.getElementById("resultsList");
 const searchingDiv = document.getElementById("resultDiv");
 const searchSize = document.getElementById("resultSize");
 let searchTimeout;
-
 function preformSearch(){
   const searchValue = searchInput.value.toLowerCase().trim();
   const filteredData = responseObj["qanda"].filter((item) => item.question.toLowerCase().trim().includes(searchValue) || item.answer.toLowerCase().trim().includes(searchValue));
   displayResults(filteredData, searchValue);
 }
-
 function handleSearchInputChange(){
   clearTimeout(searchTimeout);
   if(searchInput.value == ""){
@@ -124,7 +121,6 @@ function handleSearchInputChange(){
       }
   searchTimeout = setTimeout(preformSearch, 1000);
 }
-
 function showSearchingDiv(){
   return new Promise((resolve, reject) => {
     setTimeout(()=> {
@@ -136,15 +132,22 @@ function showSearchingDiv(){
       resolve();
     }, 20);
   });
-
 }
 searchInput.addEventListener("input", () => {
-
   showSearchingDiv().then(() => handleSearchInputChange()).catch((error) => console.error("searching error", error));
 
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
   //console.log(filteredData);
 });
-
 function displayResults(results, input) {
   searchList.textContent = "";
   searchSize.textContent = "";
@@ -170,7 +173,6 @@ function displayResults(results, input) {
     //searchList.innerText = resultDiv;
     //console.log(results);
     console.log("searching");
-
     searchList.appendChild(resultDiv);
   });
 }
@@ -528,5 +530,4 @@ function showFirewall() {
     firewall_threats_element.innerHTML += `<li>${ranThreats[i]}</li>`;
   }
 }
-
 showQandA();
